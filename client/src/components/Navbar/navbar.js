@@ -10,7 +10,7 @@ class NavbarClass extends Component {
         return (
             <div>
                 <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand href="/">Navbar</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="/loginRegister">Login/Register</Nav.Link>
     </Nav>
