@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Navbar} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
 import {Form} from 'react-bootstrap';
-import {FormControl} from 'react-bootstrap';
+import {FormControl,NavDropdown} from 'react-bootstrap';
 import {Button,ResponsiveEmbed} from 'react-bootstrap';
 
 class NavbarClass extends Component {
@@ -12,7 +12,10 @@ class NavbarClass extends Component {
                 <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="/">Navbar</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="/loginRegister">Login/Register</Nav.Link>
+      {/*<Nav.Link href="/loginRegister">Login/Register</Nav.Link>*/}
+        <NavDropdown title="Options" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/loginRegister">Login/Register</NavDropdown.Item>
+        </NavDropdown>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />

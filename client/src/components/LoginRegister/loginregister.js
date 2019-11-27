@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './login.css';
+// import './login.css';
 import axios from 'axios';
 
 class LoginRegister extends Component {
@@ -56,6 +56,10 @@ class LoginRegister extends Component {
         }).catch(error=>{
             console.log(error)
         });
+    }
+
+    handleGoogleAuthentication=()=>{
+
     }
 
     render() {
@@ -162,7 +166,7 @@ class LoginRegister extends Component {
                                     }
                                     <button
                                         className="btn btn-lg btn-google btn-block text-uppercase"
-                                        type="submit"><i className="fab fa-google mr-2"></i> Google
+                                        type="submit" onClick={this.handleGoogleAuthentication} ><i className="fab fa-google mr-2"></i> Google
                                         Authentication
                                     </button>
                                     <button
