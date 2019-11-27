@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import './login.css';
 import axios from 'axios';
+import {Button} from 'react-bootstrap';
 
 class LoginRegister extends Component {
 
@@ -108,10 +109,11 @@ class LoginRegister extends Component {
                                                     htmlFor="customCheck1">Remember
                                                  password</label>
                                          </div>
-                                         <button
+                                         <Button
                                              className="btn btn-lg btn-primary btn-block text-uppercase"
+                                             variant="warning"
                                              type="submit" onClick={this.onSubmitLogin}>Sign in
-                                         </button>
+                                         </Button>
                                          <hr className="my-4"/>
 
                                      </form>
@@ -155,26 +157,28 @@ class LoginRegister extends Component {
                                                     htmlFor="customCheck1">Remember
                                                  password</label>
                                          </div>
-                                         <button
+                                         <Button
                                              className="btn btn-lg btn-primary btn-block text-uppercase"
-
+                                             variant="danger"
                                              type="submit" onClick={this.onSubmitRegister}>Register
-                                         </button>
+                                         </Button>
                                          <hr className="my-4"/>
 
                                      </form>
                                     }
-                                    <button
+                                    <Button
                                         className="btn btn-lg btn-google btn-block text-uppercase"
+                                        variant="success"
                                         type="submit" onClick={this.handleGoogleAuthentication} ><i className="fab fa-google mr-2"></i> Google
                                         Authentication
-                                    </button>
-                                    <button
+                                    </Button>
+                                    <Button
                                         className="btn btn-lg btn-facebook btn-block text-uppercase"
+
                                         type="submit"><i
                                         className="fab fa-facebook-f mr-2"></i> Facebook
                                         Authentication
-                                    </button>
+                                    </Button>
                                 </div>
                             </div>
                         </div>

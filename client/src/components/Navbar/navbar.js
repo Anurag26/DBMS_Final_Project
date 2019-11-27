@@ -10,11 +10,12 @@ class NavbarClass extends Component {
         return (
             <div>
                 <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="/">Navbar</Navbar.Brand>
+    <Navbar.Brand href="/">Wanderer</Navbar.Brand>
     <Nav className="mr-auto">
-      {/*<Nav.Link href="/loginRegister">Login/Register</Nav.Link>*/}
         <NavDropdown title="Options" id="basic-nav-dropdown">
             <NavDropdown.Item href="/loginRegister">Login/Register</NavDropdown.Item>
+            <NavDropdown.Item href="/hotels">Hotels</NavDropdown.Item>
+            <NavDropdown.Item href="/flights">Flights</NavDropdown.Item>
         </NavDropdown>
     </Nav>
     <Form inline>
