@@ -2,18 +2,6 @@ import React, { Component } from 'react';
 import './login.css';
 import axios from 'axios';
 
-function myFunction(id){
-    // if(id==1){
-    //
-    //     document.getElementById("sign-in-form").style.display = "block";
-    //     document.getElementById("register-form").style.display = "none";
-    // }
-    // else if(id==2){
-    //     document.getElementById("register-form").style.display = "block";
-    //     document.getElementById("sign-in-form").style.display = "none";
-    // }
-}
-
 class LoginRegister extends Component {
 
     state={
@@ -21,7 +9,14 @@ class LoginRegister extends Component {
         registerPassword:'',
         registerUserName:'',
         signInEmail:'',
-        signInPassword:''
+        signInPassword:'',
+        signInClicked:true
+    }
+
+    toggleChange=()=>{
+        this.setState({
+            signInClicked:!(this.state.signInClicked)
+                      })
     }
 
     handleChange=(e)=>{
@@ -73,94 +68,98 @@ class LoginRegister extends Component {
                                 <div className="card-body">
                                     <div className="row">
                                         <div className="col sign-in-btn" id="sign-in"
-                                             onClick={myFunction(1)}><h5
+                                             onClick={this.toggleChange}><h5
                                             className="card-title text-center">Sign In</h5></div>
                                         <div className="col register-btn" id="register"
-                                             onClick={myFunction(2)}><h5
+                                             onClick={this.toggleChange}><h5
                                             className="card-title text-center">Register</h5></div>
                                     </div>
-                                    <form className="form-signin" id="sign-in-form">
-                                        <div className="form-label-group">
-                                            <input name="signInEmail"
-                                                   type="email" id="inputEmail"
-                                                   className="form-control"
-                                                   placeholder="Email address" value={this.state.signInEmail}
-                                                   onChange={e=>this.handleChange(e)}
-                                                   required autoFocus />
+                                    {this.state.signInClicked ?
+                                     <form className="form-signin" id="sign-in-form">
+                                         <div className="form-label-group">
+                                             <input name="signInEmail"
+                                                    type="email" id="inputEmail"
+                                                    className="form-control"
+                                                    placeholder="Email address"
+                                                    value={this.state.signInEmail}
+                                                    onChange={e => this.handleChange(e)}
+                                                    required autoFocus/>
 
-                                        </div>
+                                         </div>
 
-                                        <div className="form-label-group">
-                                            <input name="signInPassword"
-                                                   type="password" id="inputPassword"
-                                                   className="form-control" placeholder="Password"
-                                                   onChange={e=>this.handleChange(e)}
-                                                   value={this.state.signInPassword}
-                                                   required />
+                                         <div className="form-label-group">
+                                             <input name="signInPassword"
+                                                    type="password" id="inputPassword"
+                                                    className="form-control" placeholder="Password"
+                                                    onChange={e => this.handleChange(e)}
+                                                    value={this.state.signInPassword}
+                                                    required/>
 
-                                        </div>
+                                         </div>
 
-                                        <div className="custom-control custom-checkbox mb-3">
-                                            <input type="checkbox" className="custom-control-input"
-                                                   id="customCheck1" />
-                                                <label className="custom-control-label"
-                                                       htmlFor="customCheck1">Remember
-                                                    password</label>
-                                        </div>
-                                        <button
-                                            className="btn btn-lg btn-primary btn-block text-uppercase"
-                                            type="submit" onClick={this.onSubmitLogin}>Sign in
-                                        </button>
-                                        <hr className="my-4" />
+                                         <div className="custom-control custom-checkbox mb-3">
+                                             <input type="checkbox" className="custom-control-input"
+                                                    id="customCheck1"/>
+                                             <label className="custom-control-label"
+                                                    htmlFor="customCheck1">Remember
+                                                 password</label>
+                                         </div>
+                                         <button
+                                             className="btn btn-lg btn-primary btn-block text-uppercase"
+                                             type="submit" onClick={this.onSubmitLogin}>Sign in
+                                         </button>
+                                         <hr className="my-4"/>
 
-                                    </form>
-                                    <form className="form-signin" id="register-form"
-                                          style={{
-                                              display:'none'
-                                          }}>
-                                        <div className="form-label-group">
-                                            <input type="email" id="inputEmail"
-                                                   className="form-control"
-                                                   placeholder="Email address"
-                                                   value={this.state.registerEmail}
-                                                   onChange={e=>this.handleChange(e)}
-                                                   required autoFocus />
+                                     </form>
+                                                              :
+                                     <form className="form-signin" id="register-form"
+                                           style={{
+                                               display: 'block'
+                                           }}>
+                                         <div className="form-label-group">
+                                             <input type="email" id="inputEmail"
+                                                    className="form-control"
+                                                    placeholder="Email address"
+                                                    value={this.state.registerEmail}
+                                                    onChange={e => this.handleChange(e)}
+                                                    required autoFocus/>
 
-                                        </div>
+                                         </div>
 
-                                        <div className="form-label-group">
-                                            <input type="password" id="inputPassword"
-                                                   className="form-control" placeholder="Password"
-                                                   value={this.state.registerPassword}
-                                                   onChange={e=>this.handleChange(e)}
-                                                   required />
+                                         <div className="form-label-group">
+                                             <input type="password" id="inputPassword"
+                                                    className="form-control" placeholder="Password"
+                                                    value={this.state.registerPassword}
+                                                    onChange={e => this.handleChange(e)}
+                                                    required/>
 
-                                        </div>
+                                         </div>
 
-                                        <div className="form-label-group">
-                                            <input type="password" id="user-name"
-                                                   className="form-control" placeholder="User Name"
-                                                   onChange={e=>this.handleChange(e)}
-                                                   value={this.state.registerUserName}
-                                                   required />
+                                         <div className="form-label-group">
+                                             <input type="password" id="user-name"
+                                                    className="form-control" placeholder="User Name"
+                                                    onChange={e => this.handleChange(e)}
+                                                    value={this.state.registerUserName}
+                                                    required/>
 
-                                        </div>
+                                         </div>
 
-                                        <div className="custom-control custom-checkbox mb-3">
-                                            <input type="checkbox" className="custom-control-input"
-                                                   id="customCheck1" />
-                                                <label className="custom-control-label"
-                                                       htmlFor="customCheck1">Remember
-                                                    password</label>
-                                        </div>
-                                        <button
-                                            className="btn btn-lg btn-primary btn-block text-uppercase"
+                                         <div className="custom-control custom-checkbox mb-3">
+                                             <input type="checkbox" className="custom-control-input"
+                                                    id="customCheck1"/>
+                                             <label className="custom-control-label"
+                                                    htmlFor="customCheck1">Remember
+                                                 password</label>
+                                         </div>
+                                         <button
+                                             className="btn btn-lg btn-primary btn-block text-uppercase"
 
-                                            type="submit" onClick={this.onSubmitRegister}>Register
-                                        </button>
-                                        <hr className="my-4" />
+                                             type="submit" onClick={this.onSubmitRegister}>Register
+                                         </button>
+                                         <hr className="my-4"/>
 
-                                    </form>
+                                     </form>
+                                    }
                                     <button
                                         className="btn btn-lg btn-google btn-block text-uppercase"
                                         type="submit"><i className="fab fa-google mr-2"></i> Google
