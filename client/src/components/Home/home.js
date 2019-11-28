@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import img1 from '../../images/hotel.jpg';
 import LoginRegister from "../LoginRegister/loginregister";
+import ProductHomePageForm from "../ProductHomePage/productHomePageForm";
 
 class Home extends Component {
 
@@ -15,7 +16,7 @@ class Home extends Component {
                 backgroundAttachment: 'fixed',
                 height: `${window.innerHeight}px`
               }}>
-
+                <ProductHomePageForm />
             </div>
         );
     }

@@ -14,11 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.0.11",
-    "nodemon": "^2.0.1",
-    "express-formidable": "^1.0.0",
+    "concurrently": "^3.6.0",
     "dotenv": "^6.0.0",
-    "concurrently": "^3.6.0"
+    "express": "^4.16.3",
+    "express-formidable": "^1.0.0",
+    "mongoose": "^5.0.11",
+    "nodemon": "^2.0.1"
   }
 }
