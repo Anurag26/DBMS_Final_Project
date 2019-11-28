@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 require('dotenv');
 
 const orderSchema = mongoose.Schema({
@@ -35,6 +33,4 @@ const orderSchema = mongoose.Schema({
                                         }
                                     });
 
-const Order = mongoose.model('Order', orderSchema);
-
-module.exports = {Order}
+module.exports = mongoose.model('Order', orderSchema);

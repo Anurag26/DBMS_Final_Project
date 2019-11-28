@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 require('dotenv');
 
 const feedbackSchema = mongoose.Schema({
@@ -13,6 +11,4 @@ const feedbackSchema = mongoose.Schema({
                                            }
                                        });
 
-const Feedback = mongoose.model('Vendor', feedbackSchema);
-
-module.exports = {Feedback}
+module.exports = mongoose.model('Feedback', feedbackSchema);

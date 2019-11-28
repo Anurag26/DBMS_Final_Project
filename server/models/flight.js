@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 require('dotenv');
 
 const flightSchema = mongoose.Schema({
@@ -35,6 +33,4 @@ const flightSchema = mongoose.Schema({
                                          }
                                      });
 
-const Flight = mongoose.model('User', flightSchema);
-
-module.exports = {Flight}
+module.exports = mongoose.model('Flight', flightSchema);
