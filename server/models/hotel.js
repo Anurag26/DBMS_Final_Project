@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 require('dotenv');
 
 const hotelSchema = mongoose.Schema({
@@ -35,6 +33,4 @@ const hotelSchema = mongoose.Schema({
                                         }
                                     });
 
-const Hotel = mongoose.model('Hotel', hotelSchema);
-
-module.exports = {Hotel}
+module.exports = mongoose.model('Hotel', hotelSchema);

@@ -1,25 +1,35 @@
-var express = require('express');
-var bodyParser = require('body-parser');
+const express = require('express');
+const bodyParser = require('body-parser');
 
-var user = require('./routes/user'); // Imports routes for the users
-var app = express();
+const user = require('./routes/user'); // Imports routes for the users
+const hotel = require('./routes/hotel'); // Imports routes for the hotel
+const order = require('./routes/order'); // Imports routes for the order
+const feedback = require('./routes/feedback'); // Imports routes for the feedback
+const vendor = require('./routes/vendor'); // Imports routes for the vendor
+const flight = require('./routes/flight'); // Imports routes for the flight
+const app = express();
 
 // Set up mongoose connection
-var mongoose = require('mongoose');
-var dev_db_url = 'mongodb://localhost:27017/bookings';
-var mongoDB = process.env.MONGODB_URI || dev_db_url;
+const mongoose = require('mongoose');
+const dev_db_url = 'mongodb://localhost:27017/bookings';
+const mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB);
 require('dotenv').config();
 mongoose.Promise = global.Promise;
-var db = mongoose.connection;
+const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
-app.use('/users', user);
+app.use('/bookingsApp/users', user);
+app.use('/bookingsApp/flights', flight);
+app.use('/bookingsApp/hotels', hotel);
+app.use('/bookingsApp/orders', order);
+app.use('/bookingsApp/feedback', feedback);
+app.use('/bookingsApp/vendors', vendor);
 
-var port = process.env.PORT || 3002;;
+const port = process.env.PORT || 3002;
 
 app.listen(port, () => {
-    console.log('Server is up and running on port numner ' + port);
+    console.log('Server is up and running on port number ' + port);
 });

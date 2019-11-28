@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import img1 from '../../images/hotel.jpg';
+import LoginRegister from "../LoginRegister/loginregister";
 
 class Home extends Component {
+
+
     render() {
         return (
             <div  style={{
@@ -12,7 +15,7 @@ class Home extends Component {
                 backgroundAttachment: 'fixed',
                 height: `${window.innerHeight}px`
               }}>
-                
+
             </div>
         );
     }

@@ -5,8 +5,13 @@ import {BrowserRouter, Switch, Route, Link, NavLink} from 'react-router-dom';
 // import {Image} from 'react-bootstrap';
 import Home from './components/Home/home';
 import NavBar from './components/Navbar/navbar'
+import Hotels from './components/BookHotels/hotelHome'
+import Flights from './components/BookFlights/bookFlights'
+import Feedback from './components/FeedbackPage/feedbackPage';
 // import LoginRegister from './components/LoginRegister/loginregister'
 import LoginRegisterHome from "./components/LoginRegister/loginRegisterHome";
+import Admin from './components/Admin/admin';
+import User from './components/User/user';
 
 function App() {
   return (
@@ -17,6 +22,11 @@ function App() {
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/loginRegister" component={LoginRegisterHome} />
+            <Route path="/hotels" component={Hotels} />
+            <Route path="/flights" component={Flights} />
+            <Route path="/feedback" component={Feedback} />
+            <Route path="/master-control" component={Admin} />
+            <Route path="/myprofile" component={User} />
         </Switch>
     </div>    
     </BrowserRouter>
