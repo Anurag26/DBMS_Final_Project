@@ -1,75 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Form</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
-
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <meta name="google-signin-client_id" content="474863064100-0bt052bdiheqvhbo33g3g3ie5q6bg1io.apps.googleusercontent.com">
+    <meta name="google-signin-cookiepolicy" content="single_host_origin">
+    <meta name="google-signin-scope" content="profile email">
 </head>
 <body>
+
 <div class="container">
-    <div class="row">
-        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <div class="card card-signin my-5">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col sign-in-btn" id="sign-in" onclick="myFunction(1)"><h5 class="card-title text-center">Sign In</h5></div>
-                        <div class="col register-btn" id="register" onclick="myFunction(2)"><h5 class="card-title text-center">Register</h5></div>
-                    </div>
-                    <form class="form-signin" id="sign-in-form">
-                        <div class="form-label-group">
-                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
 
-                        </div>
 
-                        <div class="form-label-group">
-                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
 
-                        </div>
-                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
-                        <hr class="my-4">
+    <input id="text-email" type="email" placeholder="Email">
 
-                    </form>
-                    <form class="form-signin" id="register-form" style="display: none;">
-                        <div class="form-label-group">
-                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <input id="text-password" type="password" placeholder="Password">
 
-                        </div>
+    <button id="btn-login" class="btn btn-action">Login</button>
 
-                        <div class="form-label-group">
-                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <button id="btn-SignUp" class="btn btn-secondary">Sign Up</button>
 
-                        </div>
+    <button id="btn-LogOut" class="btn btn-secondary">Log Out</button>
 
-                        <div class="form-label-group">
-                            <input type="password" id="user-name" class="form-control" placeholder="User Name" required>
-
-                        </div>
-                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
-                        <hr class="my-4">
-
-                    </form>
-                    <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" style="background-color: #de5246"><i class="fab fa-google mr-2"></i> Google Authentication</button>
-                    <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit" style="background-color:#3b5998"><i class="fab fa-facebook-f mr-2"></i> Facebook Authentication</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <button id="btn-google" class="btn btn-secondary">Google</button>
 </div>
 
-
-
-<script type="text/javascript">
-    function myFunction(id){
-        if(id==1){
-
-            document.getElementById("sign-in-form").style.display = "block";
-            document.getElementById("register-form").style.display = "none";
-        }
-        else if(id==2){
-            document.getElementById("register-form").style.display = "block";
-            document.getElementById("sign-in-form").style.display = "none";
-        }
-    }
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyBzL6PWba4IrS-vag-OZn2G3mIeyCeTNXU",
+        authDomain: "cs5200-fall2019-finalproject.firebaseapp.com",
+        databaseURL: "https://cs5200-fall2019-finalproject.firebaseio.com",
+        projectId: "cs5200-fall2019-finalproject",
+        storageBucket: "cs5200-fall2019-finalproject.appspot.com",
+        messagingSenderId: "474863064100",
+        appId: "1:474863064100:web:a66c136ec3aa66ada8b4b1",
+        measurementId: "G-562381Q3F8"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    firebase.analytics();
 </script>
+<script src="login.js">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 </html>
