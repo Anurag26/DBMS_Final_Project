@@ -1,11 +1,8 @@
 const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 require('dotenv');
 
 const vendorSchema = mongoose.Schema({
-
-                                         Name: {
+                                         name: {
                                              type: String,
                                              required: true
                                          },
@@ -24,10 +21,9 @@ const vendorSchema = mongoose.Schema({
                                              required: true
                                          },
                                          type: { //TODO: Change to object
-                                             type: String
+                                             type: Number,
+                                             required: false
                                          }
                                      });
 
-const Vendor = mongoose.model('Vendor', vendorSchema);
-
-module.exports = {Vendor}
+module.exports = mongoose.model('Vendor', vendorSchema);
