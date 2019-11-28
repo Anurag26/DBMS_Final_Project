@@ -4,7 +4,7 @@ import {Nav} from 'react-bootstrap';
 import {Form} from 'react-bootstrap';
 import {FormControl,NavDropdown} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
-import userIcon from '../../images/user.png';
+import userIcon from '../../images/user1.png';
 
 class NavbarClass extends Component {
     render() {
