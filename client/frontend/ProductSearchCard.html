@@ -2,15 +2,18 @@
 <html>
 <head>
     <title>Product Search Card</title>
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css">
     <style type="text/css">
         input{
-            margin: 2%;
+
         }
-        .card-buttons{
+        .product-card{
             padding: 1%;
+        }
+        .flight-details{
+            margin-top: 1%;
         }
     </style>
 
@@ -22,72 +25,106 @@
             <div class="card product-card">
                 <div class="row card-buttons">
                     <div class="col-md-5 option-icons">
-                        <button type="button" class="btn btn-outline-info"><i class="material-icons" style="font-size:3em">flight_takeoff</i></button>
-                        <button type="button" class="btn btn-outline-info"><i class="material-icons" style="font-size:3em">hotel</i></button>
+                        <Button type="button" onclick="myFunction(1)" class="btn btn-outline-secondary"><i class="material-icons" style="font-size:3em">flight_takeoff</i></Button>
+                        <Button type="button" onclick="myFunction(2)" class="btn btn-outline-secondary"><i class="material-icons" style="font-size:3em">hotel</i></Button>
                     </div>
                 </div>
-                <div class="row flight-routes">
-                    <div class="col-md-5 origin-city">
+                <div class="hotel" id="hotel-detail">
+                    <div class="row hotel-destination" style="padding-top: 1%">
+                        <div class="col-md-4 destination-city">
+                            <input type="text" id="origin-city-hotel" class="form-control" placeholder="Destination City" required autofocus>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+                <div class="row flight-routes" id="flight-detail" style="padding-top: 1%;display: none;">
+                    <div class="col-md-4 origin-city" style="padding-bottom: 1%">
                         <input type="text" id="origin-city" class="form-control" placeholder="Origin City" required autofocus>
                     </div>
-                    <div class="col-md-5 destination-city">
+                    <div class="col-md-4 destination-city">
                         <input type="text" id="destination-city" class="form-control" placeholder="Destination City" required autofocus>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
 
-                <div class="row flight-dates">
+                <div class="row flight-details">
                     <div class="col-md-2 departure-date">
-                        <div class="input-group date">
-                            <input type="text" class="form-control" id="js-date">
-                            <div class="input-group-addon">
-                                <span class="glyphicon glyphicon-th"></span>
-                            </div>
-                        </div>
+                        <input type="text" id="js-date-arrival" class="form-control" placeholder="Departure Date" style="font-size: 0.8em;">
                     </div>
                     <div class="col-md-2 return-date">
-                        <div class="input-group date" data-provide="datepicker">
-                            <input type="text" class="form-control">
-                            <div class="input-group-addon">
-                                <span class="glyphicon glyphicon-th"></span>
+                        <input type="text" id="js-date-departure" class="form-control" placeholder="Arrival Date" style="font-size: 0.8em;">
+                    </div>
+                    <div class="dropdown col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="number" id="adult-number" class="form-control" placeholder="Adults" required autofocus>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="number" id="children-number" class="form-control" placeholder="Children" required autofocus>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row" id="hotel-btn" style="padding-top: 1%; ">
+                    <div class="col-md-12">
+                        <Button class="btn btn-outline-secondary">Search Hotels</Button>
+                    </div>
+                </div>
+
+
+
+
+
+                    <div class="row" id="flight-btn" style="padding-top: 1%;display: none;">
+                        <div class="col-md-12">
+                            <Button class="btn btn-outline-secondary">Search FLights</Button>
+                        </div>
+                    </div>
+
+
+
+
+
+
             </div>
         </div>
     </div>
 </div>
 
 
-<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
-<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+<script>
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-<script type="text/javascript">
+    var date = new Date();
+    $("#js-date-arrival, #js-date-departure").datetimepicker({
+                                     timepicker: false,
+                                     datepicker: true,
+                                     format: 'Y-m-d',
+                                     weeks: true,
+                                     minDate:date,
+                                 });
 
-    $(document).ready(function() {
-
-        $('.js-date').datepicker({
-                                            format: 'dd/mm/yyyy'
-                                        });
-    });
 
     function myFunction(id){
-        if(id==1){
+        if(id===1){
+            document.getElementById("flight-detail").style.display = "inline";
+            document.getElementById("flight-btn").style.display = "block";
+            document.getElementById("hotel-detail").style.display = "none";
+            document.getElementById("hotel-btn").style.display = "none";
+        }
+        else if(id===2){
+            document.getElementById("flight-detail").style.display = "none";
+            document.getElementById("flight-btn").style.display = "none";
+            document.getElementById("hotel-detail").style.display = "block";
+            document.getElementById("hotel-btn").style.display = "block";
+        }
+        }
 
-            document.getElementById("sign-in-form").style.display = "block";
-            document.getElementById("register-form").style.display = "none";
-        }
-        else if(id==2){
-            document.getElementById("register-form").style.display = "block";
-            document.getElementById("sign-in-form").style.display = "none";
-        }
-    }
 </script>
 </body>
 </html>
