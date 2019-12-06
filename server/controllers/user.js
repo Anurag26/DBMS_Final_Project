@@ -8,8 +8,6 @@ exports.test = function (req, res) {
 exports.user_create = function (req, res, next) {
     var user = new User(
         {
-            // firstName: req.body.firstName,
-            // lastName: req.body.lastName,
             email: req.body.email,
             password: req.body.password,
             userName:req.body.userName,
@@ -36,8 +34,17 @@ exports.user_details = function (req, res, next) {
     })
 };
 
+exports.user_details_email = function (req, res, next) {
+    User.find({email:req.params.email},(err,user)=>{
+        if(user){
+            return res.json(user);
+        }
+    })
+};
+
 exports.user_update = function (req, res, next) {
-    User.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, user) {
+    console.log(req.body.userName);
+    User.findOneAndUpdate({email:req.params.email}, {$set: {userName: req.body.userName}}, function (err, user) {
         if (err) {
             return next(err);
         }
@@ -46,7 +53,7 @@ exports.user_update = function (req, res, next) {
 };
 
 exports.user_delete = function (req, res, next) {
-    User.findByIdAndRemove(req.params.id, function (err) {
+    User.remove({email:req.params.email}, function (err) {
         if (err) {
             return next(err);
         }

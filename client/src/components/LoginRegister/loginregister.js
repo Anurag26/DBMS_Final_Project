@@ -42,26 +42,30 @@ class LoginRegister extends Component {
             axios.post('http://localhost:3002/bookingsApp/users/create',
                        dataToSubmitForRegistration)
                 .then(response=>{
-
-                })
+                    console.log(response);
+                    this.setState({
+                                      registerEmail:'',
+                                      registerPassword:'',
+                                      registerUserName:''
+                                  })
+                }).catch(err=>{
+                    console.log(err);
+            })
         )
     }
 
     onSubmitLogin=(event)=>
     {
         event.preventDefault();
-        // let dataToSubmit={
-        //     "signInEmail":this.state.signInEmail,
-        //     "signInPassword":this.state.signInPassword
-        // };
-        //
-        // axios.post('/api/bookingsApp/users/login',dataToSubmit).then(response=>{
-        //     console.log(response);
-        //     this.props.history.push("/");
-        // }).catch(error=>{
-        //     console.log(error)
-        // });
-        firebase.auth()
+        firebase.auth().signInWithEmailAndPassword(this.state.signInEmail,this.state.signInPassword).then(res=>{
+            console.log('god, you are signed in');
+            this.setState({
+                              signInEmail:'',
+                              signInPassword:''
+                          })
+        }).catch(err=>{
+            console.log(err);
+        })
     }
 
     handleGoogleAuthentication=()=>{
