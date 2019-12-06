@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 require('dotenv');
 
 const userSchema = mongoose.Schema({
-
                                        email: {
                                            type: String,
                                            required: true,
@@ -14,16 +13,21 @@ const userSchema = mongoose.Schema({
                                            required: true,
                                            minLength: 6
                                        },
-                                       firstName: {
+                                       // firstName: {
+                                       //     type: String,
+                                       //     required: true,
+                                       //     maxlength: 50
+                                       // },
+                                       userName: {
                                            type: String,
                                            required: true,
                                            maxlength: 50
                                        },
-                                       lastName: {
-                                           type: String,
-                                           required: true,
-                                           maxlength: 50
-                                       },
+                                       // lastName: {
+                                       //     type: String,
+                                       //     required: true,
+                                       //     maxlength: 50
+                                       // },
                                        cart: {
                                            type: Array,
                                            default: []
@@ -35,9 +39,6 @@ const userSchema = mongoose.Schema({
                                        role: {
                                            type: Number,
                                            default: 0
-                                       },
-                                       token: {
-                                           type: String
                                        }
                                    });
 
