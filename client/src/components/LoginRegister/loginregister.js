@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import {Button} from 'react-bootstrap';
 import {GoogleLogin} from "react-google-login";
+import firebase from '../../Firebase/fireBase';
+import {Redirect,Link} from 'react-router-dom'
+import Home from '../Home/home';
 
 class LoginRegister extends Component {
 
@@ -31,37 +34,51 @@ class LoginRegister extends Component {
     {
         event.preventDefault();
         let dataToSubmitForRegistration={
-            "registerEmail":this.state.registerEmail,
-            "registerPassword":this.state.registerPassword,
-            "registerUserName":this.state.registerUserName
+            "email":this.state.registerEmail,
+            "password":this.state.registerPassword,
+            "userName":this.state.registerUserName
         };
+        firebase.auth().createUserWithEmailAndPassword(this.state.registerEmail,this.state.registerPassword).then(
+            axios.post('http://localhost:3002/bookingsApp/users/create',
+                       dataToSubmitForRegistration)
+                .then(response=>{
 
-        axios.post('/api/bookingsApp/users/create',dataToSubmitForRegistration).then(response=>{
-            console.log(response);
-            this.props.history.push("/");
-        }).catch(error=>{
-            console.log(error)
-        });
+                })
+        )
     }
 
     onSubmitLogin=(event)=>
     {
         event.preventDefault();
-        let dataToSubmit={
-            "signInEmail":this.state.signInEmail,
-            "signInPassword":this.state.signInPassword
-        };
-
-        axios.post('/api/bookingsApp/users/login',dataToSubmit).then(response=>{
-            console.log(response);
-            this.props.history.push("/");
-        }).catch(error=>{
-            console.log(error)
-        });
+        // let dataToSubmit={
+        //     "signInEmail":this.state.signInEmail,
+        //     "signInPassword":this.state.signInPassword
+        // };
+        //
+        // axios.post('/api/bookingsApp/users/login',dataToSubmit).then(response=>{
+        //     console.log(response);
+        //     this.props.history.push("/");
+        // }).catch(error=>{
+        //     console.log(error)
+        // });
+        firebase.auth()
     }
 
-    handleGoogleAuthentication=(googleUser)=>{
-        console.log(googleUser);
+    handleGoogleAuthentication=()=>{
+        // var provider = firebase.auth.GoogleAuthProvider();
+        // firebase.auth().signInWithPopup(provider).then(function provide(res){
+        //     console.log(res);
+        // }).catch(function (e){
+        //     throw e;
+        // })
+    }
+
+    componentWillMount() {
+        firebase.auth().onAuthStateChanged(
+            (user)=>{
+                console.log(user);
+            }
+        )
     }
 
     render() {
@@ -117,7 +134,7 @@ class LoginRegister extends Component {
                                                display: 'block'
                                            }}>
                                          <div className="form-label-group">
-                                             <input type="email" id="inputEmail"
+                                             <input name="registerEmail" type="email" id="inputEmail"
                                                     className="form-control"
                                                     placeholder="Email address"
                                                     value={this.state.registerEmail}
@@ -127,30 +144,25 @@ class LoginRegister extends Component {
                                          </div>
 
                                          <div className="form-label-group">
-                                             <input type="password" id="inputPassword"
+                                             <input name="registerPassword"
+                                                    type="password" id="inputPassword"
                                                     className="form-control" placeholder="Password"
                                                     value={this.state.registerPassword}
                                                     onChange={e => this.handleChange(e)}
-                                                    required/>
+                                                    required />
 
                                          </div>
 
                                          <div className="form-label-group">
-                                             <input type="password" id="user-name"
+                                             <input name="registerUserName"
+                                                 type="text" id="user-name"
                                                     className="form-control" placeholder="User Name"
                                                     onChange={e => this.handleChange(e)}
                                                     value={this.state.registerUserName}
-                                                    required/>
+                                                    required />
 
                                          </div>
 
-                                         <div className="custom-control custom-checkbox mb-3">
-                                             <input type="checkbox" className="custom-control-input"
-                                                    id="customCheck1"/>
-                                             <label className="custom-control-label"
-                                                    htmlFor="customCheck1">Remember
-                                                 password</label>
-                                         </div>
                                          <Button
                                              className="btn btn-lg btn-primary btn-block text-uppercase"
                                              variant="danger"
@@ -169,7 +181,7 @@ class LoginRegister extends Component {
                                     {/*<div className="g-signin2" data-onsuccess="onSignIn"*/}
                                     {/*     data-theme="dark" onClick={(googleUser)=>this.handleGoogleAuthentication(googleUser)}></div>*/}
                                     <GoogleLogin
-                                        clientId="474863064100-h546o1bncdj72k2sf220v8eblg2nt1md.apps.googleusercontent.com"
+                                        clientId="474863064100-5ajs0ge44i2mffktviesq4q163f8kdf8.apps.googleusercontent.com"
                                         buttonText="Login"
                                         onSuccess={this.handleGoogleAuthentication}
                                         onFailure={this.handleGoogleAuthentication}

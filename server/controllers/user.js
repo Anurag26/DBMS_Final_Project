@@ -8,14 +8,14 @@ exports.test = function (req, res) {
 exports.user_create = function (req, res, next) {
     var user = new User(
         {
-            firstName: req.body.firstName,
-            lastName: req.body.lastName,
+            // firstName: req.body.firstName,
+            // lastName: req.body.lastName,
             email: req.body.email,
             password: req.body.password,
+            userName:req.body.userName,
             cart: req.body.cart,
             history: req.body.history,
-            role: req.body.role,
-            token: req.body.token
+            role: req.body.role
         }
     );
 
