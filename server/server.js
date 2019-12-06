@@ -9,10 +9,17 @@ const vendor = require('./routes/vendor'); // Imports routes for the vendor
 const flight = require('./routes/flight'); // Imports routes for the flight
 const app = express();
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
 // Set up mongoose connection
 const mongoose = require('mongoose');
 const dev_db_url = 'mongodb://localhost:27017/bookings';
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
+
 mongoose.connect(mongoDB);
 require('dotenv').config();
 mongoose.Promise = global.Promise;
