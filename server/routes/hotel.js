@@ -8,10 +8,12 @@ router.get('/test', hotel_controller.test);
 
 router.post('/create', hotel_controller.hotel_create);
 
-router.get('/:id', hotel_controller.hotel_details);
+router.get('/email/:email', hotel_controller.hotel_details);
 
 router.put('/:id/update', hotel_controller.hotel_update);
 
 router.delete('/:id/delete', hotel_controller.hotel_delete);
+
+router.get('/allHotels', hotel_controller.hotel_all);
 
 module.exports = router;

@@ -1,10 +1,29 @@
 import React, {Component} from 'react';
+import CardBlock from './CardBlock';
+import axios from 'axios';
 
 class HotelHome extends Component {
+
+    state={
+        products:[]
+    }
+
+    componentWillMount() {
+        axios.get('http://localhost:3002/bookingsApp/hotels/allHotels').then(res=>{
+            // let productList = res.data.products
+            this.setState({
+                products : res.data
+                          })
+        }).catch(err=>{
+            console.log(err);
+        })
+    }
+
     render() {
+
         return (
             <div>
-                hotels
+                <CardBlock products={this.state.products} />
             </div>
         );
     }

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import firebase from '../../Firebase/fireBase';
 import {Card,Button} from 'react-bootstrap';
+import axios from 'axios';
 
 class AddHotel extends Component {
 
@@ -8,7 +9,6 @@ class AddHotel extends Component {
         name:'',
         description:'',
         hotel_location:'',
-        vendor:'',
         price:0,
         room_number:0,
         room_type:''
@@ -18,6 +18,42 @@ class AddHotel extends Component {
         this.setState({
                           [e.target.name]:e.target.value
                       })
+    }
+
+    handleSubmit=(e)=>{
+        e.preventDefault();
+        let vendorId='';
+        firebase.auth().onAuthStateChanged(user=> {
+            axios.get('http://localhost:3002/bookingsApp/users/email/' + user.email)
+                .then(res => {
+                    vendorId = res.data[0]._id
+                    let dataToSubmit = {
+                        "name": this.state.name,
+                        "description": this.state.description,
+                        "hotel_location": this.state.hotel_location,
+                        "vendor": vendorId,
+                        "price": this.state.price,
+                        "room_number": this.state.room_number,
+                        "room_type": this.state.room_type
+                    }
+                    axios.post('http://localhost:3002/bookingsApp/hotels/create', dataToSubmit)
+                        .then(res => {
+                            console.log(res)
+                            this.setState({
+                                              name: '',
+                                              description: '',
+                                              hotel_location: '',
+                                              price: 0,
+                                              room_number: 0,
+                                              room_type: ''
+                                          })
+                        }).catch(err => {
+                        console.log(err)
+                    })
+                }).catch(err => {
+                console.log(err);
+            })
+        })
     }
 
     render() {
@@ -74,16 +110,8 @@ class AddHotel extends Component {
                                value={this.state.room_type}
                                onChange={e => this.handleChange(e)}
                                required autoFocus/>
-                        <Card.Title>Vendor username</Card.Title>
-                        <input name="vendor"
-                               type="text" id="vendor"
-                               className="form-control"
-                               placeholder="Enter vendor username"
-                               value={this.state.vendor}
-                               onChange={e => this.handleChange(e)}
-                               required autoFocus/>
-                         <br/>
-                        <Button variant="primary">Add this Hotel</Button>
+                        <br />
+                        <Button variant="primary" onClick={this.handleSubmit}>Add this Hotel</Button>
                     </Card.Body>
                 </Card>
             </div>
