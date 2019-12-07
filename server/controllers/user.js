@@ -36,6 +36,16 @@ exports.user_details = function (req, res, next) {
     })
 };
 
+exports.user_details_byemail = function (req, res, next) {
+    User.find({email: req.params.email}, function (err, user) {
+        if (err) {
+            return next(err);
+        }
+        res.send(user);
+    })
+};
+
+
 exports.user_update = function (req, res, next) {
     User.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, user) {
         if (err) {

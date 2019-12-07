@@ -7,6 +7,7 @@ const order = require('./routes/order'); // Imports routes for the order
 const feedback = require('./routes/feedback'); // Imports routes for the feedback
 const vendor = require('./routes/vendor'); // Imports routes for the vendor
 const flight = require('./routes/flight'); // Imports routes for the flight
+const elasticSearch = require('./routes/elasticRoute'); // Imports routes for the flight
 const app = express();
 
 app.use(function(req, res, next) {
@@ -39,6 +40,7 @@ app.use('/bookingsApp/hotels', hotel);
 app.use('/bookingsApp/orders', order);
 app.use('/bookingsApp/feedback', feedback);
 app.use('/bookingsApp/vendors', vendor);
+app.use('/bookingsApp/elastic', elasticSearch);
 
 const port = process.env.PORT || 3002;
 
