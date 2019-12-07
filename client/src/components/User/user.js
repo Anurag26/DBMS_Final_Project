@@ -130,7 +130,6 @@ class User extends Component {
                             :
                             null
                         }
-                        {/*</Card.Body>*/}
                     </Card>
                   :
                   <div>

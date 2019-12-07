@@ -44,7 +44,6 @@ app.use('/bookingsApp/feedback', feedback);
 // app.use('/bookingsApp/vendors', vendor);
 
 app.use('/bookingsApp/elastic', elasticSearch);
->>>>>>> e02928bb3b8d7728ce974d43c3fbedc66f6c3b99
 
 const port = process.env.PORT || 3002;
 
