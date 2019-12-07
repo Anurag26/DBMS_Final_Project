@@ -10,10 +10,10 @@ router.post('/create', user_controller.user_create);
 
 router.get('/:id', user_controller.user_details);
 
-router.get('/email/:email', user_controller.user_details_byemail);
+router.get('/email/:email', user_controller.user_details_email);
 
-router.put('/:id/update', user_controller.user_update);
+router.put('/:email/update', user_controller.user_update);
 
-router.delete('/:id/delete', user_controller.user_delete);
+router.delete('/:email/delete', user_controller.user_delete);
 
 module.exports = router;
