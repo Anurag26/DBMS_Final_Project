@@ -44,6 +44,15 @@ exports.hotel_update = function (req, res, next) {
     });
 };
 
+exports.hotel_unit = function (req, res, next) {
+    Hotel.findById(req.params.id, function (err, hotel) {
+        if (err) {
+            return next(err);
+        }
+        res.send(hotel);
+    })
+};
+
 exports.hotel_delete = function (req, res, next) {
     Hotel.findByIdAndRemove(req.params.id, function (err) {
         if (err) {

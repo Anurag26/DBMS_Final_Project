@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import {Card,Button} from 'react-bootstrap';
 import img1 from '../../images/hotelCard.jpg';
+import axios from 'axios';
 
 class UnitCard extends Component {
+
     render() {
         return (
             <div>
@@ -13,7 +15,7 @@ class UnitCard extends Component {
                         <Card.Text>
                             {this.props.description}
                         </Card.Text>
-                        <Button variant="primary">See Hotel</Button>
+                        <Button href={`/hotel_detail/${this.props._id}`} variant="primary" onClick={this.handleSeeHotel}>See Hotel</Button>
                     </Card.Body>
                 </Card>
             </div>

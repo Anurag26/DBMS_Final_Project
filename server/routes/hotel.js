@@ -10,6 +10,8 @@ router.post('/create', hotel_controller.hotel_create);
 
 router.get('/email/:email', hotel_controller.hotel_details);
 
+router.get('/id/:id',hotel_controller.hotel_unit);
+
 router.put('/:id/update', hotel_controller.hotel_update);
 
 router.delete('/:id/delete', hotel_controller.hotel_delete);
