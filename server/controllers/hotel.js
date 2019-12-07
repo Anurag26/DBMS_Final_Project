@@ -8,12 +8,13 @@ exports.test = function (req, res) {
 exports.hotel_create = function (req, res, next) {
     var hotel = new Hotel(
         {
-            room_type: req.body.room_type,
-            hotel_location: req.body.hotel_location,
-            phone: req.body.phone,
-            manager: req.body.manager,
-            price: req.body.price,
-            room_number: req.body.room_number
+            name:req.body.name,
+            description:req.body.description,
+            hotel_location:req.body.hotel_location,
+            vendor:req.body.vendor,
+            price:req.body.price,
+            room_number:req.body.room_number,
+            room_type:req.body.room_type
         }
     );
 

@@ -74,7 +74,6 @@ class User extends Component {
 
     componentWillMount() {
         firebase.auth().onAuthStateChanged(user=>{
-           if(user){
            axios.get('http://localhost:3002/bookingsApp/users/email/'+user.email).then(res=> {
                this.setState({
                                  userName: res.data[0].userName,
@@ -83,8 +82,9 @@ class User extends Component {
                              })
 
             }).catch(err=>{
+                console.log('not a customer')
             })
-        }})
+        })
     }
 
     render() {

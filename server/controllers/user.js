@@ -13,7 +13,8 @@ exports.user_create = function (req, res, next) {
             userName:req.body.userName,
             cart: req.body.cart,
             history: req.body.history,
-            role: req.body.role
+            role: req.body.role,
+            type: req.body.type
         }
     );
 

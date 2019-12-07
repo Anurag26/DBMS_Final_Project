@@ -39,7 +39,16 @@ const userSchema = mongoose.Schema({
                                        role: {
                                            type: Number,
                                            default: 0
-                                       }
+                                       },
+                                       type: {
+                                             type: Number,
+                                             required: false,
+                                             default:-1
+                                         },
+                                         accessPermission: {
+                                             type: Number,
+                                             default: 0
+                                         }
                                    });
 
 module.exports = mongoose.model('User', userSchema);

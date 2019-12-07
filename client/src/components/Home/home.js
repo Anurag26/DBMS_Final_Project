@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import img1 from '../../images/hotel.jpg';
+import img1 from '../../images/mix.jpg';
 import LoginRegister from "../LoginRegister/loginregister";
-import ProductHomePageForm from "../ProductHomePage/productHomePageForm";
+import {Link} from 'react-router-dom';
+
+// import ProductHomePageForm from "../ProductHomePage/productHomePageForm";
 
 class Home extends Component {
 
@@ -16,7 +18,8 @@ class Home extends Component {
                 backgroundAttachment: 'fixed',
                 height: `${window.innerHeight}px`
               }}>
-                <ProductHomePageForm />
+                {/*<ProductHomePageForm />*/}
+                <Link to="/hotels"> <button type="button" class="btn btn-primary btn-lg">Book Hotels</button></Link>
             </div>
         );
     }

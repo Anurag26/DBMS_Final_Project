@@ -2,26 +2,25 @@ const mongoose = require('mongoose');
 require('dotenv');
 
 const hotelSchema = mongoose.Schema({
-
-                                        room_type: {
-                                            type: String,
-                                            required: true,
-                                            trim: true
+                                        name:{
+                                            type:String,
+                                            required:true,
+                                            maxLength: 100
+                                        },
+                                        description:{
+                                            type:String,
+                                            required:true,
+                                            maxLength: 10000
                                         },
                                         hotel_location: {
                                             type: String,
                                             required: true,
                                             minLength: 6
                                         },
-                                        phone: {
-                                            type: String,
-                                            required: true,
-                                            maxlength: 50
-                                        },
-                                        manager: {
-                                            type: String,
-                                            required: true,
-                                            maxlength: 50
+                                        vendor: {
+                                            type:mongoose.Schema.Types.ObjectId,
+                                            ref: 'User',
+                                            required: true
                                         },
                                         price: {
                                             type: Number,
@@ -30,6 +29,11 @@ const hotelSchema = mongoose.Schema({
                                         room_number: {
                                             type: Number,
                                             default: 0
+                                        },
+                                        room_type: {
+                                            type: String,
+                                            required: true,
+                                            trim: true
                                         }
                                     });
 

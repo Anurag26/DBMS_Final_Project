@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import './login.css';
 import axios from 'axios';
 import {Button} from 'react-bootstrap';
-import {GoogleLogin} from "react-google-login";
 import firebase from '../../Firebase/fireBase';
 import {Redirect,Link} from 'react-router-dom'
 import Home from '../Home/home';
@@ -15,7 +13,9 @@ class LoginRegister extends Component {
         registerUserName:'',
         signInEmail:'',
         signInPassword:'',
-        signInClicked:true
+        signInClicked:true,
+        checkbox: false,
+        checkboxType:false
     }
 
     toggleChange=()=>{
@@ -33,24 +33,32 @@ class LoginRegister extends Component {
     onSubmitRegister=(event)=>
     {
         event.preventDefault();
+        let type=-1;
+        if(this.state.checkbox){
+            type= this.state.checkboxType?1:0;
+        }
         let dataToSubmitForRegistration={
             "email":this.state.registerEmail,
             "password":this.state.registerPassword,
-            "userName":this.state.registerUserName
+            "userName":this.state.registerUserName,
+            "role":this.state.checkbox?2:0,
+            "type":type
         };
         firebase.auth().createUserWithEmailAndPassword(this.state.registerEmail,this.state.registerPassword).then(
-            axios.post('http://localhost:3002/bookingsApp/users/create',
-                       dataToSubmitForRegistration)
-                .then(response=>{
-                    console.log(response);
-                    this.setState({
-                                      registerEmail:'',
-                                      registerPassword:'',
-                                      registerUserName:''
-                                  })
-                }).catch(err=>{
+            (axios.post('http://localhost:3002/bookingsApp/users/create',
+                           dataToSubmitForRegistration)
+                    .then(response => {
+                        console.log(response);
+                        this.setState({
+                                          registerEmail: '',
+                                          registerPassword: '',
+                                          registerUserName: '',
+                                          checkbox:false,
+                                          checkboxType:false
+                                      })
+                    }).catch(err => {
                     console.log(err);
-            })
+                }))
         )
     }
 
@@ -66,15 +74,6 @@ class LoginRegister extends Component {
         }).catch(err=>{
             console.log(err);
         })
-    }
-
-    handleGoogleAuthentication=()=>{
-        // var provider = firebase.auth.GoogleAuthProvider();
-        // firebase.auth().signInWithPopup(provider).then(function provide(res){
-        //     console.log(res);
-        // }).catch(function (e){
-        //     throw e;
-        // })
     }
 
     componentWillMount() {
@@ -166,6 +165,23 @@ class LoginRegister extends Component {
                                                     required />
 
                                          </div>
+                                         <div className="form-check">
+                                             <label className="form-check-label">
+                                                 <input id="check" name="checkbox" type="checkbox" className="form-check-input"
+                                                        onChange={e => this.handleChange(e)}
+                                                        value={this.state.checkbox}
+                                                         />Are you a Vendor?
+                                             </label>
+                                         </div>
+
+                                         <div className="form-check">
+                                             <label className="form-check-label">
+                                                 <input id="checkBOX" name="checkboxType" type="checkbox" className="form-check-input"
+                                                        onChange={e => this.handleChange(e)}
+                                                        value={this.state.checkboxType}
+                                                 />Are you a Vendor for flights?
+                                             </label>
+                                         </div>
 
                                          <Button
                                              className="btn btn-lg btn-primary btn-block text-uppercase"
@@ -184,13 +200,7 @@ class LoginRegister extends Component {
                                     {/*</Button>*/}
                                     {/*<div className="g-signin2" data-onsuccess="onSignIn"*/}
                                     {/*     data-theme="dark" onClick={(googleUser)=>this.handleGoogleAuthentication(googleUser)}></div>*/}
-                                    <GoogleLogin
-                                        clientId="474863064100-5ajs0ge44i2mffktviesq4q163f8kdf8.apps.googleusercontent.com"
-                                        buttonText="Login"
-                                        onSuccess={this.handleGoogleAuthentication}
-                                        onFailure={this.handleGoogleAuthentication}
-                                        cookiePolicy={'single_host_origin'}
-                                    />
+
                                 </div>
                             </div>
                         </div>

@@ -12,6 +12,7 @@ import Feedback from './components/FeedbackPage/feedbackPage';
 import LoginRegisterHome from "./components/LoginRegister/loginRegisterHome";
 import Admin from './components/Admin/admin';
 import User from './components/User/user';
+import AddHotel from './components/AddHotel/addHotel';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <NavBar />
         <Switch>
             <Route path="/" exact component={Home} />
+            <Route path="/hotelAdd" component={AddHotel} />
             <Route path="/loginRegister" component={LoginRegisterHome} />
             <Route path="/hotels" component={Hotels} />
             <Route path="/flights" component={Flights} />
