@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "30a8bd85-7a9b-4f31-ac5f-706234c9819e",
+		"name": "ELASTIC SEARCH API temp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ping Elastic search",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/ping",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"ping"
+					]
+				},
+				"description": "URL: **localhost:1338/elastic/ping**"
+			},
+			"response": []
+		},
+		{
+			"name": "[1] Create an Index",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"index_name\":\"dummy\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/index/init",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"index",
+						"init"
+					]
+				},
+				"description": "must be in lowercase"
+			},
+			"response": []
+		},
+		{
+			"name": "[2] Check if index exists",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"index_name\":\"courses\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/index/check",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"index",
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[3] (optional) Map/Define created index",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"index_name\":\"courses\",\n\t\"docType\": \"document\",\n\t\"payload\": {\n\t\t\"properties\": {\n\t        \"title\": {\"type\": \"string\"},\n\t        \"description\": {\"type\": \"string\"},\n\t        \"tags\": {\"type\": \"string\"},\n\t        \"suggest\":{\n\t        \t\"type\": \"completion\",\n\t            \"analyzer\": \"simple\",\n\t            \"search_analyzer\": \"simple\"\n\t        }\n\t    }\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/index/mapping",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"index",
+						"mapping"
+					]
+				},
+				"description": "Basically defining what are the data-attributes(+ datatypes) were going to add/save in this index"
+			},
+			"response": []
+		},
+		{
+			"name": "[4] Add data to index",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"index_name\": \"courses\",\n    \"_id\": 1234567,\n    \"type\": \"document\",\n    \"payload\": {\n        \"title\": \"Digital marketing\",\n        \"tags\": \"taga, tag-1b, tag3, tag4\",\n        \"categories\": [\n            \"Online\",\n            \"Marketing\"\n        ],\n        \"price\": \"12000\",\n        \"level\": \"Beginner\",\n        \"badges\": [\n            \"Popular\",\n            \"Normal\"\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/add",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[5] Search index for a value",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"index_name\": \"courses\",\n    \"type\": \"document\",\n    \"payload\": {\n        \"from\": 0,\n        \"size\": 10000,\n        \"query\": {\n            \"bool\": {\n                \"must\": {\n                    \"term\": {\n                        \"status\": \"published\"\n                    }\n                },\n                \"should\": {\n                    \"multi_match\": {\n                        \"query\": \"SEO\",\n                        \"fields\": [\n                            \"title^5\",\n                            \"tags^4\",\n                            \"categories.name^3\",\n                            \"geos.location^2\",\n                            \"geos.institute_name\"\n                        ],\n                        \"operator\": \"and\"\n                    }\n                }\n            }\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/search",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"search"
+					]
+				},
+				"description": "**Explaination**\n\nThe actual search query starts from the `payload` field of request parameter.\n\n> The Query does the following in respective order\n\n1. `from`,`size`: Total no of results epected *\"from\"* index (useful for pagination) \n2. `query`: The actual query string containing all conditions and logic implemented\n3. `bool`: It is used to check condition. In case of finding course we need to check if a particular course is **published**\n4. `bool.must`: Following *\"term\"* must be matched\n5. `bool.should`: Following condition should be satisfied\n6. **`multi_match.query`**: **THE search string**\n7. `multi_match.fields`: Set of fields to be searched from each documents. `field^nummber` is priority, bigger the number - higher the priority of search.\n8. `operator`: Can be *\"and\"* or *\"or\"* "
+			},
+			"response": []
+		},
+		{
+			"name": "[6] Update a document",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"index_name\":\"lorem_ipsum\",\n\t\"_id\":1234567,\n\t\"type\": \"document\",\n\t\"payload\":{\n\t\t\"doc\": {\n\t      \"title\": \"Rangoon\"\n\t    }\n\t}\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/update",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"update"
+					]
+				},
+				"description": "URL: \"localhost:1338/elastic/update\"\n\nIndex `payload` can contain:\n\n1. Either **partial** document, which will be merged with the existing document \n2. Or **script** which will update the document.\n\n**Refer ES 5.0 Docs**: *https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference.html#api-update*\n\n**Please note**\n\nWhen using **partial** the update should be put in `doc` key. Example: \"doc\":{\"title\": \"Something\"} as `payload` value of the request.\n\n\n\n"
+			},
+			"response": []
+		},
+		{
+			"name": "[Danger] Delete all indexes created",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/delete_all",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"delete_all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[Danger] Delete a document from an index",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"index_name\":\"lorem_ipsum\",\n\t\"_id\":1234567,\n\t\"type\": \"document\"\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/delete-document",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"delete-document"
+					]
+				},
+				"description": "URL: `localhost:1338/elastic/delete-document`"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
