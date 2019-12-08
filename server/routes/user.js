@@ -12,7 +12,7 @@ router.get('/:id', user_controller.user_details);
 
 // router.get('/cart/:email', user_controller.user_details_cart);
 
-router.get('/userAll',user_controller.user_all);
+router.get('/user/all/all',user_controller.user_all);
 
 router.get('/deleteCart/:id',user_controller.user_deleteCart);
 
