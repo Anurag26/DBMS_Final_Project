@@ -1,14 +1,10 @@
 {
-  "name": "dabdb",
+  "name": "main",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js",
-    "server": "nodemon server/server.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -16,12 +12,8 @@
     "body-parser": "^1.18.3",
     "concurrently": "^3.6.0",
     "dotenv": "^6.0.0",
-    "elasticsearch": "^16.5.0",
     "express": "^4.16.3",
     "express-formidable": "^1.0.0",
-    "get-json": "0.0.3",
-    "mongoose": "^5.7.14",
-    "nodemon": "^2.0.1",
-    "react-scripts": "^3.3.0"
+    "mongoose": "^5.1.6"
   }
 }
