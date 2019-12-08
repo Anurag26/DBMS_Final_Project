@@ -10,7 +10,9 @@ class ManageUsers extends Component {
 
     componentWillMount() {
         axios.get('http://localhost:3002/bookingsApp/users/user/all/all').then(res=>{
-            console.log(res);
+            this.setState({
+                users:res.data
+                          })
         }).catch(err=>{
             console.log('api not working');
         })
@@ -19,7 +21,7 @@ class ManageUsers extends Component {
     render() {
         return (
             <div>
-                <UserBlock />
+                <UserBlock user={this.state.users}/>
             </div>
         );
     }
