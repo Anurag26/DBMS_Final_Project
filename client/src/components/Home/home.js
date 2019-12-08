@@ -19,7 +19,8 @@ class Home extends Component {
                 height: `${window.innerHeight}px`
               }}>
                 {/*<ProductHomePageForm />*/}
-                <Link to="/hotels"> <button type="button" class="btn btn-primary btn-lg">Book Hotels</button></Link>
+                <Link to="/hotels"> <button style={{float:'left',marginTop: `${20}%`,marginLeft: `${15}%`}} type="button" class="btn btn-warning btn-lg">Book Hotels</button></Link>
+                <Link to="/flights"> <button style={{float:'right',marginTop: `${20}%`,marginRight: `${15}%`}} type="button" class="btn btn-success btn-lg">Book Flights</button></Link>
             </div>
         );
     }
