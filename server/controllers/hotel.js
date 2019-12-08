@@ -27,7 +27,7 @@ exports.hotel_create = function (req, res, next) {
 };
 
 exports.hotel_details = function (req, res, next) {
-    Hotel.findById(req.params.id, function (err, hotel) {
+    Hotel.find({email : req.params.email}, function (err, hotel) {
         if (err) {
             return next(err);
         }
@@ -44,6 +44,15 @@ exports.hotel_update = function (req, res, next) {
     });
 };
 
+exports.hotel_unit = function (req, res, next) {
+    Hotel.findById(req.params.id, function (err, hotel) {
+        if (err) {
+            return next(err);
+        }
+        res.send(hotel);
+    })
+};
+
 exports.hotel_delete = function (req, res, next) {
     Hotel.findByIdAndRemove(req.params.id, function (err) {
         if (err) {
@@ -51,4 +60,19 @@ exports.hotel_delete = function (req, res, next) {
         }
         res.send('Hotel Deleted successfully!');
     })
+};
+
+
+
+exports.hotel_all = function (req, res, next) {
+    Hotel.
+    find({}).
+    populate('user').
+    exec((err,products)=>{
+        if(err) return res.status(400).send(err);
+        res.status(200).json(
+                                 products
+                             )
+    })
+
 };
