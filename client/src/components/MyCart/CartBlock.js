@@ -1,35 +1,49 @@
-import React from 'react';
+import React,{Component} from 'react';
 import {Card,Button} from 'react-bootstrap'
 import UnitCartBlock from './unitCartBlock'
+import img1 from '../../images/hotelCard.jpg';
+import axios from 'axios';
 
-const CartBlock = (props) => {
+class CartBlock extends Component {
 
-    const renderCartBlocks=()=>{
-        props.map(cartItem=>(
-            <UnitCartBlock
-
-                {...cartItem}
-            />
-        ))
+    state={
+        show:this.props.price===null?false:true
     }
 
-    return (
-        <div>
-            <Card className="text-center">
-                <Card.Header>Your Cart</Card.Header>
-                <Card.Body>
+    handleDelete=()=>{
+        axios.get('http://localhost:3002/bookingsApp/users/deleteCart/'+this.props.userId).then(res=>{
+            console.log('success')
+            this.setState({
+                show:false
+                          })
+        }).catch(err=>{
+            console.log('delete failed')
+        })
+    }
 
-
-                    {/*<Card.Title>Special title treatment</Card.Title>*/}
-                    {/*<Card.Text>*/}
-                    {/*    With supporting text below as a natural lead-in to additional content.*/}
-                    {/*</Card.Text>*/}
-                    {/*<Button variant="primary">Go somewhere</Button>*/}
-                </Card.Body>
-                {/*<Card.Footer className="text-muted">2 days ago</Card.Footer>*/}
-            </Card>
+    render() {
+        return (
+            <div>
+        <Card className="text-center">
+            <Card.Header>Your Cart</Card.Header>
+            <Card.Body>
+                {
+                    this.state.show?
+                    <div>
+                    <Card.Img src={img1} style={{
+                        width:'15rem'
+                    }} />
+                    <Card.Text> Name: {this.props.productName}  </Card.Text>
+                    <Card.Text> Name: {this.props.price}  </Card.Text>
+                    <Button onClick={this.handleDelete} > Delete </Button>
+                    </div>   :
+                    null
+                }
+            </Card.Body>
+        </Card>
         </div>
-    );
-};
+        );
+    }
+}
 
 export default CartBlock;

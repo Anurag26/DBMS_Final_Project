@@ -7,7 +7,11 @@ class Mycart extends Component {
 
     state={
         loggedIn:false,
-        products:[]
+        userId:'',
+        productId:'',
+        productPrice:0,
+        show:false,
+        productName:''
     }
 
     componentWillMount() {
@@ -18,9 +22,22 @@ class Mycart extends Component {
                               })
                 axios.get('http://localhost:3002/bookingsApp/users/email/' + user.email)
                     .then(res => {
-                        this.setState({
-                            products: res.data[0].cart
-                                      })
+                        if(res.data[0].cart.length!=0) {
+                            this.setState({
+                                              userId: res.data[0]._id,
+                                              productId: res.data[0].cart[0].id
+                                          })
+                            axios.get('http://localhost:3002/bookingsApp/hotels/id/'
+                                      + this.state.productId).then(res => {
+                                this.setState({
+                                                  show:true,
+                                                  productName: res.data.name,
+                                                  productPrice: res.data.price
+                                              })
+                            }).catch(err => {
+
+                            })
+                        }
                     }).catch(err => {
                     console.log(err);
                 })
@@ -35,7 +52,9 @@ class Mycart extends Component {
 
                 {
                     this.state.loggedIn ?
-                    <CartBlock products={this.state.products} />
+                        this.state.show?
+                    <CartBlock productName={this.state.productName} price={this.state.productPrice} userId={this.state.userId} />
+                    :null
                     :
                     <div> Please log in first</div>
                 }

@@ -62,6 +62,8 @@ exports.hotel_delete = function (req, res, next) {
     })
 };
 
+
+
 exports.hotel_all = function (req, res, next) {
     Hotel.
     find({}).

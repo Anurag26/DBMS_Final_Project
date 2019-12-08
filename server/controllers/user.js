@@ -36,6 +36,15 @@ exports.user_details = function (req, res, next) {
     })
 };
 
+exports.user_all = function (req, res, next) {
+    User.find({}, function (err, user) {
+        if (err) {
+            return next(err);
+        }
+        res.send(user);
+    })
+};
+
 exports.user_details_email = function (req, res, next) {
     User.find({email:req.params.email},(err,user)=>{
         if(user){
@@ -43,14 +52,21 @@ exports.user_details_email = function (req, res, next) {
         }
     })
 };
-//
-// exports.user_details_cart = function (req, res, next) {
-//     User.find({email:req.params.email},(err,user)=>{
-//         if(user){
-//             return res.json(user);
-//         }
-//     })
-// };
+
+exports.user_deleteCart = function (req, res, next) {
+    User.findOneAndUpdate({_id:req.params.id},
+                          {
+                              $set:{ cart:[] }
+                          },
+                          function (err,doc){
+                              if(err){
+                                  res.status(400).json(err)
+                              }
+                              res.status(200).json({successDeleteFromCart: true})
+                          }
+    )
+
+};
 
     exports.user_addToCart = function (req, res, next) {
         console.log(req.params.email)
