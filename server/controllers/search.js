@@ -1,9 +1,15 @@
-var elasticsearch = require('elasticsearch');
-var inputfile = require("../resources/flights.json");
-var bulk = [];
+const elasticsearch = require('elasticsearch');
+const inputfile = require("../resources/flights.json");
+const hotelsinputfile = require("../resources/hotels.json");
+const airportsinputfile = require("../resources/airports.json");
+const { log } = console
 
-var elasticClient = new elasticsearch.Client( {
-    host: 'http://localhost:9200/',
+var airports_bulk = [];
+var flights_bulk = [];
+var hotels_bulk = [];
+
+const elasticClient = new elasticsearch.Client( {
+    host: process.env.ELASTICSEARCH_URI,
     log: 'trace'
 });
 
@@ -12,36 +18,109 @@ elasticClient.cluster.health({},function(err,resp,status) {
 });
 
 var makebulk = function(flightsDataList,callback){
-    for (var current in flightsDataList.data){
-        bulk.push(
-            { index: {_index: 'bookings', _type: 'flights', _id: flightsDataList.data[current].callSign } },
+    for (var current in flightsDataList){
+        flights_bulk.push(
+            { index: {_index: 'flights_bookings', _type: 'flights', _id: flightsDataList[current].callSign } },
             {
-                'callSign': flightsDataList.data[current].callSign,
-                'type': flightsDataList.data[current].type,
-                'origin': flightsDataList.data[current].origin,
-                'destination': flightsDataList.data[current].destination,
-                'capacity': flightsDataList.data[current].capacity,
-                'dateOfTakeOff': flightsDataList.data[current].dateOfTakeOff,
-                'dateOfLanding': flightsDataList.data[current].dateOfLanding,
-                'make': flightsDataList.data[current].make,
-                'segments': flightsDataList.data[current].segments,
-                'price': flightsDataList.data[current].price
+                'airline': flightsDataList[current].airline,
+                'call_sign': flightsDataList[current].call_sign,
+                'make_name': flightsDataList[current].make_name,
+                'origin_code': flightsDataList[current].origin_code,
+                'origin_name': flightsDataList[current].origin_name,
+                'origin_location': flightsDataList[current].origin_location,
+                'destination_code': flightsDataList[current].destination_code,
+                'destination_name': flightsDataList[current].destination_name,
+                'destination_location': flightsDataList[current].destination_location,
+                'dateTakeOff': flightsDataList[current].dateTakeOff,
+                'price': flightsDataList[current].price,
+                'capacity': flightsDataList[current].capacity
             }
         );
     }
-    callback(bulk);
+    callback(flights_bulk);
 }
 
 
 var indexall = function(madebulk,callback) {
     elasticClient.bulk({
                     maxRetries: 5,
-                    index: 'bookings',
+                    index: 'flights_bookings',
                     type: 'flights',
                     body: madebulk
                 },function(err,resp,status) {
         if (err) {
-            console.log(err);
+            log(`[ERROR] ${err}`)
+        }
+        else {
+            callback(resp.items);
+        }
+    })
+}
+
+
+var makebulkHotels = function(hotelsDataList,callback){
+    for (var current in hotelsDataList){
+        hotels_bulk.push(
+            { index: {_index: 'hotels_bookings', _type: 'hotels', _id: hotelsDataList[current].name } },
+            {
+                'name': hotelsDataList[current].name,
+                'total_rooms': hotelsDataList[current].total_rooms,
+                'totalCapacity': hotelsDataList[current].totalCapacity,
+                'country': hotelsDataList[current].country,
+                'phone': hotelsDataList[current].phone,
+                'room_type': hotelsDataList[current].room_type,
+                'manager': hotelsDataList[current].manager,
+                'price': hotelsDataList[current].price,
+                'address_street': hotelsDataList[current].address_street,
+                'address_city': hotelsDataList[current].address_city
+            }
+        );
+    }
+    callback(hotels_bulk);
+}
+
+
+var indexallHotels = function(madebulk,callback) {
+    elasticClient.bulk({
+                           maxRetries: 5,
+                           index: 'hotels_bookings',
+                           type: 'hotels',
+                           body: madebulk
+                       },function(err,resp,status) {
+        if (err) {
+            log(`[ERROR] ${err}`)
+        }
+        else {
+            callback(resp.items);
+        }
+    })
+}
+
+
+var makebulkAirports = function(airportsDataList,callback){
+    for (var current in airportsDataList){
+        airports_bulk.push(
+            { index: {_index: 'airports_bookings', _type: 'airports', _id: airportsDataList[current].code } },
+            {
+                'code': airportsDataList[current].code,
+                'name': airportsDataList[current].name,
+                'location': airportsDataList[current].location
+            }
+        );
+    }
+    callback(airports_bulk);
+}
+
+
+var indexallAirports = function(madebulk,callback) {
+    elasticClient.bulk({
+                           maxRetries: 5,
+                           index: 'airports_bookings',
+                           type: 'airports',
+                           body: madebulk
+                       },function(err,resp,status) {
+        if (err) {
+            log(`[ERROR] ${err}`)
         }
         else {
             callback(resp.items);
@@ -51,19 +130,52 @@ var indexall = function(madebulk,callback) {
 
 module.exports = {
 
-    ping: function(req, res) {
+
+    pingService : function(req,res) {
+        elasticClient.ping({
+                               requestTimeout: 30000,
+                           }, function (error) {
+            if (error) {
+                console.error('elasticsearch cluster is down!');
+                res.status(500);
+                return res.json({status: false, msg: 'Elasticsearch cluster is down!'})
+            } else {
+                console.log('Everything is ok');
+                return res.json({status: true, msg: 'Success! Elasticsearch cluster is up!'})
+            }
+        });
+    },
+
+    createIndexesFromJSON: function(req, res) {
         elasticClient.ping({
            requestTimeout: 30000
     }).then(function (resp) {
             if (resp) {
                 res.status(200)
                 makebulk(inputfile,function(response){
-                    console.log("Bulk content prepared");
+                    log(`[LOG] Bulk content prepared`)
                     indexall(response,function(response) {
-                        console.log(response);
+                    log(`[LOG] item indexed: ${response}`)
                     })
                 })
-                return res.json({status: true, msg: 'Success! Elasticsearch cluster is up!'})
+
+                makebulkHotels(hotelsinputfile,function(response){
+                    log(`[LOG] Hotel Bulk content prepared`)
+                    indexallHotels(response,function(response) {
+                        log(`[LOG] hotels indexed: ${response}`)
+                    })
+                })
+
+                makebulkAirports(airportsinputfile,function(response){
+                    log(`[LOG] Airport Bulk content prepared`)
+                    indexallAirports(response,function(response) {
+                        log(`[LOG] Airport indexed: ${response}`)
+                    })
+                })
+
+                return res.json({status: true, msg: 'Success! Flights, Hotels and Airport Indexes '
+                                                    + 'created with index: bookings,'
+                                                    + 'type: flights, hotels and airports !'})
             } else {
                 res.status(500);
                 return res.json({status: false, msg: 'Elasticsearch cluster is down!'})
