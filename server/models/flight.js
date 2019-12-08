@@ -2,28 +2,57 @@ const mongoose = require('mongoose');
 require('dotenv');
 
 const flightSchema = mongoose.Schema({
-
+                                         airline: {
+                                             type: String,
+                                             required: true,
+                                             minLength: 6
+                                         },
                                          call_sign: {
                                              type: String,
                                              required: true,
                                              trim: true
                                          },
-                                         make: {
+                                         make_name: {
                                              type: String,
                                              required: true,
                                              minLength: 6
                                          },
-                                         destination: {
+                                         origin_code: {
                                              type: String,
                                              required: true,
-                                             maxlength: 50
+                                             maxlength: 30
                                          },
-                                         origin: {
+                                         origin_name: {
+                                             type: String,
+                                             required: true,
+                                             maxlength: 30
+                                         },
+                                         origin_location: {
+                                             type: String,
+                                             required: true,
+                                             maxlength: 30
+                                         },
+                                         destination_code: {
+                                             type: String,
+                                             required: true,
+                                             maxlength: 30
+                                         },
+                                         destination_name: {
+                                             type: String,
+                                             required: true,
+                                             maxlength: 30
+                                         },
+                                         destination_location: {
+                                             type: String,
+                                             required: true,
+                                             maxlength: 30
+                                         },
+                                         dateTakeOff: {
                                              type: Date,
                                              required: true,
                                              maxlength: 50
                                          },
-                                         duration: {
+                                         price: {
                                              type: Number,
                                              default: 0
                                          },

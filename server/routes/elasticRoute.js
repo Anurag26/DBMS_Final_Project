@@ -9,7 +9,9 @@ var feedback_controller = require('../controllers/feedback');
 var ELASTICSEARCH_Service = require('../controllers/search');
 
 // a simple test url to check that all of our files are communicating correctly.
-router.get('/ping', ELASTICSEARCH_Service.ping);
+router.get('/ping', ELASTICSEARCH_Service.pingService);
+
+router.post('/index/init/all', ELASTICSEARCH_Service.createIndexesFromJSON);
 
 router.post('/index/init', ELASTICSEARCH_Service.initIndex);
 
