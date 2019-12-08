@@ -7,30 +7,45 @@ const hotelSchema = mongoose.Schema({
                                             required:true,
                                             maxLength: 100
                                         },
-                                        description:{
+                                        total_rooms: {
+                                            type: Number,
+                                            default: 0
+                                        },
+                                        totalCapacity: {
+                                            type: Number,
+                                            default: 0
+                                        },
+                                        phone:{
                                             type:String,
                                             required:true,
-                                            maxLength: 10000
+                                            maxLength: 12
                                         },
-                                        hotel_location: {
+                                        country: {
                                             type: String,
                                             required: true,
                                             minLength: 6
                                         },
-                                        vendor: {
-                                            type:mongoose.Schema.Types.ObjectId,
-                                            ref: 'User',
-                                            required: true
+                                        room_type: {
+                                            type: Array,
+                                            default: []
+                                        },
+                                        manager: {
+                                      //      type:mongoose.Schema.Types.ObjectId,
+                                      //      ref: 'User',
+                                            type: String,
+                                            required: true,
+                                            maxLength: 40
                                         },
                                         price: {
-                                            type: Number,
-                                            default: 0
+                                            type: Array,
+                                            default: []
                                         },
-                                        room_number: {
-                                            type: Number,
-                                            default: 0
+                                        address_street: {
+                                            type: String,
+                                            required: true,
+                                            trim: true
                                         },
-                                        room_type: {
+                                        address_city: {
                                             type: String,
                                             required: true,
                                             trim: true
