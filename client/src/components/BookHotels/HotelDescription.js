@@ -1,19 +1,21 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import {Card,Button} from 'react-bootstrap';
-
+import firebase from '../../Firebase/fireBase';
 import img1 from '../../images/hotelCard.jpg';
 
 class HotelDescription extends Component {
 
     state={
+        id:'',
         name:'',
         description:'',
         hotel_location:'',
         price:0,
         room_number:0,
         vendor:'',
-        room_type:''
+        room_type:'',
+        loginFirst:false
     }
 
     componentWillMount() {
@@ -21,6 +23,7 @@ class HotelDescription extends Component {
         axios.get('http://localhost:3002/bookingsApp/hotels/id/'+id).then(res=>{
             axios.get('http://localhost:3002/bookingsApp/users/'+res.data.vendor).then(vendor=>{
                 this.setState({
+                                  id:id,
                                   name:res.data.name,
                                   description:res.data.description,
                                   hotel_location:res.data.hotel_location,
@@ -34,6 +37,27 @@ class HotelDescription extends Component {
             })
         }).catch(err=>{
             console.log(err)
+        })
+    }
+
+    handleItemToCart=()=>{
+        let dataToSubmit={
+            id: this.state.id
+        }
+        firebase.auth().onAuthStateChanged(user=> {
+            if(user) {
+                axios.post('http://localhost:3002/bookingsApp/users/addToCart/' + user.email,
+                           dataToSubmit).then(res => {
+                    console.log('success')
+                }).catch(err => {
+                    console.log('cannot add to cart')
+                })
+            }
+            else{
+                this.setState({
+                    loginFirst:true
+                              })
+            }
         })
     }
 
@@ -60,7 +84,15 @@ class HotelDescription extends Component {
                         <Card.Text>
                             Vendor: {this.state.vendor}
                         </Card.Text>
-                        <Button variant="primary">Add to cart</Button>
+                        <Button variant="primary" onClick={this.handleItemToCart} >Add to cart</Button>
+                        {
+                            this.state.loginFirst?
+                            <Card.Text>
+                                You need to login before adding items to cart
+                            </Card.Text>:
+                            null
+                        }
+
                     </Card.Body>
                 </Card>
             </div>

@@ -10,7 +10,11 @@ router.post('/create', user_controller.user_create);
 
 router.get('/:id', user_controller.user_details);
 
+// router.get('/cart/:email', user_controller.user_details_cart);
+
 router.get('/email/:email', user_controller.user_details_email);
+
+router.post('/addToCart/:email', user_controller.user_addToCart);
 
 router.put('/:email/update', user_controller.user_update);
 

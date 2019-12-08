@@ -10,7 +10,6 @@ class HotelHome extends Component {
 
     componentWillMount() {
         axios.get('http://localhost:3002/bookingsApp/hotels/allHotels').then(res=>{
-            // let productList = res.data.products
             this.setState({
                 products : res.data
                           })

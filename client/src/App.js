@@ -14,6 +14,7 @@ import Admin from './components/Admin/admin';
 import User from './components/User/user';
 import AddHotel from './components/AddHotel/addHotel';
 import HotelDescription from './components/BookHotels/HotelDescription';
+import MyCart from './components/MyCart/mycart';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/hotels" component={Hotels} />
             <Route path="/flights" component={Flights} />
             <Route path="/feedback" component={Feedback} />
+            <Route path="/mycart" component={MyCart} />
             <Route path="/hotel_detail/:id" component={HotelDescription} />
             <Route path="/master-control" component={Admin} />
             <Route path="/myprofile" component={User} />

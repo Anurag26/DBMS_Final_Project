@@ -1,4 +1,5 @@
 const User = require('../models/user');
+const mongoose = require('mongoose');
 
 //Simple version, without validation or sanitation
 exports.test = function (req, res) {
@@ -41,6 +42,32 @@ exports.user_details_email = function (req, res, next) {
             return res.json(user);
         }
     })
+};
+//
+// exports.user_details_cart = function (req, res, next) {
+//     User.find({email:req.params.email},(err,user)=>{
+//         if(user){
+//             return res.json(user);
+//         }
+//     })
+// };
+
+    exports.user_addToCart = function (req, res, next) {
+        console.log(req.params.email)
+    User.findOneAndUpdate({email:req.params.email},
+                          { $push:{ cart:{
+                                      id: mongoose.Types.ObjectId(req.body.id),
+                                      date:Date.now()
+                                  }
+                              }
+                          },
+                          function (err,doc){
+                            if(err){
+                                res.status(400).json(err)
+                            }
+                            res.status(200).json({successAddToCart: true})
+                          }
+                          )
 };
 
 exports.user_update = function (req, res, next) {
