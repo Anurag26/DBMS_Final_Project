@@ -40,6 +40,7 @@ const userSchema = mongoose.Schema({
                                            type: Number,
                                            default: 0
                                        },
+    // add an enum here
                                        type: {
                                              type: Number,
                                              required: false,

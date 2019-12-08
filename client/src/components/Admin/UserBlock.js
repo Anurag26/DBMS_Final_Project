@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import {Card,Button} from 'react-bootstrap';
 
-class Admin extends Component {
+class UserBlock extends Component {
     render() {
         return (
             <div>
@@ -10,4 +11,4 @@ class Admin extends Component {
     }
 }
 
-export default Admin;
+export default UserBlock;

@@ -70,9 +70,7 @@ exports.hotel_all = function (req, res, next) {
     populate('user').
     exec((err,products)=>{
         if(err) return res.status(400).send(err);
-        res.status(200).json(
-                                 products
-                             )
+        res.status(200).json(products)
     })
 
 };

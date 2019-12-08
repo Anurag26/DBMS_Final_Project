@@ -37,12 +37,12 @@ exports.user_details = function (req, res, next) {
 };
 
 exports.user_all = function (req, res, next) {
-    User.find({}, function (err, user) {
-        if (err) {
-            return next(err);
+    User.find({},(err,users)=>{
+        if(users){
+            res.json(users);
         }
-        res.send(user);
-    })
+              }
+    )
 };
 
 exports.user_details_email = function (req, res, next) {
