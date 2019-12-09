@@ -10,22 +10,36 @@ class HotelHome extends Component {
         name:''
     }
 
-// {
-//     "index_name": "flights_bookings",
-//     "type": "flights",
-//     "payload": {
-//         "from": 0,
-//         "size": 10000,
-//         "query": {
-//             "match":{
-//                 "origin_location": "Boston"
-//             }
-//         }
-//     }
-// }
+    handleChange=(e)=>{
+        this.setState({
+            [e.target.name]:e.target.value
+                      })
+    }
 
-    state={
-        name:''
+    handleSearchButton=()=>{
+        let dataToSubmit =
+            {
+                "index_name": "hotels_bookings",
+                "type": "hotels",
+                "payload": {
+                    "from": 0,
+                    "size": 10000,
+                    "query": {
+                        "match":{
+                            "name": this.state.name
+                        }
+                    }
+                }
+            }
+
+        axios.post('http://localhost:3002/bookingsApp/elastic/search',dataToSubmit).then(res=> {
+            var arr = res.data.hits.hits;
+            this.setState({
+                              products: arr
+                          })
+        }).catch(err=>{
+            console.log(err);
+        })
     }
 
     componentWillMount() {
@@ -36,29 +50,7 @@ class HotelHome extends Component {
         // }).catch(err=>{
         //     console.log(err);
         // })
-        let dataToSubmit =
-        {
-            "index_name": "hotels_bookings",
-            "type": "hotels",
-            "payload": {
-            "from": 0,
-            "size": 10000,
-            "query": {
-                "match":{
-                    "name": this.state.name
-                    }
-                }
-            }
-        }
 
-        axios.post('http://localhost:3002/bookingsApp/elastic/search',dataToSubmit).then(res=> {
-            var arr = res.data.hits.hits;
-            this.setState({
-                              products: arr
-                          })
-        }).catch(err=>{
-            console.log(err);
-        })
     }
 
     render() {
