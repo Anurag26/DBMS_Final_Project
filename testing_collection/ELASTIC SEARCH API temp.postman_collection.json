@@ -44,6 +44,35 @@
 			"response": []
 		},
 		{
+			"name": "[1] Create all Indexes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/index/init/all",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"index",
+						"init",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "[1] Create an Index",
 			"request": {
 				"method": "POST",
@@ -55,7 +84,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"index_name\":\"dummy\"\n}"
+					"raw": "{\n\t\"indexName\" : \"flights\"\n}"
 				},
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/index/init",
@@ -84,7 +113,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"index_name\":\"courses\"\n}"
+					"raw": "{\n\t\"index_name\":\"bookings\"\n}"
 				},
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/index/check",
@@ -112,7 +141,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"index_name\":\"courses\",\n\t\"docType\": \"document\",\n\t\"payload\": {\n\t\t\"properties\": {\n\t        \"title\": {\"type\": \"string\"},\n\t        \"description\": {\"type\": \"string\"},\n\t        \"tags\": {\"type\": \"string\"},\n\t        \"suggest\":{\n\t        \t\"type\": \"completion\",\n\t            \"analyzer\": \"simple\",\n\t            \"search_analyzer\": \"simple\"\n\t        }\n\t    }\n\t}\n}"
+					"raw": "{\n\t\"index_name\":\"courses\",\n\t\"docType\": \"document\",\n\t\"payload\": {\n\t\t\"properties\": {\n\t        \"title\": {\"type\": \"text\"},\n\t        \"description\": {\"type\": \"text\"},\n\t        \"tags\": {\"type\": \"text\"},\n\t        \"suggest\":{\n\t        \t\"type\": \"completion\",\n\t            \"analyzer\": \"simple\",\n\t            \"search_analyzer\": \"simple\"\n\t        }\n\t    }\n\t}\n}"
 				},
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/index/mapping",
@@ -141,7 +170,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"index_name\": \"courses\",\n    \"_id\": 1234567,\n    \"type\": \"document\",\n    \"payload\": {\n        \"title\": \"Digital marketing\",\n        \"tags\": \"taga, tag-1b, tag3, tag4\",\n        \"categories\": [\n            \"Online\",\n            \"Marketing\"\n        ],\n        \"price\": \"12000\",\n        \"level\": \"Beginner\",\n        \"badges\": [\n            \"Popular\",\n            \"Normal\"\n        ]\n    }\n}"
+					"raw": "{\n    \"index_name\": \"gov\",\n    \"_id\": 2,\n    \"type\": \"constituencies\",\n    \"payload\": {\n        \"ConstituencyName\": \"Ipswich\",\n        \"ConstituencyID\": \"E14000761\",\n        \"ConstituencyType\": \"Borough\",\n        \"Electorate\": 74499,\n        \"ValidVotes\": 48694\n    }\n}"
 				},
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/add",
@@ -168,7 +197,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"index_name\": \"courses\",\n    \"type\": \"document\",\n    \"payload\": {\n        \"from\": 0,\n        \"size\": 10000,\n        \"query\": {\n            \"bool\": {\n                \"must\": {\n                    \"term\": {\n                        \"status\": \"published\"\n                    }\n                },\n                \"should\": {\n                    \"multi_match\": {\n                        \"query\": \"SEO\",\n                        \"fields\": [\n                            \"title^5\",\n                            \"tags^4\",\n                            \"categories.name^3\",\n                            \"geos.location^2\",\n                            \"geos.institute_name\"\n                        ],\n                        \"operator\": \"and\"\n                    }\n                }\n            }\n        }\n    }\n}"
+					"raw": "{\n    \"index_name\": \"airports_bookings\",\n    \"type\": \"airports\",\n    \"payload\": {\n        \"from\": 0,\n        \"size\": 10000,\n        \"query\": { \n             \"match\": { \"code\": \"APH\" }\n        }\n    }\n}"
 				},
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/search",
@@ -180,7 +209,7 @@
 						"search"
 					]
 				},
-				"description": "**Explaination**\n\nThe actual search query starts from the `payload` field of request parameter.\n\n> The Query does the following in respective order\n\n1. `from`,`size`: Total no of results epected *\"from\"* index (useful for pagination) \n2. `query`: The actual query string containing all conditions and logic implemented\n3. `bool`: It is used to check condition. In case of finding course we need to check if a particular course is **published**\n4. `bool.must`: Following *\"term\"* must be matched\n5. `bool.should`: Following condition should be satisfied\n6. **`multi_match.query`**: **THE search string**\n7. `multi_match.fields`: Set of fields to be searched from each documents. `field^nummber` is priority, bigger the number - higher the priority of search.\n8. `operator`: Can be *\"and\"* or *\"or\"* "
+				"description": "**Explaination**\n\nThe actual search query starts from the `payload` field of request parameter.\n\n1. ** `For searching in Airport data` **: index_name: `airports_bookings`  type: `airports`\n2. ** For searching in Flights data` ** : index_name: `hotels_bookings`  type: `hotels`\n3. ** For searching in Hotels data:` ** index_name: `flights_bookings`  type: `flights`\n\n\n\n\n> The Query can do the following in respective order\n\n1. `from`,`size`: Total no of results epected *\"from\"* index (useful for pagination) \n2. `query`: The actual query string containing all conditions and logic implemented\n3. `bool`: It is used to check condition. In case of finding course we need to check if a particular course is **published**\n4. `bool.must`: Following *\"term\"* must be matched\n5. `bool.should`: Following condition should be satisfied\n6. **`multi_match.query`**: **THE search string**\n7. `multi_match.fields`: Set of fields to be searched from each documents. `field^nummber` is priority, bigger the number - higher the priority of search.\n8. `operator`: Can be *\"and\"* or *\"or\"*"
 			},
 			"response": []
 		},
@@ -196,7 +225,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"index_name\":\"lorem_ipsum\",\n\t\"_id\":1234567,\n\t\"type\": \"document\",\n\t\"payload\":{\n\t\t\"doc\": {\n\t      \"title\": \"Rangoon\"\n\t    }\n\t}\n}"
+					"raw": "{\n\t\"index_name\":\"courses\",\n\t\"_id\":1234567,\n\t\"type\": \"document\",\n\t\"payload\":{\n\t\t\"doc\": {\n\t      \"title\": \"Rangoon\"\n\t    }\n\t}\n}"
 				},
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/update",
@@ -215,7 +244,7 @@
 		{
 			"name": "[Danger] Delete all indexes created",
 			"request": {
-				"method": "GET",
+				"method": "DELETE",
 				"header": [],
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/delete_all",
@@ -242,7 +271,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"index_name\":\"lorem_ipsum\",\n\t\"_id\":1234567,\n\t\"type\": \"document\"\n}"
+					"raw": "{\n\t\"index_name\":\"bookings\",\n\t\"_id\":1234567,\n\t\"type\": \"document\"\n}"
 				},
 				"url": {
 					"raw": "{{host}}{{application}}/elastic/delete-document",
@@ -255,6 +284,35 @@
 					]
 				},
 				"description": "URL: `localhost:1338/elastic/delete-document`"
+			},
+			"response": []
+		},
+		{
+			"name": "{{host}}{{application}}/users/create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\"firstName\": \"Anurag\",\n \"lastName\": \"Bannur\",\n \"email\": \"anurag3@gmail.com\",\n \"password\": \"abcdefg\",\n \"cart\": [\"order1\", \"order2\", \"order3\", \"order4\"],\n \"history\": [\"order1\", \"order2\", \"order3\", \"order4\"],\n \"role\": 2,\n \"token\": \"RandomToken\"\n            \n}"
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/users/create",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"users",
+						"create"
+					]
+				}
 			},
 			"response": []
 		}
