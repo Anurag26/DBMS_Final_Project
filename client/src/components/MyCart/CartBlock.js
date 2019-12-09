@@ -6,7 +6,8 @@ import axios from 'axios';
 class CartBlock extends Component {
 
     state={
-        show:this.props.productPrice===null?false:true
+        show:this.props.productPrice===null?false:true,
+        paymentDone:false
     }
 
     handleDelete=()=>{
@@ -28,7 +29,10 @@ class CartBlock extends Component {
         }
 
         axios.put('http://localhost:3002/bookingsApp/users/addToOrder/'+this.props.userId,dataToSubmit).then(res=>{
-
+            this.setState({
+                paymentDone:true,
+                show:false
+                          })
         }).catch(err=>{
             console.log(err)
         })
@@ -51,6 +55,14 @@ class CartBlock extends Component {
                         <Button onClick={this.handleDelete} > Delete </Button>
                         <Button onClick={this.handlePayment} > Pay </Button>
                     </div>   :
+                    null
+                }
+                {
+                    this.state.paymentDone?
+                    <div>
+                        Thankyou for the payment
+                    </div>
+                    :
                     null
                 }
             </Card.Body>
