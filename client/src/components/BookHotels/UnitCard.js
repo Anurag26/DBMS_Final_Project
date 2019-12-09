@@ -8,7 +8,7 @@ class UnitCard extends Component {
     render() {
         return (
             <div>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem', float:'left' }}>
                     <Card.Img variant="top" src={img1} />
                     <Card.Body>
                         <Card.Title>{this.props.name}</Card.Title>

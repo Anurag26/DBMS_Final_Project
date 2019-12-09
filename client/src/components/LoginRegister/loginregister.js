@@ -15,7 +15,8 @@ class LoginRegister extends Component {
         signInPassword:'',
         signInClicked:true,
         checkbox: false,
-        checkboxType:false
+        checkboxType:false,
+        userdb:false
     }
 
     toggleChange=()=>{
@@ -41,7 +42,7 @@ class LoginRegister extends Component {
             "email":this.state.registerEmail,
             "password":this.state.registerPassword,
             "userName":this.state.registerUserName,
-            "role":this.state.checkbox?2:0,
+            "role":this.state.checkbox?this.state.checkboxType?'Vendor-Airline':'Vendor-Hotel':'User',
             "type":type
         };
         firebase.auth().createUserWithEmailAndPassword(this.state.registerEmail,this.state.registerPassword).then(
@@ -65,14 +66,23 @@ class LoginRegister extends Component {
     onSubmitLogin=(event)=>
     {
         event.preventDefault();
-        firebase.auth().signInWithEmailAndPassword(this.state.signInEmail,this.state.signInPassword).then(res=>{
-            console.log('god, you are signed in');
-            this.setState({
-                              signInEmail:'',
-                              signInPassword:''
-                          })
-        }).catch(err=>{
-            console.log(err);
+
+        axios.get('http://localhost:3002/bookingsApp/users/email/'+this.state.signInEmail).then(res=> {
+            if(res!=null) {
+                firebase.auth()
+                    .signInWithEmailAndPassword(this.state.signInEmail, this.state.signInPassword)
+                    .then(res => {
+                        this.setState({
+                                          signInEmail: '',
+                                          signInPassword: ''
+                                      })
+                    }).catch(err => {
+                    console.log(err);
+                })
+            }
+                                                                                                }
+        ).catch(err=>{
+            console.log('invalid user')
         })
     }
 

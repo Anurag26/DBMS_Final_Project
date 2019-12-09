@@ -50,6 +50,7 @@ exports.user_details_email = function (req, res, next) {
         if(user){
             return res.json(user);
         }
+        return next(err);
     })
 };
 

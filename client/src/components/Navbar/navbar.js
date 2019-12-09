@@ -21,8 +21,8 @@ class NavbarClass extends Component {
                     this.setState({
                                       role : res.data[0].role
                                   })
-
                 }).catch(err=>{
+
                 })
             }})
     }
@@ -53,18 +53,13 @@ class NavbarClass extends Component {
             }
             {
                 this.state.role===3?
-                <NavDropdown.Item href="/usersCrud">Manage Users</NavDropdown.Item>
-                                   :
+                <NavDropdown.Item href="/usersCrud">Manage Users</NavDropdown.Item> :
                 null
             }
             <NavDropdown.Item href="/feedback">Feedback</NavDropdown.Item>
         </NavDropdown>
     </Nav>
                     <Navbar.Brand href="/myprofile"><img src={userIcon}></img></Navbar.Brand>
-    {/*<Form inline>*/}
-    {/*  <FormControl type="text" placeholder="Search" className="mr-sm-2" />*/}
-    {/*  <Button variant="outline-info">Search</Button>*/}
-    {/*</Form>*/}
   </Navbar>
             </div>
         );
