@@ -6,8 +6,10 @@ import axios from "axios";
 class FeedbackPage extends Component {
 
     state={
-        experience:'',
-        comments:''
+        email:'',
+        order:'',
+        comments:'',
+        show:false
     }
 
     handleChange=(e)=>{
@@ -16,13 +18,28 @@ class FeedbackPage extends Component {
                       })
     }
 
-    handleSubmit = (e)=>{
+    handleFeedbackSubmit=()=>{
+        let dataToSubmit = {
+            "email": this.state.email,
+            "comment": this.state.comments,
+            "order": this.state.order
+        }
 
+        axios.post('http://localhost:3002/bookingsApp/feedback/create',dataToSubmit).then(res=> {
+            var arr = {...res};
+            this.setState({
+             show:true
+                          })
+        }).catch(err=>{
+            console.log(err);
+        })
     }
-
 
     render() {
         return (
+            this.state.show?
+            <div><label htmlFor="successfull submission">Thanks for the feedback !!</label> </div>
+            :
             <div
                 style={{
                     backgroundImage: `url(${img1})`,
@@ -39,12 +56,22 @@ class FeedbackPage extends Component {
                             <label htmlFor="exampleInputEmail1">Email address</label>
                             <input type="textarea" className="form-control" id="exampleInputEmail1"
                                    name="experience"
-                                   aria-describedby="emailHelp" placeholder="Your experience here"
+                                   aria-describedby="emailHelp" placeholder="Type your registered email id"
                                    onChange={e=>this.handleChange(e)}
-                                   value={this.state.experience}
+                                   value={this.state.email} name="email"
                             />
                                 <small id="emailHelp" className="form-text text-muted">We'll never
-                                    share your email with anyone else.</small>
+                                    share your Email with anyone else.</small>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="exampleInputOrderId">Order ID</label>
+                            <input type="textarea" className="form-control" id="exampleInputOrderId"
+                                   placeholder="Type your order id"
+                                   onChange={e=>this.handleChange(e)}
+                                   value={this.state.order} name="order"
+                            />
+                            <small id="orderHelp" className="form-text text-muted">We'll never
+                                share your Order ID with anyone else.</small>
                         </div>
                         <div className="form-group">
                             <label htmlFor="exampleInputPassword1">Comments</label>
@@ -54,7 +81,7 @@ class FeedbackPage extends Component {
                                    name="comments"
                             />
                         </div>
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary" onClick={this.handleFeedbackSubmit} >Submit</button>
                     </form>
                 </div>
             </div>

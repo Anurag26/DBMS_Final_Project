@@ -8,6 +8,7 @@ import NavBar from './components/Navbar/navbar'
 import Hotels from './components/BookHotels/hotelHome'
 import Flights from './components/BookFlights/bookFlights'
 import Feedback from './components/FeedbackPage/feedbackPage';
+import OrderFeedback from './components/FeedbackPage/OrderFeedback';
 // import LoginRegister from './components/LoginRegister/loginregister'
 import LoginRegisterHome from "./components/LoginRegister/loginRegisterHome";
 import User from './components/User/user';
@@ -29,7 +30,8 @@ function App() {
             <Route path="/hotels" component={Hotels} />
             <Route path="/usersCrud" component={ManageUsers} />
             <Route path="/flights" component={Flights} />
-            <Route path="/feedback" component={Feedback} />
+            {/*<Route path="/feedback" component={Feedback} />*/}
+            <Route path="/feedback" component={OrderFeedback} />
             <Route path="/mycart" component={MyCart} />
             <Route path="/hotel_detail/:id" component={HotelDescription} />
             <Route path="/myprofile" component={User} />
