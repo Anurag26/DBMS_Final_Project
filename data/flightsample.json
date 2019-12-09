@@ -1,0 +1,295 @@
+{
+  "data": [
+    {
+    	"call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "NCE",
+      "destination": "PAR",
+      "capacity":"120",
+      "dateOfTakeOff": "2018-04-06",
+      "dateOfLanding": "2018-04-07",
+      "make":"B747",
+      "segments":[],
+      "price": {
+        "total": "139.45"
+    }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "PAR",
+      "destination": "NCE",
+      "dateOfTakeOff": "2018-05-25",
+      "dateOfLanding": "2018-05-26",
+      "make":"B747",
+      "segments":[],
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "LHR",
+      "destination": "BOS",
+      "dateOfTakeOff": "2018-06-01",
+      "dateOfLanding": "2018-06-02",
+      "make":"B747",
+      "segments":[],
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+      "type": "flight-date",
+      "origin": "LHR",
+      "destination": "JFK",
+      "dateOfTakeOff": "2018-06-08",
+      "dateOfLanding": "2018-06-09",
+      "make":"B747",
+      "segments":[],
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "LHR",
+      "destination": "EWR",
+      "segments":[],
+      "dateOfTakeOff": "2018-06-15",
+      "dateOfLanding": "2018-06-16",
+      "make":"B747",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "JFK",
+      "destination": "PAR",
+      "segments":[],
+      "dateOfTakeOff": "2018-06-22",
+      "dateOfLanding": "2018-06-23",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "NCE",
+      "destination": "JFK",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-07",
+      "dateOfLanding": "2018-04-08",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "NCE",
+      "destination": "SFO",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-08",
+      "dateOfLanding": "2018-04-09",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "LAX",
+      "destination": "PAR",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-09",
+      "dateOfLanding": "2018-04-10",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "NCE",
+      "destination": "PAR",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-10",
+      "dateOfLanding": "2018-04-11",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "SJO",
+      "segments":[],
+      "destination": "LAX",
+      "dateOfTakeOff": "2018-04-11",
+      "dateOfLanding": "2018-04-12",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "LVX",
+      "destination": "AAA",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-12",
+      "dateOfLanding": "2018-04-13",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "BLR",
+      "destination": "DEL",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-15",
+      "dateOfLanding": "2018-04-16",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "DEL",
+      "destination": "BOM",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-16",
+      "dateOfLanding": "2018-04-17",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "BLR",
+      "destination": "SIN",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-17",
+      "dateOfLanding": "2018-04-18",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "SIN",
+      "destination": "BLR",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-18",
+      "dateOfLanding": "2018-04-19",
+      "make":"B747",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "KL",
+      "destination": "DXB",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-19",
+      "dateOfLanding": "2018-04-20",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "DXB",
+      "destination": "KL",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-23",
+      "dateOfLanding": "2018-04-24",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "ABU",
+      "destination": "PAR",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-24",
+      "dateOfLanding": "2018-04-25",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "PAR",
+      "destination": "NCE",
+      "segments":[],
+      "dateOfTakeOff": "2018-04-30",
+      "dateOfLanding": "2018-04-30",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+    },
+    {
+    "call-sign":"BA69",
+      "type": "flight-date",
+      "origin": "DXB",
+      "destination": "JFK",
+      "segments":[],
+      "dateOfTakeOff": "2018-05-02",
+      "dateOfLanding": "2018-05-03",
+      "make":"B747",
+      "capacity":"120",
+      "price": {
+        "total": "139.45"
+      }
+      }
+      ]
+    }

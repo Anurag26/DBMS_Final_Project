@@ -13,21 +13,21 @@ const userSchema = mongoose.Schema({
                                            required: true,
                                            minLength: 6
                                        },
-                                       // firstName: {
-                                       //     type: String,
-                                       //     required: true,
-                                       //     maxlength: 50
-                                       // },
+                                       firstName: {
+                                           type: String,
+                                           required: true,
+                                           maxlength: 50
+                                       },
                                        userName: {
                                            type: String,
                                            required: true,
                                            maxlength: 50
                                        },
-                                       // lastName: {
-                                       //     type: String,
-                                       //     required: true,
-                                       //     maxlength: 50
-                                       // },
+                                       lastName: {
+                                           type: String,
+                                           required: true,
+                                           maxlength: 50
+                                       },
                                        cart: {
                                            type: Array,
                                            default: []
@@ -37,10 +37,10 @@ const userSchema = mongoose.Schema({
                                            default: []
                                        },
                                        role: {
-                                           type: Number,
-                                           default: 0
+                                           type: String,
+                                           enum:['User','Corporate-User','Admin','Vendor-Hotel','Vendor-Airline'],
                                        },
-    // add an enum here
+
                                        type: {
                                              type: Number,
                                              required: false,

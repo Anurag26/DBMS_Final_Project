@@ -21,7 +21,7 @@ class ManageUsers extends Component {
     render() {
         return (
             <div>
-                <UserBlock user={this.state.users}/>
+                 <UserBlock users={this.state.users}/>
             </div>
         );
     }
