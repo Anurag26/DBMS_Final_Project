@@ -54,7 +54,11 @@ class NavbarClass extends Component {
             }
             {
                 this.state.role==='Admin'?
-                <NavDropdown.Item href="/usersCrud">Manage Users</NavDropdown.Item> :
+                <div>
+                <NavDropdown.Item href="/usersCrud">Manage Users</NavDropdown.Item>
+                <NavDropdown.Item href="/allBookings">Bookings</NavDropdown.Item>
+                </div>
+                    :
                 null
             }
             <NavDropdown.Item href="/feedback">Feedback</NavDropdown.Item>

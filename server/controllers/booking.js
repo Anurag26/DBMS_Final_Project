@@ -10,7 +10,7 @@ exports.order_create = function (req, res, next) {
         {
             user_id: req.body.user_id,
             vendor_id: req.body.vendor_id,
-            product_id: req.body.product_id,
+            product: req.body.product_id,
             date_of_booking: Date.now()
         }
     );
@@ -31,6 +31,10 @@ exports.order_details = function (req, res, next) {
         res.send(order);
     })
 };
+
+// exports.order_all = function (req, res, next) {
+//     Booking.find({}).populate('user').populate('')
+// };
 
 exports.order_update = function (req, res, next) {
     booking.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, order) {

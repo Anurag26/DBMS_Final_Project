@@ -40,6 +40,8 @@ class CartBlock extends Component {
         let dataToSubmitBooking={
             user_id:this.props.userId,
             product_id:this.props.productId,
+            product_name: this.props.productName,
+            product_price:this.props.productPrice,
             vendor_id:this.props.manager
         }
 
