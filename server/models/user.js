@@ -46,7 +46,7 @@ const userSchema = mongoose.Schema({
                                              required: false,
                                              default:-1
                                          },
-                                         accessPermission: {
+                                       accessPermission: {
                                              type: Number,
                                              default: 0
                                          }
