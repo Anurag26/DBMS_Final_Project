@@ -30,8 +30,7 @@ const hotelSchema = mongoose.Schema({
                                             default: []
                                         },
                                         manager: {
-                                            type:mongoose.Schema.Types.ObjectId,
-                                            ref: 'User',
+                                            type:Number,
                                             required: true
                                         },
                                         price: {
