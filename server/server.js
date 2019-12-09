@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const user = require('./routes/user'); // Imports routes for the users
 const hotel = require('./routes/hotel'); // Imports routes for the hotel
-const order = require('./routes/order'); // Imports routes for the order
+const order = require('./routes/booking'); // Imports routes for the order
 const feedback = require('./routes/feedback'); // Imports routes for the feedback
 // const vendor = require('./routes/vendor'); // Imports routes for the vendor
 const flight = require('./routes/flight'); // Imports routes for the flight
@@ -39,7 +39,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/bookingsApp/users', user);
 app.use('/bookingsApp/flights', flight);
 app.use('/bookingsApp/hotels', hotel);
-app.use('/bookingsApp/orders', order);
+app.use('/bookingsApp/bookings', order);
 app.use('/bookingsApp/feedback', feedback);
 
 // app.use('/bookingsApp/vendors', vendor);
