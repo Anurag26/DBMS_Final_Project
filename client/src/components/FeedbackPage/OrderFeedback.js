@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import {Button} from 'react-bootstrap';
+import {Form,Button} from 'react-bootstrap';
+import Alert from 'react-bootstrap/Alert';
+import img1 from "../../images/feedbackb.jpg";
 import axios from 'axios';
 
 class OrderFeedback extends Component {
@@ -27,7 +29,7 @@ class OrderFeedback extends Component {
         axios.post('http://localhost:3002/bookingsApp/feedback/create',dataToSubmit).then(res=> {
             var arr = {...res};
             this.setState({
-                show:false
+                show:true
                           })
         }).catch(err=>{
             console.log(err);
@@ -36,37 +38,83 @@ class OrderFeedback extends Component {
 
     render() {
         return (
-            <div>
-                <input name="from"
-                       style={{width:'15rem',float:'left'}}
-                       type="text" id="from"
-                       className="form-control" placeholder="Source"
-                       onChange={e => this.handleChange(e)}
-                       value={this.state.from}
-                       required/>
-                <input name="to"
-                       type="text" id="to"
-                       style={{width:'15rem',float:'left'}}
-                       className="form-control" placeholder="Destination"
-                       onChange={e => this.handleChange(e)}
-                       value={this.state.to}
-                       required/>
-                <Button variant="primary" onClick={this.handleSearchButton}>Search</Button>
+            this.state.show?
+            // <div><label htmlFor="successfull submission">Thanks for the feedback !!</label> </div>
+            <div> <>
+                <Alert  variant="success">
+                    <Alert.Heading>Thanks for the feedBack.</Alert.Heading>
+                    <p>
+                        One of our team will be in contact with you shortly...
+                    </p>
+                    <hr />
+                </Alert>
+            </> </div>
 
-                {/*{*/}
-                {/*    this.state.flights.length!=0?*/}
-                {/*    <FlightBlock*/}
-                {/*    flights={this.state.flights}*/}
-                {/*    />*/}
-                {/*    :*/}
-                {/*    null*/}
-                {/*}*/}
-                {/*{*/}
-                {/*    this.state.search?*/}
-                {/*    <div>No search results</div>*/}
-                {/*    :*/}
-                {/*    null*/}
-                {/*}*/}
+                           :
+            <div
+                style={{
+                    backgroundImage: `url(${img1})`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    backgroundPosition:'center center',
+                    backgroundAttachment: 'fixed',
+                    height: `${window.innerHeight}px`
+                }}
+            >
+                <Form>
+                    <Form.Group name="email" controlId="email">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control name="email" type="email" placeholder="name@example.com"
+                                      onChange={e => this.handleChange(e)}
+                                      value={this.state.email}
+                                      required />
+                    </Form.Group>
+                    <Form.Group controlId="order">
+                        <Form.Label>Order ID</Form.Label>
+                        <Form.Control name="order" type="number" placeholder="123456789"
+                                      onChange={e => this.handleChange(e)}
+                                      value={this.state.order}
+                                      required/>
+                    </Form.Group>
+                    <Form.Group controlId="type">
+                        <Form.Label>FeedBack Type</Form.Label>
+                        <Form.Control as="select">
+                            <option>Complaint</option>
+                            <option>Review</option>
+                            <option>Appreciation</option>
+                        </Form.Control>
+                    </Form.Group>
+                    <Form.Group  controlId="comments">
+                        <Form.Label>Comments</Form.Label>
+                        <Form.Control name="comments" as="textarea" rows="4"
+                                      onChange={e => this.handleChange(e)}
+                                      value={this.state.comments}
+                                      required/>
+                    </Form.Group>
+                </Form>
+
+                {/*<input name="email"*/}
+                {/*       style={{width:'15rem',float:'left'}}*/}
+                {/*       type="text" id="email"*/}
+                {/*       className="form-control" placeholder="Email"*/}
+                {/*       onChange={e => this.handleChange(e)}*/}
+                {/*       value={this.state.email}*/}
+                {/*       required/>*/}
+                {/*<input name="comments"*/}
+                {/*       type="text" id="comments"*/}
+                {/*       style={{width:'15rem',float:'left'}}*/}
+                {/*       className="form-control" placeholder="Comments"*/}
+                {/*       onChange={e => this.handleChange(e)}*/}
+                {/*       value={this.state.comments}*/}
+                {/*       required/>*/}
+                {/*<input name="order"*/}
+                {/*       type="text" id="order"*/}
+                {/*       style={{width:'15rem',float:'left'}}*/}
+                {/*       className="form-control" placeholder="Order ID"*/}
+                {/*       onChange={e => this.handleChange(e)}*/}
+                {/*       value={this.state.order}*/}
+                {/*       required/>*/}
+                <Button variant="primary" onClick={this.handleSearchButton}>Submit FeedBack</Button>
             </div>
         );
     }
