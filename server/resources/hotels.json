@@ -7,12 +7,16 @@
     "phone": "+1-66888866",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Flora",
+    "manager": 0,
     "price": [
-      123,
-      361
+      422,
+      345.6,
+      354,
+      1107.5
     ],
     "address_street": "10 Bayfront Avenue",
     "address_city": "Boston"
@@ -24,11 +28,17 @@
     "country": "United States",
     "phone": "+168090000",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Kirsten",
+    "manager": 1,
     "price": [
-      378
+      331,
+      503.55,
+      400,
+      862.5
     ],
     "address_street": "500 Jalan Sultan",
     "address_city": "Boston"
@@ -42,17 +52,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Shaylynn",
+    "manager": 2,
     "price": [
-      597,
-      470,
-      189,
-      472,
-      527
+      185,
+      268.65000000000003,
+      842,
+      412.5
     ],
     "address_street": "2 Stamford Road",
     "address_city": "Boston"
@@ -67,20 +75,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Tonia",
+    "manager": 3,
     "price": [
-      594,
-      111,
-      494,
-      517,
-      778,
-      78,
-      373
+      292,
+      162,
+      770,
+      837.5
     ],
     "address_street": "333 Orchard Road",
     "address_city": "Boston"
@@ -97,12 +99,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 4,
     "price": [
-      66,
-      591,
-      302,
-      414
+      150,
+      346.95000000000005,
+      892,
+      895
     ],
     "address_street": "76 Bras Basah Road",
     "address_city": "Boston"
@@ -116,13 +118,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Juanita",
+    "manager": 5,
     "price": [
-      259,
-      167,
-      629
+      368,
+      232.20000000000002,
+      536,
+      707.5
     ],
     "address_street": "70 Jellicoe Road",
     "address_city": "Boston"
@@ -135,12 +139,16 @@
     "phone": "+1-67373644",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Aurora",
+    "manager": 6,
     "price": [
-      191,
-      496
+      118,
+      361.8,
+      638,
+      1020
     ],
     "address_street": "22 Orange Grove Road",
     "address_city": "Boston"
@@ -154,13 +162,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Essy",
+    "manager": 7,
     "price": [
-      65,
-      385,
-      577
+      73,
+      245.70000000000002,
+      382,
+      965
     ],
     "address_street": "7 Raffles Boulevard Marina Square",
     "address_city": "Boston"
@@ -177,12 +187,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 8,
     "price": [
-      395,
-      202,
-      632,
-      346
+      450,
+      62.1,
+      188,
+      147.5
     ],
     "address_street": "80 Bras Basah Road",
     "address_city": "Boston"
@@ -197,16 +207,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 9,
     "price": [
-      388,
-      296,
-      170,
-      275,
-      594
+      355,
+      380.70000000000005,
+      734,
+      560
     ],
     "address_street": "10 Scotts Road",
     "address_city": "Boston"
@@ -221,22 +229,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Valerie",
+    "manager": 10,
     "price": [
-      593,
-      229,
-      227,
+      291,
+      98.55000000000001,
       194,
-      378,
-      553,
-      442,
-      180
+      365
     ],
     "address_street": "442 Orchard Road",
     "address_city": "Boston"
@@ -250,19 +250,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Shaylynn",
+    "manager": 11,
     "price": [
-      366,
-      180,
-      113,
-      567,
-      292,
-      234
+      165,
+      498.15000000000003,
+      162,
+      347.5
     ],
     "address_street": "30 Beach Road",
     "address_city": "Boston"
@@ -275,12 +271,16 @@
     "phone": "+1-63338898",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Kirstyn",
+    "manager": 12,
     "price": [
-      477,
-      213
+      437,
+      575.1,
+      186,
+      150
     ],
     "address_street": "405 Havelock Road",
     "address_city": "Boston"
@@ -294,13 +294,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 13,
     "price": [
-      377,
-      361,
-      483
+      396,
+      476.55,
+      446,
+      785
     ],
     "address_street": "366 Orchard Road",
     "address_city": "Boston"
@@ -314,19 +316,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Maryann",
+    "manager": 14,
     "price": [
-      512,
-      250,
-      320,
-      380,
-      518,
-      366
+      355,
+      225.45000000000002,
+      614,
+      965
     ],
     "address_street": "7 Raffles Avenue",
     "address_city": "Boston"
@@ -339,12 +337,16 @@
     "phone": "+1-63372200",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Alejandra",
+    "manager": 15,
     "price": [
-      495,
-      137
+      252,
+      253.8,
+      596,
+      682.5
     ],
     "address_street": "5 Coleman Street",
     "address_city": "Boston"
@@ -358,19 +360,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Maris",
+    "manager": 16,
     "price": [
-      497,
-      150,
-      102,
-      609,
-      554,
-      634
+      357,
+      267.3,
+      310,
+      1085
     ],
     "address_street": "50 East Coast Road Roxy Square",
     "address_city": "Boston"
@@ -381,9 +379,19 @@
     "totaCapacitys": 575,
     "country": "United States",
     "phone": "+1-68451000",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 17,
+    "price": [
+      151,
+      569.7,
+      704,
+      697.5
+    ],
     "address_street": "6 Raffles Boulevard Marina Square",
     "address_city": "Boston"
   },
@@ -395,18 +403,16 @@
     "phone": "+1-67330880",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Jessamyn",
+    "manager": 18,
     "price": [
-      124,
-      117,
-      215,
-      133,
-      226
+      357,
+      556.2,
+      512,
+      647.5
     ],
     "address_street": "392 Havelock Road",
     "address_city": "Boston"
@@ -419,14 +425,16 @@
     "phone": "+1-67382222",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Coreen",
+    "manager": 19,
     "price": [
-      93,
-      477,
-      364
+      113,
+      386.1,
+      776,
+      320
     ],
     "address_street": "1A Cuscaden Road",
     "address_city": "Boston"
@@ -440,13 +448,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 20,
     "price": [
-      481,
-      133,
-      419
+      394,
+      109.35000000000001,
+      888,
+      217.5
     ],
     "address_street": "75 Airport Boulevard #01-01",
     "address_city": "Boston"
@@ -460,13 +470,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Loise",
+    "manager": 21,
     "price": [
-      277,
-      390,
-      241
+      152,
+      378,
+      140,
+      160
     ],
     "address_street": "2 Town Hall Link",
     "address_city": "Boston"
@@ -480,15 +492,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Andi",
+    "manager": 22,
     "price": [
-      122,
-      363,
-      254,
-      498
+      43,
+      602.1,
+      350,
+      422.5
     ],
     "address_street": "170 Bencoolen Street",
     "address_city": "Boston"
@@ -503,22 +515,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Cissiee",
+    "manager": 23,
     "price": [
-      393,
-      436,
-      356,
-      364,
-      279,
-      465,
-      569,
-      286
+      166,
+      207.9,
+      324,
+      1125
     ],
     "address_street": "181 Kitchener Road",
     "address_city": "Boston"
@@ -532,17 +536,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Tomasina",
+    "manager": 24,
     "price": [
-      385,
-      620,
-      192,
-      435,
-      580
+      138,
+      345.6,
+      586,
+      827.5
     ],
     "address_street": "5 Raffles Avenue Marina Square",
     "address_city": "Boston"
@@ -557,18 +559,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Almeta",
+    "manager": 25,
     "price": [
-      176,
-      491,
-      399,
-      213,
-      194,
-      313
+      201,
+      577.8000000000001,
+      448,
+      185
     ],
     "address_street": "28 Stevens Road #01-02",
     "address_city": "Boston"
@@ -581,18 +579,16 @@
     "phone": "+1-67330188",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Vilma",
+    "manager": 26,
     "price": [
-      495,
-      139,
-      582,
-      438,
-      348
+      89,
+      230.85000000000002,
+      814,
+      907.5
     ],
     "address_street": "317 Outram Road",
     "address_city": "Boston"
@@ -605,18 +601,16 @@
     "phone": "+1-63348888",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Maegan",
+    "manager": 27,
     "price": [
-      275,
-      471,
-      303,
-      206,
-      366
+      399,
+      545.4000000000001,
+      284,
+      787.5
     ],
     "address_street": "2 Temasek Boulevard",
     "address_city": "Boston"
@@ -631,16 +625,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 28,
     "price": [
-      231,
-      404,
-      159,
-      451,
-      574
+      429,
+      402.3,
+      576,
+      1060
     ],
     "address_street": "25 Scotts Road",
     "address_city": "Boston"
@@ -654,13 +646,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Calla",
+    "manager": 29,
     "price": [
-      122,
-      437,
-      165
+      206,
+      97.2,
+      406,
+      290
     ],
     "address_street": "277 Orchard Road",
     "address_city": "Boston"
@@ -674,15 +668,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Alyss",
+    "manager": 30,
     "price": [
-      599,
-      525,
-      279,
-      453
+      372,
+      604.8000000000001,
+      212,
+      890
     ],
     "address_street": "No. 28 Cavenagh Road",
     "address_city": "Boston"
@@ -693,9 +687,19 @@
     "totaCapacitys": 476,
     "country": "United States",
     "phone": "+1-63372288",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 31,
+    "price": [
+      393,
+      409.05,
+      484,
+      975
+    ],
     "address_street": "20 Merchant Road",
     "address_city": "Boston"
   },
@@ -709,16 +713,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Miguela",
+    "manager": 32,
     "price": [
-      392,
-      142,
-      478,
-      543,
-      345
+      318,
+      503.55,
+      228,
+      1027.5
     ],
     "address_street": "382 Havelock Road",
     "address_city": "Boston"
@@ -733,16 +735,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Antoinette",
+    "manager": 33,
     "price": [
-      78,
-      365,
-      473,
-      204,
-      390
+      216,
+      600.75,
+      706,
+      892.5
     ],
     "address_street": "8 Sentosa Gateway, Sentosa Island",
     "address_city": "Boston"
@@ -757,22 +757,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Marcelle",
+    "manager": 34,
     "price": [
-      405,
-      546,
-      219,
-      466,
-      685,
-      513,
-      423,
-      614
+      145,
+      143.10000000000002,
+      480,
+      167.5
     ],
     "address_street": "8 Sentosa Gateway",
     "address_city": "Boston"
@@ -786,19 +778,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Jessy",
+    "manager": 35,
     "price": [
-      64,
-      86,
-      142,
-      585,
-      272,
-      340
+      303,
+      237.60000000000002,
+      108,
+      1107.5
     ],
     "address_street": "101 Siloso Road, Sentosa",
     "address_city": "Boston"
@@ -813,20 +801,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Minna",
+    "manager": 36,
     "price": [
-      486,
-      614,
-      213,
-      432,
-      508,
-      271,
-      444
+      287,
+      294.3,
+      276,
+      792.5
     ],
     "address_street": "88 East Coast Road",
     "address_city": "Boston"
@@ -841,16 +823,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 37,
     "price": [
-      307,
-      544,
-      395,
-      306,
-      342
+      410,
+      352.35,
+      464,
+      905
     ],
     "address_street": "8 Sentosa Gateway",
     "address_city": "Boston"
@@ -865,16 +845,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Quintina",
+    "manager": 38,
     "price": [
-      530,
-      461,
-      552,
-      414,
-      239
+      268,
+      244.35000000000002,
+      122,
+      132.5
     ],
     "address_street": "60 Eu Tong Sen Street",
     "address_city": "Boston"
@@ -889,18 +867,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Carlita",
+    "manager": 39,
     "price": [
-      200,
-      517,
-      245,
-      248,
-      84,
-      513
+      330,
+      382.05,
+      114,
+      162.5
     ],
     "address_street": "323 Alexandra Road",
     "address_city": "Boston"
@@ -915,24 +889,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Heddie",
+    "manager": 40,
     "price": [
-      131,
-      267,
-      293,
-      328,
-      548,
-      209,
-      304,
-      145,
-      501
+      137,
+      176.85000000000002,
+      788,
+      612.5
     ],
     "address_street": "2 Magazine Road",
     "address_city": "Boston"
@@ -945,14 +909,16 @@
     "phone": "+1-67338888",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Katalin",
+    "manager": 41,
     "price": [
-      249,
-      524,
-      237
+      243,
+      415.8,
+      122,
+      1005
     ],
     "address_street": "1 Cuscaden Road",
     "address_city": "Boston"
@@ -969,12 +935,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 42,
     "price": [
-      519,
-      203,
-      185,
-      306
+      216,
+      463.05,
+      456,
+      1070
     ],
     "address_street": "8 Sinaran Drive",
     "address_city": "Boston"
@@ -989,18 +955,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Elbertina",
+    "manager": 43,
     "price": [
-      228,
-      511,
-      533,
-      424,
-      301,
-      366
+      213,
+      314.55,
+      216,
+      722.5
     ],
     "address_street": "581 Orchard Road",
     "address_city": "Boston"
@@ -1014,15 +976,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Laurena",
+    "manager": 44,
     "price": [
-      142,
-      304,
-      484,
-      121
+      432,
+      411.75,
+      648,
+      557.5
     ],
     "address_street": "39 Scotts Road",
     "address_city": "Boston"
@@ -1037,18 +999,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Ellissa",
+    "manager": 45,
     "price": [
-      527,
-      216,
-      498,
-      425,
-      329,
-      530
+      285,
+      139.05,
+      162,
+      710
     ],
     "address_street": "100 Orchard Road",
     "address_city": "Boston"
@@ -1061,12 +1019,16 @@
     "phone": "+1-62241133",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Shaun",
+    "manager": 46,
     "price": [
-      474,
-      521
+      198,
+      333.45000000000005,
+      570,
+      157.5
     ],
     "address_street": "81 Anson Road",
     "address_city": "Boston"
@@ -1079,18 +1041,16 @@
     "phone": "+1-67370511",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Susann",
+    "manager": 47,
     "price": [
-      265,
-      374,
-      542,
-      360,
-      345
+      369,
+      199.8,
+      700,
+      927.5
     ],
     "address_street": "21 Mount Elizabeth",
     "address_city": "Boston"
@@ -1103,12 +1063,16 @@
     "phone": "+1-68086868",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 48,
     "price": [
-      99,
-      619
+      241,
+      531.9000000000001,
+      818,
+      530
     ],
     "address_street": "1 Jalan Rajah",
     "address_city": "Boston"
@@ -1123,20 +1087,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Hilda",
+    "manager": 49,
     "price": [
-      119,
-      532,
-      316,
-      219,
-      523,
-      231,
-      624
+      438,
+      558.9000000000001,
+      860,
+      975
     ],
     "address_street": "177A River Valley Road",
     "address_city": "Boston"
@@ -1153,12 +1111,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Arlen",
+    "manager": 50,
     "price": [
-      569,
-      458,
-      447,
-      474
+      161,
+      121.50000000000001,
+      824,
+      797.5
     ],
     "address_street": "80 Middle Road",
     "address_city": "Boston"
@@ -1171,12 +1129,16 @@
     "phone": "+1-67338388",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 51,
     "price": [
-      87,
-      359
+      346,
+      330.75,
+      586,
+      1047.5
     ],
     "address_street": "1 Fullerton Square",
     "address_city": "Boston"
@@ -1191,18 +1153,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Fianna",
+    "manager": 52,
     "price": [
-      95,
-      119,
-      132,
-      206,
-      302,
-      69
+      409,
+      137.70000000000002,
+      844,
+      167.5
     ],
     "address_street": "122 Middle Road",
     "address_city": "Boston"
@@ -1217,18 +1175,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Jodi",
+    "manager": 53,
     "price": [
-      325,
-      268,
-      161,
-      413,
-      357,
-      214
+      133,
+      87.75,
+      702,
+      160
     ],
     "address_street": "390 Victoria Street",
     "address_city": "Boston"
@@ -1241,12 +1195,16 @@
     "phone": "+1-67355800",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 54,
     "price": [
-      261,
-      281
+      365,
+      452.25000000000006,
+      252,
+      1057.5
     ],
     "address_street": "320 Orchard Road",
     "address_city": "Boston"
@@ -1259,16 +1217,16 @@
     "phone": "+1-67371133",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Debee",
+    "manager": 55,
     "price": [
-      597,
-      269,
-      274,
-      569
+      386,
+      297,
+      804,
+      872.5
     ],
     "address_street": "1 Tanglin Road",
     "address_city": "Boston"
@@ -1283,18 +1241,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Ermengarde",
+    "manager": 56,
     "price": [
-      294,
-      190,
-      387,
-      682,
-      475,
-      222
+      144,
+      326.70000000000005,
+      556,
+      575
     ],
     "address_street": "1 Gopeng Street",
     "address_city": "Boston"
@@ -1307,12 +1261,16 @@
     "phone": "+1-68086888",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Joane",
+    "manager": 57,
     "price": [
-      290,
-      204
+      185,
+      463.05,
+      650,
+      630
     ],
     "address_street": "16 Ah Hood Road",
     "address_city": "Boston"
@@ -1327,18 +1285,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Freddi",
+    "manager": 58,
     "price": [
-      203,
-      328,
-      336,
-      197,
-      322,
-      339
+      148,
+      313.20000000000005,
+      306,
+      792.5
     ],
     "address_street": "1 Netheravon Road",
     "address_city": "Boston"
@@ -1353,22 +1307,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Theadora",
+    "manager": 59,
     "price": [
-      566,
-      121,
-      558,
-      505,
-      593,
+      258,
+      504.90000000000003,
       302,
-      163,
-      469
+      465
     ],
     "address_street": "165 Tanjong Pagar Road",
     "address_city": "Boston"
@@ -1383,20 +1329,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Lara",
+    "manager": 60,
     "price": [
-      570,
-      348,
-      451,
-      470,
-      444,
-      121,
-      296
+      254,
+      75.60000000000001,
+      826,
+      1110
     ],
     "address_street": "3 Upper Pickering Street",
     "address_city": "Boston"
@@ -1408,11 +1348,17 @@
     "country": "United States",
     "phone": "+1-63582323",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cara",
+    "manager": 61,
     "price": [
-      515
+      57,
+      321.3,
+      248,
+      580
     ],
     "address_street": "592 Balestier Road",
     "address_city": "Boston"
@@ -1427,22 +1373,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Cacilia",
+    "manager": 62,
     "price": [
-      195,
-      364,
-      229,
-      330,
-      490,
-      444,
-      559,
-      231
+      148,
+      581.85,
+      474,
+      945
     ],
     "address_street": "8 Sentosa Gateway",
     "address_city": "Boston"
@@ -1457,22 +1395,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Marybelle",
+    "manager": 63,
     "price": [
-      285,
-      272,
-      230,
-      322,
-      347,
-      201,
-      472,
-      188
+      158,
+      472.50000000000006,
+      658,
+      200
     ],
     "address_street": "36 Newton Road",
     "address_city": "Boston"
@@ -1486,19 +1416,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Nicol",
+    "manager": 64,
     "price": [
-      261,
-      170,
-      250,
-      192,
-      502,
-      664
+      259,
+      450.90000000000003,
+      434,
+      1037.5
     ],
     "address_street": "3 Nanson Road",
     "address_city": "Boston"
@@ -1512,13 +1438,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Lauretta",
+    "manager": 65,
     "price": [
-      312,
-      254,
-      367
+      96,
+      64.80000000000001,
+      836,
+      1082.5
     ],
     "address_street": "31 Rochester Drive",
     "address_city": "Boston"
@@ -1531,12 +1459,16 @@
     "phone": "+1-65055666",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 66,
     "price": [
-      277,
-      465
+      311,
+      386.1,
+      840,
+      472.5
     ],
     "address_street": "7500 Beach Road",
     "address_city": "Boston"
@@ -1549,12 +1481,16 @@
     "phone": "+1-67330222",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Chantalle",
+    "manager": 67,
     "price": [
-      168,
-      486
+      393,
+      517.0500000000001,
+      746,
+      952.5
     ],
     "address_street": "401 Havelock Road",
     "address_city": "Boston"
@@ -1568,13 +1504,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Flss",
+    "manager": 68,
     "price": [
-      451,
-      377,
-      340
+      327,
+      341.55,
+      372,
+      592.5
     ],
     "address_street": "41 Bencoolen Street",
     "address_city": "Boston"
@@ -1589,24 +1527,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Zsa Zsa",
+    "manager": 69,
     "price": [
-      221,
-      204,
-      596,
-      452,
-      370,
-      184,
-      107,
-      208,
-      382
+      347,
+      294.3,
+      252,
+      165
     ],
     "address_street": "5 Fraser Street",
     "address_city": "Boston"
@@ -1619,14 +1547,16 @@
     "phone": "+1-65938888",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Ardra",
+    "manager": 70,
     "price": [
-      532,
-      354,
-      351
+      403,
+      544.0500000000001,
+      148,
+      975
     ],
     "address_street": "1 Unity Street",
     "address_city": "Boston"
@@ -1639,16 +1569,16 @@
     "phone": "+1-63363456",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Jennie",
+    "manager": 71,
     "price": [
-      496,
-      254,
-      187,
-      281
+      211,
+      394.20000000000005,
+      672,
+      552.5
     ],
     "address_street": "10 Coleman Street",
     "address_city": "Boston"
@@ -1662,15 +1592,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Krissie",
+    "manager": 72,
     "price": [
-      387,
-      385,
-      407,
-      208
+      230,
+      310.5,
+      88,
+      702.5
     ],
     "address_street": "50 Telok Blangah Road",
     "address_city": "Boston"
@@ -1687,12 +1617,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 73,
     "price": [
-      70,
-      271,
-      380,
-      383
+      385,
+      325.35,
+      288,
+      422.5
     ],
     "address_street": "3 Belilios Road",
     "address_city": "Boston"
@@ -1706,15 +1636,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Lorilee",
+    "manager": 74,
     "price": [
-      247,
-      609,
-      140,
-      366
+      357,
+      496.8,
+      94,
+      110
     ],
     "address_street": "11 Cavenagh Road",
     "address_city": "Boston"
@@ -1727,12 +1657,16 @@
     "phone": "+1-68126900",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Janka",
+    "manager": 75,
     "price": [
-      178,
-      441
+      106,
+      217.35000000000002,
+      88,
+      230
     ],
     "address_street": "100 Peck Seah Street",
     "address_city": "Boston"
@@ -1747,20 +1681,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Drucy",
+    "manager": 76,
     "price": [
-      579,
-      230,
-      544,
-      683,
-      411,
-      450,
-      492
+      315,
+      78.30000000000001,
+      112,
+      120
     ],
     "address_street": "403 Havelock Road",
     "address_city": "Boston"
@@ -1775,22 +1703,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Amalee",
+    "manager": 77,
     "price": [
-      384,
-      313,
-      513,
-      604,
-      678,
-      485,
-      284,
-      214
+      53,
+      522.45,
+      220,
+      1000
     ],
     "address_street": "3 Changi Business Park Central 1",
     "address_city": "Boston"
@@ -1804,17 +1724,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cristie",
+    "manager": 78,
     "price": [
-      345,
-      385,
-      505,
-      552,
-      442
+      295,
+      261.90000000000003,
+      596,
+      430
     ],
     "address_street": "200 Middle Road",
     "address_city": "Boston"
@@ -1831,12 +1749,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Elianore",
+    "manager": 79,
     "price": [
-      144,
-      89,
-      656,
-      609
+      235,
+      418.5,
+      556,
+      292.5
     ],
     "address_street": "270 Orchard Road",
     "address_city": "Boston"
@@ -1851,16 +1769,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 80,
     "price": [
-      392,
-      549,
-      430,
-      656,
-      289
+      85,
+      596.7,
+      628,
+      207.5
     ],
     "address_street": "12 Marina View, Asia Square Tower 2",
     "address_city": "Boston"
@@ -1877,12 +1793,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Faye",
+    "manager": 81,
     "price": [
-      209,
-      499,
-      390,
-      645
+      153,
+      449.55,
+      786,
+      692.5
     ],
     "address_street": "10 Farrer Park Station Road",
     "address_city": "Boston"
@@ -1897,16 +1813,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Myra",
+    "manager": 82,
     "price": [
-      179,
-      521,
-      377,
-      209,
-      123
+      290,
+      415.8,
+      816,
+      767.5
     ],
     "address_street": "700 Beach Road",
     "address_city": "Boston"
@@ -1920,13 +1834,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Joanna",
+    "manager": 83,
     "price": [
-      594,
-      124,
-      69
+      409,
+      396.90000000000003,
+      674,
+      827.5
     ],
     "address_street": "29 Tanglin Road",
     "address_city": "Boston"
@@ -1939,12 +1855,16 @@
     "phone": "+1-63360220",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Arlee",
+    "manager": 84,
     "price": [
-      573,
-      449
+      109,
+      490.05,
+      154,
+      357.5
     ],
     "address_street": "9 Bras Basah Road",
     "address_city": "Boston"
@@ -1959,18 +1879,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Michal",
+    "manager": 85,
     "price": [
-      423,
-      367,
-      432,
-      489,
-      545,
-      238
+      319,
+      94.5,
+      442,
+      660
     ],
     "address_street": "401 Macpherson Road",
     "address_city": "Boston"
@@ -1983,18 +1899,16 @@
     "phone": "+1-62061888",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Heather",
+    "manager": 86,
     "price": [
-      433,
-      188,
-      81,
-      620,
-      200
+      323,
+      425.25,
+      270,
+      745
     ],
     "address_street": "90 Robertson Quay",
     "address_city": "Boston"
@@ -2007,12 +1921,16 @@
     "phone": "+1-66788333",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Janice",
+    "manager": 87,
     "price": [
-      183,
-      319
+      353,
+      294.3,
+      296,
+      360
     ],
     "address_street": "333 New Bridge Road",
     "address_city": "Boston"
@@ -2026,13 +1944,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Demetra",
+    "manager": 88,
     "price": [
-      185,
-      155,
-      395
+      199,
+      508.95000000000005,
+      622,
+      335
     ],
     "address_street": "50 Tiong Bahru Road",
     "address_city": "Boston"
@@ -2045,14 +1965,16 @@
     "phone": "+1-63882233",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Gunilla",
+    "manager": 89,
     "price": [
-      535,
-      368,
-      525
+      299,
+      94.5,
+      422,
+      780
     ],
     "address_street": "48 Bencoolen Street",
     "address_city": "Boston"
@@ -2067,18 +1989,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Roz",
+    "manager": 90,
     "price": [
-      165,
-      194,
-      562,
-      342,
-      254,
-      149
+      77,
+      595.35,
+      510,
+      705
     ],
     "address_street": "1 Tras Link",
     "address_city": "Boston"
@@ -2092,13 +2010,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Carlynn",
+    "manager": 91,
     "price": [
-      581,
-      277,
-      310
+      365,
+      598.0500000000001,
+      626,
+      1082.5
     ],
     "address_street": "165 Tyrwhitt Road",
     "address_city": "Boston"
@@ -2111,14 +2031,16 @@
     "phone": "+1-67379944",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Dotti",
+    "manager": 92,
     "price": [
-      303,
-      126,
-      494
+      118,
+      598.0500000000001,
+      480,
+      945
     ],
     "address_street": "22 Cavenagh Road",
     "address_city": "Boston"
@@ -2132,19 +2054,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Carlotta",
+    "manager": 93,
     "price": [
-      416,
-      141,
-      199,
-      604,
-      214,
-      589
+      145,
+      313.20000000000005,
+      454,
+      597.5
     ],
     "address_street": "24 Mount Elizabeth",
     "address_city": "Boston"
@@ -2156,11 +2074,17 @@
     "country": "United States",
     "phone": "+1-67341110",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 94,
     "price": [
-      265
+      385,
+      463.05,
+      480,
+      825
     ],
     "address_street": "190 Orchard Boulevard",
     "address_city": "Boston"
@@ -2175,22 +2099,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Audrie",
+    "manager": 95,
     "price": [
-      397,
-      575,
-      213,
-      424,
-      375,
-      529,
-      572,
-      570
+      335,
+      433.35,
+      784,
+      285
     ],
     "address_street": "28 Stevens Road #01-01",
     "address_city": "Boston"
@@ -2205,22 +2121,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Lucia",
+    "manager": 96,
     "price": [
-      75,
-      578,
-      426,
-      643,
-      525,
-      387,
-      296,
-      621
+      331,
+      221.4,
+      862,
+      652.5
     ],
     "address_street": "2 Changi Business Park Avenue 1",
     "address_city": "Boston"
@@ -2235,18 +2143,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Nola",
+    "manager": 97,
     "price": [
-      316,
-      301,
-      277,
-      421,
-      337,
-      214
+      138,
+      361.8,
+      168,
+      320
     ],
     "address_street": "99 Irrawaddy Road",
     "address_city": "Boston"
@@ -2257,9 +2161,19 @@
     "totaCapacitys": 243,
     "country": "United States",
     "phone": "+1-63630101",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 98,
+    "price": [
+      194,
+      367.20000000000005,
+      336,
+      975
+    ],
     "address_street": "1 Farrer Park Station Road",
     "address_city": "Boston"
   },
@@ -2273,16 +2187,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Filide",
+    "manager": 99,
     "price": [
-      97,
-      115,
-      191,
-      172,
-      336
+      75,
+      225.45000000000002,
+      394,
+      235
     ],
     "address_street": "6 Irrawaddy Road",
     "address_city": "Boston"
@@ -2296,19 +2208,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Wenda",
+    "manager": 100,
     "price": [
-      447,
-      413,
-      434,
-      413,
-      651,
-      334
+      145,
+      576.45,
+      812,
+      392.5
     ],
     "address_street": "21 Ocean Way",
     "address_city": "Boston"
@@ -2323,20 +2231,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Lilias",
+    "manager": 101,
     "price": [
-      384,
-      402,
-      623,
-      81,
-      187,
-      612,
-      509
+      349,
+      109.35000000000001,
+      234,
+      257.5
     ],
     "address_street": "201 Balestier Road",
     "address_city": "Boston"
@@ -2349,12 +2251,16 @@
     "phone": "+1-63360811",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Valma",
+    "manager": 102,
     "price": [
-      410,
-      463
+      220,
+      429.3,
+      434,
+      867.5
     ],
     "address_street": "101 Victoria Street",
     "address_city": "Boston"
@@ -2368,13 +2274,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Gwen",
+    "manager": 103,
     "price": [
-      367,
-      265,
-      94
+      375,
+      494.1,
+      234,
+      167.5
     ],
     "address_street": "22 Scotts Road",
     "address_city": "Boston"
@@ -2389,20 +2297,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Shaylah",
+    "manager": 104,
     "price": [
-      395,
-      353,
-      258,
-      529,
-      544,
-      231,
-      478
+      379,
+      220.05,
+      864,
+      452.5
     ],
     "address_street": "12 Queens Street",
     "address_city": "Boston"
@@ -2416,13 +2318,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 105,
     "price": [
-      439,
-      185,
-      420
+      330,
+      298.35,
+      160,
+      617.5
     ],
     "address_street": "25 Marine Parade",
     "address_city": "Boston"
@@ -2435,14 +2339,16 @@
     "phone": "+1-68265000",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Sari",
+    "manager": 106,
     "price": [
-      480,
-      506,
-      212
+      379,
+      249.75000000000003,
+      110,
+      317.5
     ],
     "address_street": "1 Nanson Road",
     "address_city": "Boston"
@@ -2457,24 +2363,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Tiffany",
+    "manager": 107,
     "price": [
-      232,
-      101,
-      436,
-      316,
-      560,
-      286,
-      124,
-      180,
-      446
+      86,
+      257.85,
+      202,
+      337.5
     ],
     "address_street": "9 Wallich Street",
     "address_city": "Boston"
@@ -2488,15 +2384,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Glenda",
+    "manager": 108,
     "price": [
-      216,
-      126,
-      243,
-      302
+      407,
+      337.5,
+      116,
+      577.5
     ],
     "address_street": "20 Bideford Road",
     "address_city": "Boston"
@@ -2510,13 +2406,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Roobbie",
+    "manager": 109,
     "price": [
-      292,
-      198,
-      363
+      167,
+      387.45000000000005,
+      496,
+      500
     ],
     "address_street": "11 Cairnhill Road",
     "address_city": "Boston"
@@ -2531,22 +2429,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Lilian",
+    "manager": 110,
     "price": [
-      476,
-      573,
-      201,
-      163,
-      416,
-      316,
-      506,
-      390
+      420,
+      230.85000000000002,
+      108,
+      215
     ],
     "address_street": "2 Bukit Manis Road, Sentosa",
     "address_city": "Boston"
@@ -2559,12 +2449,16 @@
     "phone": "+1-63393939",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Jessalin",
+    "manager": 111,
     "price": [
-      80,
-      299
+      41,
+      529.2,
+      546,
+      1097.5
     ],
     "address_street": "180 Albert Street",
     "address_city": "Boston"
@@ -2579,16 +2473,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Lynda",
+    "manager": 112,
     "price": [
-      126,
-      367,
-      618,
-      451,
-      509
+      415,
+      330.75,
+      574,
+      230
     ],
     "address_street": "218 Balestier Road",
     "address_city": "Boston"
@@ -2603,16 +2495,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Nadiya",
+    "manager": 113,
     "price": [
-      219,
-      551,
-      485,
-      219,
-      334
+      427,
+      292.95000000000005,
+      432,
+      350
     ],
     "address_street": "31 Lorong 18 Geylang",
     "address_city": "Boston"
@@ -2627,20 +2517,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Viki",
+    "manager": 114,
     "price": [
-      188,
-      126,
-      532,
-      493,
-      124,
-      654,
-      348
+      145,
+      360.45000000000005,
+      360,
+      1022.5
     ],
     "address_street": "23 Merchant Road",
     "address_city": "Boston"
@@ -2653,18 +2537,16 @@
     "phone": "+1-63928181",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Glori",
+    "manager": 115,
     "price": [
-      403,
-      437,
-      609,
-      584,
-      442
+      158,
+      75.60000000000001,
+      446,
+      365
     ],
     "address_street": "3 Dickson Road",
     "address_city": "Boston"
@@ -2677,12 +2559,16 @@
     "phone": "+1-67223333",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 116,
     "price": [
-      137,
-      581
+      438,
+      314.55,
+      384,
+      135
     ],
     "address_street": "51 Imbiah Walk",
     "address_city": "Boston"
@@ -2697,14 +2583,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Mariann",
+    "manager": 117,
     "price": [
-      191,
-      138,
-      196,
-      308
+      379,
+      133.65,
+      292,
+      625
     ],
     "address_street": "1 The Knollsl, Sentosa Island",
     "address_city": "Boston"
@@ -2718,37 +2604,37 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Donelle",
+    "manager": 118,
     "price": [
-      418,
-      277,
-      561,
-      208,
-      429,
-      574
+      328,
+      330.75,
+      658,
+      1105
     ],
     "address_street": "25 Lorong 16 Geylang",
     "address_city": "Boston"
   },
   {
-    "name": "Le MÃ©ridien Singapore, Sentosa",
+    "name": "Le MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ridien Singapore, Sentosa",
     "total_rooms": 191,
     "totaCapacitys": 191,
     "country": "United States",
     "phone": "+1-68183388",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Sadella",
+    "manager": 119,
     "price": [
-      76,
-      301
+      398,
+      529.2,
+      396,
+      247.5
     ],
     "address_street": "23 Beach View, Sentosa",
     "address_city": "Boston"
@@ -2765,12 +2651,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 120,
     "price": [
-      367,
-      229,
-      462,
-      308
+      59,
+      151.20000000000002,
+      226,
+      1085
     ],
     "address_street": "159 Jalan Loyang Besar",
     "address_city": "Boston"
@@ -2785,18 +2671,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Donica",
+    "manager": 121,
     "price": [
-      372,
-      373,
-      359,
-      569,
-      336,
-      553
+      235,
+      589.95,
+      480,
+      340
     ],
     "address_street": "8 Sentosa Gateway",
     "address_city": "Boston"
@@ -2809,12 +2691,16 @@
     "phone": "+1-66788888",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 122,
     "price": [
-      178,
-      377
+      229,
+      514.35,
+      872,
+      255
     ],
     "address_street": "7500B Beach Road",
     "address_city": "Boston"
@@ -2827,16 +2713,16 @@
     "phone": "+1-68468181",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Lynelle",
+    "manager": 123,
     "price": [
-      440,
-      457,
-      524,
-      486
+      64,
+      66.15,
+      192,
+      392.5
     ],
     "address_street": "21 Lorong 8 Geylang",
     "address_city": "Boston"
@@ -2849,12 +2735,16 @@
     "phone": "+1-67440100",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Jeana",
+    "manager": 124,
     "price": [
-      306,
-      476
+      193,
+      332.1,
+      708,
+      287.5
     ],
     "address_street": "12 Lorong 12 Geylang",
     "address_city": "Boston"
@@ -2867,18 +2757,16 @@
     "phone": "+1-63366888",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Lise",
+    "manager": 125,
     "price": [
-      166,
-      338,
-      426,
-      505,
-      388
+      304,
+      106.65,
+      836,
+      957.5
     ],
     "address_street": "175 Albert Street",
     "address_city": "Boston"
@@ -2893,20 +2781,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Joanna",
+    "manager": 126,
     "price": [
-      326,
-      210,
-      601,
-      417,
-      146,
-      256,
-      251
+      340,
+      91.80000000000001,
+      390,
+      665
     ],
     "address_street": "No. 10 Lorong 20 Geylang",
     "address_city": "Boston"
@@ -2919,14 +2801,16 @@
     "phone": "+1-67139999",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Kathi",
+    "manager": 127,
     "price": [
-      255,
-      156,
-      611
+      306,
+      290.25,
+      886,
+      627.5
     ],
     "address_street": "33 Jalan Afifi",
     "address_city": "Boston"
@@ -2940,19 +2824,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Jaimie",
+    "manager": 128,
     "price": [
-      439,
-      286,
-      346,
-      542,
-      356,
-      403
+      246,
+      402.3,
+      576,
+      595
     ],
     "address_street": "15 Stamford Road",
     "address_city": "Boston"
@@ -2969,12 +2849,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 129,
     "price": [
-      139,
-      109,
-      513,
-      442
+      306,
+      460.35,
+      222,
+      327.5
     ],
     "address_street": "30 Orange Grove Road",
     "address_city": "Boston"
@@ -2986,11 +2866,17 @@
     "country": "United States",
     "phone": "+1-67353333",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Tybie",
+    "manager": 130,
     "price": [
-      471
+      341,
+      427.95000000000005,
+      538,
+      1100
     ],
     "address_street": "15 Merbau Road",
     "address_city": "Boston"
@@ -3002,11 +2888,17 @@
     "country": "United States",
     "phone": "+1-65771688",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Lynnett",
+    "manager": 131,
     "price": [
-      177
+      402,
+      201.15,
+      166,
+      442.5
     ],
     "address_street": "2 Finlayson Green",
     "address_city": "Boston"
@@ -3021,18 +2913,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Aeriel",
+    "manager": 132,
     "price": [
-      390,
-      424,
-      291,
-      173,
-      487,
-      556
+      319,
+      103.95,
+      564,
+      890
     ],
     "address_street": "351 Cranwell Road",
     "address_city": "Boston"
@@ -3047,22 +2935,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Bili",
+    "manager": 133,
     "price": [
-      397,
-      167,
-      590,
-      168,
-      542,
-      431,
-      169,
-      309
+      124,
+      236.25000000000003,
+      862,
+      337.5
     ],
     "address_street": "175A Chin Swee Road",
     "address_city": "Boston"
@@ -3075,12 +2955,16 @@
     "phone": "+1-68253888",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 134,
     "price": [
-      299,
-      255
+      431,
+      326.70000000000005,
+      310,
+      842.5
     ],
     "address_street": "1 Larkhill Road, Sentosa Island",
     "address_city": "Boston"
@@ -3095,22 +2979,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Ailee",
+    "manager": 135,
     "price": [
-      114,
-      402,
-      412,
-      405,
-      266,
-      94,
-      517,
-      687
+      310,
+      56.7,
+      896,
+      912.5
     ],
     "address_street": "2 Cook Street",
     "address_city": "Boston"
@@ -3122,11 +2998,17 @@
     "country": "United States",
     "phone": "+1-66453131",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 136,
     "price": [
-      285
+      435,
+      423.90000000000003,
+      252,
+      940
     ],
     "address_street": "48 Mosque Street",
     "address_city": "Boston"
@@ -3141,16 +3023,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Cymbre",
+    "manager": 137,
     "price": [
-      189,
-      296,
-      490,
-      560,
-      318
+      166,
+      598.0500000000001,
+      640,
+      157.5
     ],
     "address_street": "35 Robinson Road",
     "address_city": "Boston"
@@ -3161,9 +3041,19 @@
     "totaCapacitys": 134,
     "country": "United States",
     "phone": "+1-63322222",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 138,
+    "price": [
+      86,
+      113.4,
+      372,
+      962.5
+    ],
     "address_street": "218 Queen Street",
     "address_city": "Boston"
   },
@@ -3177,16 +3067,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Karia",
+    "manager": 139,
     "price": [
-      75,
-      349,
-      264,
-      187,
-      292
+      327,
+      581.85,
+      708,
+      140
     ],
     "address_street": "21 Lorong 12 Geylang",
     "address_city": "Boston"
@@ -3201,16 +3089,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Carol",
+    "manager": 140,
     "price": [
-      278,
-      520,
-      479,
-      546,
-      84
+      60,
+      224.10000000000002,
+      132,
+      565
     ],
     "address_street": "86 East Coast Road",
     "address_city": "Boston"
@@ -3224,17 +3110,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Brandea",
+    "manager": 141,
     "price": [
-      161,
-      571,
-      315,
-      258,
-      200
+      291,
+      201.15,
+      692,
+      972.5
     ],
     "address_street": "30 Bencoolen Street",
     "address_city": "Boston"
@@ -3249,18 +3133,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Zsazsa",
+    "manager": 142,
     "price": [
-      113,
-      422,
-      190,
-      612,
-      431,
-      324
+      328,
+      290.25,
+      488,
+      925
     ],
     "address_street": "25 Bencoolen Street",
     "address_city": "Boston"
@@ -3275,14 +3155,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Elvina",
+    "manager": 143,
     "price": [
-      85,
-      210,
-      127,
-      205
+      80,
+      307.8,
+      250,
+      805
     ],
     "address_street": "21 Lorong 14 Geylang",
     "address_city": "Boston"
@@ -3297,16 +3177,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Rose",
+    "manager": 144,
     "price": [
-      239,
-      345,
-      368,
-      108,
-      113
+      145,
+      603.45,
+      786,
+      537.5
     ],
     "address_street": "20 Lorong 6 Geylang",
     "address_city": "Boston"
@@ -3319,12 +3197,16 @@
     "phone": "+1-68447888",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 145,
     "price": [
-      516,
-      353
+      177,
+      136.35000000000002,
+      748,
+      1072.5
     ],
     "address_street": "50 Lorong 18 Geylang",
     "address_city": "Boston"
@@ -3339,14 +3221,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Megen",
+    "manager": 146,
     "price": [
-      255,
-      145,
-      236,
-      238
+      112,
+      461.70000000000005,
+      708,
+      895
     ],
     "address_street": "30 Foch Road #01-01",
     "address_city": "Boston"
@@ -3361,18 +3243,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Anderea",
+    "manager": 147,
     "price": [
-      210,
-      312,
-      278,
-      532,
-      449,
-      398
+      399,
+      247.05,
+      162,
+      617.5
     ],
     "address_street": "1 Onan Road",
     "address_city": "Boston"
@@ -3386,13 +3264,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 148,
     "price": [
-      354,
-      200,
-      388
+      219,
+      344.25,
+      114,
+      175
     ],
     "address_street": "61 Lorong 8 Geylang",
     "address_city": "Boston"
@@ -3405,14 +3285,16 @@
     "phone": "+1-65719100",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Koral",
+    "manager": 149,
     "price": [
-      477,
-      98,
-      497
+      94,
+      480.6,
+      648,
+      230
     ],
     "address_street": "176 Tyrwhitt Road",
     "address_city": "Boston"
@@ -3427,24 +3309,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Olimpia",
+    "manager": 150,
     "price": [
       331,
-      396,
-      242,
-      411,
-      655,
-      182,
-      108,
-      373,
-      367
+      211.95000000000002,
+      728,
+      467.5
     ],
     "address_street": "22 Mount Elizabeth",
     "address_city": "Boston"
@@ -3459,20 +3331,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Danny",
+    "manager": 151,
     "price": [
-      328,
-      297,
-      484,
-      379,
-      537,
-      310,
-      323
+      275,
+      427.95000000000005,
+      782,
+      982.5
     ],
     "address_street": "2 Owen Road",
     "address_city": "Boston"
@@ -3487,16 +3353,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Candra",
+    "manager": 152,
     "price": [
-      407,
-      181,
-      240,
-      498,
-      98
+      87,
+      302.40000000000003,
+      562,
+      987.5
     ],
     "address_street": "8 Sentosa Gateway",
     "address_city": "Boston"
@@ -3511,14 +3375,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Elyn",
+    "manager": 153,
     "price": [
-      561,
-      239,
-      139,
-      125
+      375,
+      383.40000000000003,
+      708,
+      827.5
     ],
     "address_street": "139 Lavender Street",
     "address_city": "Boston"
@@ -3533,16 +3397,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Raye",
+    "manager": 154,
     "price": [
-      414,
-      279,
-      332,
-      500,
-      81
+      391,
+      93.15,
+      434,
+      532.5
     ],
     "address_street": "52 Chin Swee Road",
     "address_city": "Boston"
@@ -3556,17 +3418,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Carline",
+    "manager": 155,
     "price": [
-      485,
-      238,
-      123,
-      414,
-      598
+      201,
+      218.70000000000002,
+      346,
+      335
     ],
     "address_street": "1 Beach Road",
     "address_city": "Boston"
@@ -3581,22 +3441,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Olympe",
+    "manager": 156,
     "price": [
-      424,
-      282,
-      431,
-      332,
-      265,
-      414,
-      535,
-      149
+      297,
+      379.35,
+      634,
+      260
     ],
     "address_street": "20 Hongkong Street",
     "address_city": "Boston"
@@ -3609,12 +3461,16 @@
     "phone": "+1-62712771",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Irita",
+    "manager": 157,
     "price": [
-      83,
-      179
+      118,
+      410.40000000000003,
+      134,
+      200
     ],
     "address_street": "512 Kampong Bahru Road",
     "address_city": "Boston"
@@ -3628,13 +3484,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Opalina",
+    "manager": 158,
     "price": [
-      510,
-      154,
-      576
+      72,
+      122.85000000000001,
+      222,
+      950
     ],
     "address_street": "80 Collyer Quay",
     "address_city": "Boston"
@@ -3649,16 +3507,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Mora",
+    "manager": 159,
     "price": [
-      279,
-      384,
-      587,
-      192,
-      499
+      392,
+      364.5,
+      708,
+      497.5
     ],
     "address_street": "8 Townshend Road",
     "address_city": "Boston"
@@ -3671,18 +3527,16 @@
     "phone": "+1-62958181",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Sonia",
+    "manager": 160,
     "price": [
-      135,
-      551,
-      105,
-      200,
-      164
+      341,
+      282.15000000000003,
+      308,
+      657.5
     ],
     "address_street": "20 Lorong 20 Geylang",
     "address_city": "Boston"
@@ -3697,18 +3551,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Gael",
+    "manager": 161,
     "price": [
-      408,
-      220,
-      646,
-      267,
-      395,
-      306
+      87,
+      418.5,
+      342,
+      282.5
     ],
     "address_street": "19 Lorong 22 Geylang",
     "address_city": "Boston"
@@ -3721,18 +3571,16 @@
     "phone": "+1-63339928",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Katrine",
+    "manager": 162,
     "price": [
-      536,
-      388,
-      579,
-      515,
-      329
+      272,
+      125.55000000000001,
+      494,
+      805
     ],
     "address_street": "103 Beach Road",
     "address_city": "Boston"
@@ -3747,16 +3595,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Dulcy",
+    "manager": 163,
     "price": [
-      302,
-      451,
-      460,
-      393,
-      280
+      411,
+      170.10000000000002,
+      618,
+      495
     ],
     "address_street": "183 Selegie Road",
     "address_city": "Boston"
@@ -3771,22 +3617,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Dani",
+    "manager": 164,
     "price": [
-      226,
-      99,
-      177,
-      346,
-      115,
-      104,
-      414,
-      150
+      215,
+      98.55000000000001,
+      874,
+      585
     ],
     "address_street": "181 New Bridge Road",
     "address_city": "Boston"
@@ -3800,15 +3638,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Sarajane",
+    "manager": 165,
     "price": [
-      138,
-      470,
-      70,
-      104
+      390,
+      128.25,
+      244,
+      690
     ],
     "address_street": "219 Joo Chiat Road",
     "address_city": "Boston"
@@ -3822,15 +3660,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Kerry",
+    "manager": 166,
     "price": [
-      128,
-      259,
-      450,
-      610
+      170,
+      311.85,
+      652,
+      720
     ],
     "address_street": "301 Serangoon Road",
     "address_city": "Boston"
@@ -3842,11 +3680,17 @@
     "country": "United States",
     "phone": "+1-65506088",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 167,
     "price": [
-      108
+      349,
+      232.20000000000002,
+      746,
+      682.5
     ],
     "address_street": "87 Victoria Street",
     "address_city": "Boston"
@@ -3861,18 +3705,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Leontyne",
+    "manager": 168,
     "price": [
-      198,
-      522,
-      399,
-      242,
-      490,
-      576
+      398,
+      163.35000000000002,
+      660,
+      200
     ],
     "address_street": "768 Upper Serangoon Road #02-01",
     "address_city": "Boston"
@@ -3887,14 +3727,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Celisse",
+    "manager": 169,
     "price": [
-      569,
-      129,
-      264,
-      378
+      290,
+      132.3,
+      434,
+      1077.5
     ],
     "address_street": "81 Beach Road",
     "address_city": "Boston"
@@ -3909,14 +3749,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Karilynn",
+    "manager": 170,
     "price": [
-      71,
-      510,
-      268,
-      170
+      450,
+      201.15,
+      496,
+      580
     ],
     "address_street": "33 Jalan Sultan #01-01",
     "address_city": "Boston"
@@ -3929,12 +3769,16 @@
     "phone": "+1-68418181",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Dot",
+    "manager": 171,
     "price": [
-      125,
-      179
+      186,
+      248.4,
+      528,
+      312.5
     ],
     "address_street": "20 Lorong 16 Geylang",
     "address_city": "Boston"
@@ -3947,12 +3791,16 @@
     "phone": "+1-63398181",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Dorris",
+    "manager": 172,
     "price": [
-      231,
-      364
+      294,
+      569.7,
+      240,
+      707.5
     ],
     "address_street": "31 Middle Road",
     "address_city": "Boston"
@@ -3969,12 +3817,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Elfreda",
+    "manager": 173,
     "price": [
-      554,
-      198,
-      541,
-      478
+      129,
+      112.05000000000001,
+      508,
+      490
     ],
     "address_street": "5 Jalan Besar",
     "address_city": "Boston"
@@ -3986,11 +3834,17 @@
     "country": "United States",
     "phone": "+1-63381122",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Jackie",
+    "manager": 174,
     "price": [
-      156
+      323,
+      174.15,
+      818,
+      820
     ],
     "address_street": "173  Bencoolen Street",
     "address_city": "Boston"
@@ -4001,9 +3855,19 @@
     "totCapacityms": 86,
     "country": "United States",
     "phone": "+1-67378333",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 175,
+    "price": [
+      236,
+      233.55,
+      106,
+      850
+    ],
     "address_street": "15 Kramat Road",
     "address_city": "Boston"
   },
@@ -4017,16 +3881,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Amandi",
+    "manager": 176,
     "price": [
-      232,
-      114,
-      436,
-      469,
-      272
+      395,
+      189,
+      486,
+      540
     ],
     "address_street": "11 Canning Walk",
     "address_city": "Boston"
@@ -4041,24 +3903,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Carlynn",
+    "manager": 177,
     "price": [
-      587,
-      617,
-      227,
-      566,
-      618,
-      116,
-      450,
-      616,
-      468
+      339,
+      521.1,
+      672,
+      772.5
     ],
     "address_street": "20 Lorong 17 Geylang",
     "address_city": "Boston"
@@ -4071,18 +3923,16 @@
     "phone": "+1-67648181",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Joelly",
+    "manager": 178,
     "price": [
-      334,
-      517,
-      412,
-      290,
-      499
+      264,
+      402.3,
+      884,
+      845
     ],
     "address_street": "85 Lavender Street",
     "address_city": "Boston"
@@ -4096,17 +3946,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Alie",
+    "manager": 179,
     "price": [
-      491,
-      342,
-      154,
-      437,
-      197
+      55,
+      117.45,
+      890,
+      732.5
     ],
     "address_street": "238 Joo Chiat Road",
     "address_city": "Boston"
@@ -4121,24 +3969,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Sibby",
+    "manager": 180,
     "price": [
-      284,
-      609,
-      136,
-      491,
-      430,
-      461,
-      405,
-      502,
-      615
+      348,
+      577.8000000000001,
+      522,
+      1057.5
     ],
     "address_street": "33 Middle Road",
     "address_city": "Boston"
@@ -4149,9 +3987,19 @@
     "totCapacityms": 84,
     "country": "United States",
     "phone": "+1-63360822",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 181,
+    "price": [
+      287,
+      492.75000000000006,
+      388,
+      302.5
+    ],
     "address_street": "47 Bencoolen Street",
     "address_city": "Boston"
   },
@@ -4165,18 +4013,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Lucille",
+    "manager": 182,
     "price": [
-      292,
-      265,
-      596,
-      85,
-      211,
-      148
+      192,
+      318.6,
+      754,
+      932.5
     ],
     "address_street": "169A Bencoolen Street",
     "address_city": "Boston"
@@ -4191,18 +4035,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Shandeigh",
+    "manager": 183,
     "price": [
-      372,
-      187,
-      396,
-      465,
-      649,
-      439
+      143,
+      526.5,
+      504,
+      882.5
     ],
     "address_street": "161 Selegie Road",
     "address_city": "Boston"
@@ -4215,16 +4055,16 @@
     "phone": "+1-63420988",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cybil",
+    "manager": 184,
     "price": [
-      511,
-      412,
-      551,
-      356
+      225,
+      373.95000000000005,
+      768,
+      180
     ],
     "address_street": "60 Joo Chiat Road",
     "address_city": "Boston"
@@ -4237,12 +4077,16 @@
     "phone": "+1-65113333",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Mei",
+    "manager": 185,
     "price": [
-      397,
-      314
+      235,
+      345.6,
+      646,
+      607.5
     ],
     "address_street": "33 Erskine Road",
     "address_city": "Boston"
@@ -4255,18 +4099,16 @@
     "phone": "+1-68276666",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Hermina",
+    "manager": 186,
     "price": [
-      167,
-      456,
-      482,
-      265,
-      460
+      428,
+      359.1,
+      488,
+      1000
     ],
     "address_street": "23 Dickson Road",
     "address_city": "Boston"
@@ -4281,20 +4123,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Phillida",
+    "manager": 187,
     "price": [
-      207,
-      469,
-      530,
-      342,
-      589,
-      139,
-      395
+      311,
+      438.75000000000006,
+      562,
+      237.5
     ],
     "address_street": "428 Changi Road #01-01",
     "address_city": "Boston"
@@ -4305,9 +4141,19 @@
     "totCapacityms": 80,
     "country": "United States",
     "phone": "+1-67177887",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 188,
+    "price": [
+      410,
+      460.35,
+      446,
+      392.5
+    ],
     "address_street": "25 Trengganu Street",
     "address_city": "Boston"
   },
@@ -4318,11 +4164,17 @@
     "country": "United States",
     "phone": "+1-63558181",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 189,
     "price": [
-      451
+      124,
+      93.15,
+      98,
+      912.5
     ],
     "address_street": "269 Balestier Road",
     "address_city": "Boston"
@@ -4337,18 +4189,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Ashlen",
+    "manager": 190,
     "price": [
-      325,
-      220,
-      508,
-      164,
-      122,
-      533
+      346,
+      565.6500000000001,
+      652,
+      232.5
     ],
     "address_street": "23 Lorong 20 Geylang",
     "address_city": "Boston"
@@ -4365,12 +4213,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Consolata",
+    "manager": 191,
     "price": [
-      409,
-      602,
-      450,
-      681
+      312,
+      233.55,
+      186,
+      1052.5
     ],
     "address_street": "3 Seng Poh Road",
     "address_city": "Boston"
@@ -4385,22 +4233,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Tommi",
+    "manager": 192,
     "price": [
-      391,
-      355,
-      352,
-      278,
-      346,
-      245,
-      274,
-      630
+      223,
+      454.95000000000005,
+      570,
+      597.5
     ],
     "address_street": "12 Joo Chiat Road",
     "address_city": "Boston"
@@ -4417,12 +4257,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Lari",
+    "manager": 193,
     "price": [
-      237,
-      141,
-      179,
-      464
+      321,
+      484.65000000000003,
+      784,
+      930
     ],
     "address_street": "181 Joo Chiat Road",
     "address_city": "Boston"
@@ -4437,18 +4277,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Kassey",
+    "manager": 194,
     "price": [
-      490,
-      111,
-      147,
-      515,
-      560,
-      290
+      407,
+      332.1,
+      712,
+      532.5
     ],
     "address_street": "28 Penhas Road",
     "address_city": "Boston"
@@ -4462,13 +4298,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 195,
     "price": [
-      188,
-      98,
-      221
+      393,
+      280.8,
+      700,
+      895
     ],
     "address_street": "1 Eng Hoon Street",
     "address_city": "Boston"
@@ -4481,16 +4319,16 @@
     "phone": "+1-67451515",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Carley",
+    "manager": 196,
     "price": [
-      377,
-      258,
-      246,
-      155
+      270,
+      356.40000000000003,
+      214,
+      337.5
     ],
     "address_street": "15 Lorong 15 Geylang",
     "address_city": "Boston"
@@ -4505,16 +4343,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Valaree",
+    "manager": 197,
     "price": [
-      468,
-      295,
-      510,
-      364,
-      201
+      144,
+      99.9,
+      100,
+      915
     ],
     "address_street": "230 Jalan Besar",
     "address_city": "Boston"
@@ -4529,20 +4365,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Daphna",
+    "manager": 198,
     "price": [
-      505,
-      437,
-      253,
-      554,
-      703,
-      199,
-      315
+      156,
+      140.4,
+      520,
+      690
     ],
     "address_street": "163 Kitchener Road",
     "address_city": "Boston"
@@ -4555,12 +4385,16 @@
     "phone": "+1-62988889",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 199,
     "price": [
-      474,
-      295
+      296,
+      74.25,
+      836,
+      532.5
     ],
     "address_street": "171 East Coast Road",
     "address_city": "Boston"
@@ -4575,18 +4409,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Ariel",
+    "manager": 200,
     "price": [
-      260,
-      402,
-      394,
-      584,
-      287,
-      305
+      279,
+      307.8,
+      532,
+      610
     ],
     "address_street": "8 Jalan Kubor",
     "address_city": "Boston"
@@ -4601,16 +4431,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 201,
     "price": [
-      402,
-      374,
-      599,
-      474,
-      742
+      122,
+      252.45000000000002,
+      820,
+      517.5
     ],
     "address_street": "41 Seah Street",
     "address_city": "Boston"
@@ -4624,15 +4452,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Catriona",
+    "manager": 202,
     "price": [
-      410,
-      342,
-      463,
-      430
+      428,
+      418.5,
+      820,
+      790
     ],
     "address_street": "No. 5 Lorong 6 Geylang",
     "address_city": "Boston"
@@ -4645,16 +4473,16 @@
     "phone": "+1-62399399",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Anne",
+    "manager": 203,
     "price": [
-      430,
-      390,
-      203,
-      361
+      211,
+      511.65000000000003,
+      120,
+      235
     ],
     "address_street": "383 Jalan Besar",
     "address_city": "Boston"
@@ -4668,13 +4496,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 204,
     "price": [
-      317,
-      156,
-      429
+      46,
+      494.1,
+      804,
+      365
     ],
     "address_street": "11 Penang Lane",
     "address_city": "Boston"
@@ -4685,9 +4515,19 @@
     "totCapacityms": 70,
     "country": "United States",
     "phone": "+1-62289999",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 205,
+    "price": [
+      120,
+      54,
+      880,
+      897.5
+    ],
     "address_street": "22 Belilios Lane",
     "address_city": "Boston"
   },
@@ -4703,12 +4543,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Sarene",
+    "manager": 206,
     "price": [
-      566,
-      395,
-      171,
-      616
+      415,
+      282.15000000000003,
+      616,
+      777.5
     ],
     "address_street": "51 Joo Chiat Road",
     "address_city": "Boston"
@@ -4722,15 +4562,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Corabella",
+    "manager": 207,
     "price": [
-      417,
-      382,
-      457,
-      450
+      404,
+      483.3,
+      428,
+      705
     ],
     "address_street": "162 Tyrwhitt Road",
     "address_city": "Boston"
@@ -4745,22 +4585,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Marthena",
+    "manager": 208,
     "price": [
-      345,
-      514,
-      558,
-      405,
-      273,
-      561,
-      647,
-      614
+      190,
+      438.75000000000006,
+      794,
+      445
     ],
     "address_street": "263 Balestier Road",
     "address_city": "Boston"
@@ -4777,12 +4609,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Demetris",
+    "manager": 209,
     "price": [
-      383,
-      113,
-      190,
-      666
+      372,
+      282.15000000000003,
+      496,
+      662.5
     ],
     "address_street": "347 Balestier Road",
     "address_city": "Boston"
@@ -4794,11 +4626,17 @@
     "country": "United States",
     "phone": "+1-63924855",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 210,
     "price": [
-      295
+      378,
+      210.60000000000002,
+      776,
+      840
     ],
     "address_street": "165 Kitchener Road",
     "address_city": "Boston"
@@ -4811,16 +4649,16 @@
     "phone": "+1-62924661",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Josephine",
+    "manager": 211,
     "price": [
-      95,
-      99,
-      155,
-      480
+      335,
+      346.95000000000005,
+      796,
+      350
     ],
     "address_street": "195 Serangoon Road",
     "address_city": "Boston"
@@ -4835,20 +4673,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Mellisent",
+    "manager": 212,
     "price": [
-      428,
-      269,
-      364,
-      472,
-      268,
-      387,
-      552
+      325,
+      191.70000000000002,
+      684,
+      500
     ],
     "address_street": "101 Jalan Sultan",
     "address_city": "Boston"
@@ -4863,22 +4695,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Jemima",
+    "manager": 213,
     "price": [
-      205,
-      543,
-      408,
-      217,
-      431,
-      525,
-      603,
-      407
+      353,
+      121.50000000000001,
+      728,
+      280
     ],
     "address_street": "71 Jalan Sultan Road",
     "address_city": "Boston"
@@ -4893,16 +4717,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Renata",
+    "manager": 214,
     "price": [
-      276,
-      456,
-      130,
-      479,
-      251
+      90,
+      282.15000000000003,
+      760,
+      720
     ],
     "address_street": "10A Upper Wilkie Road",
     "address_city": "Boston"
@@ -4916,17 +4738,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Hilary",
+    "manager": 215,
     "price": [
-      527,
-      152,
-      273,
-      506,
-      323
+      53,
+      233.55,
+      132,
+      652.5
     ],
     "address_street": "302 Balestier Road",
     "address_city": "Boston"
@@ -4940,13 +4760,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 216,
     "price": [
-      346,
-      475,
-      575
+      64,
+      99.9,
+      618,
+      870
     ],
     "address_street": "76 Boat Quay",
     "address_city": "Boston"
@@ -4961,16 +4783,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Dagmar",
+    "manager": 217,
     "price": [
-      181,
-      254,
-      512,
-      107,
-      365
+      303,
+      301.05,
+      164,
+      127.5
     ],
     "address_street": "400 East Coast Road",
     "address_city": "Boston"
@@ -4982,11 +4802,17 @@
     "country": "United States",
     "phone": "+1-63725299",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Rachele",
+    "manager": 218,
     "price": [
-      500
+      224,
+      395.55,
+      894,
+      555
     ],
     "address_street": "3 King George's Avenue",
     "address_city": "Boston"
@@ -5001,20 +4827,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Tedda",
+    "manager": 219,
     "price": [
-      133,
-      340,
-      146,
-      516,
-      604,
-      184,
-      345
+      90,
+      171.45000000000002,
+      412,
+      1020
     ],
     "address_street": "32 Lorong 8 Geylang",
     "address_city": "Boston"
@@ -5029,16 +4849,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Dosi",
+    "manager": 220,
     "price": [
-      82,
-      310,
-      154,
-      428,
-      402
+      197,
+      390.15000000000003,
+      618,
+      137.5
     ],
     "address_street": "112 Sims Avenue #01-01",
     "address_city": "Boston"
@@ -5052,15 +4870,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Christel",
+    "manager": 221,
     "price": [
-      448,
-      305,
-      230,
-      607
+      413,
+      120.15,
+      534,
+      502.5
     ],
     "address_street": "5 Balmoral Crescent",
     "address_city": "Boston"
@@ -5075,18 +4893,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Marya",
+    "manager": 222,
     "price": [
-      375,
-      607,
-      219,
-      176,
-      668,
-      425
+      391,
+      540,
+      684,
+      837.5
     ],
     "address_street": "418 Pasir Panjang Road",
     "address_city": "Boston"
@@ -5100,13 +4914,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Seline",
+    "manager": 223,
     "price": [
-      104,
-      475,
-      466
+      329,
+      218.70000000000002,
+      672,
+      612.5
     ],
     "address_street": "33A Jalan Besar",
     "address_city": "Boston"
@@ -5121,18 +4937,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Justine",
+    "manager": 224,
     "price": [
-      193,
-      255,
-      458,
-      597,
-      255,
-      197
+      66,
+      561.6,
+      234,
+      507.5
     ],
     "address_street": "22 Teck Lim Road",
     "address_city": "Boston"
@@ -5143,9 +4955,19 @@
     "totCapacityms": 55,
     "country": "United States",
     "phone": "+1-68446633",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 225,
+    "price": [
+      380,
+      483.3,
+      324,
+      552.5
+    ],
     "address_street": "44 Lorong 6 Geylang",
     "address_city": "Boston"
   },
@@ -5159,18 +4981,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Fifi",
+    "manager": 226,
     "price": [
-      303,
-      605,
-      299,
-      89,
-      357,
-      584
+      54,
+      210.60000000000002,
+      764,
+      295
     ],
     "address_street": "5 Hongkong Street",
     "address_city": "Boston"
@@ -5185,16 +5003,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 227,
     "price": [
-      200,
-      451,
-      583,
-      409,
-      594
+      432,
+      137.70000000000002,
+      362,
+      682.5
     ],
     "address_street": "380 Race Course Road (Level 2)",
     "address_city": "Boston"
@@ -5208,13 +5024,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Juana",
+    "manager": 228,
     "price": [
-      174,
-      571,
-      244
+      289,
+      247.05,
+      354,
+      162.5
     ],
     "address_street": "404 Pasir Panjang Road",
     "address_city": "Boston"
@@ -5228,13 +5046,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Lindsay",
+    "manager": 229,
     "price": [
-      361,
-      210,
-      646
+      169,
+      418.5,
+      820,
+      1010
     ],
     "address_street": "424 Geylang Road",
     "address_city": "Boston"
@@ -5249,16 +5069,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Kora",
+    "manager": 230,
     "price": [
-      341,
-      263,
-      624,
-      500,
-      137
+      444,
+      562.95,
+      238,
+      830
     ],
     "address_street": "51 Desker Road",
     "address_city": "Boston"
@@ -5273,22 +5091,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Kate",
+    "manager": 231,
     "price": [
-      311,
-      542,
-      533,
-      687,
-      470,
-      502,
-      235,
-      371
+      313,
+      149.85000000000002,
+      858,
+      455
     ],
     "address_street": "443A Geylang Road",
     "address_city": "Boston"
@@ -5300,11 +5110,17 @@
     "country": "United States",
     "phone": "+1-62938181",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Othella",
+    "manager": 232,
     "price": [
-      564
+      405,
+      553.5,
+      260,
+      782.5
     ],
     "address_street": "3 Lorong 12 Geylang",
     "address_city": "Boston"
@@ -5317,12 +5133,16 @@
     "phone": "+1-63528181",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Andriette",
+    "manager": 233,
     "price": [
-      235,
-      214
+      171,
+      264.6,
+      414,
+      567.5
     ],
     "address_street": "226 Balestier Road",
     "address_city": "Boston"
@@ -5333,9 +5153,19 @@
     "totCapacityms": 53,
     "country": "United States",
     "phone": "+1-62939022",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 234,
+    "price": [
+      181,
+      376.65000000000003,
+      170,
+      757.5
+    ],
     "address_street": "77 Aliwal Street",
     "address_city": "Boston"
   },
@@ -5348,13 +5178,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 235,
     "price": [
-      317,
-      515,
-      548
+      198,
+      526.5,
+      256,
+      507.5
     ],
     "address_street": "10 Aliwal Street",
     "address_city": "Boston"
@@ -5369,18 +5201,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Arluene",
+    "manager": 236,
     "price": [
-      323,
-      157,
-      461,
-      63,
-      481,
-      456
+      71,
+      346.95000000000005,
+      492,
+      985
     ],
     "address_street": "190 Waterloo Street",
     "address_city": "Boston"
@@ -5395,18 +5223,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Liv",
+    "manager": 237,
     "price": [
-      264,
-      376,
-      648,
-      431,
-      127,
-      466
+      239,
+      79.65,
+      154,
+      1012.5
     ],
     "address_street": "83 Syed Alwi Road",
     "address_city": "Boston"
@@ -5421,18 +5245,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Sissie",
+    "manager": 238,
     "price": [
-      354,
-      533,
-      346,
-      351,
-      541,
-      633
+      402,
+      270,
+      420,
+      402.5
     ],
     "address_street": "No. 3 Lorong 10 Geylang",
     "address_city": "Boston"
@@ -5445,12 +5265,16 @@
     "phone": "+1-66533833",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Sybil",
+    "manager": 239,
     "price": [
-      473,
-      283
+      120,
+      315.90000000000003,
+      746,
+      435
     ],
     "address_street": "33 Hendon Road",
     "address_city": "Boston"
@@ -5465,14 +5289,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Liza",
+    "manager": 240,
     "price": [
-      321,
-      317,
-      455,
-      343
+      325,
+      433.35,
+      752,
+      585
     ],
     "address_street": "77 Tiong Bahru Road",
     "address_city": "Boston"
@@ -5486,13 +5310,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 241,
     "price": [
-      195,
-      434,
-      207
+      391,
+      95.85000000000001,
+      820,
+      480
     ],
     "address_street": "83 Duxton Road",
     "address_city": "Boston"
@@ -5505,14 +5331,16 @@
     "phone": "+1-67447655",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Nicoline",
+    "manager": 242,
     "price": [
-      181,
-      510,
-      317
+      432,
+      290.25,
+      388,
+      197.5
     ],
     "address_street": "36 Lorong 22 Geylang",
     "address_city": "Boston"
@@ -5526,13 +5354,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 243,
     "price": [
-      197,
-      611,
-      328
+      192,
+      318.6,
+      594,
+      215
     ],
     "address_street": "97 Lavender Street",
     "address_city": "Boston"
@@ -5545,16 +5375,16 @@
     "phone": "+1-67439282",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Merl",
+    "manager": 244,
     "price": [
-      174,
-      331,
-      487,
-      240
+      295,
+      360.45000000000005,
+      662,
+      665
     ],
     "address_street": "10 Lorong 18 Geylang",
     "address_city": "Boston"
@@ -5567,12 +5397,16 @@
     "phone": "+1-62546888",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 245,
     "price": [
-      310,
-      248
+      386,
+      164.70000000000002,
+      442,
+      642.5
     ],
     "address_street": "418 Balestier Road",
     "address_city": "Boston"
@@ -5587,14 +5421,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Ardath",
+    "manager": 246,
     "price": [
-      278,
-      191,
-      286,
-      206
+      188,
+      230.85000000000002,
+      258,
+      365
     ],
     "address_street": "255 Balestier Road",
     "address_city": "Boston"
@@ -5608,17 +5442,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Angy",
+    "manager": 247,
     "price": [
-      506,
-      512,
-      544,
-      235,
-      160
+      147,
+      342.90000000000003,
+      346,
+      312.5
     ],
     "address_street": "33 Birch Road",
     "address_city": "Boston"
@@ -5631,12 +5463,16 @@
     "phone": "+1-68185635",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Elga",
+    "manager": 248,
     "price": [
-      365,
-      166
+      184,
+      329.40000000000003,
+      794,
+      640
     ],
     "address_street": "29 Lorong 4 Geylang",
     "address_city": "Boston"
@@ -5651,24 +5487,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Cherida",
+    "manager": 249,
     "price": [
-      76,
-      374,
-      313,
-      657,
-      635,
-      460,
-      379,
-      316,
-      546
+      227,
+      344.25,
+      616,
+      237.5
     ],
     "address_street": "210 South Bridge Road",
     "address_city": "Boston"
@@ -5685,12 +5511,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Merrie",
+    "manager": 250,
     "price": [
-      354,
-      555,
-      186,
-      308
+      307,
+      352.35,
+      704,
+      362.5
     ],
     "address_street": "432 Pasir Panjang Road",
     "address_city": "Boston"
@@ -5702,11 +5528,17 @@
     "country": "United States",
     "phone": "+1-68422288",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 251,
     "price": [
-      90
+      193,
+      91.80000000000001,
+      422,
+      925
     ],
     "address_street": "21 Lorong 22 Geylang",
     "address_city": "Boston"
@@ -5719,16 +5551,16 @@
     "phone": "+1-67456656",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Fayre",
+    "manager": 252,
     "price": [
-      434,
-      425,
-      355,
-      509
+      205,
+      103.95,
+      540,
+      370
     ],
     "address_street": "56 Sims Avenue",
     "address_city": "Boston"
@@ -5743,20 +5575,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Margette",
+    "manager": 253,
     "price": [
-      262,
-      111,
-      281,
-      313,
-      559,
-      421,
-      213
+      99,
+      157.95000000000002,
+      708,
+      577.5
     ],
     "address_street": "18 Mosque Street",
     "address_city": "Boston"
@@ -5768,11 +5594,17 @@
     "country": "United States",
     "phone": "+1-65930999",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Faith",
+    "manager": 254,
     "price": [
-      455
+      161,
+      70.2,
+      284,
+      155
     ],
     "address_street": "387 Balestier Road",
     "address_city": "Boston"
@@ -5786,19 +5618,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Danny",
+    "manager": 255,
     "price": [
-      231,
-      83,
-      188,
-      384,
-      254,
-      550
+      104,
+      190.35000000000002,
+      324,
+      575
     ],
     "address_street": "58 South Bridge Road",
     "address_city": "Boston"
@@ -5813,18 +5641,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Tallulah",
+    "manager": 256,
     "price": [
-      358,
-      324,
-      313,
-      521,
-      420,
-      323
+      225,
+      132.3,
+      440,
+      147.5
     ],
     "address_street": "757 Geylang Road",
     "address_city": "Boston"
@@ -5837,12 +5661,16 @@
     "phone": "+1-68589888",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Alethea",
+    "manager": 257,
     "price": [
-      470,
-      453
+      163,
+      197.10000000000002,
+      222,
+      992.5
     ],
     "address_street": "760 Upper Serangoon Road",
     "address_city": "Boston"
@@ -5855,12 +5683,16 @@
     "phone": "+1-62977488",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Karol",
+    "manager": 258,
     "price": [
-      418,
-      253
+      257,
+      436.05,
+      198,
+      982.5
     ],
     "address_street": "88 Syed Alwi Road #01-02",
     "address_city": "Boston"
@@ -5875,16 +5707,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Pauletta",
+    "manager": 259,
     "price": [
-      527,
-      576,
-      518,
-      393,
-      109
+      400,
+      294.3,
+      648,
+      865
     ],
     "address_street": "14 Lorong 10 Geylang",
     "address_city": "Boston"
@@ -5899,20 +5729,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Eirena",
+    "manager": 260,
     "price": [
-      74,
-      149,
-      279,
-      329,
-      407,
-      110,
-      267
+      225,
+      276.75,
+      544,
+      305
     ],
     "address_street": "4 Lorong 6 Geylang",
     "address_city": "Boston"
@@ -5925,16 +5749,16 @@
     "phone": "+1-62995975",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Netty",
+    "manager": 261,
     "price": [
-      314,
-      195,
-      270,
-      141
+      153,
+      334.8,
+      280,
+      875
     ],
     "address_street": "11 Jalan Pinang",
     "address_city": "Boston"
@@ -5949,22 +5773,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Sheryl",
+    "manager": 262,
     "price": [
-      544,
-      525,
-      457,
-      647,
-      525,
-      379,
-      133,
-      623
+      364,
+      83.7,
+      610,
+      922.5
     ],
     "address_street": "31 Lorong 8 Geylang",
     "address_city": "Boston"
@@ -5979,22 +5795,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Layla",
+    "manager": 263,
     "price": [
-      417,
-      280,
-      177,
-      283,
-      520,
-      448,
-      107,
-      142
+      76,
+      422.55,
+      148,
+      127.5
     ],
     "address_street": "36 Temple Street",
     "address_city": "Boston"
@@ -6007,16 +5815,16 @@
     "phone": "+1-67438303",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Elisabet",
+    "manager": 264,
     "price": [
-      417,
-      226,
-      573,
-      242
+      64,
+      217.35000000000002,
+      236,
+      987.5
     ],
     "address_street": "8 Lorong 10 Geylang",
     "address_city": "Boston"
@@ -6030,13 +5838,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 265,
     "price": [
-      466,
-      352,
-      617
+      266,
+      241.65,
+      454,
+      755
     ],
     "address_street": "428 Pasir Panjang Road",
     "address_city": "Boston"
@@ -6051,18 +5861,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Bibi",
+    "manager": 266,
     "price": [
-      412,
-      608,
-      603,
-      391,
+      325,
+      429.3,
       248,
-      643
+      747.5
     ],
     "address_street": "34 Lorong 22 Geylang",
     "address_city": "Boston"
@@ -6075,18 +5881,16 @@
     "phone": "+1-62962296",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Rhetta",
+    "manager": 267,
     "price": [
-      400,
-      182,
-      220,
-      217,
-      656
+      232,
+      93.15,
+      850,
+      622.5
     ],
     "address_street": "40 Hamilton Road",
     "address_city": "Boston"
@@ -6098,11 +5902,17 @@
     "country": "United States",
     "phone": "+1-67498181",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Dorice",
+    "manager": 268,
     "price": [
-      100
+      234,
+      473.85,
+      572,
+      307.5
     ],
     "address_street": "11 Lorong 11 Geylang",
     "address_city": "Boston"
@@ -6117,18 +5927,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Sheryl",
+    "manager": 269,
     "price": [
-      505,
-      314,
-      166,
-      581,
-      342,
-      289
+      187,
+      342.90000000000003,
+      320,
+      380
     ],
     "address_street": "246 Balestier Road #02-01",
     "address_city": "Boston"
@@ -6143,20 +5949,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Xena",
+    "manager": 270,
     "price": [
-      248,
-      168,
-      629,
-      544,
-      214,
-      396,
-      207
+      432,
+      330.75,
+      464,
+      222.5
     ],
     "address_street": "25 Lorong 18 Geylang",
     "address_city": "Boston"
@@ -6168,11 +5968,17 @@
     "country": "United States",
     "phone": "+1-63923838",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 271,
     "price": [
-      439
+      184,
+      270,
+      288,
+      780
     ],
     "address_street": "240 Jalan Besar #01-01",
     "address_city": "Boston"
@@ -6187,16 +5993,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Samara",
+    "manager": 272,
     "price": [
-      305,
-      184,
-      405,
-      424,
-      320
+      417,
+      318.6,
+      646,
+      540
     ],
     "address_street": "62 Upper Cross Street",
     "address_city": "Boston"
@@ -6211,18 +6015,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Wenonah",
+    "manager": 273,
     "price": [
-      341,
-      97,
-      234,
-      401,
-      296,
-      174
+      335,
+      521.1,
+      248,
+      535
     ],
     "address_street": "471 Balestier Road",
     "address_city": "Boston"
@@ -6234,11 +6034,17 @@
     "country": "United States",
     "phone": "+1-65951388",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 274,
     "price": [
-      219
+      364,
+      436.05,
+      142,
+      445
     ],
     "address_street": "231 Outram Road",
     "address_city": "Boston"
@@ -6250,11 +6056,17 @@
     "country": "United States",
     "phone": "+1-62916677",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 275,
     "price": [
-      69
+      437,
+      359.1,
+      172,
+      452.5
     ],
     "address_street": "39 Syed Alwi Road",
     "address_city": "Boston"
@@ -6269,20 +6081,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Anthia",
+    "manager": 276,
     "price": [
-      173,
-      297,
-      547,
-      587,
-      465,
-      345,
-      123
+      356,
+      60.75000000000001,
+      242,
+      555
     ],
     "address_street": "759 Mountbatten Road",
     "address_city": "Boston"
@@ -6296,13 +6102,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 277,
     "price": [
-      294,
-      458,
-      210
+      116,
+      588.6,
+      484,
+      662.5
     ],
     "address_street": "57 South Bridge Road",
     "address_city": "Boston"
@@ -6317,20 +6125,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Arly",
+    "manager": 278,
     "price": [
-      292,
-      312,
-      422,
-      629,
-      535,
-      356,
-      494
+      59,
+      310.5,
+      900,
+      160
     ],
     "address_street": "1 Lorong 8 Geylang",
     "address_city": "Boston"
@@ -6343,12 +6145,16 @@
     "phone": "+1-63144287",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 279,
     "price": [
-      224,
-      471
+      418,
+      475.20000000000005,
+      734,
+      117.5
     ],
     "address_street": "100 Turf Club Road #05-01",
     "address_city": "Boston"
@@ -6362,17 +6168,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Gerty",
+    "manager": 280,
     "price": [
-      109,
-      427,
-      440,
-      296,
-      633
+      89,
+      240.3,
+      140,
+      467.5
     ],
     "address_street": "43A Jalan Besar",
     "address_city": "Boston"
@@ -6385,12 +6189,16 @@
     "phone": "+1-62567001",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 281,
     "price": [
-      358,
-      438
+      236,
+      363.15000000000003,
+      588,
+      995
     ],
     "address_street": "20 Trengganu Street #03-01",
     "address_city": "Boston"
@@ -6405,16 +6213,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Fianna",
+    "manager": 282,
     "price": [
-      235,
-      145,
-      256,
-      275,
-      450
+      276,
+      291.6,
+      828,
+      297.5
     ],
     "address_street": "42 Carpenter Street",
     "address_city": "Boston"
@@ -6429,16 +6235,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Hildegarde",
+    "manager": 283,
     "price": [
-      231,
-      394,
-      158,
-      546,
-      395
+      400,
+      272.70000000000005,
+      126,
+      1070
     ],
     "address_street": "15 Mackenzie Road",
     "address_city": "Boston"
@@ -6455,12 +6259,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 284,
     "price": [
-      72,
-      530,
-      288,
-      564
+      335,
+      218.70000000000002,
+      708,
+      972.5
     ],
     "address_street": "8 Jiak Chuan Road",
     "address_city": "Boston"
@@ -6472,11 +6276,17 @@
     "country": "United States",
     "phone": "+1-98856348",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Benny",
+    "manager": 285,
     "price": [
-      530
+      281,
+      421.20000000000005,
+      296,
+      697.5
     ],
     "address_street": "60 Lorong 8 Geylang",
     "address_city": "Boston"
@@ -6490,17 +6300,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Della",
+    "manager": 286,
     "price": [
-      311,
-      425,
-      184,
-      245,
-      578
+      291,
+      561.6,
+      826,
+      867.5
     ],
     "address_street": "21 Middle Road",
     "address_city": "Boston"
@@ -6514,15 +6322,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Kimberly",
+    "manager": 287,
     "price": [
-      158,
-      462,
-      97,
-      431
+      446,
+      251.10000000000002,
+      850,
+      910
     ],
     "address_street": "85 Beach Road",
     "address_city": "Boston"
@@ -6537,18 +6345,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Meghan",
+    "manager": 288,
     "price": [
-      599,
-      341,
-      387,
-      420,
-      433,
-      280
+      361,
+      535.95,
+      148,
+      852.5
     ],
     "address_street": "320 Havelock Road",
     "address_city": "Boston"
@@ -6563,22 +6367,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Bert",
+    "manager": 289,
     "price": [
-      490,
-      612,
-      182,
-      595,
-      463,
-      248,
-      490,
-      291
+      110,
+      557.5500000000001,
+      624,
+      207.5
     ],
     "address_street": "76 Telok Ayer Street",
     "address_city": "Boston"
@@ -6591,16 +6387,16 @@
     "phone": "+1-62596888",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cassandra",
+    "manager": 290,
     "price": [
-      99,
-      594,
-      615,
-      492
+      270,
+      410.40000000000003,
+      716,
+      612.5
     ],
     "address_street": "435 Balestier Road",
     "address_city": "Boston"
@@ -6615,20 +6411,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Therese",
+    "manager": 291,
     "price": [
-      95,
-      591,
-      218,
-      207,
-      334,
+      86,
+      378,
       154,
-      564
+      497.5
     ],
     "address_street": "18 Jalan Molek",
     "address_city": "Boston"
@@ -6641,12 +6431,16 @@
     "phone": "+1-67180700",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Wenona",
+    "manager": 292,
     "price": [
-      269,
-      95
+      326,
+      237.60000000000002,
+      552,
+      650
     ],
     "address_street": "32 Hamilton Road",
     "address_city": "Boston"
@@ -6661,20 +6455,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Joceline",
+    "manager": 293,
     "price": [
-      143,
-      566,
-      356,
-      619,
-      75,
-      308,
-      356
+      114,
+      153.9,
+      490,
+      1115
     ],
     "address_street": "51 Lavender Street",
     "address_city": "Boston"
@@ -6687,14 +6475,16 @@
     "phone": "+1-67411423",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Chelsey",
+    "manager": 294,
     "price": [
-      268,
-      397,
-      227
+      276,
+      237.60000000000002,
+      260,
+      372.5
     ],
     "address_street": "17 Lorong 10 Geylang",
     "address_city": "Boston"
@@ -6706,11 +6496,17 @@
     "country": "United States",
     "phone": "+1-63401860",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 295,
     "price": [
-      431
+      206,
+      159.3,
+      806,
+      667.5
     ],
     "address_street": "769 North Bridge Road",
     "address_city": "Boston"
@@ -6724,15 +6520,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Jaine",
+    "manager": 296,
     "price": [
-      318,
-      393,
-      310,
-      223
+      87,
+      324,
+      688,
+      245
     ],
     "address_street": "9 Lorong 10 Geylang",
     "address_city": "Boston"
@@ -6745,12 +6541,16 @@
     "phone": "+1-68989228",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Carine",
+    "manager": 297,
     "price": [
-      249,
-      503
+      413,
+      67.5,
+      162,
+      480
     ],
     "address_street": "10 Neo Tiew Lane 2",
     "address_city": "Boston"
@@ -6763,12 +6563,16 @@
     "phone": "+1-76789099",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 298,
     "price": [
-      420,
-      336
+      398,
+      572.4000000000001,
+      306,
+      700
     ],
     "address_street": "20 Sentosa Gateway",
     "address_city": "Boston"
@@ -6783,14 +6587,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Esmaria",
+    "manager": 299,
     "price": [
-      376,
-      572,
-      516,
-      594
+      271,
+      105.30000000000001,
+      104,
+      392.5
     ],
     "address_street": "12 Perak Road",
     "address_city": "Boston"
@@ -6802,11 +6606,17 @@
     "country": "United States",
     "phone": "+1-67377309",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 300,
     "price": [
-      348
+      113,
+      330.75,
+      134,
+      1112.5
     ],
     "address_street": "2 Lloyd Road",
     "address_city": "Boston"
@@ -6821,22 +6631,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Bobbye",
+    "manager": 301,
     "price": [
-      343,
-      438,
-      359,
-      300,
-      279,
-      357,
-      150,
-      633
+      321,
+      371.25,
+      84,
+      267.5
     ],
     "address_street": "75 Wishart Road",
     "address_city": "Boston"
@@ -6850,15 +6652,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Pet",
+    "manager": 302,
     "price": [
-      475,
-      411,
-      399,
-      316
+      144,
+      463.05,
+      536,
+      882.5
     ],
     "address_street": "33 Lorong 12 Geylang",
     "address_city": "Boston"
@@ -6872,13 +6674,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cathleen",
+    "manager": 303,
     "price": [
-      263,
-      339,
-      149
+      321,
+      572.4000000000001,
+      316,
+      527.5
     ],
     "address_street": "47 Hongkong Street",
     "address_city": "Boston"
@@ -6893,14 +6697,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Sybil",
+    "manager": 304,
     "price": [
-      153,
-      312,
-      557,
-      81
+      284,
+      488.70000000000005,
+      542,
+      1012.5
     ],
     "address_street": "50 Keong Saik Road",
     "address_city": "Boston"
@@ -6912,11 +6716,17 @@
     "country": "United States",
     "phone": "+1-67430770",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Shirl",
+    "manager": 305,
     "price": [
-      347
+      248,
+      195.75,
+      900,
+      907.5
     ],
     "address_street": "61 Westerhout Road",
     "address_city": "Boston"
@@ -6930,19 +6740,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Audra",
+    "manager": 306,
     "price": [
-      529,
-      261,
-      279,
-      371,
-      160,
-      648
+      393,
+      596.7,
+      898,
+      617.5
     ],
     "address_street": "37 North Canal Road",
     "address_city": "Boston"
@@ -6955,12 +6761,16 @@
     "phone": "+1-63367712",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 307,
     "price": [
-      589,
-      171
+      319,
+      526.5,
+      262,
+      1047.5
     ],
     "address_street": "95 Beach Road",
     "address_city": "Boston"
@@ -6975,22 +6785,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Krissie",
+    "manager": 308,
     "price": [
-      592,
-      156,
-      618,
-      386,
-      139,
-      295,
-      483,
-      651
+      130,
+      220.05,
+      702,
+      320
     ],
     "address_street": "400 Telok Blangah Road",
     "address_city": "Boston"
@@ -7003,16 +6805,16 @@
     "phone": "+1-62936005",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Margret",
+    "manager": 309,
     "price": [
-      201,
-      239,
-      452,
-      481
+      83,
+      529.2,
+      386,
+      1067.5
     ],
     "address_street": "26 Cavan Road Snow Hotel",
     "address_city": "Boston"
@@ -7027,18 +6829,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Anne-Marie",
+    "manager": 310,
     "price": [
-      294,
-      241,
-      620,
-      291,
-      753,
-      402
+      120,
+      518.4000000000001,
+      840,
+      1027.5
     ],
     "address_street": "14 Purvis Street",
     "address_city": "Boston"
@@ -7052,19 +6850,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Rae",
+    "manager": 311,
     "price": [
-      587,
-      341,
-      279,
-      111,
-      284,
-      505
+      125,
+      302.40000000000003,
+      794,
+      830
     ],
     "address_street": "22 Lorong 15 Geylang",
     "address_city": "Boston"
@@ -7078,13 +6872,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Myrna",
+    "manager": 312,
     "price": [
-      425,
-      593,
-      125
+      228,
+      573.75,
+      192,
+      172.5
     ],
     "address_street": "63 Dunlop Street",
     "address_city": "Boston"
@@ -7097,12 +6893,16 @@
     "phone": "+1-62255565",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Wynn",
+    "manager": 313,
     "price": [
-      338,
-      407
+      264,
+      595.35,
+      152,
+      852.5
     ],
     "address_street": "60 Kerbau Road",
     "address_city": "Boston"
@@ -7114,11 +6914,17 @@
     "country": "United States",
     "phone": "+1-68464741",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 314,
     "price": [
-      195
+      52,
+      275.40000000000003,
+      596,
+      430
     ],
     "address_street": "83B Geylang Road",
     "address_city": "Boston"
@@ -7133,18 +6939,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Eunice",
+    "manager": 315,
     "price": [
-      518,
-      621,
-      612,
-      474,
-      610,
-      536
+      303,
+      460.35,
+      658,
+      1077.5
     ],
     "address_street": "407 Jalan Besar",
     "address_city": "Boston"
@@ -7159,16 +6961,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Matilde",
+    "manager": 316,
     "price": [
-      133,
-      399,
-      656,
-      68,
-      333
+      110,
+      388.8,
+      864,
+      1067.5
     ],
     "address_street": "22 Jalan Molek",
     "address_city": "Boston"
@@ -7183,22 +6983,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Vallie",
+    "manager": 317,
     "price": [
-      156,
-      368,
-      319,
-      284,
-      165,
-      109,
-      144,
-      368
+      384,
+      599.4000000000001,
+      610,
+      712.5
     ],
     "address_street": "No. 2 Dickson Road",
     "address_city": "Boston"
@@ -7213,14 +7005,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Minette",
+    "manager": 318,
     "price": [
-      248,
-      332,
-      215,
-      226
+      151,
+      364.5,
+      228,
+      1015
     ],
     "address_street": "28 Madras Street",
     "address_city": "Boston"
@@ -7234,17 +7026,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Kendra",
+    "manager": 319,
     "price": [
-      157,
-      198,
-      413,
-      90,
-      213
+      395,
+      120.15,
+      574,
+      110
     ],
     "address_street": "97 Still Road",
     "address_city": "Boston"
@@ -7259,16 +7049,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Perry",
+    "manager": 320,
     "price": [
-      490,
-      223,
-      135,
-      528,
-      572
+      336,
+      454.95000000000005,
+      844,
+      747.5
     ],
     "address_street": "15 Upper Weld Road",
     "address_city": "Boston"
@@ -7283,14 +7071,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Moll",
+    "manager": 321,
     "price": [
-      91,
-      558,
-      322,
-      399
+      293,
+      469.8,
+      402,
+      220
     ],
     "address_street": "2 Jalan Pinang",
     "address_city": "Boston"
@@ -7305,20 +7093,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Fleur",
+    "manager": 322,
     "price": [
-      376,
-      283,
-      604,
-      476,
-      183,
-      502,
-      351
+      219,
+      270,
+      690,
+      762.5
     ],
     "address_street": "12 Lorong 10 Geylang",
     "address_city": "Boston"
@@ -7329,9 +7111,19 @@
     "totCapacityms": 27,
     "country": "United States",
     "phone": "+1-68467888",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 323,
+    "price": [
+      246,
+      82.35000000000001,
+      816,
+      282.5
+    ],
     "address_street": "10 Lorong 10 Geylang",
     "address_city": "Boston"
   },
@@ -7345,18 +7137,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Max",
+    "manager": 324,
     "price": [
-      344,
-      458,
-      556,
-      273,
-      143,
-      91
+      388,
+      201.15,
+      878,
+      160
     ],
     "address_street": "7 Hongkong Street",
     "address_city": "Boston"
@@ -7370,15 +7158,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Lilas",
+    "manager": 325,
     "price": [
-      308,
-      143,
-      279,
-      262
+      76,
+      198.45000000000002,
+      136,
+      732.5
     ],
     "address_street": "115 Geylang Road",
     "address_city": "Boston"
@@ -7390,17 +7178,23 @@
     "country": "United States",
     "phone": "+1-67431163",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 326,
     "price": [
-      121
+      279,
+      391.5,
+      288,
+      835
     ],
     "address_street": "37A Lorong 8 Geylang",
     "address_city": "Boston"
   },
   {
-    "name": "ONEÂ°15 Marina Club",
+    "name": "ONEÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°15 Marina Club",
     "total_rooms": 26,
     "totCapacityms": 26,
     "country": "United States",
@@ -7409,24 +7203,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Anabelle",
+    "manager": 327,
     "price": [
-      84,
-      547,
-      296,
-      483,
-      716,
-      309,
-      316,
-      229,
-      664
+      366,
+      360.45000000000005,
+      514,
+      602.5
     ],
     "address_street": "11 Cove Drive #01-01 Sentosa Cove",
     "address_city": "Boston"
@@ -7437,9 +7221,19 @@
     "totCapacityms": 26,
     "country": "United States",
     "phone": "+1-63963317",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 328,
+    "price": [
+      219,
+      503.55,
+      586,
+      517.5
+    ],
     "address_street": "531 Serangoon Road",
     "address_city": "Boston"
   },
@@ -7451,18 +7245,16 @@
     "phone": "+1-62240660",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Katya",
+    "manager": 329,
     "price": [
-      199,
-      130,
-      364,
-      619,
-      474
+      300,
+      426.6,
+      444,
+      637.5
     ],
     "address_street": "69 Keong Saik Road",
     "address_city": "Boston"
@@ -7476,13 +7268,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 330,
     "price": [
-      345,
-      271,
-      405
+      386,
+      598.0500000000001,
+      830,
+      675
     ],
     "address_street": "65 Desker Road",
     "address_city": "Boston"
@@ -7497,14 +7291,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Aurora",
+    "manager": 331,
     "price": [
-      371,
-      438,
-      579,
-      388
+      359,
+      436.05,
+      368,
+      692.5
     ],
     "address_street": "1 Lorong 10 Geylang",
     "address_city": "Boston"
@@ -7519,16 +7313,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 332,
     "price": [
-      205,
-      505,
-      379,
-      651,
-      779
+      275,
+      324,
+      370,
+      1122.5
     ],
     "address_street": "40 Amber Road",
     "address_city": "Boston"
@@ -7543,18 +7335,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Maryjo",
+    "manager": 333,
     "price": [
-      496,
-      265,
-      610,
-      634,
-      220,
-      346
+      384,
+      153.9,
+      624,
+      632.5
     ],
     "address_street": "43 Dickson Road",
     "address_city": "Boston"
@@ -7569,20 +7357,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Jacklin",
+    "manager": 334,
     "price": [
-      361,
-      382,
-      542,
-      562,
-      577,
-      657,
-      488
+      344,
+      577.8000000000001,
+      280,
+      737.5
     ],
     "address_street": "15 South Buona Vista Road",
     "address_city": "Boston"
@@ -7597,16 +7379,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 335,
     "price": [
-      506,
-      213,
-      158,
-      235,
-      401
+      145,
+      521.1,
+      620,
+      422.5
     ],
     "address_street": "269 South Bridge Road (Level 3)",
     "address_city": "Boston"
@@ -7620,13 +7400,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 336,
     "price": [
-      546,
-      320,
-      433
+      349,
+      445.50000000000006,
+      598,
+      707.5
     ],
     "address_street": "68A Smith Street",
     "address_city": "Boston"
@@ -7639,16 +7421,16 @@
     "phone": "+1-63345644",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cristy",
+    "manager": 337,
     "price": [
-      190,
-      513,
-      574,
-      348
+      344,
+      356.40000000000003,
+      458,
+      1102.5
     ],
     "address_street": "11 Mackenzie Road",
     "address_city": "Boston"
@@ -7663,20 +7445,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Pietra",
+    "manager": 338,
     "price": [
-      66,
-      574,
-      520,
-      559,
-      106,
-      331,
-      412
+      296,
+      321.3,
+      772,
+      992.5
     ],
     "address_street": "285 Beach Road",
     "address_city": "Boston"
@@ -7688,11 +7464,17 @@
     "country": "United States",
     "phone": "+1-62956631",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Mela",
+    "manager": 339,
     "price": [
-      557
+      283,
+      222.75000000000003,
+      174,
+      1012.5
     ],
     "address_street": "9 Jalan Besar",
     "address_city": "Boston"
@@ -7707,16 +7489,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 340,
     "price": [
-      448,
-      376,
-      126,
-      285,
-      668
+      130,
+      481.95000000000005,
+      728,
+      917.5
     ],
     "address_street": "41 Lorong 16 Geylang",
     "address_city": "Boston"
@@ -7731,16 +7511,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Sunshine",
+    "manager": 341,
     "price": [
-      70,
       361,
-      245,
-      180,
-      327
+      147.15,
+      452,
+      887.5
     ],
     "address_street": "16 Carpenter Street",
     "address_city": "Boston"
@@ -7753,12 +7531,16 @@
     "phone": "+1-62955134",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Laurie",
+    "manager": 342,
     "price": [
-      488,
-      194
+      368,
+      337.5,
+      682,
+      625
     ],
     "address_street": "25A Perak Road #01-01",
     "address_city": "Boston"
@@ -7773,18 +7555,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Blisse",
+    "manager": 343,
     "price": [
-      549,
-      276,
-      363,
-      224,
-      605,
-      388
+      253,
+      522.45,
+      746,
+      355
     ],
     "address_street": "3 Jalan Kubor (1st Storey)",
     "address_city": "Boston"
@@ -7798,13 +7576,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Trescha",
+    "manager": 344,
     "price": [
-      82,
-      203,
-      460
+      163,
+      313.20000000000005,
+      242,
+      152.5
     ],
     "address_street": "20 Labrador Villa Road",
     "address_city": "Boston"
@@ -7819,18 +7599,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Maribelle",
+    "manager": 345,
     "price": [
-      140,
-      359,
-      301,
-      600,
-      656,
-      263
+      287,
+      573.75,
+      628,
+      487.5
     ],
     "address_street": "3 Veerasamy Road",
     "address_city": "Boston"
@@ -7845,16 +7621,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Romonda",
+    "manager": 346,
     "price": [
-      348,
-      118,
-      290,
-      493,
-      505
+      80,
+      573.75,
+      88,
+      322.5
     ],
     "address_street": "25 New Bridge Road",
     "address_city": "Boston"
@@ -7869,16 +7643,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Esta",
+    "manager": 347,
     "price": [
-      391,
-      282,
-      318,
-      337,
-      359
+      87,
+      234.9,
+      798,
+      112.5
     ],
     "address_street": "28 Ann Siang Road",
     "address_city": "Boston"
@@ -7895,12 +7667,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 348,
     "price": [
-      121,
-      237,
-      286,
-      524
+      254,
+      396.90000000000003,
+      678,
+      867.5
     ],
     "address_street": "63A Pagoda Street",
     "address_city": "Boston"
@@ -7913,16 +7685,16 @@
     "phone": "+1-68618000",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Rosa",
+    "manager": 349,
     "price": [
-      259,
-      115,
-      158,
-      608
+      427,
+      494.1,
+      894,
+      607.5
     ],
     "address_street": "10 Tuas West Drive",
     "address_city": "Boston"
@@ -7935,14 +7707,16 @@
     "phone": "+1-62504024",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Loralyn",
+    "manager": 350,
     "price": [
-      595,
-      593,
-      81
+      191,
+      413.1,
+      180,
+      332.5
     ],
     "address_street": "13 Purvis Street",
     "address_city": "Boston"
@@ -7957,18 +7731,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Dagmar",
+    "manager": 351,
     "price": [
-      242,
-      156,
-      223,
-      573,
-      558,
-      344
+      151,
+      283.5,
+      626,
+      365
     ],
     "address_street": "393F Upper Changi Road",
     "address_city": "Boston"
@@ -7982,13 +7752,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Anna",
+    "manager": 352,
     "price": [
-      119,
-      336,
-      561
+      427,
+      368.55,
+      362,
+      345
     ],
     "address_street": "549A Geylang Road",
     "address_city": "Boston"
@@ -8001,14 +7773,16 @@
     "phone": "+1-68424388",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cordelie",
+    "manager": 353,
     "price": [
-      590,
-      172,
-      501
+      352,
+      103.95,
+      866,
+      700
     ],
     "address_street": "1 Lorong 14 Geylang",
     "address_city": "Boston"
@@ -8022,13 +7796,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Fey",
+    "manager": 354,
     "price": [
-      442,
-      106,
-      94
+      148,
+      195.75,
+      756,
+      845
     ],
     "address_street": "3 Stanley Street",
     "address_city": "Boston"
@@ -8042,13 +7818,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Jackqueline",
+    "manager": 355,
     "price": [
-      483,
-      225,
-      592
+      298,
+      234.9,
+      788,
+      867.5
     ],
     "address_street": "15 Hoe Chiang Road",
     "address_city": "Boston"
@@ -8061,16 +7839,16 @@
     "phone": "+1-67447666",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Cristin",
+    "manager": 356,
     "price": [
-      314,
+      108,
+      360.45000000000005,
       162,
-      441,
-      546
+      915
     ],
     "address_street": "135 Geylang Road",
     "address_city": "Boston"
@@ -8085,18 +7863,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Julieta",
+    "manager": 357,
     "price": [
-      464,
-      208,
-      225,
-      116,
-      552,
-      462
+      371,
+      238.95000000000002,
+      660,
+      815
     ],
     "address_street": "211A South Bridge Road",
     "address_city": "Boston"
@@ -8111,16 +7885,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Julissa",
+    "manager": 358,
     "price": [
-      476,
-      81,
-      392,
-      193,
-      166
+      52,
+      380.70000000000005,
+      878,
+      580
     ],
     "address_street": "3 Jalan Pinang",
     "address_city": "Boston"
@@ -8137,12 +7909,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 359,
     "price": [
-      562,
-      131,
-      553,
-      414
+      256,
+      481.95000000000005,
+      564,
+      907.5
     ],
     "address_street": "16 Madras Street",
     "address_city": "Boston"
@@ -8156,13 +7928,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Margarethe",
+    "manager": 360,
     "price": [
-      411,
-      369,
-      159
+      143,
+      560.25,
+      454,
+      342.5
     ],
     "address_street": "15 Lorong 22 Geylang",
     "address_city": "Boston"
@@ -8177,14 +7951,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Isahella",
+    "manager": 361,
     "price": [
-      161,
-      463,
-      560,
-      417
+      214,
+      592.6500000000001,
+      808,
+      595
     ],
     "address_street": "11 Jalan Klapa",
     "address_city": "Boston"
@@ -8199,14 +7973,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Sibella",
+    "manager": 362,
     "price": [
-      465,
-      243,
-      131,
-      383
+      323,
+      226.8,
+      266,
+      205
     ],
     "address_street": "289 Beach Road #03-01",
     "address_city": "Boston"
@@ -8221,18 +7995,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Daryl",
+    "manager": 363,
     "price": [
-      498,
-      618,
-      319,
-      604,
-      504,
-      132
+      338,
+      471.15000000000003,
+      770,
+      370
     ],
     "address_street": "24 Dunlop Street",
     "address_city": "Boston"
@@ -8249,12 +8019,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 364,
     "price": [
-      514,
-      464,
-      577,
-      528
+      317,
+      587.25,
+      670,
+      495
     ],
     "address_street": "134 Jalan Besar",
     "address_city": "Boston"
@@ -8267,16 +8037,16 @@
     "phone": "+1-65320911",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Katy",
+    "manager": 365,
     "price": [
-      481,
-      502,
-      587,
-      495
+      358,
+      577.8000000000001,
+      608,
+      280
     ],
     "address_street": "38 Upper Cross Street #02-01",
     "address_city": "Boston"
@@ -8289,18 +8059,16 @@
     "phone": "+1-63388826",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Binny",
+    "manager": 366,
     "price": [
-      246,
-      198,
-      434,
-      128,
-      323
+      242,
+      461.70000000000005,
+      880,
+      1072.5
     ],
     "address_street": "490 North Bridge Road (Level 2)",
     "address_city": "Boston"
@@ -8311,9 +8079,19 @@
     "totCapacityms": 14,
     "country": "United States",
     "phone": "+1-62991314",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 367,
+    "price": [
+      102,
+      292.95000000000005,
+      620,
+      112.5
+    ],
     "address_street": "44 Rowell Road",
     "address_city": "Boston"
   },
@@ -8326,13 +8104,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Caro",
+    "manager": 368,
     "price": [
-      283,
-      233,
-      255
+      292,
+      390.15000000000003,
+      806,
+      915
     ],
     "address_street": "488 Geylang Road",
     "address_city": "Boston"
@@ -8347,16 +8127,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Lavinie",
+    "manager": 369,
     "price": [
-      512,
-      459,
-      490,
-      408,
-      412
+      79,
+      159.3,
+      626,
+      262.5
     ],
     "address_street": "290A Jalan Besar",
     "address_city": "Boston"
@@ -8371,18 +8149,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Odelinda",
+    "manager": 370,
     "price": [
-      570,
-      155,
-      153,
-      232,
-      385,
-      563
+      288,
+      602.1,
+      692,
+      940
     ],
     "address_street": "280A Lavender Street",
     "address_city": "Boston"
@@ -8399,12 +8173,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Blinny",
+    "manager": 371,
     "price": [
-      132,
-      128,
-      604,
-      396
+      216,
+      441.45000000000005,
+      332,
+      465
     ],
     "address_street": "357A Bedok Road",
     "address_city": "Boston"
@@ -8417,16 +8191,16 @@
     "phone": "+1-62979905",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Jada",
+    "manager": 372,
     "price": [
-      339,
-      122,
-      398,
-      330
+      290,
+      338.85,
+      870,
+      477.5
     ],
     "address_street": "153A Tyrwhitt Road",
     "address_city": "Boston"
@@ -8443,12 +8217,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Jilli",
+    "manager": 373,
     "price": [
-      67,
-      316,
-      543,
-      465
+      299,
+      402.3,
+      352,
+      835
     ],
     "address_street": "57 Lavender Street",
     "address_city": "Boston"
@@ -8465,12 +8239,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 374,
     "price": [
-      482,
-      388,
-      271,
-      589
+      242,
+      546.75,
+      90,
+      745
     ],
     "address_street": "259 Outram Road",
     "address_city": "Boston"
@@ -8487,12 +8261,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 375,
     "price": [
-      258,
-      127,
-      342,
-      173
+      300,
+      542.7,
+      300,
+      397.5
     ],
     "address_street": "18 Hongkong Street",
     "address_city": "Boston"
@@ -8505,12 +8279,16 @@
     "phone": "+1-65324990",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 376,
     "price": [
-      148,
-      97
+      177,
+      218.70000000000002,
+      586,
+      957.5
     ],
     "address_street": "38 Hongkong Street",
     "address_city": "Boston"
@@ -8527,12 +8305,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 377,
     "price": [
-      337,
-      615,
-      225,
-      294
+      362,
+      379.35,
+      354,
+      1115
     ],
     "address_street": "624 Serangoon Road",
     "address_city": "Boston"
@@ -8545,12 +8323,16 @@
     "phone": "+1-67441164",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 378,
     "price": [
-      396,
-      176
+      382,
+      213.3,
+      290,
+      480
     ],
     "address_street": "586A Geylang Road",
     "address_city": "Boston"
@@ -8561,9 +8343,19 @@
     "totCapacityms": 10,
     "country": "United States",
     "phone": "+1-63357559",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 379,
+    "price": [
+      204,
+      130.95000000000002,
+      830,
+      147.5
+    ],
     "address_street": "12A Upper Dickson Road",
     "address_city": "Boston"
   },
@@ -8576,19 +8368,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Drucill",
+    "manager": 380,
     "price": [
-      351,
-      413,
-      310,
-      431,
-      518,
-      291
+      182,
+      82.35000000000001,
+      850,
+      687.5
     ],
     "address_street": "50 Campbell Lane",
     "address_city": "Boston"
@@ -8601,12 +8389,16 @@
     "phone": "+1-62222940",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 381,
     "price": [
-      276,
-      124
+      133,
+      360.45000000000005,
+      198,
+      315
     ],
     "address_street": "8A Mosque Street",
     "address_city": "Boston"
@@ -8621,20 +8413,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Joane",
+    "manager": 382,
     "price": [
-      276,
       209,
-      445,
-      342,
-      487,
-      450,
-      315
+      410.40000000000003,
+      818,
+      452.5
     ],
     "address_street": "263 Lavender Street",
     "address_city": "Boston"
@@ -8649,20 +8435,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Elberta",
+    "manager": 383,
     "price": [
-      316,
-      329,
-      503,
-      184,
-      652,
-      61,
-      567
+      336,
+      322.65000000000003,
+      748,
+      830
     ],
     "address_street": "30A Penhas Road",
     "address_city": "Boston"
@@ -8679,12 +8459,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 384,
     "price": [
-      554,
-      566,
-      503,
-      476
+      424,
+      402.3,
+      628,
+      170
     ],
     "address_street": "429 Race Course Road",
     "address_city": "Boston"
@@ -8699,22 +8479,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux"
+      "Suite"
     ],
-    "manager": "Sally",
+    "manager": 385,
     "price": [
-      468,
-      181,
-      157,
-      665,
-      532,
-      564,
-      119,
-      441
+      345,
+      359.1,
+      188,
+      782.5
     ],
     "address_street": "52 Temple Street",
     "address_city": "Boston"
@@ -8726,11 +8498,17 @@
     "country": "United States",
     "phone": "+1-62224957",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Benetta",
+    "manager": 386,
     "price": [
-      372
+      251,
+      329.40000000000003,
+      848,
+      627.5
     ],
     "address_street": "18 Upper Cross Street",
     "address_city": "Boston"
@@ -8743,12 +8521,16 @@
     "phone": "+1-66832924",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Bessie",
+    "manager": 387,
     "price": [
-      594,
-      587
+      217,
+      54,
+      644,
+      190
     ],
     "address_street": "111J King George's Avenue",
     "address_city": "Boston"
@@ -8762,13 +8544,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Margot",
+    "manager": 388,
     "price": [
-      179,
-      193,
-      602
+      166,
+      338.85,
+      244,
+      1065
     ],
     "address_street": "111H King George's Avenue",
     "address_city": "Boston"
@@ -8783,16 +8567,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Cordey",
+    "manager": 389,
     "price": [
-      370,
-      564,
-      278,
-      554,
-      441
+      206,
+      133.65,
+      434,
+      440
     ],
     "address_street": "280 Lavender Street",
     "address_city": "Boston"
@@ -8806,15 +8588,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Marsiella",
+    "manager": 390,
     "price": [
-      299,
-      356,
-      147,
-      474
+      345,
+      550.8000000000001,
+      192,
+      475
     ],
     "address_street": "146 Jalan Bukit Merah #01-1088",
     "address_city": "Boston"
@@ -8827,16 +8609,16 @@
     "phone": "+1-62911696",
     "room_type": [
       "Twin",
-      "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Ashly",
+    "manager": 391,
     "price": [
-      350,
-      348,
-      458,
-      627
+      116,
+      560.25,
+      504,
+      720
     ],
     "address_street": "55 Bussorah Street",
     "address_city": "Boston"
@@ -8850,13 +8632,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Lorri",
+    "manager": 392,
     "price": [
-      345,
-      237,
-      611
+      435,
+      502.20000000000005,
+      412,
+      875
     ],
     "address_street": "76 Smith Street, Level 2",
     "address_city": "Boston"
@@ -8870,19 +8654,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin",
-      "Delux",
       "Super-Delux",
       "Suite"
     ],
-    "manager": "Charlean",
+    "manager": 393,
     "price": [
-      209,
-      224,
-      61,
-      134,
-      499,
-      337
+      325,
+      309.15000000000003,
+      564,
+      652.5
     ],
     "address_street": "6 Perak Road",
     "address_city": "Boston"
@@ -8897,16 +8677,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite"
+      "Suite"
     ],
-    "manager": "",
+    "manager": 394,
     "price": [
-      175,
-      271,
-      237,
-      212,
-      686
+      126,
+      81,
+      788,
+      717.5
     ],
     "address_street": "569 Serangoon Road",
     "address_city": "Boston"
@@ -8921,20 +8699,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Libbi",
+    "manager": 395,
     "price": [
-      348,
-      119,
-      282,
-      595,
-      451,
-      534,
-      275
+      351,
+      209.25,
+      828,
+      955
     ],
     "address_street": "67A Lorong 27 Geylang",
     "address_city": "Boston"
@@ -8949,16 +8721,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Gizela",
+    "manager": 396,
     "price": [
-      81,
-      84,
-      249,
-      300,
-      439
+      302,
+      481.95000000000005,
+      710,
+      792.5
     ],
     "address_street": "292 Lavender Street",
     "address_city": "Boston"
@@ -8973,16 +8743,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Sadye",
+    "manager": 397,
     "price": [
-      197,
-      265,
-      153,
-      444,
-      123
+      105,
+      522.45,
+      766,
+      702.5
     ],
     "address_street": "48 Arab Street",
     "address_city": "Boston"
@@ -8997,22 +8765,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Quinta",
+    "manager": 398,
     "price": [
-      522,
-      281,
-      551,
-      256,
-      361,
-      473,
-      442,
-      546
+      290,
+      109.35000000000001,
+      754,
+      445
     ],
     "address_street": "7A Hamilton Road",
     "address_city": "Boston"
@@ -9027,24 +8787,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Presidential Suite",
-      "Twin",
-      "Delux",
-      "Super-Delux",
       "Suite"
     ],
-    "manager": "Faina",
+    "manager": 399,
     "price": [
-      445,
-      182,
-      127,
-      439,
-      709,
-      241,
-      494,
-      597,
-      669
+      95,
+      284.85,
+      446,
+      835
     ],
     "address_street": "322 Lavender Street",
     "address_city": "Boston"
@@ -9056,11 +8806,17 @@
     "country": "United States",
     "phone": "+1-83523231",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Debbie",
+    "manager": 400,
     "price": [
-      226
+      94,
+      125.55000000000001,
+      320,
+      527.5
     ],
     "address_street": "5 Jalan Pinang",
     "address_city": "Boston"
@@ -9071,9 +8827,19 @@
     "toCapacityoms": 6,
     "country": "United States",
     "phone": "+1-62477340",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 401,
+    "price": [
+      307,
+      473.85,
+      154,
+      522.5
+    ],
     "address_street": "200 Joo Chiat Road",
     "address_city": "Boston"
   },
@@ -9084,11 +8850,17 @@
     "country": "United States",
     "phone": "+1-62211239",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 402,
     "price": [
-      499
+      126,
+      245.70000000000002,
+      440,
+      495
     ],
     "address_street": "30A Mosque Street",
     "address_city": "Boston"
@@ -9102,13 +8874,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Dore",
+    "manager": 403,
     "price": [
-      83,
-      620,
-      550
+      173,
+      454.95000000000005,
+      550,
+      202.5
     ],
     "address_street": "2 Tan Quee Lan Street, #02-00",
     "address_city": "Boston"
@@ -9122,13 +8896,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Super-Delux"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 404,
     "price": [
-      470,
-      434,
-      248
+      113,
+      203.85000000000002,
+      394,
+      562.5
     ],
     "address_street": "91A Owen Road",
     "address_city": "Boston"
@@ -9140,11 +8916,17 @@
     "country": "United States",
     "phone": "+1-62913774",
     "room_type": [
-      "Twin"
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 405,
     "price": [
-      65
+      139,
+      599.4000000000001,
+      332,
+      950
     ],
     "address_street": "257 Jalan Besar",
     "address_city": "Boston"
@@ -9159,18 +8941,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Kristan",
+    "manager": 406,
     "price": [
-      531,
-      572,
-      637,
-      538,
-      386,
-      243
+      287,
+      533.25,
+      418,
+      980
     ],
     "address_street": "33B Hong Kong Street",
     "address_city": "Boston"
@@ -9187,12 +8965,12 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": "",
+    "manager": 407,
     "price": [
-      336,
-      255,
-      517,
-      643
+      337,
+      139.05,
+      650,
+      252.5
     ],
     "address_street": "44 Cuff Road",
     "address_city": "Boston"
@@ -9206,13 +8984,15 @@
     "room_type": [
       "Twin",
       "Delux",
-      "Twin"
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Nanice",
+    "manager": 408,
     "price": [
-      559,
-      511,
-      466
+      118,
+      189,
+      232,
+      787.5
     ],
     "address_street": "77A Geylang Road",
     "address_city": "Boston"
@@ -9227,16 +9007,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Suite",
-      "Twin"
+      "Suite"
     ],
-    "manager": "Bernadene",
+    "manager": 409,
     "price": [
-      368,
-      534,
-      218,
-      404,
-      101
+      379,
+      546.75,
+      312,
+      827.5
     ],
     "address_street": "243 Jalan Besar",
     "address_city": "Boston"
@@ -9251,16 +9029,14 @@
       "Twin",
       "Delux",
       "Super-Delux",
-      "Twin",
-      "Delux"
+      "Suite"
     ],
-    "manager": "Sorcha",
+    "manager": 410,
     "price": [
-      95,
-      324,
-      459,
-      591,
-      324
+      294,
+      207.9,
+      726,
+      1122.5
     ],
     "address_street": "33C Hongkong Street",
     "address_city": "Boston"
@@ -9273,12 +9049,16 @@
     "phone": "+1-62912855",
     "room_type": [
       "Twin",
-      "Twin"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Goldarina",
+    "manager": 411,
     "price": [
-      178,
-      60
+      190,
+      433.35,
+      436,
+      112.5
     ],
     "address_street": "259A Jalan Besar",
     "address_city": "Boston"
@@ -9289,9 +9069,19 @@
     "toCapacityoms": 4,
     "country": "United States",
     "phone": "+1-81614711",
-    "room_type": [],
-    "manager": "",
-    "price": [],
+    "room_type": [
+      "Twin",
+      "Delux",
+      "Super-Delux",
+      "Suite"
+    ],
+    "manager": 412,
+    "price": [
+      427,
+      191.70000000000002,
+      270,
+      390
+    ],
     "address_street": "293 South Bridge Road",
     "address_city": "Boston"
   },
@@ -9303,12 +9093,16 @@
     "phone": "+1-67470230",
     "room_type": [
       "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "",
+    "manager": 413,
     "price": [
-      268,
-      227
+      138,
+      193.05,
+      888,
+      1100
     ],
     "address_street": "12A Lorong 1 Geylang",
     "address_city": "Boston"
@@ -9321,14 +9115,16 @@
     "phone": "+1-81139906",
     "room_type": [
       "Twin",
-      "Twin",
-      "Delux"
+      "Delux",
+      "Super-Delux",
+      "Suite"
     ],
-    "manager": "Tandy",
+    "manager": 414,
     "price": [
-      484,
-      265,
-      465
+      191,
+      287.55,
+      630,
+      257.5
     ],
     "address_street": "151 Tyrwhitt Road",
     "address_city": "Boston"

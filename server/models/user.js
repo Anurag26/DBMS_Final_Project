@@ -40,13 +40,7 @@ const userSchema = mongoose.Schema({
                                            type: String,
                                            enum:['User','Corporate-User','Admin','Vendor-Hotel','Vendor-Airline'],
                                        },
-
-                                       // type: {
-                                       //       type: Number,
-                                       //       required: false,
-                                       //       default:-1
-                                       //   },
-                                         accessPermission: {
+                                       accessPermission: {
                                              type: Number,
                                              default: 0
                                          }

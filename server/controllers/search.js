@@ -2,6 +2,19 @@ const elasticsearch = require('elasticsearch');
 const inputfile = require("../resources/flights.json");
 const hotelsinputfile = require("../resources/hotels.json");
 const airportsinputfile = require("../resources/airports.json");
+
+// const usersInputFile = require("../resources/User.json");
+// const usersModel = require("../models/user.js");
+//
+// usersModel.collection.insert(usersInputFile, onInsert);
+// function onInsert(err, docs) {
+//     if (err) {
+//         // TODO: handle error
+//     } else {
+//         console.info('%d potatoes were successfully stored.', docs.length);
+//     }
+// }
+
 const { log } = console
 
 var airports_bulk = [];
@@ -174,8 +187,9 @@ module.exports = {
                 })
 
                 return res.json({status: true, msg: 'Success! Flights, Hotels and Airport Indexes '
-                                                    + 'created with index: bookings,'
-                                                    + 'type: flights, hotels and airports !'})
+                                                    + 'created with index: flights_bookings,'
+                                                    + 'type: flights, index: hotels_bookings, hotels '
+                                                    + 'and index: airports_bookings , type: airports !'})
             } else {
                 res.status(500);
                 return res.json({status: false, msg: 'Elasticsearch cluster is down!'})

@@ -30,11 +30,9 @@ const hotelSchema = mongoose.Schema({
                                             default: []
                                         },
                                         manager: {
-                                      //      type:mongoose.Schema.Types.ObjectId,
-                                      //      ref: 'User',
-                                            type: String,
-                                            required: true,
-                                            maxLength: 40
+                                            type:mongoose.Schema.Types.ObjectId,
+                                            ref: 'User',
+                                            required: true
                                         },
                                         price: {
                                             type: Array,
