@@ -14,6 +14,10 @@ router.get('/:id', user_controller.user_details);
 
 router.get('/user/all/all',user_controller.user_all);
 
+router.put('/onboard/:email',user_controller.onboard);
+
+router.put('/offboard/:email',user_controller.offboard);
+
 router.get('/deleteCart/:id',user_controller.user_deleteCart);
 
 router.get('/email/:email', user_controller.user_details_email);

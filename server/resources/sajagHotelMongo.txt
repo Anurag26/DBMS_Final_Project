@@ -1,0 +1,1249 @@
+/* 1 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1765"),
+    "name" : "Marina Bay Sands",
+    "total_rooms" : 2561,
+    "totalCapacity" : 2561,
+    "country" : "United States",
+    "phone" : "+1-66888866",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        422,
+        345.6,
+        354,
+        1107.5
+    ],
+    "address_street" : "10 Bayfront Avenue",
+    "address_city" : "Boston"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1768"),
+    "name" : "Hotel Boss",
+    "total_rooms" : 1500,
+    "totalCapacity" : 1500,
+    "country" : "United States",
+    "phone" : "+168090000",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        331,
+        503.55,
+        400,
+        862.5
+    ],
+    "address_street" : "500 Jalan Sultan",
+    "address_city" : "Boston"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e176b"),
+    "name" : "Swissotel The Stamford",
+    "total_rooms" : 1261,
+    "totalCapacity" : 1261,
+    "country" : "United States",
+    "phone" : "+1-63388585",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        185,
+        268.65,
+        842,
+        412.5
+    ],
+    "address_street" : "2 Stamford Road",
+    "address_city" : "Boston"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e176e"),
+    "name" : "Mandarin Orchard Singapore",
+    "total_rooms" : 1077,
+    "totalCapacity" : 1077,
+    "country" : "United States",
+    "phone" : "+1-67374411",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        292,
+        162,
+        770,
+        837.5
+    ],
+    "address_street" : "333 Orchard Road",
+    "address_city" : "Boston"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1771"),
+    "name" : "Carlton Hotel Singapore",
+    "total_rooms" : 940,
+    "totaCapacitys" : 940,
+    "country" : "United States",
+    "phone" : "+1-63388333",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        150,
+        346.95,
+        892,
+        895
+    ],
+    "address_street" : "76 Bras Basah Road",
+    "address_city" : "Boston"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1774"),
+    "name" : "V Hotel Lavender",
+    "total_rooms" : 888,
+    "totaCapacitys" : 888,
+    "country" : "United States",
+    "phone" : "+1-63452233",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        368,
+        232.2,
+        536,
+        707.5
+    ],
+    "address_street" : "70 Jellicoe Road",
+    "address_city" : "Boston"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1777"),
+    "name" : "Shangri-La Hotel",
+    "total_rooms" : 792,
+    "totaCapacitys" : 792,
+    "country" : "United States",
+    "phone" : "+1-67373644",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        118,
+        361.8,
+        638,
+        1020
+    ],
+    "address_street" : "22 Orange Grove Road",
+    "address_city" : "Boston"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e177a"),
+    "name" : "Pan Pacific Singapore",
+    "total_rooms" : 790,
+    "totaCapacitys" : 790,
+    "country" : "United States",
+    "phone" : "+1-63368111",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        73,
+        245.7,
+        382,
+        965
+    ],
+    "address_street" : "7 Raffles Boulevard Marina Square",
+    "address_city" : "Boston"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e177d"),
+    "name" : "Fairmont Singapore",
+    "total_rooms" : 769,
+    "totaCapacitys" : 769,
+    "country" : "United States",
+    "phone" : "+1-63397777",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        450,
+        62.1,
+        188,
+        147.5
+    ],
+    "address_street" : "80 Bras Basah Road",
+    "address_city" : "Boston"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1780"),
+    "name" : "Grand Hyatt Singapore",
+    "total_rooms" : 677,
+    "totaCapacitys" : 677,
+    "country" : "United States",
+    "phone" : "+1-67381234",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        355,
+        380.7,
+        734,
+        560
+    ],
+    "address_street" : "10 Scotts Road",
+    "address_city" : "Boston"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1783"),
+    "name" : "Orchard Hotel Singapore",
+    "total_rooms" : 656,
+    "totaCapacitys" : 656,
+    "country" : "United States",
+    "phone" : "+1-67347766",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        291,
+        98.55,
+        194,
+        365
+    ],
+    "address_street" : "442 Orchard Road",
+    "address_city" : "Boston"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1786"),
+    "name" : "JW Marriott Hotel Singapore South Beach",
+    "total_rooms" : 634,
+    "totaCapacitys" : 634,
+    "country" : "United States",
+    "phone" : "+1-68181888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        165,
+        498.15,
+        162,
+        347.5
+    ],
+    "address_street" : "30 Beach Road",
+    "address_city" : "Boston"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1789"),
+    "name" : "Furama Riverfront Singapore",
+    "total_rooms" : 615,
+    "totaCapacitys" : 615,
+    "country" : "United States",
+    "phone" : "+1-63338898",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        437,
+        575.1,
+        186,
+        150
+    ],
+    "address_street" : "405 Havelock Road",
+    "address_city" : "Boston"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e178c"),
+    "name" : "YOTEL Singapore",
+    "total_rooms" : 610,
+    "totaCapacitys" : 610,
+    "country" : "United States",
+    "phone" : "+1-68668000",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        396,
+        476.55,
+        446,
+        785
+    ],
+    "address_street" : "366 Orchard Road",
+    "address_city" : "Boston"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e178f"),
+    "name" : "The Ritz-Carlton, Millenia Singapore",
+    "total_rooms" : 608,
+    "totaCapacitys" : 608,
+    "country" : "United States",
+    "phone" : "+1-63378888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        355,
+        225.45,
+        614,
+        965
+    ],
+    "address_street" : "7 Raffles Avenue",
+    "address_city" : "Boston"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1792"),
+    "name" : "Peninsula Excelsior Hotel",
+    "total_rooms" : 591,
+    "totaCapacitys" : 591,
+    "country" : "United States",
+    "phone" : "+1-63372200",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        252,
+        253.8,
+        596,
+        682.5
+    ],
+    "address_street" : "5 Coleman Street",
+    "address_city" : "Boston"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1795"),
+    "name" : "Grand Mercure Singapore Roxy",
+    "total_rooms" : 576,
+    "totaCapacitys" : 576,
+    "country" : "United States",
+    "phone" : "+1-63448000",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        357,
+        267.3,
+        310,
+        1085
+    ],
+    "address_street" : "50 East Coast Road Roxy Square",
+    "address_city" : "Boston"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e1798"),
+    "name" : "Marina Mandarin Singapore",
+    "total_rooms" : 575,
+    "totaCapacitys" : 575,
+    "country" : "United States",
+    "phone" : "+1-68451000",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        151,
+        569.7,
+        704,
+        697.5
+    ],
+    "address_street" : "6 Raffles Boulevard Marina Square",
+    "address_city" : "Boston"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e179b"),
+    "name" : "Grand Copthorne Waterfront Hotel Singapore",
+    "total_rooms" : 574,
+    "totaCapacitys" : 574,
+    "country" : "United States",
+    "phone" : "+1-67330880",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        357,
+        556.2,
+        512,
+        647.5
+    ],
+    "address_street" : "392 Havelock Road",
+    "address_city" : "Boston"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e179e"),
+    "name" : "Hotel Jen Tanglin Singapore",
+    "total_rooms" : 565,
+    "totaCapacitys" : 565,
+    "country" : "United States",
+    "phone" : "+1-67382222",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        113,
+        386.1,
+        776,
+        320
+    ],
+    "address_street" : "1A Cuscaden Road",
+    "address_city" : "Boston"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17a1"),
+    "name" : "Crowne Plaza Changi Airport",
+    "total_rooms" : 563,
+    "totaCapacitys" : 563,
+    "country" : "United States",
+    "phone" : "+1-68235300",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        394,
+        109.35,
+        888,
+        217.5
+    ],
+    "address_street" : "75 Airport Boulevard #01-01",
+    "address_city" : "Boston"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17a4"),
+    "name" : "Genting Hotel Jurong",
+    "total_rooms" : 557,
+    "totaCapacitys" : 557,
+    "country" : "United States",
+    "phone" : "+1-65778899",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        152,
+        378,
+        140,
+        160
+    ],
+    "address_street" : "2 Town Hall Link",
+    "address_city" : "Boston"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17a7"),
+    "name" : "ibis Singapore on Bencoolen",
+    "total_rooms" : 538,
+    "totaCapacitys" : 538,
+    "country" : "United States",
+    "phone" : "+1-65932888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        43,
+        602.1,
+        350,
+        422.5
+    ],
+    "address_street" : "170 Bencoolen Street",
+    "address_city" : "Boston"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17aa"),
+    "name" : "PARKROYAL on Kitchener Road",
+    "total_rooms" : 532,
+    "totaCapacitys" : 532,
+    "country" : "United States",
+    "phone" : "+1-64283000",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        166,
+        207.9,
+        324,
+        1125
+    ],
+    "address_street" : "181 Kitchener Road",
+    "address_city" : "Boston"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17ad"),
+    "name" : "Mandarin Oriental, Singapore",
+    "total_rooms" : 527,
+    "totaCapacitys" : 527,
+    "country" : "United States",
+    "phone" : "+1-63380066",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        138,
+        345.6,
+        586,
+        827.5
+    ],
+    "address_street" : "5 Raffles Avenue Marina Square",
+    "address_city" : "Boston"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17b0"),
+    "name" : "Mercure Singapore on Stevens",
+    "total_rooms" : 518,
+    "totaCapacitys" : 518,
+    "country" : "United States",
+    "phone" : "+1-64916100",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        201,
+        577.8,
+        448,
+        185
+    ],
+    "address_street" : "28 Stevens Road #01-02",
+    "address_city" : "Boston"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17b3"),
+    "name" : "Holiday Inn Singapore Atrium",
+    "total_rooms" : 518,
+    "totaCapacitys" : 518,
+    "country" : "United States",
+    "phone" : "+1-67330188",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        89,
+        230.85,
+        814,
+        907.5
+    ],
+    "address_street" : "317 Outram Road",
+    "address_city" : "Boston"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17b6"),
+    "name" : "Conrad Centennial Singapore",
+    "total_rooms" : 512,
+    "totaCapacitys" : 512,
+    "country" : "United States",
+    "phone" : "+1-63348888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        399,
+        545.4,
+        284,
+        787.5
+    ],
+    "address_street" : "2 Temasek Boulevard",
+    "address_city" : "Boston"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17b9"),
+    "name" : "Royal Plaza on Scotts",
+    "total_rooms" : 511,
+    "totaCapacitys" : 511,
+    "country" : "United States",
+    "phone" : "+1-67377966",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        429,
+        402.3,
+        576,
+        1060
+    ],
+    "address_street" : "25 Scotts Road",
+    "address_city" : "Boston"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17bc"),
+    "name" : "Hotel Jen Orchardgateway Singapore",
+    "total_rooms" : 499,
+    "totaCapacitys" : 499,
+    "country" : "United States",
+    "phone" : "+1-67088888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        206,
+        97.2,
+        406,
+        290
+    ],
+    "address_street" : "277 Orchard Road",
+    "address_city" : "Boston"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17bf"),
+    "name" : "Hotel Chancellor @ Orchard",
+    "total_rooms" : 488,
+    "totaCapacitys" : 488,
+    "country" : "United States",
+    "phone" : "+1-67088788",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        372,
+        604.8,
+        212,
+        890
+    ],
+    "address_street" : "No. 28 Cavenagh Road",
+    "address_city" : "Boston"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17c2"),
+    "name" : "Swissotel Merchant Court, Singapore",
+    "total_rooms" : 476,
+    "totaCapacitys" : 476,
+    "country" : "United States",
+    "phone" : "+1-63372288",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        393,
+        409.05,
+        484,
+        975
+    ],
+    "address_street" : "20 Merchant Road",
+    "address_city" : "Boston"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17c5"),
+    "name" : "Four Points by Sheraton Singapore, Riverview",
+    "total_rooms" : 476,
+    "totaCapacitys" : 476,
+    "country" : "United States",
+    "phone" : "+1-67329922",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        318,
+        503.55,
+        228,
+        1027.5
+    ],
+    "address_street" : "382 Havelock Road",
+    "address_city" : "Boston"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17c8"),
+    "name" : "Resorts World at Sentosa",
+    "total_rooms" : 464,
+    "totaCapacitys" : 464,
+    "country" : "United States",
+    "phone" : "+1-65778888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        216,
+        600.75,
+        706,
+        892.5
+    ],
+    "address_street" : "8 Sentosa Gateway, Sentosa Island",
+    "address_city" : "Boston"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17cb"),
+    "name" : "Hotel Michael - Resorts World Sentosa",
+    "total_rooms" : 464,
+    "totaCapacitys" : 464,
+    "country" : "United States",
+    "phone" : "+1-65778888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        145,
+        143.1,
+        480,
+        167.5
+    ],
+    "address_street" : "8 Sentosa Gateway",
+    "address_city" : "Boston"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17ce"),
+    "name" : "Shangri-La's Rasa Sentosa Resort & Spa, Singapore",
+    "total_rooms" : 454,
+    "totaCapacitys" : 454,
+    "country" : "United States",
+    "phone" : "+1-62750100",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        303,
+        237.6,
+        108,
+        1107.5
+    ],
+    "address_street" : "101 Siloso Road, Sentosa",
+    "address_city" : "Boston"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17d1"),
+    "name" : "Holiday Inn Express Singapore Katong",
+    "total_rooms" : 451,
+    "totaCapacitys" : 451,
+    "country" : "United States",
+    "phone" : "+1-67232001",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        287,
+        294.3,
+        276,
+        792.5
+    ],
+    "address_street" : "88 East Coast Road",
+    "address_city" : "Boston"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17d4"),
+    "name" : "Festive Hotel",
+    "total_rooms" : 447,
+    "totaCapacitys" : 447,
+    "country" : "United States",
+    "phone" : "+1-65778899",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        410,
+        352.35,
+        464,
+        905
+    ],
+    "address_street" : "8 Sentosa Gateway",
+    "address_city" : "Boston"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17d7"),
+    "name" : "Furama City Centre Singapore",
+    "total_rooms" : 445,
+    "totaCapacitys" : 445,
+    "country" : "United States",
+    "phone" : "+1-65333888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        268,
+        244.35,
+        122,
+        132.5
+    ],
+    "address_street" : "60 Eu Tong Sen Street",
+    "address_city" : "Boston"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17da"),
+    "name" : "Park Hotel Alexandra",
+    "total_rooms" : 442,
+    "totaCapacitys" : 442,
+    "country" : "United States",
+    "phone" : "+1-68288888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        330,
+        382.05,
+        114,
+        162.5
+    ],
+    "address_street" : "323 Alexandra Road",
+    "address_city" : "Boston"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17dd"),
+    "name" : "Holiday Inn Express Singapore Clarke Quay",
+    "total_rooms" : 442,
+    "totaCapacitys" : 442,
+    "country" : "United States",
+    "phone" : "+1-65898000",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        137,
+        176.85,
+        788,
+        612.5
+    ],
+    "address_street" : "2 Magazine Road",
+    "address_city" : "Boston"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17e0"),
+    "name" : "The Regent Singapore",
+    "total_rooms" : 440,
+    "totaCapacitys" : 440,
+    "country" : "United States",
+    "phone" : "+1-67338888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        243,
+        415.8,
+        122,
+        1005
+    ],
+    "address_street" : "1 Cuscaden Road",
+    "address_city" : "Boston"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17e3"),
+    "name" : "Oasia Hotel Novena, Singapore",
+    "total_rooms" : 428,
+    "totaCapacitys" : 428,
+    "country" : "United States",
+    "phone" : "+1-66640333",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        216,
+        463.05,
+        456,
+        1070
+    ],
+    "address_street" : "8 Sinaran Drive",
+    "address_city" : "Boston"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17e6"),
+    "name" : "Hilton Singapore",
+    "total_rooms" : 421,
+    "totaCapacitys" : 421,
+    "country" : "United States",
+    "phone" : "+1-67372233",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        213,
+        314.55,
+        216,
+        722.5
+    ],
+    "address_street" : "581 Orchard Road",
+    "address_city" : "Boston"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17e9"),
+    "name" : "Sheraton Towers Singapore",
+    "total_rooms" : 420,
+    "totaCapacitys" : 420,
+    "country" : "United States",
+    "phone" : "+1-67376888",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        432,
+        411.75,
+        648,
+        557.5
+    ],
+    "address_street" : "39 Scotts Road",
+    "address_city" : "Boston"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17ec"),
+    "name" : "Concorde Hotel Singapore",
+    "total_rooms" : 418,
+    "totaCapacitys" : 418,
+    "country" : "United States",
+    "phone" : "+1-67338855",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        285,
+        139.05,
+        162,
+        710
+    ],
+    "address_street" : "100 Orchard Road",
+    "address_city" : "Boston"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17ef"),
+    "name" : "M Hotel Singapore",
+    "total_rooms" : 415,
+    "totaCapacitys" : 415,
+    "country" : "United States",
+    "phone" : "+1-62241133",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        198,
+        333.45,
+        570,
+        157.5
+    ],
+    "address_street" : "81 Anson Road",
+    "address_city" : "Boston"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17f2"),
+    "name" : "York Hotel",
+    "total_rooms" : 407,
+    "totaCapacitys" : 407,
+    "country" : "United States",
+    "phone" : "+1-67370511",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        369,
+        199.8,
+        700,
+        927.5
+    ],
+    "address_street" : "21 Mount Elizabeth",
+    "address_city" : "Boston"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17f5"),
+    "name" : "Days Hotel by Wyndham Singapore At Zhongshan Park",
+    "total_rooms" : 405,
+    "totaCapacitys" : 405,
+    "country" : "United States",
+    "phone" : "+1-68086868",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        241,
+        531.9,
+        818,
+        530
+    ],
+    "address_street" : "1 Jalan Rajah",
+    "address_city" : "Boston"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("5dede41a1a27a1d99c8e17f8"),
+    "name" : "Novotel Singapore Clarke Quay",
+    "total_rooms" : 403,
+    "totaCapacitys" : 403,
+    "country" : "United States",
+    "phone" : "+1-63383333",
+    "room_type" : [
+        "Twin",
+        "Delux",
+        "Super-Delux",
+        "Suite"
+    ],
+    "manager" : "ObjectId(5dedda5f3224b17c28ec7841)",
+    "price" : [
+        438,
+        558.9,
+        860,
+        975
+    ],
+    "address_street" : "177A River Valley Road",
+    "address_city" : "Boston"
+}

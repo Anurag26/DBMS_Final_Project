@@ -30,12 +30,18 @@ exports.hotel_create = function (req, res, next) {
 };
 
 exports.hotel_details = function (req, res, next) {
-    Hotel.find({email : req.params.email}, function (err, hotel) {
-        if (err) {
-            return next(err);
-        }
-        res.send(hotel);
+    // Hotel.find({name : req.params.name}, function (err, hotel) {
+    //     if (err) {
+    //         return next(err);
+    //     }
+    //     res.send(hotel);
+    // })
+    Hotel.find({name: req.params.name}).populate('user').exec((err,user)=>{
+        if(err)
+            return res.json(err)
+        return res.json(user)
     })
+
 };
 
 exports.hotel_update = function (req, res, next) {
@@ -48,11 +54,16 @@ exports.hotel_update = function (req, res, next) {
 };
 
 exports.hotel_unit = function (req, res, next) {
-    Hotel.findById(req.params.id, function (err, hotel) {
-        if (err) {
-            return next(err);
-        }
-        res.send(hotel);
+    // Hotel.findById(req.params.id, function (err, hotel) {
+    //     if (err) {
+    //         return next(err);
+    //     }
+    //     res.send(hotel);
+    // })
+    Hotel.findById(req.params.id).populate('user').exec((err,hotel)=>{
+        if(err)
+            return res.json(err)
+        return res.json(hotel)
     })
 };
 
