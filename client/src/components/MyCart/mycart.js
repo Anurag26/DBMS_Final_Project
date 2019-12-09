@@ -8,6 +8,7 @@ class Mycart extends Component {
     state={
         loggedIn:false,
         userId:'',
+        userEmail:'',
         productName:'',
         productPrice:0,
         productId:'',
@@ -28,6 +29,7 @@ class Mycart extends Component {
                                               productId: res.data[0].cart[0].id,
                                               productName: res.data[0].cart[0].name,
                                               productPrice: res.data[0].cart[0].price,
+                                              userEmail: res.data[0].email,
                                 show:true
                                           })
                         }
@@ -46,7 +48,10 @@ class Mycart extends Component {
                 {
                     this.state.loggedIn ?
                         this.state.show?
-                    <CartBlock productName={this.state.productName} productPrice={this.state.productPrice} userId={this.state.userId} productId={this.state.productId} />
+                    <CartBlock productName={this.state.productName} productPrice={this.state.productPrice}
+                               userId={this.state.userId} productId={this.state.productId}
+                               userEmail={this.state.userEmail}
+                    />
                     :null
                     :
                     <div> Please log in first</div>

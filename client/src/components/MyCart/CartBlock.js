@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
-import {Card,Button} from 'react-bootstrap'
-import img1 from '../../images/hotelCard.jpg';
 import axios from 'axios';
+import {Card,Button} from 'react-bootstrap';
+import img1 from '../../images/hotelCard.jpg';
 
 class CartBlock extends Component {
 

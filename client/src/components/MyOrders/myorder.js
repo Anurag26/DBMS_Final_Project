@@ -7,9 +7,10 @@ class Myorder extends Component {
 
     state={
         loggedIn:false,
-        productName:'',
-        productPrice:0,
-        productId:'',
+        // productName:'',
+        // productPrice:0,
+        // productId:'',
+        history:[],
         show:false
     }
 
@@ -23,12 +24,14 @@ class Myorder extends Component {
                     .then(res => {
                         if(res.data[0].history.length!=0) {
                             this.setState({
-                                              productId: res.data[0].cart[0].id,
-                                              productName: res.data[0].cart[0].name,
-                                              productPrice: res.data[0].cart[0].price,
+                                              // productId: res.data[0].history[0].id,
+                                              // productName: res.data[0].history[0].name,
+                                              // productPrice: res.data[0].history[0].price,
+                                              history:res.data[0].history,
                                               show:true
                                           })
                         }
+
                     }).catch(err => {
                     console.log(err);
                 })
@@ -43,8 +46,8 @@ class Myorder extends Component {
                 {
                     this.state.loggedIn ?
                     this.state.show?
-                    <OrderBlock productName={this.state.productName} productPrice={this.state.productPrice} userId={this.state.userId} productId={this.state.productId} />
-                                   :null
+                    (<OrderBlock history={this.state.history} />)
+                        :null
                                         :
                     <div> Please log in first</div>
                 }

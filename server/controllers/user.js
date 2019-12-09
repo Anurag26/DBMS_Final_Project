@@ -78,7 +78,10 @@ exports.user_addOrder = function (req, res, next) {
                                   id:req.body.id,
                                   name:req.body.name,
                                   price:req.body.price
-                                  } }
+                                  } },
+                              $set:{
+                                  cart:[]
+                              }
                           },
                           function (err,doc){
                               if(err){
