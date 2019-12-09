@@ -124,7 +124,7 @@ exports.offboard = function (req, res, next) {
 };
 
     exports.user_addToCart = function (req, res, next) {
-        console.log(req.params.email)
+        console.log(req.params.email);
     User.findOneAndUpdate({email:req.params.email},
                           { $push:{ cart:{
                                       name: req.body.name,

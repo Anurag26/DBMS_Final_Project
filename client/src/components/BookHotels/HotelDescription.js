@@ -39,15 +39,15 @@ class HotelDescription extends Component {
             // })
             console.log(res)
             this.setState({
-                    _id:res.data._id,
-                    name:res.data.name,
-                    phone:res.data.phone,
-                    country:res.data.country,
-                    address_street:res.data.address_street,
-                    address_city:res.data.address_city,
-                    price: res.data.price[0],
-                    room_type: res.data.room_type[0],
-                    room_number: res.data.room_number
+                              _id:res.data._id,
+                              name:res.data.name,
+                              phone:res.data.phone,
+                              country:res.data.country,
+                              address_street:res.data.address_street,
+                              address_city:res.data.address_city,
+                              price: res.data.price[0],
+                              room_type: res.data.room_type[0],
+                              room_number: res.data.room_number
                           })
         }).catch(err=>{
             console.log(err)
@@ -72,7 +72,7 @@ class HotelDescription extends Component {
             }
             else{
                 this.setState({
-                    loginFirst:true
+                                  loginFirst:true
                               })
             }
         })

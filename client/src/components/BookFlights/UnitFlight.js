@@ -1,19 +1,66 @@
 import React, {Component} from 'react';
 import {Card,Button} from 'react-bootstrap';
 import axios from 'axios';
+import firebase from '../../Firebase/fireBase';
 
 class UnitFlight extends Component {
+    //
+    // state={
+    //     _id:'',
+    //     airline: '',
+    //     call_sign: '',
+    //     make_name: '',
+    //     origin_code: '',
+    //     origin_name: '',
+    //     origin_location: '',
+    //     destination_code: '',
+    //     destination_name: '',
+    //     destination_location: '',
+    //     capacity: 0,
+    //     dateTakeOff: '',
+    //     price: 0,
+    //     loginFirst:false
+    // }
+
+
+    //     handleBookFlight=()=>{
+    //     let dataToSubmit={
+    //         id:this.props._id
+    //     }
+    //     axios.post('http://localhost:3002/bookingsApp/users/addToCart/'+user.email,dataToSubmit).then(res=>{
+    //
+    //     }).catch(err=>{
+    //         console.log(err)
+    //     })
+    // }
+
 
     handleBookFlight=()=>{
+
         let dataToSubmit={
+            name: this.props.origin_location,
+            price: this.props.price,
             id:this.props._id
         }
-        axios.post('',dataToSubmit).then(res=>{
 
-        }).catch(err=>{
-            console.log(err)
+        firebase.auth().onAuthStateChanged(user=> {
+            if(user) {
+                axios.post('http://localhost:3002/bookingsApp/users/addToCart/' + user.email,
+                           dataToSubmit).then(res => {
+                    console.log('success')
+                }).catch(err => {
+                    console.log('cannot add to cart')
+                })
+            }
+            else{
+                this.setState({
+                                  loginFirst:true
+                              })
+            }
         })
     }
+
+
 
     render() {
         return (
