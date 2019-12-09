@@ -26,6 +26,8 @@ router.get('/email/:email', user_controller.user_details_email);
 
 router.post('/addToCart/:email', user_controller.user_addToCart);
 
+router.post('/addToCartFlight/:email', user_controller.user_addToCartFlights);
+
 router.put('/:email/update', user_controller.user_update);
 
 router.delete('/:email/delete', user_controller.user_delete);

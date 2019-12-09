@@ -38,14 +38,17 @@ class UnitFlight extends Component {
     handleBookFlight=()=>{
 
         let dataToSubmit={
-            name: this.props.origin_location,
-            price: this.props.price,
-            id:this.props._id
+            dateTakeOff: this.props._source.dateTakeOff,
+            origin_location: this.props._source.origin_location,
+            price: this.props._source.price,
+            destination_location: this.props._source.destination_location,
+            price: this.props._source.price,
+            id:this.props._source.id
         }
 
         firebase.auth().onAuthStateChanged(user=> {
             if(user) {
-                axios.post('http://localhost:3002/bookingsApp/users/addToCart/' + user.email,
+                axios.post('http://localhost:3002/bookingsApp/users/addToCartFlight/' + user.email,
                            dataToSubmit).then(res => {
                     console.log('success')
                 }).catch(err => {

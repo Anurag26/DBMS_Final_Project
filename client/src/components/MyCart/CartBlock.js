@@ -50,10 +50,11 @@ class CartBlock extends Component {
                     <Card.Img src={img1} style={{
                         width:'15rem'
                     }} />
+
                     <Card.Text> Name: {this.props.productName}  </Card.Text>
                     <Card.Text> Price: {this.props.productPrice}  </Card.Text>
-                        <Button onClick={this.handleDelete} > Delete </Button>
-                        <Button onClick={this.handlePayment} > Pay </Button>
+                     <Button onClick={this.handleDelete} > Delete </Button>
+                     <Button onClick={this.handlePayment} > Pay </Button>
                     </div>   :
                     null
                 }

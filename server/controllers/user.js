@@ -143,6 +143,28 @@ exports.offboard = function (req, res, next) {
                           )
 };
 
+exports.user_addToCartFlights = function (req, res, next) {
+    console.log(req.params.email);
+    User.findOneAndUpdate({email:req.params.email},
+                          { $push:{ cart:{
+                                      origin_location: req.body.origin_location,
+                                      origin_location: req.body.origin_location,
+                                      id: req.body.id,
+                                      price: req.body.price,
+                                      dateTakeOff : req.body.dateTakeOff,
+                                      date:Date.now()
+                                  }
+                              }
+                          },
+                          function (err,doc){
+                              if(err){
+                                  res.status(400).json(err)
+                              }
+                              res.status(200).json({successAddToCart: true})
+                          }
+    )
+};
+
 exports.user_update = function (req, res, next) {
     console.log(req.body.userName);
     User.findOneAndUpdate({email:req.params.email}, {$set: {userName: req.body.userName}}, function (err, user) {

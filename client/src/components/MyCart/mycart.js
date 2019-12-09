@@ -23,7 +23,7 @@ class Mycart extends Component {
                               })
                 axios.get('http://localhost:3002/bookingsApp/users/email/' + user.email)
                     .then(res => {
-                        console.log(res);
+                        console.log("This is in cart"+user.email);
                         if(res.data[0].cart.length!=0) {
                             this.setState({
                                               userId: res.data[0]._id,
