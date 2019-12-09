@@ -3,17 +3,14 @@ const inputfile = require("../resources/flights.json");
 const hotelsinputfile = require("../resources/hotels.json");
 const airportsinputfile = require("../resources/airports.json");
 
-const usersInputFile = require("../resources/User.json");
-const usersModel = require("../models/user.js");
+const flightsInputFile = require("../resources/flights.json");
+const flightsModel = require("../models/flight.js");
 
-usersModel.collection.insert(usersInputFile, onInsert);
-function onInsert(err, docs) {
-    if (err) {
-        log(`[ERROR] ${err}`)
-    } else {
-        console.info('%d potatoes were successfully stored.', docs.length);
-    }
-}
+const hotelsInputFile = require("../resources/hotels.json");
+const hotelsModel = require("../models/hotel.js");
+
+const airportsInputFile = require("../resources/airports.json");
+const airportsModel = require("../models/airports.js");
 
 const { log } = console
 
@@ -29,6 +26,8 @@ const elasticClient = new elasticsearch.Client( {
 elasticClient.cluster.health({},function(err,resp,status) {
     console.log("-- Client Health --",resp);
 });
+
+
 
 var makebulk = function(flightsDataList,callback){
     for (var current in flightsDataList){
@@ -196,6 +195,40 @@ module.exports = {
             }
         });
     },
+
+
+    // Insert data into Mongo
+     createMongoDataFromJSON: function(req, res) {
+
+        flightsModel.collection.insert(flightsInputFile, function (err, docs) {
+            if (err){
+                return console.error(err);
+            } else {
+                log(`[LOG] FLIGHTS inserted in mongoDB`)
+                console.log("Multiple documents inserted to Collection");
+            }
+        });
+
+         hotelsModel.collection.insert(hotelsInputFile, function (err, docs) {
+            if (err){
+                return console.error(err);
+            } else {
+                log(`[LOG] Hotels inserted in mongoDB`)
+            }
+        });
+
+         airportsModel.collection.insert(airportsInputFile, function (err, docs) {
+            if (err){
+                return console.error(err);
+            } else {
+                log(`[LOG] Airports inserted in mongoDB`)
+                res.status(200);
+                return res.json(docs);
+            }
+        });
+
+  },
+
 
  // Create index
   initIndex: function(req, res) {
