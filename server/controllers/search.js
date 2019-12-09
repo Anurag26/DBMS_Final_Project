@@ -3,17 +3,17 @@ const inputfile = require("../resources/flights.json");
 const hotelsinputfile = require("../resources/hotels.json");
 const airportsinputfile = require("../resources/airports.json");
 
-// const usersInputFile = require("../resources/User.json");
-// const usersModel = require("../models/user.js");
-//
-// usersModel.collection.insert(usersInputFile, onInsert);
-// function onInsert(err, docs) {
-//     if (err) {
-//         // TODO: handle error
-//     } else {
-//         console.info('%d potatoes were successfully stored.', docs.length);
-//     }
-// }
+const usersInputFile = require("../resources/User.json");
+const usersModel = require("../models/user.js");
+
+usersModel.collection.insert(usersInputFile, onInsert);
+function onInsert(err, docs) {
+    if (err) {
+        log(`[ERROR] ${err}`)
+    } else {
+        console.info('%d potatoes were successfully stored.', docs.length);
+    }
+}
 
 const { log } = console
 
