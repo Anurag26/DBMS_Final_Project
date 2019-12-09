@@ -315,6 +315,42 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Init all DB Data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}{{application}}/elastic/index/init/db",
+					"host": [
+						"{{host}}{{application}}"
+					],
+					"path": [
+						"elastic",
+						"index",
+						"init",
+						"db"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
