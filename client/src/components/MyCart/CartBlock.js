@@ -7,7 +7,7 @@ import axios from 'axios';
 class CartBlock extends Component {
 
     state={
-        show:this.props.price===null?false:true
+        show:this.props.productPrice===null?false:true
     }
 
     handleDelete=()=>{
@@ -19,6 +19,10 @@ class CartBlock extends Component {
         }).catch(err=>{
             console.log('delete failed')
         })
+    }
+
+    handlePayment=()=>{
+
     }
 
     render() {
@@ -33,9 +37,10 @@ class CartBlock extends Component {
                     <Card.Img src={img1} style={{
                         width:'15rem'
                     }} />
-                    <Card.Text> Name: {this.props.name}  </Card.Text>
-                    <Card.Text> Name: {this.props.price}  </Card.Text>
-                    <Button onClick={this.handleDelete} > Delete </Button>
+                    <Card.Text> Name: {this.props.productName}  </Card.Text>
+                    <Card.Text> Name: {this.props.productPrice}  </Card.Text>
+                        <Button onClick={this.handleDelete} > Delete </Button>
+                        <Button onClick={this.handlePayment} > Pay </Button>
                     </div>   :
                     null
                 }

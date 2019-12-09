@@ -107,6 +107,7 @@ exports.offboard = function (req, res, next) {
                           { $push:{ cart:{
                                       name: req.body.name,
                                       price: req.body.price,
+                                      id: req.body.id,
                                       date:Date.now()
                                   }
                               }
