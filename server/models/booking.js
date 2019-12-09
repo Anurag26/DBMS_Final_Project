@@ -2,22 +2,19 @@ const mongoose = require('mongoose');
 require('dotenv');
 
 const bookingSchema = mongoose.Schema({
-
-                                         user_Id: [{
+                                         user_id: {
                                              ref:'User',
-                                             type: mongoose.Types.ObjectId,
-                                             required: true,
-                                             trim: true
-                                         }],
-                                         vendor_Id: [{
-                                             type: mongoose.Types.ObjectId,
-                                             ref:'Vendor',
-                                             required: true,
-                                             minLength: 6
-                                         }],
-                                         booking_details: {
+                                             type: mongoose.Schema.Types.ObjectId,
+                                             required: true
+                                         },
+                                         vendor_id: {
+                                             ref:'User',
+                                             type: mongoose.Schema.Types.ObjectId,
+                                             required: true
+                                         },
+                                         product_id: {
                                              type: String,
-                                             required: true,
+                                             default: ''
                                          },
                                          date_of_booking: {
                                              type: Date,

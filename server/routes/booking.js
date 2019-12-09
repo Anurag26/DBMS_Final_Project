@@ -10,6 +10,8 @@ router.post('/create', order_controller.order_create);
 
 router.get('/:id', order_controller.order_details);
 
+// router.get('/allBookings', order_controller.order_all);
+
 router.put('/:id/update', order_controller.order_update);
 
 router.delete('/:id/delete', order_controller.order_delete);
