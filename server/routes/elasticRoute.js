@@ -13,6 +13,8 @@ router.get('/ping', ELASTICSEARCH_Service.pingService);
 
 router.post('/index/init/all', ELASTICSEARCH_Service.createIndexesFromJSON);
 
+router.post('/index/init/db', ELASTICSEARCH_Service.createMongoDataFromJSON);
+
 router.post('/index/init', ELASTICSEARCH_Service.initIndex);
 
 router.post('/index/check', ELASTICSEARCH_Service.indexExists);

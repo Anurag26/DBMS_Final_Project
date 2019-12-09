@@ -25,12 +25,12 @@ const flightSchema = mongoose.Schema({
                                          origin_name: {
                                              type: String,
                                              required: true,
-                                             maxlength: 30
+                                             maxlength: 300
                                          },
                                          origin_location: {
                                              type: String,
                                              required: true,
-                                             maxlength: 30
+                                             maxlength: 300
                                          },
                                          destination_code: {
                                              type: String,
@@ -40,12 +40,12 @@ const flightSchema = mongoose.Schema({
                                          destination_name: {
                                              type: String,
                                              required: true,
-                                             maxlength: 30
+                                             maxlength: 100
                                          },
                                          destination_location: {
                                              type: String,
                                              required: true,
-                                             maxlength: 30
+                                             maxlength: 300
                                          },
                                          dateTakeOff: {
                                              type: Date,

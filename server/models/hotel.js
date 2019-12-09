@@ -5,7 +5,7 @@ const hotelSchema = mongoose.Schema({
                                         name:{
                                             type:String,
                                             required:true,
-                                            maxLength: 100
+                                            maxLength: 200
                                         },
                                         total_rooms: {
                                             type: Number,
