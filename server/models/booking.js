@@ -3,18 +3,18 @@ require('dotenv');
 
 const bookingSchema = mongoose.Schema({
 
-                                         user_Id: {
-                                             ref:'User'
-                                             type: mongoose.Schema.Types.ObjectId,
+                                         user_Id: [{
+                                             ref:'User',
+                                             type: mongoose.Types.ObjectId,
                                              required: true,
                                              trim: true
-                                         },
-                                         vendor_Id: {
-                                             ref:'Vendor'
-                                             type: mongoose.Schema.Types.ObjectId,
+                                         }],
+                                         vendor_Id: [{
+                                             type: mongoose.Types.ObjectId,
+                                             ref:'Vendor',
                                              required: true,
                                              minLength: 6
-                                         },
+                                         }],
                                          booking_details: {
                                              type: String,
                                              required: true,

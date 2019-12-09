@@ -8,6 +8,7 @@ exports.test = function (req, res) {
 exports.feedback_create = function (req, res, next) {
     var feedback = new Feedback(
         {
+            email: req.body.email,
             comment: req.body.comment,
             order: req.body.order
         }

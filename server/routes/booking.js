@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var order_controller = require('../controllers/order');
+var order_controller = require('../controllers/booking');
 
 // a simple test url to check that all of our files are communicating correctly.
 router.get('/test', order_controller.test);

@@ -9,12 +9,15 @@ exports.hotel_create = function (req, res, next) {
     var hotel = new Hotel(
         {
             name:req.body.name,
-            description:req.body.description,
-            hotel_location:req.body.hotel_location,
-            vendor:req.body.vendor,
+            total_rooms:req.body.total_rooms,
+            totalCapacity:req.body.totalCapacity,
+            country:req.body.country,
+            phone:req.body.phone,
+            room_type:req.body.room_type,
+            manager:req.body.manager,
             price:req.body.price,
-            room_number:req.body.room_number,
-            room_type:req.body.room_type
+            address_street:req.body.address_street,
+            address_city:req.body.address_city
         }
     );
 
