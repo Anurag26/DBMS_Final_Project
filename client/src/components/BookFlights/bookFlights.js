@@ -8,6 +8,7 @@ class BookFlights extends Component {
     state={
         from:'',
         to:'',
+        dateOfFlight:'',
         flights:[],
         search:false
     }
@@ -37,6 +38,11 @@ class BookFlights extends Component {
                             {
                                 "match": {
                                     "destination_location": this.state.to
+                                }
+                            },
+                            {
+                                "match": {
+                                    "dateTakeOff": this.state.dateOfFlight
                                 }
                             }
                         ]
@@ -72,6 +78,15 @@ class BookFlights extends Component {
                        onChange={e => this.handleChange(e)}
                        value={this.state.to}
                        required/>
+
+                <input name="dateOfFlight"
+                       type="text" id="dateOfFlight"
+                       style={{width:'15rem',float:'left'}}
+                       className="form-control" placeholder="Date: YYYY-MM-DD"
+                       onChange={e => this.handleChange(e)}
+                       value={this.state.dateOfFlight}
+                       required/>
+
                 <Button variant="primary" onClick={this.handleSearchButton}>Search</Button>
 
                 {

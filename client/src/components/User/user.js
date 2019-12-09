@@ -135,11 +135,13 @@ class User extends Component {
                             null
                         }
                     </Card>
+
                   :
                   <div>
                     Please Log in first
                   </div>
                 }
+                <div style={{float:'right'}}></div>
             </div>
         );
     }

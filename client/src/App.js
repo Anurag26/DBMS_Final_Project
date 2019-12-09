@@ -16,6 +16,7 @@ import AddHotel from './components/AddHotel/addHotel';
 import HotelDescription from './components/BookHotels/HotelDescription';
 import MyCart from './components/MyCart/mycart';
 import ManageUsers from './components/Admin/manageUsers';
+import MyOrders from './components/MyOrders/myorder';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/hotelAdd" component={AddHotel} />
             <Route path="/loginRegister" component={LoginRegisterHome} />
+            <Route path="/myorders" component={MyOrders} />
             <Route path="/hotels" component={Hotels} />
             <Route path="/usersCrud" component={ManageUsers} />
             <Route path="/flights" component={Flights} />

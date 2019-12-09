@@ -41,6 +41,7 @@ class NavbarClass extends Component {
                 <NavDropdown.Item href="/hotels">Hotels</NavDropdown.Item>
                 <NavDropdown.Item href="/flights">Flights</NavDropdown.Item>
                     <NavDropdown.Item href="/mycart">My Cart</NavDropdown.Item>
+                    <NavDropdown.Item href="/myorders">My Orders</NavDropdown.Item>
                 </div>
                 :
                 null

@@ -47,6 +47,10 @@ const hotelSchema = mongoose.Schema({
                                             type: String,
                                             required: true,
                                             trim: true
+                                        },
+                                        managerId: {
+                                            type: String,
+                                            required: true
                                         }
                                     });
 

@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
-import {Card,Button} from 'react-bootstrap'
-import UnitCartBlock from './unitCartBlock'
-import img1 from '../../images/hotelCard.jpg';
 import axios from 'axios';
+import {Card,Button} from 'react-bootstrap';
+import img1 from '../../images/hotelCard.jpg';
 
 class CartBlock extends Component {
 
     state={
-        show:this.props.productPrice===null?false:true
+        show:this.props.productPrice===null?false:true,
+        paymentDone:false
     }
 
     handleDelete=()=>{
@@ -22,7 +22,20 @@ class CartBlock extends Component {
     }
 
     handlePayment=()=>{
+        let dataToSubmit={
+            id: this.props.productId,
+            name:this.props.productName,
+            price:this.props.productPrice
+        }
 
+        axios.put('http://localhost:3002/bookingsApp/users/addToOrder/'+this.props.userId,dataToSubmit).then(res=>{
+            this.setState({
+                paymentDone:true,
+                show:false
+                          })
+        }).catch(err=>{
+            console.log(err)
+        })
     }
 
     render() {
@@ -38,10 +51,18 @@ class CartBlock extends Component {
                         width:'15rem'
                     }} />
                     <Card.Text> Name: {this.props.productName}  </Card.Text>
-                    <Card.Text> Name: {this.props.productPrice}  </Card.Text>
+                    <Card.Text> Price: {this.props.productPrice}  </Card.Text>
                         <Button onClick={this.handleDelete} > Delete </Button>
                         <Button onClick={this.handlePayment} > Pay </Button>
                     </div>   :
+                    null
+                }
+                {
+                    this.state.paymentDone?
+                    <div>
+                        Thankyou for the payment
+                    </div>
+                    :
                     null
                 }
             </Card.Body>
