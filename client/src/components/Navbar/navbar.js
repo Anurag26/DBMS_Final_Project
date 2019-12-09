@@ -11,7 +11,7 @@ import userIcon from '../../images/user1.png';
 class NavbarClass extends Component {
 
     state={
-        role:0
+        role:'User'
     }
 
     componentWillMount() {
@@ -36,7 +36,7 @@ class NavbarClass extends Component {
         <NavDropdown title="Options" id="basic-nav-dropdown">
             <NavDropdown.Item href="/loginRegister">Login/Register</NavDropdown.Item>
             {
-                this.state.role===0?
+                this.state.role==='User'?
                 <div>
                 <NavDropdown.Item href="/hotels">Hotels</NavDropdown.Item>
                 <NavDropdown.Item href="/flights">Flights</NavDropdown.Item>
@@ -46,13 +46,13 @@ class NavbarClass extends Component {
                 null
             }
             {
-                this.state.role===2?
+                this.state.role==='Vendor-Hotel'?
                 <NavDropdown.Item href="/hotelAdd">Add Hotel</NavDropdown.Item>
                 :
                 null
             }
             {
-                this.state.role===3?
+                this.state.role==='Admin'?
                 <NavDropdown.Item href="/usersCrud">Manage Users</NavDropdown.Item> :
                 null
             }

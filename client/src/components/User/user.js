@@ -10,6 +10,8 @@ class User extends Component {
         exist:false,
         userName:'',
         email:'',
+        firstName:'',
+        lastName:'',
         update:false,
         updateUserName:'',
         deleteError:false
@@ -76,6 +78,8 @@ class User extends Component {
         firebase.auth().onAuthStateChanged(user=>{
            axios.get('http://localhost:3002/bookingsApp/users/email/'+user.email).then(res=> {
                this.setState({
+                                 firstName: res.data[0].firstName,
+                                 lastName: res.data[0].lastName,
                                  userName: res.data[0].userName,
                                  email: res.data[0].email,
                                  exist: true
@@ -94,9 +98,9 @@ class User extends Component {
                     <Card style={{width: '18rem'}}>
                         <Card.Img variant="top" src={img1} />
                         <Card.Body>
-                            <Card.Title>Hi {this.state.userName}</Card.Title>
+                            <Card.Title>Hi {this.state.firstName} {this.state.lastName}</Card.Title>
                             <Card.Text>
-                                Please take a look at your account info
+                                username: {this.state.userName}
                             </Card.Text>
                         </Card.Body>
                         <ListGroup className="list-group-flush">

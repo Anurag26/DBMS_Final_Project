@@ -11,6 +11,8 @@ class LoginRegister extends Component {
         registerEmail:'',
         registerPassword:'',
         registerUserName:'',
+        registerFirstName:'',
+        registerLastName:'',
         signInEmail:'',
         signInPassword:'',
         signInClicked:true,
@@ -42,7 +44,9 @@ class LoginRegister extends Component {
             "email":this.state.registerEmail,
             "password":this.state.registerPassword,
             "userName":this.state.registerUserName,
-            "role":this.state.checkbox?this.state.checkboxType?'Vendor-Airline':'Vendor-Hotel':'User',
+            "firstName":this.state.registerFirstName,
+            "lastName":this.state.registerLastName,
+            "role":this.state.checkbox?(this.state.checkboxType?'Vendor-Airline':'Vendor-Hotel'):'User',
             "type":type
         };
         firebase.auth().createUserWithEmailAndPassword(this.state.registerEmail,this.state.registerPassword).then(
@@ -54,6 +58,8 @@ class LoginRegister extends Component {
                                           registerEmail: '',
                                           registerPassword: '',
                                           registerUserName: '',
+                                          registerFirstName:'',
+                                          registerLastName:'',
                                           checkbox:false,
                                           checkboxType:false
                                       })
@@ -175,6 +181,27 @@ class LoginRegister extends Component {
                                                     required />
 
                                          </div>
+
+                                         <div className="form-label-group">
+                                             <input name="registerFirstName" type="email" id="registerFirstName"
+                                                    className="form-control"
+                                                    placeholder="First Name"
+                                                    value={this.state.registerFirstName}
+                                                    onChange={e => this.handleChange(e)}
+                                                    required autoFocus/>
+
+                                         </div>
+
+                                         <div className="form-label-group">
+                                             <input name="registerLastName" type="email" id="registerLastName"
+                                                    className="form-control"
+                                                    placeholder="Last Name"
+                                                    value={this.state.registerLastName}
+                                                    onChange={e => this.handleChange(e)}
+                                                    required autoFocus/>
+
+                                         </div>
+
                                          <div className="form-check">
                                              <label className="form-check-label">
                                                  <input id="check" name="checkbox" type="checkbox" className="form-check-input"

@@ -12,6 +12,8 @@ exports.user_create = function (req, res, next) {
             email: req.body.email,
             password: req.body.password,
             userName:req.body.userName,
+            firstName:req.body.firstName,
+            lastName:req.body.lastName,
             cart: req.body.cart,
             history: req.body.history,
             role: req.body.role,
