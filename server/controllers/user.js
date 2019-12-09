@@ -71,6 +71,25 @@ exports.user_deleteCart = function (req, res, next) {
 
 };
 
+exports.user_addOrder = function (req, res, next) {
+    User.findOneAndUpdate({_id:req.params.id},
+                          {
+                              $push:{ history:{
+                                  id:req.body.id,
+                                  name:req.body.name,
+                                  price:req.body.price
+                                  } }
+                          },
+                          function (err,doc){
+                              if(err){
+                                  res.status(400).json(err)
+                              }
+                              res.status(200).json({successDeleteFromCart: true})
+                          }
+    )
+
+};
+
 exports.onboard = function (req, res, next) {
     User.findOneAndUpdate({email:req.params.email},
                           {

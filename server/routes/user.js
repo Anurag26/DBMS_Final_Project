@@ -14,6 +14,8 @@ router.get('/:id', user_controller.user_details);
 
 router.get('/user/all/all',user_controller.user_all);
 
+router.put('/addToOrder/:id',user_controller.user_addOrder);
+
 router.put('/onboard/:email',user_controller.onboard);
 
 router.put('/offboard/:email',user_controller.offboard);
