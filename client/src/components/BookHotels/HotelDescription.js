@@ -58,7 +58,7 @@ class HotelDescription extends Component {
         let dataToSubmit={
             name: this.state.name,
             price: this.state.price,
-            _id:this.state._id
+            id:this.state._id
         }
 
         firebase.auth().onAuthStateChanged(user=> {

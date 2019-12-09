@@ -10,6 +10,7 @@ class Mycart extends Component {
         userId:'',
         productName:'',
         productPrice:0,
+        productId:'',
         show:false
     }
 
@@ -24,18 +25,11 @@ class Mycart extends Component {
                         if(res.data[0].cart.length!=0) {
                             this.setState({
                                               userId: res.data[0]._id,
-                                              productId: res.data[0].cart[0].id
+                                              productId: res.data[0].cart[0].id,
+                                              productName: res.data[0].cart[0].name,
+                                              productPrice: res.data[0].cart[0].price,
+                                show:true
                                           })
-                            // axios.get('http://localhost:3002/bookingsApp/hotels/id/'
-                            //           + this.state.productId).then(res => {
-                            //     this.setState({
-                            //                       show:true,
-                            //                       productName: res.data.name,
-                            //                       productPrice: res.data.price
-                            //                   })
-                            // }).catch(err => {
-                            //
-                            // })
                         }
                     }).catch(err => {
                     console.log(err);
@@ -52,7 +46,7 @@ class Mycart extends Component {
                 {
                     this.state.loggedIn ?
                         this.state.show?
-                    <CartBlock productName={this.state.productName} price={this.state.productPrice} userId={this.state.userId} />
+                    <CartBlock productName={this.state.productName} productPrice={this.state.productPrice} userId={this.state.userId} productId={this.state.productId} />
                     :null
                     :
                     <div> Please log in first</div>
