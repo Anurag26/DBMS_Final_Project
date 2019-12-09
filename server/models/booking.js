@@ -12,9 +12,9 @@ const bookingSchema = mongoose.Schema({
                                              type: mongoose.Schema.Types.ObjectId,
                                              required: true
                                          },
-                                         product: {
-                                             type: Array,
-                                             default: []
+                                         product_id: {
+                                             type: String,
+                                             default: ''
                                          },
                                          date_of_booking: {
                                              type: Date,
