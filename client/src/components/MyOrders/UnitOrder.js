@@ -13,7 +13,7 @@ class UnitOrder extends Component {
                         }} />
                         <Card.Text> Product Id: {this.props.productId}  </Card.Text>
                         <Card.Text> Name: {this.props.productName}  </Card.Text>
-                        <Card.Text> Price: {this.props.productPrice}  </Card.Text>
+                        <Card.Text> Price: ${this.props.productPrice}  </Card.Text>
                     </div>
                 </Card.Body>
             </div>
