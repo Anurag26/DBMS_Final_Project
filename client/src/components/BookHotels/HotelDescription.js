@@ -16,6 +16,7 @@ class HotelDescription extends Component {
         price:0,
         room_number:0,
         room_type:'',
+        manager:'',
         loginFirst:false
     }
 
@@ -47,18 +48,21 @@ class HotelDescription extends Component {
                     address_city:res.data.address_city,
                     price: res.data.price[0],
                     room_type: res.data.room_type[0],
-                    room_number: res.data.room_number
+                    room_number: res.data.room_number,
+                    manager: res.data.manager
                           })
         }).catch(err=>{
             console.log(err)
         })
     }
 
+
     handleItemToCart=()=>{
         let dataToSubmit={
             name: this.state.name,
             price: this.state.price,
-            id:this.state._id
+            id:this.state._id,
+            manager:this.state.manager
         }
 
         firebase.auth().onAuthStateChanged(user=> {

@@ -90,7 +90,7 @@
   {
     "name": "Carlton Hotel Singapore",
     "total_rooms": 940,
-    "totaCapacitys": 940,
+    "totalCapacity": 940,
     "country": "United States",
     "phone": "+1-63388333",
     "room_type": [
@@ -112,7 +112,7 @@
   {
     "name": "V Hotel Lavender",
     "total_rooms": 888,
-    "totaCapacitys": 888,
+    "totalCapacity": 888,
     "country": "United States",
     "phone": "+1-63452233",
     "room_type": [
@@ -134,7 +134,7 @@
   {
     "name": "Shangri-La Hotel",
     "total_rooms": 792,
-    "totaCapacitys": 792,
+    "totalCapacity": 792,
     "country": "United States",
     "phone": "+1-67373644",
     "room_type": [
@@ -156,7 +156,7 @@
   {
     "name": "Pan Pacific Singapore",
     "total_rooms": 790,
-    "totaCapacitys": 790,
+    "totalCapacity": 790,
     "country": "United States",
     "phone": "+1-63368111",
     "room_type": [
@@ -178,7 +178,7 @@
   {
     "name": "Fairmont Singapore",
     "total_rooms": 769,
-    "totaCapacitys": 769,
+    "totalCapacity": 769,
     "country": "United States",
     "phone": "+1-63397777",
     "room_type": [
@@ -200,7 +200,7 @@
   {
     "name": "Grand Hyatt Singapore",
     "total_rooms": 677,
-    "totaCapacitys": 677,
+    "totalCapacity": 677,
     "country": "United States",
     "phone": "+1-67381234",
     "room_type": [
@@ -222,7 +222,7 @@
   {
     "name": "Orchard Hotel Singapore",
     "total_rooms": 656,
-    "totaCapacitys": 656,
+    "totalCapacity": 656,
     "country": "United States",
     "phone": "+1-67347766",
     "room_type": [
@@ -244,7 +244,7 @@
   {
     "name": "JW Marriott Hotel Singapore South Beach",
     "total_rooms": 634,
-    "totaCapacitys": 634,
+    "totalCapacity": 634,
     "country": "United States",
     "phone": "+1-68181888",
     "room_type": [
@@ -266,7 +266,7 @@
   {
     "name": "Furama Riverfront Singapore",
     "total_rooms": 615,
-    "totaCapacitys": 615,
+    "totalCapacity": 615,
     "country": "United States",
     "phone": "+1-63338898",
     "room_type": [
@@ -288,7 +288,7 @@
   {
     "name": "YOTEL Singapore",
     "total_rooms": 610,
-    "totaCapacitys": 610,
+    "totalCapacity": 610,
     "country": "United States",
     "phone": "+1-68668000",
     "room_type": [
@@ -310,7 +310,7 @@
   {
     "name": "The Ritz-Carlton, Millenia Singapore",
     "total_rooms": 608,
-    "totaCapacitys": 608,
+    "totalCapacity": 608,
     "country": "United States",
     "phone": "+1-63378888",
     "room_type": [
@@ -332,7 +332,7 @@
   {
     "name": "Peninsula Excelsior Hotel",
     "total_rooms": 591,
-    "totaCapacitys": 591,
+    "totalCapacity": 591,
     "country": "United States",
     "phone": "+1-63372200",
     "room_type": [
@@ -354,7 +354,7 @@
   {
     "name": "Grand Mercure Singapore Roxy",
     "total_rooms": 576,
-    "totaCapacitys": 576,
+    "totalCapacity": 576,
     "country": "United States",
     "phone": "+1-63448000",
     "room_type": [
@@ -376,7 +376,7 @@
   {
     "name": "Marina Mandarin Singapore",
     "total_rooms": 575,
-    "totaCapacitys": 575,
+    "totalCapacity": 575,
     "country": "United States",
     "phone": "+1-68451000",
     "room_type": [
@@ -398,7 +398,7 @@
   {
     "name": "Grand Copthorne Waterfront Hotel Singapore",
     "total_rooms": 574,
-    "totaCapacitys": 574,
+    "totalCapacity": 574,
     "country": "United States",
     "phone": "+1-67330880",
     "room_type": [
@@ -420,7 +420,7 @@
   {
     "name": "Hotel Jen Tanglin Singapore",
     "total_rooms": 565,
-    "totaCapacitys": 565,
+    "totalCapacity": 565,
     "country": "United States",
     "phone": "+1-67382222",
     "room_type": [
@@ -442,7 +442,7 @@
   {
     "name": "Crowne Plaza Changi Airport",
     "total_rooms": 563,
-    "totaCapacitys": 563,
+    "totalCapacity": 563,
     "country": "United States",
     "phone": "+1-68235300",
     "room_type": [
@@ -464,7 +464,7 @@
   {
     "name": "Genting Hotel Jurong",
     "total_rooms": 557,
-    "totaCapacitys": 557,
+    "totalCapacity": 557,
     "country": "United States",
     "phone": "+1-65778899",
     "room_type": [
@@ -486,7 +486,7 @@
   {
     "name": "ibis Singapore on Bencoolen",
     "total_rooms": 538,
-    "totaCapacitys": 538,
+    "totalCapacity": 538,
     "country": "United States",
     "phone": "+1-65932888",
     "room_type": [
@@ -508,7 +508,7 @@
   {
     "name": "PARKROYAL on Kitchener Road",
     "total_rooms": 532,
-    "totaCapacitys": 532,
+    "totalCapacity": 532,
     "country": "United States",
     "phone": "+1-64283000",
     "room_type": [
@@ -530,7 +530,7 @@
   {
     "name": "Mandarin Oriental, Singapore",
     "total_rooms": 527,
-    "totaCapacitys": 527,
+    "totalCapacity": 527,
     "country": "United States",
     "phone": "+1-63380066",
     "room_type": [
@@ -552,7 +552,7 @@
   {
     "name": "Mercure Singapore on Stevens",
     "total_rooms": 518,
-    "totaCapacitys": 518,
+    "totalCapacity": 518,
     "country": "United States",
     "phone": "+1-64916100",
     "room_type": [
@@ -574,7 +574,7 @@
   {
     "name": "Holiday Inn Singapore Atrium",
     "total_rooms": 518,
-    "totaCapacitys": 518,
+    "totalCapacity": 518,
     "country": "United States",
     "phone": "+1-67330188",
     "room_type": [
@@ -596,7 +596,7 @@
   {
     "name": "Conrad Centennial Singapore",
     "total_rooms": 512,
-    "totaCapacitys": 512,
+    "totalCapacity": 512,
     "country": "United States",
     "phone": "+1-63348888",
     "room_type": [
@@ -618,7 +618,7 @@
   {
     "name": "Royal Plaza on Scotts",
     "total_rooms": 511,
-    "totaCapacitys": 511,
+    "totalCapacity": 511,
     "country": "United States",
     "phone": "+1-67377966",
     "room_type": [
@@ -640,7 +640,7 @@
   {
     "name": "Hotel Jen Orchardgateway Singapore",
     "total_rooms": 499,
-    "totaCapacitys": 499,
+    "totalCapacity": 499,
     "country": "United States",
     "phone": "+1-67088888",
     "room_type": [
@@ -662,7 +662,7 @@
   {
     "name": "Hotel Chancellor @ Orchard",
     "total_rooms": 488,
-    "totaCapacitys": 488,
+    "totalCapacity": 488,
     "country": "United States",
     "phone": "+1-67088788",
     "room_type": [
@@ -684,7 +684,7 @@
   {
     "name": "Swissotel Merchant Court, Singapore",
     "total_rooms": 476,
-    "totaCapacitys": 476,
+    "totalCapacity": 476,
     "country": "United States",
     "phone": "+1-63372288",
     "room_type": [
@@ -706,7 +706,7 @@
   {
     "name": "Four Points by Sheraton Singapore, Riverview",
     "total_rooms": 476,
-    "totaCapacitys": 476,
+    "totalCapacity": 476,
     "country": "United States",
     "phone": "+1-67329922",
     "room_type": [
@@ -728,7 +728,7 @@
   {
     "name": "Resorts World at Sentosa",
     "total_rooms": 464,
-    "totaCapacitys": 464,
+    "totalCapacity": 464,
     "country": "United States",
     "phone": "+1-65778888",
     "room_type": [
@@ -750,7 +750,7 @@
   {
     "name": "Hotel Michael - Resorts World Sentosa",
     "total_rooms": 464,
-    "totaCapacitys": 464,
+    "totalCapacity": 464,
     "country": "United States",
     "phone": "+1-65778888",
     "room_type": [
@@ -772,7 +772,7 @@
   {
     "name": "Shangri-La's Rasa Sentosa Resort & Spa, Singapore",
     "total_rooms": 454,
-    "totaCapacitys": 454,
+    "totalCapacity": 454,
     "country": "United States",
     "phone": "+1-62750100",
     "room_type": [
@@ -794,7 +794,7 @@
   {
     "name": "Holiday Inn Express Singapore Katong",
     "total_rooms": 451,
-    "totaCapacitys": 451,
+    "totalCapacity": 451,
     "country": "United States",
     "phone": "+1-67232001",
     "room_type": [
@@ -816,7 +816,7 @@
   {
     "name": "Festive Hotel",
     "total_rooms": 447,
-    "totaCapacitys": 447,
+    "totalCapacity": 447,
     "country": "United States",
     "phone": "+1-65778899",
     "room_type": [
@@ -838,7 +838,7 @@
   {
     "name": "Furama City Centre Singapore",
     "total_rooms": 445,
-    "totaCapacitys": 445,
+    "totalCapacity": 445,
     "country": "United States",
     "phone": "+1-65333888",
     "room_type": [
@@ -860,7 +860,7 @@
   {
     "name": "Park Hotel Alexandra",
     "total_rooms": 442,
-    "totaCapacitys": 442,
+    "totalCapacity": 442,
     "country": "United States",
     "phone": "+1-68288888",
     "room_type": [
@@ -882,7 +882,7 @@
   {
     "name": "Holiday Inn Express Singapore Clarke Quay",
     "total_rooms": 442,
-    "totaCapacitys": 442,
+    "totalCapacity": 442,
     "country": "United States",
     "phone": "+1-65898000",
     "room_type": [
@@ -904,7 +904,7 @@
   {
     "name": "The Regent Singapore",
     "total_rooms": 440,
-    "totaCapacitys": 440,
+    "totalCapacity": 440,
     "country": "United States",
     "phone": "+1-67338888",
     "room_type": [
@@ -926,7 +926,7 @@
   {
     "name": "Oasia Hotel Novena, Singapore",
     "total_rooms": 428,
-    "totaCapacitys": 428,
+    "totalCapacity": 428,
     "country": "United States",
     "phone": "+1-66640333",
     "room_type": [
@@ -948,7 +948,7 @@
   {
     "name": "Hilton Singapore",
     "total_rooms": 421,
-    "totaCapacitys": 421,
+    "totalCapacity": 421,
     "country": "United States",
     "phone": "+1-67372233",
     "room_type": [
@@ -970,7 +970,7 @@
   {
     "name": "Sheraton Towers Singapore",
     "total_rooms": 420,
-    "totaCapacitys": 420,
+    "totalCapacity": 420,
     "country": "United States",
     "phone": "+1-67376888",
     "room_type": [
@@ -992,7 +992,7 @@
   {
     "name": "Concorde Hotel Singapore",
     "total_rooms": 418,
-    "totaCapacitys": 418,
+    "totalCapacity": 418,
     "country": "United States",
     "phone": "+1-67338855",
     "room_type": [
@@ -1014,7 +1014,7 @@
   {
     "name": "M Hotel Singapore",
     "total_rooms": 415,
-    "totaCapacitys": 415,
+    "totalCapacity": 415,
     "country": "United States",
     "phone": "+1-62241133",
     "room_type": [
@@ -1036,7 +1036,7 @@
   {
     "name": "York Hotel",
     "total_rooms": 407,
-    "totaCapacitys": 407,
+    "totalCapacity": 407,
     "country": "United States",
     "phone": "+1-67370511",
     "room_type": [
@@ -1058,7 +1058,7 @@
   {
     "name": "Days Hotel by Wyndham Singapore At Zhongshan Park",
     "total_rooms": 405,
-    "totaCapacitys": 405,
+    "totalCapacity": 405,
     "country": "United States",
     "phone": "+1-68086868",
     "room_type": [
@@ -1080,7 +1080,7 @@
   {
     "name": "Novotel Singapore Clarke Quay",
     "total_rooms": 403,
-    "totaCapacitys": 403,
+    "totalCapacity": 403,
     "country": "United States",
     "phone": "+1-63383333",
     "room_type": [
@@ -1102,7 +1102,7 @@
   {
     "name": "InterContinental Singapore",
     "total_rooms": 403,
-    "totaCapacitys": 403,
+    "totalCapacity": 403,
     "country": "United States",
     "phone": "+1-63387600",
     "room_type": [
@@ -1124,7 +1124,7 @@
   {
     "name": "The Fullerton Hotel Singapore",
     "total_rooms": 399,
-    "totaCapacitys": 399,
+    "totalCapacity": 399,
     "country": "United States",
     "phone": "+1-67338388",
     "room_type": [
@@ -1146,7 +1146,7 @@
   {
     "name": "Mercure Singapore Bugis",
     "total_rooms": 395,
-    "totaCapacitys": 395,
+    "totalCapacity": 395,
     "country": "United States",
     "phone": "+1-65216088",
     "room_type": [
@@ -1168,7 +1168,7 @@
   {
     "name": "Village Hotel Bugis",
     "total_rooms": 393,
-    "totaCapacitys": 393,
+    "totalCapacity": 393,
     "country": "United States",
     "phone": "+1-62972828",
     "room_type": [
@@ -1190,7 +1190,7 @@
   {
     "name": "Singapore Marriott Tang Plaza Hotel",
     "total_rooms": 392,
-    "totaCapacitys": 392,
+    "totalCapacity": 392,
     "country": "United States",
     "phone": "+1-67355800",
     "room_type": [
@@ -1212,7 +1212,7 @@
   {
     "name": "Orchard Rendezvous Hotel, Singapore",
     "total_rooms": 388,
-    "totaCapacitys": 388,
+    "totalCapacity": 388,
     "country": "United States",
     "phone": "+1-67371133",
     "room_type": [
@@ -1234,7 +1234,7 @@
   {
     "name": "Carlton City Hotel Singapore",
     "total_rooms": 386,
-    "totaCapacitys": 386,
+    "totalCapacity": 386,
     "country": "United States",
     "phone": "+1-66328888",
     "room_type": [
@@ -1256,7 +1256,7 @@
   {
     "name": "Ramada by Wyndham Singapore At Zhongshan Park",
     "total_rooms": 382,
-    "totaCapacitys": 382,
+    "totalCapacity": 382,
     "country": "United States",
     "phone": "+1-68086888",
     "room_type": [
@@ -1278,7 +1278,7 @@
   {
     "name": "Village Hotel Changi",
     "total_rooms": 380,
-    "totaCapacitys": 380,
+    "totalCapacity": 380,
     "country": "United States",
     "phone": "+1-63797111",
     "room_type": [
@@ -1300,7 +1300,7 @@
   {
     "name": "Amara Singapore",
     "total_rooms": 380,
-    "totaCapacitys": 380,
+    "totalCapacity": 380,
     "country": "United States",
     "phone": "+1-68792555",
     "room_type": [
@@ -1322,7 +1322,7 @@
   {
     "name": "PARKROYAL on Pickering",
     "total_rooms": 367,
-    "totaCapacitys": 367,
+    "totalCapacity": 367,
     "country": "United States",
     "phone": "+1-68098888",
     "room_type": [
@@ -1344,7 +1344,7 @@
   {
     "name": "Value Hotel - Thomson",
     "total_rooms": 366,
-    "totaCapacitys": 366,
+    "totalCapacity": 366,
     "country": "United States",
     "phone": "+1-63582323",
     "room_type": [
@@ -1366,7 +1366,7 @@
   {
     "name": "Hard Rock Hotel",
     "total_rooms": 364,
-    "totaCapacitys": 364,
+    "totalCapacity": 364,
     "country": "United States",
     "phone": "+1-65778899",
     "room_type": [
@@ -1388,7 +1388,7 @@
   {
     "name": "Hotel Royal",
     "total_rooms": 362,
-    "totaCapacitys": 362,
+    "totalCapacity": 362,
     "country": "United States",
     "phone": "+1-64260168",
     "room_type": [
@@ -1410,7 +1410,7 @@
   {
     "name": "Studio M Hotel",
     "total_rooms": 360,
-    "totaCapacitys": 360,
+    "totalCapacity": 360,
     "country": "United States",
     "phone": "+1-68088888",
     "room_type": [
@@ -1432,7 +1432,7 @@
   {
     "name": "Park Avenue Rochester",
     "total_rooms": 351,
-    "totaCapacitys": 351,
+    "totalCapacity": 351,
     "country": "United States",
     "phone": "+1-68088600",
     "room_type": [
@@ -1454,7 +1454,7 @@
   {
     "name": "PARKROYAL on Beach Road",
     "total_rooms": 346,
-    "totaCapacitys": 346,
+    "totalCapacity": 346,
     "country": "United States",
     "phone": "+1-65055666",
     "room_type": [
@@ -1476,7 +1476,7 @@
   {
     "name": "Hotel Miramar Singapore",
     "total_rooms": 342,
-    "totaCapacitys": 342,
+    "totalCapacity": 342,
     "country": "United States",
     "phone": "+1-67330222",
     "room_type": [
@@ -1498,7 +1498,7 @@
   {
     "name": "Hotel Mi",
     "total_rooms": 342,
-    "totaCapacitys": 342,
+    "totalCapacity": 342,
     "country": "United States",
     "phone": "+1-62518822",
     "room_type": [
@@ -1520,7 +1520,7 @@
   {
     "name": "Andaz Singapore",
     "total_rooms": 342,
-    "totaCapacitys": 342,
+    "totalCapacity": 342,
     "country": "United States",
     "phone": "+1-64081234",
     "room_type": [
@@ -1542,7 +1542,7 @@
   {
     "name": "Park Hotel Clarke Quay",
     "total_rooms": 340,
-    "totaCapacitys": 340,
+    "totalCapacity": 340,
     "country": "United States",
     "phone": "+1-65938888",
     "room_type": [
@@ -1564,7 +1564,7 @@
   {
     "name": "Grand Park City Hall",
     "total_rooms": 333,
-    "totaCapacitys": 333,
+    "totalCapacity": 333,
     "country": "United States",
     "phone": "+1-63363456",
     "room_type": [
@@ -1586,7 +1586,7 @@
   {
     "name": "Bay Hotel Singapore",
     "total_rooms": 333,
-    "totaCapacitys": 333,
+    "totalCapacity": 333,
     "country": "United States",
     "phone": "+1-68186666",
     "room_type": [
@@ -1608,7 +1608,7 @@
   {
     "name": "Hilton Garden Inn Singapore Serangoon",
     "total_rooms": 328,
-    "totaCapacitys": 328,
+    "totalCapacity": 328,
     "country": "United States",
     "phone": "+1-64910500",
     "room_type": [
@@ -1630,7 +1630,7 @@
   {
     "name": "Holiday Inn Singapore Orchard City Centre",
     "total_rooms": 324,
-    "totaCapacitys": 324,
+    "totalCapacity": 324,
     "country": "United States",
     "phone": "+1-67338333",
     "room_type": [
@@ -1652,7 +1652,7 @@
   {
     "name": "Oasia Hotel Downtown, Singapore",
     "total_rooms": 314,
-    "totaCapacitys": 314,
+    "totalCapacity": 314,
     "country": "United States",
     "phone": "+1-68126900",
     "room_type": [
@@ -1674,7 +1674,7 @@
   {
     "name": "Copthorne Kings Hotel Singapore",
     "total_rooms": 313,
-    "totaCapacitys": 313,
+    "totalCapacity": 313,
     "country": "United States",
     "phone": "+1-67330011",
     "room_type": [
@@ -1696,7 +1696,7 @@
   {
     "name": "Capri by Fraser Changi City, Singapore",
     "total_rooms": 313,
-    "totaCapacitys": 313,
+    "totalCapacity": 313,
     "country": "United States",
     "phone": "+1-69339833",
     "room_type": [
@@ -1718,7 +1718,7 @@
   {
     "name": "Hotel G Singapore",
     "total_rooms": 308,
-    "totaCapacitys": 308,
+    "totalCapacity": 308,
     "country": "United States",
     "phone": "+1-68097998",
     "room_type": [
@@ -1740,7 +1740,7 @@
   {
     "name": "Grand Park Orchard",
     "total_rooms": 308,
-    "totaCapacitys": 308,
+    "totalCapacity": 308,
     "country": "United States",
     "phone": "+1-66038888",
     "room_type": [
@@ -1762,7 +1762,7 @@
   {
     "name": "The Westin Singapore",
     "total_rooms": 305,
-    "totaCapacitys": 305,
+    "totalCapacity": 305,
     "country": "United States",
     "phone": "+1-69226888",
     "room_type": [
@@ -1784,7 +1784,7 @@
   {
     "name": "Park Hotel Farrer Park",
     "total_rooms": 300,
-    "totaCapacitys": 300,
+    "totalCapacity": 300,
     "country": "United States",
     "phone": "+1-68248800",
     "room_type": [
@@ -1806,7 +1806,7 @@
   {
     "name": "Destination Singapore Beach Road",
     "total_rooms": 300,
-    "totaCapacitys": 300,
+    "totalCapacity": 300,
     "country": "United States",
     "phone": "+1-66792000",
     "room_type": [
@@ -1828,7 +1828,7 @@
   {
     "name": "The St. Regis Singapore",
     "total_rooms": 299,
-    "totaCapacitys": 299,
+    "totalCapacity": 299,
     "country": "United States",
     "phone": "+1-65066888",
     "room_type": [
@@ -1850,7 +1850,7 @@
   {
     "name": "Rendezvous Hotel Singapore",
     "total_rooms": 298,
-    "totaCapacitys": 298,
+    "totalCapacity": 298,
     "country": "United States",
     "phone": "+1-63360220",
     "room_type": [
@@ -1872,7 +1872,7 @@
   {
     "name": "ibis Styles Singapore on Macpherson",
     "total_rooms": 298,
-    "totaCapacitys": 298,
+    "totalCapacity": 298,
     "country": "United States",
     "phone": "+1-66226000",
     "room_type": [
@@ -1894,7 +1894,7 @@
   {
     "name": "M Social Singapore",
     "total_rooms": 293,
-    "totaCapacitys": 293,
+    "totalCapacity": 293,
     "country": "United States",
     "phone": "+1-62061888",
     "room_type": [
@@ -1916,7 +1916,7 @@
   {
     "name": "Dorsett Singapore",
     "total_rooms": 285,
-    "totaCapacitys": 285,
+    "totalCapacity": 285,
     "country": "United States",
     "phone": "+1-66788333",
     "room_type": [
@@ -1938,7 +1938,7 @@
   {
     "name": "Link Hotel Singapore",
     "total_rooms": 274,
-    "totaCapacitys": 274,
+    "totalCapacity": 274,
     "country": "United States",
     "phone": "+1-66228585",
     "room_type": [
@@ -1960,7 +1960,7 @@
   {
     "name": "V Hotel Bencoolen",
     "total_rooms": 272,
-    "totaCapacitys": 272,
+    "totalCapacity": 272,
     "country": "United States",
     "phone": "+1-63882233",
     "room_type": [
@@ -1982,7 +1982,7 @@
   {
     "name": "Orchid Hotel",
     "total_rooms": 272,
-    "totaCapacitys": 272,
+    "totalCapacity": 272,
     "country": "United States",
     "phone": "+1-68186818",
     "room_type": [
@@ -2004,7 +2004,7 @@
   {
     "name": "Parc Sovereign Hotel - Tyrwhitt",
     "total_rooms": 270,
-    "totaCapacitys": 270,
+    "totalCapacity": 270,
     "country": "United States",
     "phone": "+1-63401188",
     "room_type": [
@@ -2026,7 +2026,7 @@
   {
     "name": "Hotel Grand Central Singapore",
     "total_rooms": 263,
-    "totaCapacitys": 263,
+    "totalCapacity": 263,
     "country": "United States",
     "phone": "+1-67379944",
     "room_type": [
@@ -2048,7 +2048,7 @@
   {
     "name": "The Elizabeth Hotel",
     "total_rooms": 256,
-    "totaCapacitys": 256,
+    "totalCapacity": 256,
     "country": "United States",
     "phone": "+1-67381188",
     "room_type": [
@@ -2070,7 +2070,7 @@
   {
     "name": "Four Seasons Hotel Singapore",
     "total_rooms": 255,
-    "totaCapacitys": 255,
+    "totalCapacity": 255,
     "country": "United States",
     "phone": "+1-67341110",
     "room_type": [
@@ -2092,7 +2092,7 @@
   {
     "name": "Novotel Singapore on Stevens",
     "total_rooms": 254,
-    "totaCapacitys": 254,
+    "totalCapacity": 254,
     "country": "United States",
     "phone": "+1-64916100",
     "room_type": [
@@ -2114,7 +2114,7 @@
   {
     "name": "Park Avenue Changi",
     "total_rooms": 251,
-    "totaCapacitys": 251,
+    "totalCapacity": 251,
     "country": "United States",
     "phone": "+1-68097300",
     "room_type": [
@@ -2136,7 +2136,7 @@
   {
     "name": "Courtyard by Marriott Singapore Novena",
     "total_rooms": 250,
-    "totaCapacitys": 250,
+    "totalCapacity": 250,
     "country": "United States",
     "phone": "+1-62500303",
     "room_type": [
@@ -2158,7 +2158,7 @@
   {
     "name": "One Farrer Hotel & Spa",
     "total_rooms": 243,
-    "totaCapacitys": 243,
+    "totalCapacity": 243,
     "country": "United States",
     "phone": "+1-63630101",
     "room_type": [
@@ -2180,7 +2180,7 @@
   {
     "name": "ibis Singapore Novena",
     "total_rooms": 241,
-    "totaCapacitys": 241,
+    "totalCapacity": 241,
     "country": "United States",
     "phone": "+1-68089888",
     "room_type": [
@@ -2202,7 +2202,7 @@
   {
     "name": "W Singapore - Sentosa Cove",
     "total_rooms": 240,
-    "totaCapacitys": 240,
+    "totalCapacity": 240,
     "country": "United States",
     "phone": "+1-68087288",
     "room_type": [
@@ -2224,7 +2224,7 @@
   {
     "name": "Quality Hotel Marlow",
     "total_rooms": 240,
-    "totaCapacitys": 240,
+    "totalCapacity": 240,
     "country": "United States",
     "phone": "+1-63559988",
     "room_type": [
@@ -2246,7 +2246,7 @@
   {
     "name": "Hotel Grand Pacific",
     "total_rooms": 240,
-    "totaCapacitys": 240,
+    "totalCapacity": 240,
     "country": "United States",
     "phone": "+1-63360811",
     "room_type": [
@@ -2268,7 +2268,7 @@
   {
     "name": "Goodwood Park Hotel",
     "total_rooms": 233,
-    "totaCapacitys": 233,
+    "totalCapacity": 233,
     "country": "United States",
     "phone": "+1-67377411",
     "room_type": [
@@ -2290,7 +2290,7 @@
   {
     "name": "Hotel Royal @ Queens",
     "total_rooms": 231,
-    "totaCapacitys": 231,
+    "totalCapacity": 231,
     "country": "United States",
     "phone": "+1-67259988",
     "room_type": [
@@ -2312,7 +2312,7 @@
   {
     "name": "Village Hotel Katong",
     "total_rooms": 229,
-    "totaCapacitys": 229,
+    "totalCapacity": 229,
     "country": "United States",
     "phone": "+1-63442200",
     "room_type": [
@@ -2334,7 +2334,7 @@
   {
     "name": "InterContinental Singapore Robertson Quay",
     "total_rooms": 225,
-    "totaCapacitys": 225,
+    "totalCapacity": 225,
     "country": "United States",
     "phone": "+1-68265000",
     "room_type": [
@@ -2356,7 +2356,7 @@
   {
     "name": "Sofitel Singapore City Centre",
     "total_rooms": 223,
-    "totaCapacitys": 223,
+    "totalCapacity": 223,
     "country": "United States",
     "phone": "+1-64285000",
     "room_type": [
@@ -2378,7 +2378,7 @@
   {
     "name": "Holiday Inn Express Singapore Orchard Road",
     "total_rooms": 221,
-    "totaCapacitys": 221,
+    "totalCapacity": 221,
     "country": "United States",
     "phone": "+1-66903199",
     "room_type": [
@@ -2400,7 +2400,7 @@
   {
     "name": "Ascott Orchard Singapore",
     "total_rooms": 220,
-    "totaCapacitys": 220,
+    "totalCapacity": 220,
     "country": "United States",
     "phone": "+1-65401688",
     "room_type": [
@@ -2422,7 +2422,7 @@
   {
     "name": "Sofitel Singapore Sentosa Resort & Spa",
     "total_rooms": 215,
-    "totaCapacitys": 215,
+    "totalCapacity": 215,
     "country": "United States",
     "phone": "+1-67088310",
     "room_type": [
@@ -2444,7 +2444,7 @@
   {
     "name": "Village Hotel Albert Court",
     "total_rooms": 210,
-    "totaCapacitys": 210,
+    "totalCapacity": 210,
     "country": "United States",
     "phone": "+1-63393939",
     "room_type": [
@@ -2466,7 +2466,7 @@
   {
     "name": "Value Hotel - Balestier",
     "total_rooms": 208,
-    "totaCapacitys": 208,
+    "totalCapacity": 208,
     "country": "United States",
     "phone": "+1-63522323",
     "room_type": [
@@ -2488,7 +2488,7 @@
   {
     "name": "Hotel 81 - Star",
     "total_rooms": 207,
-    "totaCapacitys": 207,
+    "totalCapacity": 207,
     "country": "United States",
     "phone": "+1-67488181",
     "room_type": [
@@ -2510,7 +2510,7 @@
   {
     "name": "Park Regis Singapore",
     "total_rooms": 202,
-    "totaCapacitys": 202,
+    "totalCapacity": 202,
     "country": "United States",
     "phone": "+1-68188888",
     "room_type": [
@@ -2532,7 +2532,7 @@
   {
     "name": "Hotel 81 - Dickson",
     "total_rooms": 196,
-    "totaCapacitys": 196,
+    "totalCapacity": 196,
     "country": "United States",
     "phone": "+1-63928181",
     "room_type": [
@@ -2554,7 +2554,7 @@
   {
     "name": "Siloso Beach Resort",
     "total_rooms": 195,
-    "totaCapacitys": 195,
+    "totalCapacity": 195,
     "country": "United States",
     "phone": "+1-67223333",
     "room_type": [
@@ -2576,7 +2576,7 @@
   {
     "name": "Capella Hotel, Singapore",
     "total_rooms": 193,
-    "totaCapacitys": 193,
+    "totalCapacity": 193,
     "country": "United States",
     "phone": "+1-63778888",
     "room_type": [
@@ -2598,7 +2598,7 @@
   {
     "name": "Hotel 81 - Palace",
     "total_rooms": 192,
-    "totaCapacitys": 192,
+    "totalCapacity": 192,
     "country": "United States",
     "phone": "+1-64408181",
     "room_type": [
@@ -2620,7 +2620,7 @@
   {
     "name": "Le MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ridien Singapore, Sentosa",
     "total_rooms": 191,
-    "totaCapacitys": 191,
+    "totalCapacity": 191,
     "country": "United States",
     "phone": "+1-68183388",
     "room_type": [
@@ -2642,7 +2642,7 @@
   {
     "name": "Cherryloft Resorts",
     "total_rooms": 186,
-    "totaCapacitys": 186,
+    "totalCapacity": 186,
     "country": "United States",
     "phone": "+1-63885522",
     "room_type": [
@@ -2664,7 +2664,7 @@
   {
     "name": "Equarius Hotel",
     "total_rooms": 183,
-    "totaCapacitys": 183,
+    "totalCapacity": 183,
     "country": "United States",
     "phone": "+1-65778899",
     "room_type": [
@@ -2686,7 +2686,7 @@
   {
     "name": "Pan Pacific Serviced Suites Beach Road",
     "total_rooms": 180,
-    "totaCapacitys": 180,
+    "totalCapacity": 180,
     "country": "United States",
     "phone": "+1-66788888",
     "room_type": [
@@ -2708,7 +2708,7 @@
   {
     "name": "Hotel 81 - Orchid",
     "total_rooms": 180,
-    "totaCapacitys": 180,
+    "totalCapacity": 180,
     "country": "United States",
     "phone": "+1-68468181",
     "room_type": [
@@ -2730,7 +2730,7 @@
   {
     "name": "Home Suite View Hotel",
     "total_rooms": 175,
-    "totaCapacitys": 175,
+    "totalCapacity": 175,
     "country": "United States",
     "phone": "+1-67440100",
     "room_type": [
@@ -2752,7 +2752,7 @@
   {
     "name": "Parc Sovereign Hotel - Albert Street",
     "total_rooms": 172,
-    "totaCapacitys": 172,
+    "totalCapacity": 172,
     "country": "United States",
     "phone": "+1-63366888",
     "room_type": [
@@ -2774,7 +2774,7 @@
   {
     "name": "The Fragrance Hotel - Ruby",
     "total_rooms": 168,
-    "totaCapacitys": 168,
+    "totalCapacity": 168,
     "country": "United States",
     "phone": "+1-68413888",
     "room_type": [
@@ -2796,7 +2796,7 @@
   {
     "name": "Aqueen Hotel - Paya Lebar",
     "total_rooms": 162,
-    "totaCapacitys": 162,
+    "totalCapacity": 162,
     "country": "United States",
     "phone": "+1-67139999",
     "room_type": [
@@ -2818,7 +2818,7 @@
   {
     "name": "The Capitol Kempinski Hotel Singapore",
     "total_rooms": 157,
-    "totaCapacitys": 157,
+    "totalCapacity": 157,
     "country": "United States",
     "phone": "+1-63688888",
     "room_type": [
@@ -2840,7 +2840,7 @@
   {
     "name": "RELC International Hotel",
     "total_rooms": 151,
-    "totaCapacitys": 151,
+    "totalCapacity": 151,
     "country": "United States",
     "phone": "+1-68857888",
     "room_type": [
@@ -2862,7 +2862,7 @@
   {
     "name": "Robertson Quay Hotel",
     "total_rooms": 148,
-    "totaCapacitys": 148,
+    "totalCapacity": 148,
     "country": "United States",
     "phone": "+1-67353333",
     "room_type": [
@@ -2884,7 +2884,7 @@
   {
     "name": "Ascott Raffles Place Singapore",
     "total_rooms": 146,
-    "totaCapacitys": 146,
+    "totalCapacity": 146,
     "country": "United States",
     "phone": "+1-65771688",
     "room_type": [
@@ -2906,7 +2906,7 @@
   {
     "name": "Changi Cove",
     "total_rooms": 141,
-    "totaCapacitys": 141,
+    "totalCapacity": 141,
     "country": "United States",
     "phone": "+1-69226122",
     "room_type": [
@@ -2928,7 +2928,7 @@
   {
     "name": "Hotel Re! @ Pearl's Hill",
     "total_rooms": 140,
-    "totaCapacitys": 140,
+    "totalCapacity": 140,
     "country": "United States",
     "phone": "+1-68278288",
     "room_type": [
@@ -2950,7 +2950,7 @@
   {
     "name": "Amara Sanctuary Resort Sentosa",
     "total_rooms": 140,
-    "totaCapacitys": 140,
+    "totalCapacity": 140,
     "country": "United States",
     "phone": "+1-68253888",
     "room_type": [
@@ -2972,7 +2972,7 @@
   {
     "name": "Six Senses Maxwell",
     "total_rooms": 138,
-    "totaCapacitys": 138,
+    "totalCapacity": 138,
     "country": "United States",
     "phone": "+1-69141400",
     "room_type": [
@@ -2994,7 +2994,7 @@
   {
     "name": "Porcelain Hotel",
     "total_rooms": 138,
-    "totaCapacitys": 138,
+    "totalCapacity": 138,
     "country": "United States",
     "phone": "+1-66453131",
     "room_type": [
@@ -3016,7 +3016,7 @@
   {
     "name": "SO Sofitel Singapore",
     "total_rooms": 134,
-    "totaCapacitys": 134,
+    "totalCapacity": 134,
     "country": "United States",
     "phone": "+1-67016800",
     "room_type": [
@@ -3038,7 +3038,7 @@
   {
     "name": "Oxford Hotel",
     "total_rooms": 134,
-    "totaCapacitys": 134,
+    "totalCapacity": 134,
     "country": "United States",
     "phone": "+1-63322222",
     "room_type": [
@@ -3060,7 +3060,7 @@
   {
     "name": "Hotel 81 - Princess",
     "total_rooms": 133,
-    "totaCapacitys": 133,
+    "totalCapacity": 133,
     "country": "United States",
     "phone": "+1-68428181",
     "room_type": [
@@ -3082,7 +3082,7 @@
   {
     "name": "Hotel Indigo Singapore Katong",
     "total_rooms": 131,
-    "totaCapacitys": 131,
+    "totalCapacity": 131,
     "country": "United States",
     "phone": "+1-67237001",
     "room_type": [
@@ -3104,7 +3104,7 @@
   {
     "name": "30 Bencoolen",
     "total_rooms": 131,
-    "totaCapacitys": 131,
+    "totalCapacity": 131,
     "country": "United States",
     "phone": "+1-63372882",
     "room_type": [
@@ -3126,7 +3126,7 @@
   {
     "name": "Strand Hotel",
     "total_rooms": 130,
-    "totaCapacitys": 130,
+    "totalCapacity": 130,
     "country": "United States",
     "phone": "+1-63381866",
     "room_type": [
@@ -3148,7 +3148,7 @@
   {
     "name": "The Fragrance Hotel - Pearl",
     "total_rooms": 129,
-    "totaCapacitys": 129,
+    "totalCapacity": 129,
     "country": "United States",
     "phone": "+1-68427888",
     "room_type": [
@@ -3170,7 +3170,7 @@
   {
     "name": "The Fragrance Hotel - Emerald",
     "total_rooms": 126,
-    "totaCapacitys": 126,
+    "totalCapacity": 126,
     "country": "United States",
     "phone": "+1-68423888",
     "room_type": [
@@ -3192,7 +3192,7 @@
   {
     "name": "The Fragrance Hotel - Crystal",
     "total_rooms": 125,
-    "totaCapacitys": 125,
+    "totalCapacity": 125,
     "country": "United States",
     "phone": "+1-68447888",
     "room_type": [
@@ -3214,7 +3214,7 @@
   {
     "name": "Hotel 81 - Elegance",
     "total_rooms": 120,
-    "totaCapacitys": 120,
+    "totalCapacity": 120,
     "country": "United States",
     "phone": "+1-63968181",
     "room_type": [
@@ -3236,7 +3236,7 @@
   {
     "name": "Hotel 81 - Tristar",
     "total_rooms": 116,
-    "totaCapacitys": 116,
+    "totalCapacity": 116,
     "country": "United States",
     "phone": "+1-62448181",
     "room_type": [
@@ -3258,7 +3258,7 @@
   {
     "name": "Hotel 81 - Hollywood",
     "total_rooms": 112,
-    "totaCapacitys": 112,
+    "totalCapacity": 112,
     "country": "United States",
     "phone": "+1-63838181",
     "room_type": [
@@ -3280,7 +3280,7 @@
   {
     "name": "Arton Hotel",
     "total_rooms": 109,
-    "totaCapacitys": 109,
+    "totalCapacity": 109,
     "country": "United States",
     "phone": "+1-65719100",
     "room_type": [
@@ -3302,7 +3302,7 @@
   {
     "name": "The Quincy Hotel",
     "total_rooms": 108,
-    "totaCapacitys": 108,
+    "totalCapacity": 108,
     "country": "United States",
     "phone": "+1-67385888",
     "room_type": [
@@ -3324,7 +3324,7 @@
   {
     "name": "Fortuna Hotel",
     "total_rooms": 105,
-    "totaCapacitys": 105,
+    "totalCapacity": 105,
     "country": "United States",
     "phone": "+1-62953577",
     "room_type": [
@@ -3346,7 +3346,7 @@
   {
     "name": "Crockfords Tower",
     "total_rooms": 105,
-    "totaCapacitys": 105,
+    "totalCapacity": 105,
     "country": "United States",
     "phone": "+1-65778899",
     "room_type": [
@@ -3368,7 +3368,7 @@
   {
     "name": "Aqueen Hotel - Lavender",
     "total_rooms": 104,
-    "totaCapacitys": 104,
+    "totalCapacity": 104,
     "country": "United States",
     "phone": "+1-63957788",
     "room_type": [
@@ -3390,7 +3390,7 @@
   {
     "name": "The Seacare Hotel Singapore",
     "total_rooms": 103,
-    "totaCapacitys": 103,
+    "totalCapacity": 103,
     "country": "United States",
     "phone": "+1-68182688",
     "room_type": [
@@ -3412,7 +3412,7 @@
   {
     "name": "Raffles Hotel Singapore",
     "total_rooms": 103,
-    "totaCapacitys": 103,
+    "totalCapacity": 103,
     "country": "United States",
     "phone": "+1-63371886",
     "room_type": [
@@ -3434,7 +3434,7 @@
   {
     "name": "The Fragrance Hotel - Riverside",
     "total_rooms": 101,
-    "totaCapacitys": 101,
+    "totalCapacity": 101,
     "country": "United States",
     "phone": "+1-66360888",
     "room_type": [
@@ -3456,7 +3456,7 @@
   {
     "name": "Harbour Ville Hotel",
     "total_rooms": 100,
-    "totaCapacitys": 100,
+    "totalCapacity": 100,
     "country": "United States",
     "phone": "+1-62712771",
     "room_type": [

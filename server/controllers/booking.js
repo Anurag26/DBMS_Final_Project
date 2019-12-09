@@ -1,4 +1,4 @@
-var Order = require('../models/order');
+var Booking = require('../models/booking');
 
 //Simple version, without validation or sanitation
 exports.test = function (req, res) {
@@ -6,28 +6,25 @@ exports.test = function (req, res) {
 };
 
 exports.order_create = function (req, res, next) {
-    var order = new Order(
+    var booking = new Booking(
         {
-            booking_ref: req.body.booking_ref,
-            price_paid: req.body.price_paid,
-            booking_date: req.body.booking_date,
-            booking_from: req.body.booking_from,
-            booking_to: req.body.booking_to,
-            customer_ref: req.body.customer_ref,
-            vendor_ref: req.body.vendor_ref
+            user_id: req.body.user_id,
+            vendor_id: req.body.vendor_id,
+            product_id: req.body.product_id,
+            date_of_booking: Date.now()
         }
     );
 
-    order.save(function (err) {
+    booking.save(function (err) {
         if (err) {
             return next(err);
         }
-        res.send(order);
+        res.send(booking);
     })
 };
 
 exports.order_details = function (req, res, next) {
-    Order.findById(req.params.id, function (err, order) {
+    booking.findById(req.params.id, function (err, order) {
         if (err) {
             return next(err);
         }
@@ -36,7 +33,7 @@ exports.order_details = function (req, res, next) {
 };
 
 exports.order_update = function (req, res, next) {
-    Order.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, order) {
+    booking.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, order) {
         if (err) {
             return next(err);
         }
@@ -45,7 +42,7 @@ exports.order_update = function (req, res, next) {
 };
 
 exports.order_delete = function (req, res, next) {
-    Order.findByIdAndRemove(req.params.id, function (err) {
+    booking.findByIdAndRemove(req.params.id, function (err) {
         if (err) {
             return next(err);
         }

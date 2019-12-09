@@ -130,6 +130,7 @@ exports.offboard = function (req, res, next) {
                                       name: req.body.name,
                                       price: req.body.price,
                                       id: req.body.id,
+                                      manager: req.body.manager,
                                       date:Date.now()
                                   }
                               }
