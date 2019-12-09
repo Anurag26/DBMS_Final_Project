@@ -11,7 +11,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 0,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       422,
       345.6,
@@ -33,7 +33,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 1,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       331,
       503.55,
@@ -55,7 +55,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 2,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       185,
       268.65000000000003,
@@ -77,7 +77,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 3,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       292,
       162,
@@ -99,7 +99,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 4,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       150,
       346.95000000000005,
@@ -121,7 +121,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 5,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       368,
       232.20000000000002,
@@ -143,7 +143,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 6,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       118,
       361.8,
@@ -165,7 +165,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 7,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       73,
       245.70000000000002,
@@ -187,7 +187,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 8,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       450,
       62.1,
@@ -209,7 +209,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 9,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       355,
       380.70000000000005,
@@ -231,7 +231,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 10,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       291,
       98.55000000000001,
@@ -253,7 +253,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 11,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       165,
       498.15000000000003,
@@ -275,7 +275,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 12,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       437,
       575.1,
@@ -297,7 +297,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 13,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       396,
       476.55,
@@ -319,7 +319,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 14,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       355,
       225.45000000000002,
@@ -341,7 +341,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 15,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       252,
       253.8,
@@ -363,7 +363,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 16,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       357,
       267.3,
@@ -385,7 +385,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 17,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       151,
       569.7,
@@ -407,7 +407,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 18,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       357,
       556.2,
@@ -429,7 +429,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 19,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       113,
       386.1,
@@ -451,7 +451,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 20,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       394,
       109.35000000000001,
@@ -473,7 +473,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 21,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       152,
       378,
@@ -495,7 +495,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 22,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       43,
       602.1,
@@ -517,7 +517,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 23,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       166,
       207.9,
@@ -539,7 +539,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 24,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       138,
       345.6,
@@ -561,7 +561,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 25,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       201,
       577.8000000000001,
@@ -583,7 +583,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 26,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       89,
       230.85000000000002,
@@ -605,7 +605,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 27,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       399,
       545.4000000000001,
@@ -627,7 +627,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 28,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       429,
       402.3,
@@ -649,7 +649,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 29,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       206,
       97.2,
@@ -671,7 +671,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 30,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       372,
       604.8000000000001,
@@ -693,7 +693,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 31,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       393,
       409.05,
@@ -715,7 +715,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 32,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       318,
       503.55,
@@ -737,7 +737,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 33,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       216,
       600.75,
@@ -759,7 +759,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 34,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       145,
       143.10000000000002,
@@ -781,7 +781,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 35,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       303,
       237.60000000000002,
@@ -803,7 +803,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 36,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       287,
       294.3,
@@ -825,7 +825,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 37,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       410,
       352.35,
@@ -847,7 +847,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 38,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       268,
       244.35000000000002,
@@ -869,7 +869,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 39,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       330,
       382.05,
@@ -891,7 +891,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 40,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       137,
       176.85000000000002,
@@ -913,7 +913,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 41,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       243,
       415.8,
@@ -935,7 +935,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 42,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       216,
       463.05,
@@ -957,7 +957,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 43,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       213,
       314.55,
@@ -979,7 +979,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 44,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       432,
       411.75,
@@ -1001,7 +1001,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 45,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       285,
       139.05,
@@ -1023,7 +1023,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 46,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       198,
       333.45000000000005,
@@ -1045,7 +1045,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 47,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       369,
       199.8,
@@ -1067,7 +1067,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 48,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       241,
       531.9000000000001,
@@ -1089,7 +1089,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 49,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       438,
       558.9000000000001,
@@ -1111,7 +1111,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 50,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       161,
       121.50000000000001,
@@ -1133,7 +1133,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 51,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       346,
       330.75,
@@ -1155,7 +1155,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 52,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       409,
       137.70000000000002,
@@ -1177,7 +1177,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 53,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       133,
       87.75,
@@ -1199,7 +1199,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 54,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       365,
       452.25000000000006,
@@ -1221,7 +1221,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 55,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       386,
       297,
@@ -1243,7 +1243,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 56,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       144,
       326.70000000000005,
@@ -1265,7 +1265,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 57,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       185,
       463.05,
@@ -1287,7 +1287,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 58,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       148,
       313.20000000000005,
@@ -1309,7 +1309,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 59,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       258,
       504.90000000000003,
@@ -1331,7 +1331,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 60,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       254,
       75.60000000000001,
@@ -1353,7 +1353,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 61,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       57,
       321.3,
@@ -1375,7 +1375,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 62,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       148,
       581.85,
@@ -1397,7 +1397,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 63,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       158,
       472.50000000000006,
@@ -1419,7 +1419,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 64,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       259,
       450.90000000000003,
@@ -1441,7 +1441,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 65,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       96,
       64.80000000000001,
@@ -1463,7 +1463,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 66,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       311,
       386.1,
@@ -1485,7 +1485,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 67,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       393,
       517.0500000000001,
@@ -1507,7 +1507,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 68,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       327,
       341.55,
@@ -1529,7 +1529,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 69,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       347,
       294.3,
@@ -1551,7 +1551,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 70,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       403,
       544.0500000000001,
@@ -1573,7 +1573,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 71,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       211,
       394.20000000000005,
@@ -1595,7 +1595,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 72,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       230,
       310.5,
@@ -1617,7 +1617,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 73,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       385,
       325.35,
@@ -1639,7 +1639,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 74,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       357,
       496.8,
@@ -1661,7 +1661,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 75,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       106,
       217.35000000000002,
@@ -1683,7 +1683,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 76,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       315,
       78.30000000000001,
@@ -1705,7 +1705,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 77,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       53,
       522.45,
@@ -1727,7 +1727,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 78,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       295,
       261.90000000000003,
@@ -1749,7 +1749,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 79,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       235,
       418.5,
@@ -1771,7 +1771,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 80,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       85,
       596.7,
@@ -1793,7 +1793,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 81,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       153,
       449.55,
@@ -1815,7 +1815,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 82,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       290,
       415.8,
@@ -1837,7 +1837,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 83,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       409,
       396.90000000000003,
@@ -1859,7 +1859,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 84,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       109,
       490.05,
@@ -1881,7 +1881,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 85,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       319,
       94.5,
@@ -1903,7 +1903,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 86,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       323,
       425.25,
@@ -1925,7 +1925,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 87,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       353,
       294.3,
@@ -1947,7 +1947,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 88,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       199,
       508.95000000000005,
@@ -1969,7 +1969,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 89,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       299,
       94.5,
@@ -1991,7 +1991,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 90,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       77,
       595.35,
@@ -2013,7 +2013,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 91,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       365,
       598.0500000000001,
@@ -2035,7 +2035,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 92,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       118,
       598.0500000000001,
@@ -2057,7 +2057,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 93,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       145,
       313.20000000000005,
@@ -2079,7 +2079,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 94,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       385,
       463.05,
@@ -2101,7 +2101,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 95,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       335,
       433.35,
@@ -2123,7 +2123,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 96,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       331,
       221.4,
@@ -2145,7 +2145,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 97,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       138,
       361.8,
@@ -2167,7 +2167,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 98,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       194,
       367.20000000000005,
@@ -2189,7 +2189,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 99,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       75,
       225.45000000000002,
@@ -2211,7 +2211,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 100,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       145,
       576.45,
@@ -2233,7 +2233,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 101,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       349,
       109.35000000000001,
@@ -2255,7 +2255,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 102,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       220,
       429.3,
@@ -2277,7 +2277,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 103,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       375,
       494.1,
@@ -2299,7 +2299,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 104,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       379,
       220.05,
@@ -2321,7 +2321,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 105,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       330,
       298.35,
@@ -2343,7 +2343,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 106,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       379,
       249.75000000000003,
@@ -2365,7 +2365,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 107,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       86,
       257.85,
@@ -2387,7 +2387,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 108,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       407,
       337.5,
@@ -2409,7 +2409,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 109,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       167,
       387.45000000000005,
@@ -2431,7 +2431,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 110,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       420,
       230.85000000000002,
@@ -2453,7 +2453,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 111,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       41,
       529.2,
@@ -2475,7 +2475,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 112,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       415,
       330.75,
@@ -2497,7 +2497,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 113,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       427,
       292.95000000000005,
@@ -2519,7 +2519,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 114,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       145,
       360.45000000000005,
@@ -2541,7 +2541,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 115,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       158,
       75.60000000000001,
@@ -2563,7 +2563,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 116,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       438,
       314.55,
@@ -2585,7 +2585,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 117,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       379,
       133.65,
@@ -2607,7 +2607,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 118,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       328,
       330.75,
@@ -2629,7 +2629,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 119,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       398,
       529.2,
@@ -2651,7 +2651,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 120,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       59,
       151.20000000000002,
@@ -2673,7 +2673,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 121,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       235,
       589.95,
@@ -2695,7 +2695,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 122,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       229,
       514.35,
@@ -2717,7 +2717,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 123,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       64,
       66.15,
@@ -2739,7 +2739,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 124,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       193,
       332.1,
@@ -2761,7 +2761,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 125,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       304,
       106.65,
@@ -2783,7 +2783,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 126,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       340,
       91.80000000000001,
@@ -2805,7 +2805,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 127,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       306,
       290.25,
@@ -2827,7 +2827,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 128,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       246,
       402.3,
@@ -2849,7 +2849,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 129,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       306,
       460.35,
@@ -2871,7 +2871,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 130,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       341,
       427.95000000000005,
@@ -2893,7 +2893,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 131,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       402,
       201.15,
@@ -2915,7 +2915,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 132,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       319,
       103.95,
@@ -2937,7 +2937,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 133,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       124,
       236.25000000000003,
@@ -2959,7 +2959,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 134,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       431,
       326.70000000000005,
@@ -2981,7 +2981,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 135,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       310,
       56.7,
@@ -3003,7 +3003,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 136,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       435,
       423.90000000000003,
@@ -3025,7 +3025,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 137,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       166,
       598.0500000000001,
@@ -3047,7 +3047,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 138,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       86,
       113.4,
@@ -3069,7 +3069,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 139,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       327,
       581.85,
@@ -3091,7 +3091,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 140,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       60,
       224.10000000000002,
@@ -3113,7 +3113,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 141,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       291,
       201.15,
@@ -3135,7 +3135,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 142,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       328,
       290.25,
@@ -3157,7 +3157,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 143,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       80,
       307.8,
@@ -3179,7 +3179,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 144,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       145,
       603.45,
@@ -3201,7 +3201,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 145,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       177,
       136.35000000000002,
@@ -3223,7 +3223,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 146,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       112,
       461.70000000000005,
@@ -3245,7 +3245,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 147,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       399,
       247.05,
@@ -3267,7 +3267,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 148,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       219,
       344.25,
@@ -3289,7 +3289,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 149,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       94,
       480.6,
@@ -3311,7 +3311,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 150,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       331,
       211.95000000000002,
@@ -3333,7 +3333,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 151,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       275,
       427.95000000000005,
@@ -3355,7 +3355,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 152,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       87,
       302.40000000000003,
@@ -3377,7 +3377,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 153,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       375,
       383.40000000000003,
@@ -3399,7 +3399,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 154,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       391,
       93.15,
@@ -3421,7 +3421,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 155,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       201,
       218.70000000000002,
@@ -3443,7 +3443,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 156,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       297,
       379.35,
@@ -3465,7 +3465,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 157,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       118,
       410.40000000000003,
@@ -3487,7 +3487,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 158,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       72,
       122.85000000000001,
@@ -3509,7 +3509,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 159,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       392,
       364.5,
@@ -3531,7 +3531,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 160,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       341,
       282.15000000000003,
@@ -3553,7 +3553,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 161,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       87,
       418.5,
@@ -3575,7 +3575,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 162,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       272,
       125.55000000000001,
@@ -3597,7 +3597,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 163,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       411,
       170.10000000000002,
@@ -3619,7 +3619,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 164,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       215,
       98.55000000000001,
@@ -3641,7 +3641,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 165,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       390,
       128.25,
@@ -3663,7 +3663,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 166,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       170,
       311.85,
@@ -3685,7 +3685,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 167,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       349,
       232.20000000000002,
@@ -3707,7 +3707,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 168,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       398,
       163.35000000000002,
@@ -3729,7 +3729,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 169,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       290,
       132.3,
@@ -3751,7 +3751,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 170,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       450,
       201.15,
@@ -3773,7 +3773,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 171,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       186,
       248.4,
@@ -3795,7 +3795,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 172,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       294,
       569.7,
@@ -3817,7 +3817,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 173,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       129,
       112.05000000000001,
@@ -3839,7 +3839,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 174,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       323,
       174.15,
@@ -3861,7 +3861,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 175,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       236,
       233.55,
@@ -3883,7 +3883,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 176,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       395,
       189,
@@ -3905,7 +3905,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 177,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       339,
       521.1,
@@ -3927,7 +3927,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 178,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       264,
       402.3,
@@ -3949,7 +3949,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 179,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       55,
       117.45,
@@ -3971,7 +3971,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 180,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       348,
       577.8000000000001,
@@ -3993,7 +3993,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 181,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       287,
       492.75000000000006,
@@ -4015,7 +4015,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 182,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       192,
       318.6,
@@ -4037,7 +4037,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 183,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       143,
       526.5,
@@ -4059,7 +4059,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 184,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       225,
       373.95000000000005,
@@ -4081,7 +4081,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 185,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       235,
       345.6,
@@ -4103,7 +4103,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 186,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       428,
       359.1,
@@ -4125,7 +4125,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 187,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       311,
       438.75000000000006,
@@ -4147,7 +4147,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 188,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       410,
       460.35,
@@ -4169,7 +4169,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 189,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       124,
       93.15,
@@ -4191,7 +4191,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 190,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       346,
       565.6500000000001,
@@ -4213,7 +4213,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 191,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       312,
       233.55,
@@ -4235,7 +4235,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 192,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       223,
       454.95000000000005,
@@ -4257,7 +4257,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 193,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       321,
       484.65000000000003,
@@ -4279,7 +4279,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 194,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       407,
       332.1,
@@ -4301,7 +4301,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 195,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       393,
       280.8,
@@ -4323,7 +4323,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 196,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       270,
       356.40000000000003,
@@ -4345,7 +4345,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 197,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       144,
       99.9,
@@ -4367,7 +4367,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 198,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       156,
       140.4,
@@ -4389,7 +4389,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 199,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       296,
       74.25,
@@ -4411,7 +4411,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 200,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       279,
       307.8,
@@ -4433,7 +4433,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 201,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       122,
       252.45000000000002,
@@ -4455,7 +4455,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 202,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       428,
       418.5,
@@ -4477,7 +4477,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 203,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       211,
       511.65000000000003,
@@ -4499,7 +4499,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 204,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       46,
       494.1,
@@ -4521,7 +4521,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 205,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       120,
       54,
@@ -4543,7 +4543,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 206,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       415,
       282.15000000000003,
@@ -4565,7 +4565,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 207,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       404,
       483.3,
@@ -4587,7 +4587,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 208,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       190,
       438.75000000000006,
@@ -4609,7 +4609,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 209,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       372,
       282.15000000000003,
@@ -4631,7 +4631,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 210,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       378,
       210.60000000000002,
@@ -4653,7 +4653,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 211,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       335,
       346.95000000000005,
@@ -4675,7 +4675,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 212,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       325,
       191.70000000000002,
@@ -4697,7 +4697,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 213,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       353,
       121.50000000000001,
@@ -4719,7 +4719,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 214,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       90,
       282.15000000000003,
@@ -4741,7 +4741,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 215,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       53,
       233.55,
@@ -4763,7 +4763,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 216,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       64,
       99.9,
@@ -4785,7 +4785,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 217,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       303,
       301.05,
@@ -4807,7 +4807,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 218,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       224,
       395.55,
@@ -4829,7 +4829,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 219,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       90,
       171.45000000000002,
@@ -4851,7 +4851,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 220,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       197,
       390.15000000000003,
@@ -4873,7 +4873,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 221,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       413,
       120.15,
@@ -4895,7 +4895,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 222,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       391,
       540,
@@ -4917,7 +4917,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 223,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       329,
       218.70000000000002,
@@ -4939,7 +4939,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 224,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       66,
       561.6,
@@ -4961,7 +4961,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 225,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       380,
       483.3,
@@ -4983,7 +4983,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 226,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       54,
       210.60000000000002,
@@ -5005,7 +5005,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 227,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       432,
       137.70000000000002,
@@ -5027,7 +5027,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 228,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       289,
       247.05,
@@ -5049,7 +5049,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 229,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       169,
       418.5,
@@ -5071,7 +5071,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 230,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       444,
       562.95,
@@ -5093,7 +5093,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 231,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       313,
       149.85000000000002,
@@ -5115,7 +5115,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 232,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       405,
       553.5,
@@ -5137,7 +5137,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 233,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       171,
       264.6,
@@ -5159,7 +5159,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 234,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       181,
       376.65000000000003,
@@ -5181,7 +5181,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 235,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       198,
       526.5,
@@ -5203,7 +5203,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 236,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       71,
       346.95000000000005,
@@ -5225,7 +5225,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 237,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       239,
       79.65,
@@ -5247,7 +5247,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 238,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       402,
       270,
@@ -5269,7 +5269,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 239,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       120,
       315.90000000000003,
@@ -5291,7 +5291,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 240,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       325,
       433.35,
@@ -5313,7 +5313,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 241,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       391,
       95.85000000000001,
@@ -5335,7 +5335,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 242,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       432,
       290.25,
@@ -5357,7 +5357,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 243,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       192,
       318.6,
@@ -5379,7 +5379,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 244,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       295,
       360.45000000000005,
@@ -5401,7 +5401,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 245,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       386,
       164.70000000000002,
@@ -5423,7 +5423,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 246,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       188,
       230.85000000000002,
@@ -5445,7 +5445,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 247,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       147,
       342.90000000000003,
@@ -5467,7 +5467,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 248,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       184,
       329.40000000000003,
@@ -5489,7 +5489,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 249,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       227,
       344.25,
@@ -5511,7 +5511,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 250,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       307,
       352.35,
@@ -5533,7 +5533,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 251,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       193,
       91.80000000000001,
@@ -5555,7 +5555,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 252,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       205,
       103.95,
@@ -5577,7 +5577,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 253,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       99,
       157.95000000000002,
@@ -5599,7 +5599,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 254,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       161,
       70.2,
@@ -5621,7 +5621,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 255,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       104,
       190.35000000000002,
@@ -5643,7 +5643,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 256,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       225,
       132.3,
@@ -5665,7 +5665,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 257,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       163,
       197.10000000000002,
@@ -5687,7 +5687,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 258,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       257,
       436.05,
@@ -5709,7 +5709,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 259,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       400,
       294.3,
@@ -5731,7 +5731,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 260,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       225,
       276.75,
@@ -5753,7 +5753,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 261,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       153,
       334.8,
@@ -5775,7 +5775,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 262,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       364,
       83.7,
@@ -5797,7 +5797,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 263,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       76,
       422.55,
@@ -5819,7 +5819,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 264,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       64,
       217.35000000000002,
@@ -5841,7 +5841,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 265,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       266,
       241.65,
@@ -5863,7 +5863,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 266,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       325,
       429.3,
@@ -5885,7 +5885,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 267,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       232,
       93.15,
@@ -5907,7 +5907,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 268,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       234,
       473.85,
@@ -5929,7 +5929,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 269,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       187,
       342.90000000000003,
@@ -5951,7 +5951,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 270,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       432,
       330.75,
@@ -5973,7 +5973,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 271,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       184,
       270,
@@ -5995,7 +5995,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 272,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       417,
       318.6,
@@ -6017,7 +6017,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 273,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       335,
       521.1,
@@ -6039,7 +6039,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 274,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       364,
       436.05,
@@ -6061,7 +6061,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 275,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       437,
       359.1,
@@ -6083,7 +6083,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 276,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       356,
       60.75000000000001,
@@ -6105,7 +6105,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 277,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       116,
       588.6,
@@ -6127,7 +6127,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 278,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       59,
       310.5,
@@ -6149,7 +6149,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 279,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       418,
       475.20000000000005,
@@ -6171,7 +6171,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 280,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       89,
       240.3,
@@ -6193,7 +6193,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 281,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       236,
       363.15000000000003,
@@ -6215,7 +6215,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 282,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       276,
       291.6,
@@ -6237,7 +6237,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 283,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       400,
       272.70000000000005,
@@ -6259,7 +6259,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 284,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       335,
       218.70000000000002,
@@ -6281,7 +6281,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 285,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       281,
       421.20000000000005,
@@ -6303,7 +6303,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 286,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       291,
       561.6,
@@ -6325,7 +6325,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 287,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       446,
       251.10000000000002,
@@ -6347,7 +6347,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 288,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       361,
       535.95,
@@ -6369,7 +6369,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 289,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       110,
       557.5500000000001,
@@ -6391,7 +6391,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 290,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       270,
       410.40000000000003,
@@ -6413,7 +6413,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 291,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       86,
       378,
@@ -6435,7 +6435,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 292,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       326,
       237.60000000000002,
@@ -6457,7 +6457,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 293,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       114,
       153.9,
@@ -6479,7 +6479,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 294,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       276,
       237.60000000000002,
@@ -6501,7 +6501,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 295,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       206,
       159.3,
@@ -6523,7 +6523,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 296,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       87,
       324,
@@ -6545,7 +6545,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 297,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       413,
       67.5,
@@ -6567,7 +6567,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 298,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       398,
       572.4000000000001,
@@ -6589,7 +6589,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 299,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       271,
       105.30000000000001,
@@ -6611,7 +6611,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 300,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       113,
       330.75,
@@ -6633,7 +6633,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 301,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       321,
       371.25,
@@ -6655,7 +6655,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 302,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       144,
       463.05,
@@ -6677,7 +6677,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 303,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       321,
       572.4000000000001,
@@ -6699,7 +6699,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 304,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       284,
       488.70000000000005,
@@ -6721,7 +6721,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 305,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       248,
       195.75,
@@ -6743,7 +6743,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 306,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       393,
       596.7,
@@ -6765,7 +6765,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 307,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       319,
       526.5,
@@ -6787,7 +6787,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 308,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       130,
       220.05,
@@ -6809,7 +6809,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 309,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       83,
       529.2,
@@ -6831,7 +6831,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 310,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       120,
       518.4000000000001,
@@ -6853,7 +6853,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 311,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       125,
       302.40000000000003,
@@ -6875,7 +6875,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 312,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       228,
       573.75,
@@ -6897,7 +6897,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 313,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       264,
       595.35,
@@ -6919,7 +6919,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 314,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       52,
       275.40000000000003,
@@ -6941,7 +6941,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 315,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       303,
       460.35,
@@ -6963,7 +6963,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 316,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       110,
       388.8,
@@ -6985,7 +6985,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 317,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       384,
       599.4000000000001,
@@ -7007,7 +7007,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 318,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       151,
       364.5,
@@ -7029,7 +7029,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 319,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       395,
       120.15,
@@ -7051,7 +7051,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 320,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       336,
       454.95000000000005,
@@ -7073,7 +7073,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 321,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       293,
       469.8,
@@ -7095,7 +7095,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 322,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       219,
       270,
@@ -7117,7 +7117,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 323,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       246,
       82.35000000000001,
@@ -7139,7 +7139,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 324,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       388,
       201.15,
@@ -7161,7 +7161,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 325,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       76,
       198.45000000000002,
@@ -7183,7 +7183,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 326,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       279,
       391.5,
@@ -7205,7 +7205,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 327,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       366,
       360.45000000000005,
@@ -7227,7 +7227,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 328,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       219,
       503.55,
@@ -7249,7 +7249,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 329,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       300,
       426.6,
@@ -7271,7 +7271,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 330,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       386,
       598.0500000000001,
@@ -7293,7 +7293,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 331,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       359,
       436.05,
@@ -7315,7 +7315,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 332,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       275,
       324,
@@ -7337,7 +7337,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 333,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       384,
       153.9,
@@ -7359,7 +7359,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 334,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       344,
       577.8000000000001,
@@ -7381,7 +7381,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 335,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       145,
       521.1,
@@ -7403,7 +7403,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 336,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       349,
       445.50000000000006,
@@ -7425,7 +7425,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 337,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       344,
       356.40000000000003,
@@ -7447,7 +7447,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 338,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       296,
       321.3,
@@ -7469,7 +7469,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 339,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       283,
       222.75000000000003,
@@ -7491,7 +7491,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 340,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       130,
       481.95000000000005,
@@ -7513,7 +7513,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 341,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       361,
       147.15,
@@ -7535,7 +7535,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 342,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       368,
       337.5,
@@ -7557,7 +7557,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 343,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       253,
       522.45,
@@ -7579,7 +7579,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 344,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       163,
       313.20000000000005,
@@ -7601,7 +7601,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 345,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       287,
       573.75,
@@ -7623,7 +7623,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 346,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       80,
       573.75,
@@ -7645,7 +7645,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 347,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       87,
       234.9,
@@ -7667,7 +7667,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 348,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       254,
       396.90000000000003,
@@ -7689,7 +7689,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 349,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       427,
       494.1,
@@ -7711,7 +7711,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 350,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       191,
       413.1,
@@ -7733,7 +7733,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 351,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       151,
       283.5,
@@ -7755,7 +7755,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 352,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       427,
       368.55,
@@ -7777,7 +7777,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 353,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       352,
       103.95,
@@ -7799,7 +7799,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 354,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       148,
       195.75,
@@ -7821,7 +7821,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 355,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       298,
       234.9,
@@ -7843,7 +7843,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 356,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       108,
       360.45000000000005,
@@ -7865,7 +7865,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 357,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       371,
       238.95000000000002,
@@ -7887,7 +7887,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 358,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       52,
       380.70000000000005,
@@ -7909,7 +7909,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 359,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       256,
       481.95000000000005,
@@ -7931,7 +7931,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 360,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       143,
       560.25,
@@ -7953,7 +7953,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 361,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       214,
       592.6500000000001,
@@ -7975,7 +7975,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 362,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       323,
       226.8,
@@ -7997,7 +7997,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 363,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       338,
       471.15000000000003,
@@ -8019,7 +8019,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 364,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       317,
       587.25,
@@ -8041,7 +8041,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 365,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       358,
       577.8000000000001,
@@ -8063,7 +8063,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 366,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       242,
       461.70000000000005,
@@ -8085,7 +8085,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 367,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       102,
       292.95000000000005,
@@ -8107,7 +8107,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 368,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       292,
       390.15000000000003,
@@ -8129,7 +8129,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 369,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       79,
       159.3,
@@ -8151,7 +8151,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 370,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       288,
       602.1,
@@ -8173,7 +8173,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 371,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       216,
       441.45000000000005,
@@ -8195,7 +8195,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 372,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       290,
       338.85,
@@ -8217,7 +8217,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 373,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       299,
       402.3,
@@ -8239,7 +8239,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 374,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       242,
       546.75,
@@ -8261,7 +8261,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 375,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       300,
       542.7,
@@ -8283,7 +8283,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 376,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       177,
       218.70000000000002,
@@ -8305,7 +8305,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 377,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       362,
       379.35,
@@ -8327,7 +8327,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 378,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       382,
       213.3,
@@ -8349,7 +8349,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 379,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       204,
       130.95000000000002,
@@ -8371,7 +8371,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 380,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       182,
       82.35000000000001,
@@ -8393,7 +8393,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 381,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       133,
       360.45000000000005,
@@ -8415,7 +8415,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 382,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       209,
       410.40000000000003,
@@ -8437,7 +8437,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 383,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       336,
       322.65000000000003,
@@ -8459,7 +8459,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 384,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       424,
       402.3,
@@ -8481,7 +8481,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 385,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       345,
       359.1,
@@ -8503,7 +8503,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 386,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       251,
       329.40000000000003,
@@ -8525,7 +8525,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 387,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       217,
       54,
@@ -8547,7 +8547,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 388,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       166,
       338.85,
@@ -8569,7 +8569,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 389,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       206,
       133.65,
@@ -8591,7 +8591,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 390,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       345,
       550.8000000000001,
@@ -8613,7 +8613,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 391,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       116,
       560.25,
@@ -8635,7 +8635,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 392,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       435,
       502.20000000000005,
@@ -8657,7 +8657,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 393,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       325,
       309.15000000000003,
@@ -8679,7 +8679,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 394,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       126,
       81,
@@ -8701,7 +8701,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 395,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       351,
       209.25,
@@ -8723,7 +8723,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 396,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       302,
       481.95000000000005,
@@ -8745,7 +8745,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 397,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       105,
       522.45,
@@ -8767,7 +8767,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 398,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       290,
       109.35000000000001,
@@ -8789,7 +8789,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 399,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       95,
       284.85,
@@ -8811,7 +8811,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 400,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       94,
       125.55000000000001,
@@ -8833,7 +8833,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 401,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       307,
       473.85,
@@ -8855,7 +8855,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 402,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       126,
       245.70000000000002,
@@ -8877,7 +8877,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 403,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       173,
       454.95000000000005,
@@ -8899,7 +8899,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 404,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       113,
       203.85000000000002,
@@ -8921,7 +8921,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 405,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       139,
       599.4000000000001,
@@ -8943,7 +8943,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 406,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       287,
       533.25,
@@ -8965,7 +8965,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 407,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       337,
       139.05,
@@ -8987,7 +8987,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 408,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       118,
       189,
@@ -9009,7 +9009,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 409,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       379,
       546.75,
@@ -9031,7 +9031,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 410,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       294,
       207.9,
@@ -9053,7 +9053,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 411,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       190,
       433.35,
@@ -9075,7 +9075,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 412,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       427,
       191.70000000000002,
@@ -9097,7 +9097,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 413,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       138,
       193.05,
@@ -9119,7 +9119,7 @@
       "Super-Delux",
       "Suite"
     ],
-    "manager": 414,
+    "manager": "ObjectId(5dedda5f3224b17c28ec7841)",
     "price": [
       191,
       287.55,
