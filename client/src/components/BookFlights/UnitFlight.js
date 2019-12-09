@@ -22,9 +22,8 @@ class UnitFlight extends Component {
                 <Card.Body>
                     <Card.Title>Origin Location: {this.props._source.origin_location}</Card.Title>
                     <Card.Title>Destination Location: {this.props._source.destination_location}</Card.Title>
-                    <Card.Text>
-                        Price: {this.props._source.price}
-                    </Card.Text>
+                    <Card.Text>Date: {this.props._source.dateTakeOff}</Card.Text>
+                    <Card.Text>Price: {this.props._source.price}</Card.Text>
                     <Button variant="primary" onClick={this.handleBookFlight}>Book this flight</Button>
                 </Card.Body>
             </div>
