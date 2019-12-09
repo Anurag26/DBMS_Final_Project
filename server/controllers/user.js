@@ -71,11 +71,42 @@ exports.user_deleteCart = function (req, res, next) {
 
 };
 
+exports.onboard = function (req, res, next) {
+    User.findOneAndUpdate({email:req.params.email},
+                          {
+                              $set:{ accessPermission: 1 }
+                          },
+                          function (err,doc){
+                              if(err){
+                                  res.status(400).json(err)
+                              }
+                              res.status(200).json({onboard: true})
+                          }
+    )
+
+};
+
+exports.offboard = function (req, res, next) {
+    User.findOneAndUpdate({email:req.params.email},
+                          {
+                              $set:{ accessPermission: 0 }
+                          },
+                          function (err,doc){
+                              if(err){
+                                  res.status(400).json(err)
+                              }
+                              res.status(200).json({offboard: true})
+                          }
+    )
+
+};
+
     exports.user_addToCart = function (req, res, next) {
         console.log(req.params.email)
     User.findOneAndUpdate({email:req.params.email},
                           { $push:{ cart:{
-                                      id: mongoose.Types.ObjectId(req.body.id),
+                                      name: req.body.name,
+                                      price: req.body.price,
                                       date:Date.now()
                                   }
                               }

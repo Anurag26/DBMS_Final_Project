@@ -8,10 +8,9 @@ class Mycart extends Component {
     state={
         loggedIn:false,
         userId:'',
-        productId:'',
+        productName:'',
         productPrice:0,
-        show:false,
-        productName:''
+        show:false
     }
 
     componentWillMount() {
@@ -27,16 +26,16 @@ class Mycart extends Component {
                                               userId: res.data[0]._id,
                                               productId: res.data[0].cart[0].id
                                           })
-                            axios.get('http://localhost:3002/bookingsApp/hotels/id/'
-                                      + this.state.productId).then(res => {
-                                this.setState({
-                                                  show:true,
-                                                  productName: res.data.name,
-                                                  productPrice: res.data.price
-                                              })
-                            }).catch(err => {
-
-                            })
+                            // axios.get('http://localhost:3002/bookingsApp/hotels/id/'
+                            //           + this.state.productId).then(res => {
+                            //     this.setState({
+                            //                       show:true,
+                            //                       productName: res.data.name,
+                            //                       productPrice: res.data.price
+                            //                   })
+                            // }).catch(err => {
+                            //
+                            // })
                         }
                     }).catch(err => {
                     console.log(err);

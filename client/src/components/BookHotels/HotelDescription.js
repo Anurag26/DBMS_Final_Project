@@ -7,34 +7,48 @@ import img1 from '../../images/hotelCard.jpg';
 class HotelDescription extends Component {
 
     state={
-        id:'',
+        _id:'',
         name:'',
-        description:'',
-        hotel_location:'',
+        phone:'',
+        country:'',
+        address_street:'',
+        address_city:'',
         price:0,
         room_number:0,
-        vendor:'',
         room_type:'',
         loginFirst:false
     }
 
     componentWillMount() {
         const id = this.props.match.params.id;
+        console.log(id)
         axios.get('http://localhost:3002/bookingsApp/hotels/id/'+id).then(res=>{
-            axios.get('http://localhost:3002/bookingsApp/users/'+res.data.vendor).then(vendor=>{
-                this.setState({
-                                  id:id,
-                                  name:res.data.name,
-                                  description:res.data.description,
-                                  hotel_location:res.data.hotel_location,
-                                  price:res.data.price,
-                                  room_number:res.data.room_number,
-                                  room_type:res.data.room_type,
-                                  vendor:vendor.data.email
-                              })
-            }).catch(err=>{
-                console.log(err)
-            })
+            // axios.get('http://localhost:3002/bookingsApp/users/'+res.data.vendor).then(vendor=>{
+            //     this.setState({
+            //                       id:id,
+            //                       name:res.data.name,
+            //                       description:res.data.description,
+            //                       hotel_location:res.data.hotel_location,
+            //                       price:res.data.price,
+            //                       room_number:res.data.room_number,
+            //                       room_type:res.data.room_type,
+            //                       vendor:vendor.data.email
+            //                   })
+            // }).catch(err=>{
+            //     console.log(err)
+            // })
+            console.log(res)
+            this.setState({
+                    _id:res.data._id,
+                    name:res.data.name,
+                    phone:res.data.phone,
+                    country:res.data.country,
+                    address_street:res.data.address_street,
+                    address_city:res.data.address_city,
+                    price: res.data.price[0],
+                    room_type: res.data.room_type[0],
+                    room_number: res.data.room_number
+                          })
         }).catch(err=>{
             console.log(err)
         })
@@ -42,8 +56,11 @@ class HotelDescription extends Component {
 
     handleItemToCart=()=>{
         let dataToSubmit={
-            id: this.state.id
+            name: this.state.name,
+            price: this.state.price,
+            _id:this.state._id
         }
+
         firebase.auth().onAuthStateChanged(user=> {
             if(user) {
                 axios.post('http://localhost:3002/bookingsApp/users/addToCart/' + user.email,
@@ -68,21 +85,15 @@ class HotelDescription extends Component {
                     <Card.Header>{this.state.name}</Card.Header>
                     <Card.Body>
                         <Card.Img variant="top" style={{width:'18rem'}} src={img1} />
-                        <Card.Title>{this.state.description}</Card.Title>
+                        <Card.Title>{this.state.address_street}, {this.state.address_city}, {this.state.country}</Card.Title>
                         <Card.Text>
-                            {this.state.hotel_location}
+                            Phone: {this.state.phone}
+                        </Card.Text>
+                        <Card.Text>
+                            Room Type: {this.state.room_type}
                         </Card.Text>
                         <Card.Text>
                             Price: {this.state.price}
-                        </Card.Text>
-                        <Card.Text>
-                            Room number: {this.state.room_number}
-                        </Card.Text>
-                        <Card.Text>
-                            Room type: {this.state.room_type}
-                        </Card.Text>
-                        <Card.Text>
-                            Vendor: {this.state.vendor}
                         </Card.Text>
                         <Button variant="primary" onClick={this.handleItemToCart} >Add to cart</Button>
                         {

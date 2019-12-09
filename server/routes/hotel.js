@@ -8,7 +8,7 @@ router.get('/test', hotel_controller.test);
 
 router.post('/create', hotel_controller.hotel_create);
 
-router.get('/email/:email', hotel_controller.hotel_details);
+router.get('/name/:name', hotel_controller.hotel_details);
 
 router.get('/id/:id',hotel_controller.hotel_unit);
 

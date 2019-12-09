@@ -10,10 +10,12 @@ class UnitUser extends Component {
         updateUserName:'',
         email:'',
         username:'',
-        fullDisplay:true
+        role:'',
+        fullDisplay:true,
+        accessPermission:0
     }
 
-    updatePush=()=>{
+    updatePushUserName=()=>{
         let dataToSubmit = {
             "userName":this.state.updateUserName
         }
@@ -53,11 +55,32 @@ class UnitUser extends Component {
             })
     }
 
+    onBoard=()=>{
+        axios.put('http://localhost:3002/bookingsApp/users/onboard/'+this.state.email).then(res=>{
+            this.setState({
+                accessPermission:1
+                          })
+        }).catch(err=>{
+            console.log(err);
+        })
+    }
+
+    offBoard=()=>{
+        axios.put('http://localhost:3002/bookingsApp/users/offboard/'+this.state.email).then(res=>{
+            this.setState({
+                              accessPermission:0
+                          })
+        }).catch(err=>{
+            console.log(err)
+        })
+    }
+
     componentWillMount() {
         if(this.props.userName){
             this.setState({
                 username: this.props.userName,
-                email:this.props.email
+                email:this.props.email,
+                role:this.props.role
                           })
         }
     }
@@ -85,10 +108,19 @@ class UnitUser extends Component {
                         onChange={e => this.handleChange(e)}
                         value={this.state.updateUserName}
                         required/>
-                        <Button variant="success" onClick={this.updatePush}>Update it</Button>
+                        <Button variant="success" onClick={this.updatePushUserName}>Update it</Button>
                         </div>
                         :
                         null
+                        }
+                        {
+                            this.state.role==='Vendor-Hotel' || this.state.role==='Vendor-Airline' ?
+                            (
+                                this.state.accessPermission===0?
+                            <Button variant="success" onClick={this.onBoard}>On Board</Button>:
+                                <Button variant="danger" onClick={this.offBoard}>Off Board</Button>
+                            ):
+                            null
                         }
                         <Button variant="danger" onClick={this.handleDeleteAccount} >delete</Button>
                         </div>:

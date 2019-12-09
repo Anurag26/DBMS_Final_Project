@@ -69,28 +69,32 @@ class LoginRegister extends Component {
         )
     }
 
-    onSubmitLogin=(event)=>
-    {
+    onSubmitLogin=(event)=> {
         event.preventDefault();
 
-        axios.get('http://localhost:3002/bookingsApp/users/email/'+this.state.signInEmail).then(res=> {
-            if(res!=null) {
-                firebase.auth()
-                    .signInWithEmailAndPassword(this.state.signInEmail, this.state.signInPassword)
-                    .then(res => {
-                        this.setState({
-                                          signInEmail: '',
-                                          signInPassword: ''
-                                      })
-                    }).catch(err => {
-                    console.log(err);
-                })
-            }
-                                                                                                }
-        ).catch(err=>{
+        axios.get('http://localhost:3002/bookingsApp/users/email/' + this.state.signInEmail)
+            .then(res => {
+                      if (res != null) {
+                          firebase.auth()
+                              .signInWithEmailAndPassword(this.state.signInEmail,
+                                                          this.state.signInPassword)
+                              .then(res => {
+                                  this.setState({
+                                                    signInEmail: '',
+                                                    signInPassword: ''
+                                                })
+                              }).catch(err => {
+                              console.log(err);
+                          })
+                      } else {
+                          console.log('hey')
+                      }
+                  }
+            ).catch(err => {
             console.log('invalid user')
         })
     }
+
 
     componentWillMount() {
         firebase.auth().onAuthStateChanged(
