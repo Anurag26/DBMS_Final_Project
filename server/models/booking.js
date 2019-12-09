@@ -6,18 +6,17 @@ const bookingSchema = mongoose.Schema({
                                          user_Id: {
                                              ref:'User'
                                              type: mongoose.Schema.Types.ObjectId,
-                                             required: true,
-                                             trim: true
+                                             required: true
                                          },
                                          vendor_Id: {
-                                             ref:'Vendor'
+                                             ref:'User'
                                              type: mongoose.Schema.Types.ObjectId,
-                                             required: true,
-                                             minLength: 6
+                                             required: true
                                          },
-                                         booking_details: {
-                                             type: String,
-                                             required: true,
+                                         product_id: {
+                                             ref:'User'
+                                             type: mongoose.Schema.Types.ObjectId,
+                                             required: true
                                          },
                                          date_of_booking: {
                                              type: Date,
