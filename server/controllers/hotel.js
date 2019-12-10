@@ -67,6 +67,16 @@ exports.hotel_unit = function (req, res, next) {
     })
 };
 
+exports.hotel_vendor = function (req, res, next) {
+    console.log(req.params.id)
+    Hotel.find({managerId : req.params.id},(err,hotels)=>{
+        if(hotels){
+            return res.json(hotels);
+        }
+        return next(err);
+    })
+};
+
 exports.hotel_delete = function (req, res, next) {
     Hotel.findByIdAndRemove(req.params.id, function (err) {
         if (err) {

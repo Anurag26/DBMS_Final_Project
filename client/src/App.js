@@ -17,6 +17,7 @@ import MyCart from './components/MyCart/mycart';
 import ManageUsers from './components/Admin/manageUsers';
 import MyOrders from './components/MyOrders/myorder';
 import Bookings from './components/AllBookings/bookings';
+import VendorHotels from './components/ViewHotelVendor/vendorHotels';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/usersCrud" component={ManageUsers} />
             <Route path="/flights" component={Flights} />
             <Route path="/allBookings" component={Bookings} />
+            <Route path="/myhotels" component={VendorHotels} />
             {/*<Route path="/feedback" component={Feedback} />*/}
             <Route path="/feedback" component={OrderFeedback} />
             <Route path="/mycart" component={MyCart} />

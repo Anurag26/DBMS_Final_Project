@@ -33,11 +33,6 @@ exports.order_details = function (req, res, next) {
 };
 
 exports.order_all = function (req, res, next) {
-    // Booking.find({}).populate('user').exec((err,bookings)=>{
-    //     if(err)
-    //         console.log(err);
-    //     res.json(bookings)
-    // })
     Booking.
     find({}).
     populate('user').

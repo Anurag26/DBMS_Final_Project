@@ -13,6 +13,7 @@ class Bookings extends Component {
             this.setState({
                         bookings:res.data
                           })
+            console.log(this.state.bookings);
         }).catch(err=>{
             console.log(err);
         })

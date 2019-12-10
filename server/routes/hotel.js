@@ -12,6 +12,8 @@ router.get('/name/:name', hotel_controller.hotel_details);
 
 router.get('/id/:id',hotel_controller.hotel_unit);
 
+router.get('/hotel/vendor/:id', hotel_controller.hotel_vendor);
+
 router.put('/:id/update', hotel_controller.hotel_update);
 
 router.delete('/:id/delete', hotel_controller.hotel_delete);
