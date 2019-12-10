@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import firebase from '../../Firebase/fireBase';
 import axios from 'axios';
+import VendorHotelBlock from './VendorHotelBlock';
 
 class VendorHotels extends Component {
 
     state={
         vendor_id:'',
-        role:'User'
+        role:'User',
+        hotels:[]
     }
 
     componentWillMount() {
@@ -18,9 +20,11 @@ class VendorHotels extends Component {
                                       vendor_id: res.data[0]._id
                                   })
                     axios.get('http://localhost:3002/bookingsApp/hotels/hotel/vendor/'+res.data[0]._id).then(res=>{
-                        console.log(res);
+                            this.setState({
+                                hotels: res.data
+                                          })
                     }).catch(err=>{
-
+                        console.log(err);
                     })
                 }).catch(err=>{
                     console.log(err);
@@ -31,7 +35,14 @@ class VendorHotels extends Component {
     render() {
         return (
             <div>
-                Rad
+            {
+                this.state.hotels.length != 0 ?
+                <VendorHotelBlock
+                    hotels={this.state.hotels}
+                />
+                :
+                null
+            }
             </div>
         );
     }
