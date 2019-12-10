@@ -7,7 +7,6 @@ import Home from './components/Home/home';
 import NavBar from './components/Navbar/navbar'
 import Hotels from './components/BookHotels/hotelHome'
 import Flights from './components/BookFlights/bookFlights'
-import Feedback from './components/FeedbackPage/feedbackPage';
 import OrderFeedback from './components/FeedbackPage/OrderFeedback';
 // import LoginRegister from './components/LoginRegister/loginregister'
 import LoginRegisterHome from "./components/LoginRegister/loginRegisterHome";

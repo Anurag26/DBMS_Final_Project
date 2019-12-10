@@ -1,4 +1,4 @@
-var Booking = require('../models/booking');
+const Booking = require('../models/booking');
 
 //Simple version, without validation or sanitation
 exports.test = function (req, res) {
@@ -10,7 +10,7 @@ exports.order_create = function (req, res, next) {
         {
             user_id: req.body.user_id,
             vendor_id: req.body.vendor_id,
-            product: req.body.product_id,
+            product_id: req.body.product_id,
             date_of_booking: Date.now()
         }
     );
@@ -24,7 +24,7 @@ exports.order_create = function (req, res, next) {
 };
 
 exports.order_details = function (req, res, next) {
-    booking.findById(req.params.id, function (err, order) {
+    Booking.findById(req.params.id, function (err, order) {
         if (err) {
             return next(err);
         }
@@ -32,9 +32,20 @@ exports.order_details = function (req, res, next) {
     })
 };
 
-// exports.order_all = function (req, res, next) {
-//     Booking.find({}).populate('user').populate('')
-// };
+exports.order_all = function (req, res, next) {
+    // Booking.find({}).populate('user').exec((err,bookings)=>{
+    //     if(err)
+    //         console.log(err);
+    //     res.json(bookings)
+    // })
+    Booking.
+    find({}).
+    populate('user').
+    exec((err,products)=>{
+        if(err) return res.status(400).send(err);
+        res.status(200).json(products)
+    })
+};
 
 exports.order_update = function (req, res, next) {
     booking.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, order) {
