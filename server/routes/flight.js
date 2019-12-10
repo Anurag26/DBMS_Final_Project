@@ -10,7 +10,7 @@ router.post('/create', flight_controller.flight_create);
 
 router.get('/:id', flight_controller.flight_details);
 
-router.get('/hotel/vendor/:id', flight_controller.flight_vendor);
+router.get('/flight/vendor/:id', flight_controller.flight_vendor);
 
 router.put('/:id/update', flight_controller.flight_update);
 
