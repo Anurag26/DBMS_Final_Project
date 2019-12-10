@@ -6,23 +6,20 @@ class VendorHotelBlock extends Component {
     render() {
         return (
             <div>
+                <Card style={{text:'center'}}>
+                    <Card.Body>
                 {
                     this.props.hotels.map(hotel=>(
-                        <div>
-                            <Card style={{text:'center'}}>
-                                <Card.Body>
                             <UnitVendorHotel
                                 key={hotel._id}
                                 {...hotel}
                             />
-                                </Card.Body>
-
-                            </Card>
-                        </div>
-
                     )
                     )
                 }
+                    </Card.Body>
+                    <Card.Footer className="text-muted">Number of Hotels: {this.props.hotels.length}</Card.Footer>
+                </Card>
             </div>
         );
     }

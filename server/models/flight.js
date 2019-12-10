@@ -42,6 +42,11 @@ const flightSchema = mongoose.Schema({
                                              required: true,
                                              maxlength: 100
                                          },
+                                         manager: {
+                                             type:mongoose.Schema.Types.ObjectId,
+                                             ref: 'User',
+                                             required: true
+                                         },
                                          destination_location: {
                                              type: String,
                                              required: true,
@@ -59,6 +64,10 @@ const flightSchema = mongoose.Schema({
                                          capacity: {
                                              type: Number,
                                              default: 0
+                                         },
+                                         managerId: {
+                                             type: String,
+                                             required: true
                                          }
                                      });
 
