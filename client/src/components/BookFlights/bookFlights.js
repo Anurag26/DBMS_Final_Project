@@ -80,7 +80,7 @@ class BookFlights extends Component {
                        required/>
 
                 <input name="dateOfFlight"
-                       type="text" id="dateOfFlight"
+                       type="date" id="dateOfFlight"
                        style={{width:'15rem',float:'left'}}
                        className="form-control" placeholder="Date: YYYY-MM-DD"
                        onChange={e => this.handleChange(e)}
