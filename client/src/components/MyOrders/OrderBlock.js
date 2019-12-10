@@ -9,11 +9,11 @@ class OrderBlock extends Component {
         show:this.props.history.length===0?false:true
     }
 
-    handleRenderUnitOrders=()=>{
-        this.props.history.map(order=>(
-            <UnitOrder />
-        ))
-    }
+    // handleRenderUnitOrders=()=>{
+    //     this.props.history.map(order=>(
+    //         <UnitOrder />
+    //     ))
+    // }
 
     render() {
         return (
@@ -25,6 +25,7 @@ class OrderBlock extends Component {
                         <Card.Header>Your Orders</Card.Header>
                         {this.props.history.map(order=>(
                         <UnitOrder
+
                         key={order.id}
                         productId={order.id}
                         productName={order.name}

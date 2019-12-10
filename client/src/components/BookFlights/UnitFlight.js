@@ -4,45 +4,18 @@ import axios from 'axios';
 import firebase from '../../Firebase/fireBase';
 
 class UnitFlight extends Component {
-    //
-    // state={
-    //     _id:'',
-    //     airline: '',
-    //     call_sign: '',
-    //     make_name: '',
-    //     origin_code: '',
-    //     origin_name: '',
-    //     origin_location: '',
-    //     destination_code: '',
-    //     destination_name: '',
-    //     destination_location: '',
-    //     capacity: 0,
-    //     dateTakeOff: '',
-    //     price: 0,
-    //     loginFirst:false
-    // }
 
-
-    //     handleBookFlight=()=>{
-    //     let dataToSubmit={
-    //         id:this.props._id
-    //     }
-    //     axios.post('http://localhost:3002/bookingsApp/users/addToCart/'+user.email,dataToSubmit).then(res=>{
-    //
-    //     }).catch(err=>{
-    //         console.log(err)
-    //     })
-    // }
 
 
     handleBookFlight=()=>{
+        console.log({...this.props._source})
         let dataToSubmit={
             dateTakeOff: this.props._source.dateTakeOff,
             origin_location: this.props._source.origin_location,
             price: this.props._source.price,
             destination_location: this.props._source.destination_location,
             price: this.props._source.price,
-            id:this.props._source.id
+            id:this.props._source._id
         }
 
         firebase.auth().onAuthStateChanged(user=> {

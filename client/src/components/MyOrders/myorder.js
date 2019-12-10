@@ -30,6 +30,7 @@ class Myorder extends Component {
                                               history:res.data[0].history,
                                               show:true
                                           })
+                            console.log(this.state.history);
                         }
 
                     }).catch(err => {

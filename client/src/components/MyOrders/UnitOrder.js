@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Card,Button} from 'react-bootstrap'
-import img1 from '../../images/Hotels.jpg';
+import img1 from '../../images/merged.jpg';
 
 class UnitOrder extends Component {
     render() {

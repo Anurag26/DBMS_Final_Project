@@ -24,10 +24,12 @@ class CartBlock extends Component {
     }
 
     handlePayment=()=>{
+        console.log("Id2 "+this.props.productId)
         let dataToSubmit={
             id: this.props.productId,
             name:this.props.productName,
-            price:this.props.productPrice
+            price:this.props.productPrice,
+            type: this.props.type
         }
 
         axios.put('http://localhost:3002/bookingsApp/users/addToOrder/'+this.props.userId,dataToSubmit).then(res=>{

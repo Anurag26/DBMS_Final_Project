@@ -25,9 +25,11 @@ class Mycart extends Component {
                               })
                 axios.get('http://localhost:3002/bookingsApp/users/email/' + user.email)
                     .then(res => {
+                        console.log(res)
                         if(res.data[0].cart.length!=0) {
                             if(res.data[0].cart[0].type==="Flight"){
-                                console.log("This is in cart"+res.data[0].cart[0].type);
+                                console.log("Flight id is "+res.data[0]._id);
+                                // console.log("This is in cart"+res.data[0].cart[0].type);
                                 this.setState({
                                                   userId: res.data[0]._id,
                                                   productId: res.data[0].cart[0].id,
@@ -40,7 +42,7 @@ class Mycart extends Component {
                                               })
                             }
                             else{
-                                console.log("This is in cart"+res.data[0].cart[0].type);
+                                // console.log("This is in cart"+res.data[0].cart[0].type);
                                 this.setState({
                                                   userId: res.data[0]._id,
                                                   productId: res.data[0].cart[0].id,
