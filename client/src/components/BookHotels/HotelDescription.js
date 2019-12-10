@@ -43,7 +43,7 @@ class HotelDescription extends Component {
             // }).catch(err=>{
             //     console.log(err)
             // })
-            console.log(res)
+            console.log("hotel"+res)
             this.setState({
                     _id:res.data._id,
                     name:res.data.name,

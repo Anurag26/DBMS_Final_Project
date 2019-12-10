@@ -6,6 +6,7 @@ exports.test = function (req, res) {
 };
 
 exports.order_create = function (req, res, next) {
+
     var booking = new Booking(
         {
             user_id: req.body.user_id,
@@ -21,6 +22,7 @@ exports.order_create = function (req, res, next) {
         }
         res.send(booking);
     })
+    console.log("Booking is done");
 };
 
 exports.order_details = function (req, res, next) {

@@ -90,7 +90,7 @@ exports.user_addOrder = function (req, res, next) {
                               res.status(200).json({successDeleteFromCart: true})
                           }
     )
-
+    console.log("User order is added");
 };
 
 exports.onboard = function (req, res, next) {
