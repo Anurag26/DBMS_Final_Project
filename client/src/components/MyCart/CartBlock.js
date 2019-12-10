@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import axios from 'axios';
-import Image from 'react-bootstrap/Image'
+import Alert from 'react-bootstrap/Alert';
 import {Card,Button} from 'react-bootstrap';
 import Hotel from '../../images/Hotels.jpg';
 import Flight from '../../images/merged.jpg';
@@ -81,7 +81,15 @@ class CartBlock extends Component {
                 {
                     this.state.paymentDone?
                     <div>
-                        Thankyou for the payment
+                        <>
+                            <Alert  variant="success">
+                                <Alert.Heading>Payment done successfully.</Alert.Heading>
+                                <p>
+                                    Payment done from default payment mode...
+                                </p>
+                                <hr />
+                            </Alert>
+                        </>
                     </div>
                     :
                     null

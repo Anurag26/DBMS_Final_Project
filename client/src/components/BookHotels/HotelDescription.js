@@ -2,7 +2,11 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import {Card,Button} from 'react-bootstrap';
 import firebase from '../../Firebase/fireBase';
+
 import img1 from '../../images/Hotels.jpg';
+
+import Alert from 'react-bootstrap/Alert';
+
 
 class HotelDescription extends Component {
 
@@ -17,7 +21,8 @@ class HotelDescription extends Component {
         room_number:0,
         room_type:'',
         manager:'',
-        loginFirst:false
+        loginFirst:false,
+        productAddedToCart: false
     }
 
     componentWillMount() {
@@ -70,21 +75,41 @@ class HotelDescription extends Component {
             if(user) {
                 axios.post('http://localhost:3002/bookingsApp/users/addToCart/' + user.email,
                            dataToSubmit).then(res => {
-                    console.log('success')
+                    console.log('success');
+                    this.setState({
+                           productAddedToCart: true
+                    })
+
                 }).catch(err => {
                     console.log('cannot add to cart')
                 })
             }
             else{
                 this.setState({
+<<<<<<< HEAD
                                   loginFirst:true
                               })
+=======
+                    loginFirst:true
+                })
+>>>>>>> 4ed1ab1948f084edb6082207ba95f84ad3423b78
             }
         })
     }
 
     render() {
         return (
+            this.state.productAddedToCart?
+            <div> <>
+                <Alert  variant="success">
+                    <Alert.Heading>Product successfully added to cart.</Alert.Heading>
+                    <p>
+                        Kindly checkout and complete payment of the cart...
+                    </p>
+                    <hr />
+                </Alert>
+            </> </div>
+              :
             <div>
                 <Card>
                     <Card.Header>{this.state.name}</Card.Header>
