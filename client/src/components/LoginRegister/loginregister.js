@@ -3,6 +3,7 @@ import axios from 'axios';
 import {Button} from 'react-bootstrap';
 import firebase from '../../Firebase/fireBase';
 import {Redirect,Link} from 'react-router-dom'
+import Alert from 'react-bootstrap/Alert';
 import Home from '../Home/home';
 
 class LoginRegister extends Component {
@@ -18,7 +19,8 @@ class LoginRegister extends Component {
         signInClicked:true,
         checkbox: false,
         checkboxType:false,
-        userdb:false
+        userdb:false,
+        loggedIn: false
     }
 
     toggleChange=()=>{
@@ -61,7 +63,8 @@ class LoginRegister extends Component {
                                           registerFirstName:'',
                                           registerLastName:'',
                                           checkbox:false,
-                                          checkboxType:false
+                                          checkboxType:false,
+                                          loggedIn: true
                                       })
                     }).catch(err => {
                     console.log(err);
@@ -81,7 +84,8 @@ class LoginRegister extends Component {
                               .then(res => {
                                   this.setState({
                                                     signInEmail: '',
-                                                    signInPassword: ''
+                                                    signInPassword: '',
+                                                    loggedIn: true
                                                 })
                               }).catch(err => {
                               console.log(err);
@@ -106,6 +110,14 @@ class LoginRegister extends Component {
 
     render() {
         return (
+            this.state.loggedIn ?
+            <Alert variant="success" dismissible>
+                <Alert.Heading>User Logged in successfully!</Alert.Heading>
+                <p>
+                    Kindly go to profile section to proceed !!
+                </p>
+            </Alert>
+            :
             <div>
                 <div className="container">
                     <div className="row">
