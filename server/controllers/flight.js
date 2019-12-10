@@ -88,6 +88,16 @@ exports.flight_details = function (req, res, next) {
     })
 };
 
+exports.flight_vendor = function (req, res, next) {
+    console.log(req.params.id)
+    Flight.find({managerId : req.params.id},(err,flights)=>{
+        if(flights){
+            return res.json(flights);
+        }
+        return next(err);
+    })
+};
+
 exports.flight_update = function (req, res, next) {
     Flight.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, flight) {
         if (err) {
