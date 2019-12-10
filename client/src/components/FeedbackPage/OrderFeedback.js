@@ -39,7 +39,6 @@ class OrderFeedback extends Component {
     render() {
         return (
             this.state.show?
-            // <div><label htmlFor="successfull submission">Thanks for the feedback !!</label> </div>
             <div> <>
                 <Alert  variant="success">
                     <Alert.Heading>Thanks for the feedBack.</Alert.Heading>
@@ -92,28 +91,6 @@ class OrderFeedback extends Component {
                                       required/>
                     </Form.Group>
                 </Form>
-
-                {/*<input name="email"*/}
-                {/*       style={{width:'15rem',float:'left'}}*/}
-                {/*       type="text" id="email"*/}
-                {/*       className="form-control" placeholder="Email"*/}
-                {/*       onChange={e => this.handleChange(e)}*/}
-                {/*       value={this.state.email}*/}
-                {/*       required/>*/}
-                {/*<input name="comments"*/}
-                {/*       type="text" id="comments"*/}
-                {/*       style={{width:'15rem',float:'left'}}*/}
-                {/*       className="form-control" placeholder="Comments"*/}
-                {/*       onChange={e => this.handleChange(e)}*/}
-                {/*       value={this.state.comments}*/}
-                {/*       required/>*/}
-                {/*<input name="order"*/}
-                {/*       type="text" id="order"*/}
-                {/*       style={{width:'15rem',float:'left'}}*/}
-                {/*       className="form-control" placeholder="Order ID"*/}
-                {/*       onChange={e => this.handleChange(e)}*/}
-                {/*       value={this.state.order}*/}
-                {/*       required/>*/}
                 <Button variant="primary" onClick={this.handleSearchButton}>Submit FeedBack</Button>
             </div>
         );

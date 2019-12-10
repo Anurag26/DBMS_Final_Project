@@ -3,6 +3,7 @@ import firebase from '../../Firebase/fireBase';
 import axios from 'axios';
 import {Card,ListGroup,ListGroupItem,Button} from 'react-bootstrap';
 import img1 from '../../images/default_user.jpg'
+import Alert from 'react-bootstrap/Alert';
 
 class User extends Component {
 
@@ -138,7 +139,12 @@ class User extends Component {
 
                   :
                   <div>
-                    Please Log in first
+                      <Alert variant="danger" dismissible>
+                          <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
+                          <p>
+                              Kindly login first !!
+                          </p>
+                      </Alert>
                   </div>
                 }
                 <div style={{float:'right'}}></div>

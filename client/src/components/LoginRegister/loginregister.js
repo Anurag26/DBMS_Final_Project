@@ -187,7 +187,7 @@ class LoginRegister extends Component {
                                          </div>
 
                                          <div className="form-label-group">
-                                             <input name="registerFirstName" type="email" id="registerFirstName"
+                                             <input name="registerFirstName" type="text" id="registerFirstName"
                                                     className="form-control"
                                                     placeholder="First Name"
                                                     value={this.state.registerFirstName}
@@ -197,7 +197,7 @@ class LoginRegister extends Component {
                                          </div>
 
                                          <div className="form-label-group">
-                                             <input name="registerLastName" type="email" id="registerLastName"
+                                             <input name="registerLastName" type="text" id="registerLastName"
                                                     className="form-control"
                                                     placeholder="Last Name"
                                                     value={this.state.registerLastName}
