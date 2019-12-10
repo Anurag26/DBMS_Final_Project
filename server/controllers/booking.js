@@ -35,8 +35,7 @@ exports.order_details = function (req, res, next) {
 };
 
 exports.order_all = function (req, res, next) {
-    Booking.
-    find({}).
+    Booking.find({}).
     populate('user').
     exec((err,products)=>{
         if(err) return res.status(400).send(err);

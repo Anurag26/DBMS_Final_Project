@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import axios from 'axios';
 import firebase from '../../Firebase/fireBase';
+import VendorFlightBlock from './VendorFlightBlock';
 
 class VendorFlights extends Component {
 
@@ -35,14 +36,14 @@ class VendorFlights extends Component {
     render() {
         return (
             <div>
-                {/*{*/}
-                {/*    this.state.flights.length != 0 ?*/}
-                {/*    <VendorFlightBlock*/}
-                {/*        flights={this.state.flights}*/}
-                {/*    />*/}
-                {/*                                  :*/}
-                {/*    null*/}
-                {/*}*/}
+                {
+                    this.state.flights.length != 0 ?
+                    <VendorFlightBlock
+                        flights={this.state.flights}
+                    />
+                                                  :
+                    null
+                }
             </div>
         );
     }

@@ -15,7 +15,8 @@ class User extends Component {
         lastName:'',
         update:false,
         updateUserName:'',
-        deleteError:false
+        deleteError:false,
+        logout: false
     }
 
     handleChange=(e)=>{
@@ -27,7 +28,8 @@ class User extends Component {
     handleLogOut=()=>{
         firebase.auth().signOut().then(res=>{
             this.setState({
-                exist:false
+                exist:false,
+                logout:true
                           })
         }).catch(err=>{
             console.log(err);
@@ -95,7 +97,7 @@ class User extends Component {
     render() {
         return (
             <div>
-                { this.state.exist?
+                { this.state.exist ?
                     <Card style={{width: '18rem'}}>
                         <Card.Img variant="top" src={img1} />
                         <Card.Body>
@@ -137,15 +139,23 @@ class User extends Component {
                         }
                     </Card>
 
-                  :
+                  : this.state.logout?
                   <div>
-                      <Alert variant="danger" dismissible>
-                          <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
+                      <Alert variant="success" dismissible>
+                          <Alert.Heading>User Logged out successfully!</Alert.Heading>
                           <p>
-                              Kindly login first !!
+                              Kindly close this browser to complete logout!!
                           </p>
                       </Alert>
                   </div>
+                    :                   <div>
+                        <Alert variant="danger" dismissible>
+                            <Alert.Heading>User not logged In!</Alert.Heading>
+                            <p>
+                                Kindly login to proceed!!
+                            </p>
+                        </Alert>
+                    </div>
                 }
                 <div style={{float:'right'}}></div>
             </div>

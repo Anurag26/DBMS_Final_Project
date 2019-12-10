@@ -99,7 +99,7 @@ exports.flight_vendor = function (req, res, next) {
 };
 
 exports.flight_update = function (req, res, next) {
-    Flight.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, flight) {
+    Flight.findByIdAndUpdate(req.params.id, {$set: { airline: req.body.airline}}, function (err, flight) {
         if (err) {
             return next(err);
         }
