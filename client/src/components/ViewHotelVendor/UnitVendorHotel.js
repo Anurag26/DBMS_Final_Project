@@ -6,7 +6,10 @@ class UnitVendorHotel extends Component {
 
     state={
         updatePressed:false,
-        fullDisplay:true
+        fullDisplay:true,
+        name: '',
+        displayName:'',
+        updateDone:true
     }
 
     toggleUpdate=()=>{
@@ -17,14 +20,40 @@ class UnitVendorHotel extends Component {
 
     pushUpdate=()=>{
 
+        let dataToSubmit ={
+            name: this.state.name
+        }
+        axios.put('http://localhost:3002/bookingsApp/hotels/'+this.props._id+'/update',dataToSubmit).then(res=>{
+            this.setState({
+                            displayName: this.state.name,
+                            name:''
+                          })
+            this.toggleUpdate()
+        }).catch(err=>{
+            console.log(err)
+        })
     }
 
     pushDelete=()=>{
-        axios.delete('http://localhost:3002/bookingsApp/').then(res=>{
-
+        axios.delete('http://localhost:3002/bookingsApp/hotels/'+this.props._id+'/delete').then(res=>{
+            this.setState({
+                fullDisplay:false
+                          })
         }).catch(err=>{
-
+            console.log(err)
         })
+    }
+
+    handleChange=(e)=>{
+        this.setState({
+            [e.target.name]:e.target.value
+                      })
+    }
+
+    componentWillMount() {
+        this.setState({
+            displayName: this.props.name
+                      })
     }
 
     render() {
@@ -33,15 +62,27 @@ class UnitVendorHotel extends Component {
                 {
                     this.state.fullDisplay?
                         <div>
-                            <Card.Header>{this.props.name} </Card.Header>
+                            <Card.Header>{this.state.displayName} </Card.Header>
                             <Card.Text>{this.props.address_street}, {this.props.address_city}, {this.props.country}</Card.Text>
-                            <Button variant="danger"> Delete Me</Button>
+                            <Button variant="danger" onClick={this.pushDelete} > Delete Me</Button>
                             <Button variant="warning" onClick={this.toggleUpdate}> Update</Button>
                             {
                                 this.state.updatePressed?
+                                this.state.updateDone?
                                 <div>
+                                    <input name="name"
+                                           type="text" id="inputupdated"
+                                           className="form-control" placeholder="Enter new Name!"
+                                           onChange={e => this.handleChange(e)}
+                                           value={this.state.name}
+                                           required/>
                                     <Button variant="warning" onClick={this.pushUpdate}> Update It</Button>
-                                </div> :
+                                <div>
+                                </div>
+                                </div>
+                                :
+                                null
+                                                        :
                                 null
                             }
                         </div>

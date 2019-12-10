@@ -40,7 +40,7 @@ exports.hotel_details = function (req, res, next) {
 };
 
 exports.hotel_update = function (req, res, next) {
-    Hotel.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, hotel) {
+    Hotel.findByIdAndUpdate(req.params.id, {$set: {name: req.body.name}}, function (err, hotel) {
         if (err) {
             return next(err);
         }
