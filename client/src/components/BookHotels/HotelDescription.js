@@ -86,13 +86,9 @@ class HotelDescription extends Component {
             }
             else{
                 this.setState({
-<<<<<<< HEAD
-                                  loginFirst:true
-                              })
-=======
+
                     loginFirst:true
                 })
->>>>>>> 4ed1ab1948f084edb6082207ba95f84ad3423b78
             }
         })
     }

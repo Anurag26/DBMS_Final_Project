@@ -24,9 +24,9 @@ class CartBlock extends Component {
     }
 
     handlePayment=()=>{
-        console.log("Id2 "+this.props.productId)
+        console.log("Id2 "+this.props.userId)
         let dataToSubmit={
-            id: this.props.productId,
+            id: this.props.userId,
             name:this.props.productName,
             price:this.props.productPrice,
             type: this.props.type
