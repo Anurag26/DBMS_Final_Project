@@ -16,6 +16,7 @@ class HotelDescription extends Component {
         price:0,
         room_number:0,
         room_type:'',
+        manager:'',
         loginFirst:false
     }
 
@@ -39,26 +40,30 @@ class HotelDescription extends Component {
             // })
             console.log(res)
             this.setState({
-                              _id:res.data._id,
-                              name:res.data.name,
-                              phone:res.data.phone,
-                              country:res.data.country,
-                              address_street:res.data.address_street,
-                              address_city:res.data.address_city,
-                              price: res.data.price[0],
-                              room_type: res.data.room_type[0],
-                              room_number: res.data.room_number
+                    _id:res.data._id,
+                    name:res.data.name,
+                    phone:res.data.phone,
+                    country:res.data.country,
+                    address_street:res.data.address_street,
+                    address_city:res.data.address_city,
+                    price: res.data.price[0],
+                    room_type: res.data.room_type[0],
+                    room_number: res.data.room_number,
+                    manager: res.data.manager
+>>>>>>> 0d3c7112604d93cad679e3d8fac89cd8f8f992ba
                           })
         }).catch(err=>{
             console.log(err)
         })
     }
 
+
     handleItemToCart=()=>{
         let dataToSubmit={
             name: this.state.name,
             price: this.state.price,
-            id:this.state._id
+            id:this.state._id,
+            manager:this.state.manager
         }
 
         firebase.auth().onAuthStateChanged(user=> {

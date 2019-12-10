@@ -12,6 +12,7 @@ class Mycart extends Component {
         productName:'',
         productPrice:0,
         productId:'',
+        manager:'',
         show:false
     }
 
@@ -31,6 +32,7 @@ class Mycart extends Component {
                                               productName: res.data[0].cart[0].name,
                                               productPrice: res.data[0].cart[0].price,
                                               userEmail: res.data[0].email,
+                                              manager:res.data[0].cart[0].manager,
                                 show:true
                                           })
                         }
@@ -51,7 +53,7 @@ class Mycart extends Component {
                         this.state.show?
                     <CartBlock productName={this.state.productName} productPrice={this.state.productPrice}
                                userId={this.state.userId} productId={this.state.productId}
-                               userEmail={this.state.userEmail}
+                               userEmail={this.state.userEmail} manager={this.state.manager}
                     />
                     :null
                     :

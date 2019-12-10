@@ -36,6 +36,24 @@ class CartBlock extends Component {
         }).catch(err=>{
             console.log(err)
         })
+
+        let dataToSubmitBooking={
+            user_id:this.props.userId,
+            product_id:this.props.productId,
+            product_name: this.props.productName,
+            product_price:this.props.productPrice,
+            vendor_id:this.props.manager
+        }
+
+        axios.post('http://localhost:3002/bookingsApp/bookings/create',dataToSubmitBooking).then(res=>{
+            // console.log(res)
+            console.log('hey')
+        }).catch(err=>{
+            console.log(err)
+        })
+
+        console.log(dataToSubmitBooking);
+
     }
 
     render() {
