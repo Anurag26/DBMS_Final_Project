@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import firebase from '../../Firebase/fireBase';
+import Alert from 'react-bootstrap/Alert';
 import CartBlock from './CartBlock';
 
 class Mycart extends Component {
@@ -56,7 +57,14 @@ class Mycart extends Component {
                     />
                     :null
                     :
-                    <div> Please log in first</div>
+                    <div>
+                        <Alert variant="danger" dismissible>
+                            <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
+                            <p>
+                               Kindly login first !!
+                            </p>
+                        </Alert>
+                    </div>
                 }
 
             </div>

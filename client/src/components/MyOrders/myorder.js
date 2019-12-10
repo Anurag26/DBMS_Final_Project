@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import OrderBlock from './OrderBlock';
 import axios from 'axios';
+import Alert from 'react-bootstrap/Alert';
 import firebase from '../../Firebase/fireBase';
 
 class Myorder extends Component {
@@ -49,7 +50,14 @@ class Myorder extends Component {
                     (<OrderBlock history={this.state.history} />)
                         :null
                                         :
-                    <div> Please log in first</div>
+                    <div>
+                        <Alert variant="danger" dismissible>
+                        <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
+                        <p>
+                            Kindly login first !!
+                        </p>
+                    </Alert>
+                    </div>
                 }
             </div>
         );

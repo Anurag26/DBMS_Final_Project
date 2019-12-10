@@ -1,17 +1,24 @@
 import React, {Component} from 'react';
 import firebase from '../../Firebase/fireBase';
 import {Card,Button} from 'react-bootstrap';
+import Alert from 'react-bootstrap/Alert';
 import axios from 'axios';
 
 class AddHotel extends Component {
 
     state={
         name:'',
-        description:'',
-        hotel_location:'',
+        total_rooms:0,
+        totalCapacity:0,
+        phone:'',
+        country:'',
+        show:false,
+        room_type:0,
+        manager:'',
         price:0,
-        room_number:0,
-        room_type:''
+        address_street:'',
+        address_city:'',
+        managerId:''
     }
 
     handleChange=(e)=>{
@@ -29,23 +36,31 @@ class AddHotel extends Component {
                     vendorId = res.data[0]._id
                     let dataToSubmit = {
                         "name": this.state.name,
-                        "description": this.state.description,
-                        "hotel_location": this.state.hotel_location,
-                        "vendor": vendorId,
+                        "total_rooms": this.state.total_rooms,
+                        "totalCapacity": this.state.totalCapacity,
+                        "phone": this.state.phone,
+                        "country": this.state.country,
+                        "room_type": this.state.room_type,
+                        "manager": vendorId,
                         "price": this.state.price,
-                        "room_number": this.state.room_number,
-                        "room_type": this.state.room_type
+                        "address_street": this.state.address_street,
+                        "address_city": this.state.address_city,
+                        "managerId": vendorId
                     }
                     axios.post('http://localhost:3002/bookingsApp/hotels/create', dataToSubmit)
                         .then(res => {
                             console.log(res)
                             this.setState({
-                                              name: '',
-                                              description: '',
-                                              hotel_location: '',
-                                              price: 0,
-                                              room_number: 0,
-                                              room_type: ''
+                                              name:'',
+                                              total_rooms:0,
+                                              totalCapacity:0,
+                                              phone:'',
+                                              country:'',
+                                              show:true,
+                                              room_type:0,
+                                              price:0,
+                                              address_street:'',
+                                              address_city:''
                                           })
                         }).catch(err => {
                         console.log(err)
@@ -58,6 +73,18 @@ class AddHotel extends Component {
 
     render() {
         return (
+            this.state.show?
+            <div> <>
+                <Alert  variant="success">
+                    <Alert.Heading>Hotel has been created successfullyk.</Alert.Heading>
+                    <p>
+                        Kindly navigate to profile page to view details...
+                    </p>
+                    <hr />
+                </Alert>
+            </> </div>
+
+                 :
             <div>
                 <Card>
                     <Card.Header as="h5">Add new Hotel</Card.Header>
@@ -70,46 +97,81 @@ class AddHotel extends Component {
                                value={this.state.name}
                                onChange={e => this.handleChange(e)}
                                required autoFocus/>
-                        <Card.Title>Enter description</Card.Title>
-                        <input name="description"
-                               type="text" id="des"
+
+                        <Card.Title>Enter available number of rooms</Card.Title>
+                        <input name="total_rooms"
+                               type="number" id="total_rooms"
                                className="form-control"
-                               placeholder="Enter Description"
-                               value={this.state.description}
+                               placeholder="Enter number of rooms"
+                               value={this.state.total_rooms}
                                onChange={e => this.handleChange(e)}
                                required autoFocus/>
-                        <Card.Title>Enter location</Card.Title>
-                        <input name="hotel_location"
-                               type="text" id="loc"
+
+                        <Card.Title>Enter number of rooms</Card.Title>
+                        <input name="totalCapacity"
+                               type="number" id="totalCapacity"
                                className="form-control"
-                               placeholder="Enter Location"
-                               value={this.state.hotel_location}
+                               placeholder="Enter number of rooms available"
+                               value={this.state.totalCapacity}
                                onChange={e => this.handleChange(e)}
                                required autoFocus/>
-                        <Card.Title>Enter Price</Card.Title>
-                        <input name="price"
-                               type="text" id="price"
+
+                        <Card.Title>Enter Contact details</Card.Title>
+                        <input name="phone"
+                               type="text" id="phone"
                                className="form-control"
-                               placeholder="Enter Location"
-                               value={this.state.price}
+                               placeholder="Enter phone number of hotel"
+                               value={this.state.phone}
                                onChange={e => this.handleChange(e)}
                                required autoFocus/>
-                        <Card.Title>Room Number</Card.Title>
-                        <input name="room_number"
-                               type="text" id="room_number"
+
+                        <Card.Title>Enter country</Card.Title>
+                        <input name="country"
+                               type="text" id="country"
                                className="form-control"
-                               placeholder="Enter room number"
-                               value={this.state.room_number}
+                               placeholder="Enter Country"
+                               value={this.state.country}
                                onChange={e => this.handleChange(e)}
                                required autoFocus/>
-                        <Card.Title>Room type</Card.Title>
+
+
+                        <Card.Title>Enter room type</Card.Title>
                         <input name="room_type"
                                type="text" id="room_type"
                                className="form-control"
-                               placeholder="Enter room type"
+                               placeholder="Enter room type ex- suite"
                                value={this.state.room_type}
                                onChange={e => this.handleChange(e)}
                                required autoFocus/>
+
+
+                        <Card.Title>Enter price details</Card.Title>
+                        <input name="price"
+                               type="number" id="price"
+                               className="form-control"
+                               placeholder="Enter price"
+                               value={this.state.price}
+                               onChange={e => this.handleChange(e)}
+                               required autoFocus/>
+
+                        <Card.Title>Enter Street address</Card.Title>
+                        <input name="address_street"
+                               type="text" id="address_street"
+                               className="form-control"
+                               placeholder="Enter street address ex - 233 park drive"
+                               value={this.state.address_street}
+                               onChange={e => this.handleChange(e)}
+                               required autoFocus/>
+
+                        <Card.Title>Enter City</Card.Title>
+                        <input name="address_city"
+                               type="text" id="address_city"
+                               className="form-control"
+                               placeholder="Enter city"
+                               value={this.state.address_city}
+                               onChange={e => this.handleChange(e)}
+                               required autoFocus/>
+
                         <br />
                         <Button variant="primary" onClick={this.handleSubmit}>Add this Hotel</Button>
                     </Card.Body>
