@@ -7,7 +7,7 @@ class BookingBlock extends Component {
         return (
             <div>
                 <Card className="text-center">
-                    <Card.Header>Your Bookings</Card.Header>
+                    <Card.Header>Total Bookings on your website</Card.Header>
                     {this.props.bookings.map(booking=>(
                         <UnitBooking
                             productId={booking.product_id}
@@ -15,6 +15,7 @@ class BookingBlock extends Component {
                             vendorId={booking.vendor_id}
                         />
                         ))}
+                    <Card.Footer className="text-muted">Number of Bookings: {this.props.bookings.length}</Card.Footer>
                 </Card>
             </div>
         );

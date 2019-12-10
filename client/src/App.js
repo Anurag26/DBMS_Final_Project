@@ -18,6 +18,7 @@ import ManageUsers from './components/Admin/manageUsers';
 import MyOrders from './components/MyOrders/myorder';
 import Bookings from './components/AllBookings/bookings';
 import VendorHotels from './components/ViewHotelVendor/vendorHotels';
+import VendorFlights from './components/ViewFlightVendor/vendorFlights';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/hotelAdd" component={AddHotel} />
             <Route path="/loginRegister" component={LoginRegisterHome} />
+            <Route path="/myflights" component={VendorFlights} />
             <Route path="/myorders" component={MyOrders} />
             <Route path="/hotels" component={Hotels} />
             <Route path="/usersCrud" component={ManageUsers} />

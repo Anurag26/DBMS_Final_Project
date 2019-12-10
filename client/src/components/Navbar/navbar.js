@@ -56,6 +56,13 @@ class NavbarClass extends Component {
                 null
             }
             {
+                this.state.role==='Vendor-Airline'?
+                <div>
+                    <NavDropdown.Item href="/myflights">My Flights</NavDropdown.Item>
+                </div>:
+                null
+            }
+            {
                 this.state.role==='Admin'?
                 <div>
                 <NavDropdown.Item href="/usersCrud">Manage Users</NavDropdown.Item>
