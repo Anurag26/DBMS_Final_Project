@@ -48,7 +48,10 @@ class NavbarClass extends Component {
             }
             {
                 this.state.role==='Vendor-Hotel'?
+                <div>
                 <NavDropdown.Item href="/hotelAdd">Add Hotel</NavDropdown.Item>
+                <NavDropdown.Item href="/myhotels">My Hotels</NavDropdown.Item>
+                </div>
                 :
                 null
             }

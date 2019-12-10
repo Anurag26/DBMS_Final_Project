@@ -19,7 +19,8 @@
       1107.5
     ],
     "address_street": "10 Bayfront Avenue",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Boss",
@@ -41,7 +42,8 @@
       862.5
     ],
     "address_street": "500 Jalan Sultan",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Swissotel The Stamford",
@@ -63,7 +65,8 @@
       412.5
     ],
     "address_street": "2 Stamford Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Mandarin Orchard Singapore",
@@ -85,7 +88,8 @@
       837.5
     ],
     "address_street": "333 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Carlton Hotel Singapore",
@@ -107,7 +111,8 @@
       895
     ],
     "address_street": "76 Bras Basah Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "V Hotel Lavender",
@@ -129,7 +134,8 @@
       707.5
     ],
     "address_street": "70 Jellicoe Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Shangri-La Hotel",
@@ -151,7 +157,8 @@
       1020
     ],
     "address_street": "22 Orange Grove Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Pan Pacific Singapore",
@@ -173,7 +180,8 @@
       965
     ],
     "address_street": "7 Raffles Boulevard Marina Square",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Fairmont Singapore",
@@ -195,7 +203,8 @@
       147.5
     ],
     "address_street": "80 Bras Basah Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Grand Hyatt Singapore",
@@ -217,7 +226,8 @@
       560
     ],
     "address_street": "10 Scotts Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Orchard Hotel Singapore",
@@ -239,7 +249,8 @@
       365
     ],
     "address_street": "442 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "JW Marriott Hotel Singapore South Beach",
@@ -261,7 +272,8 @@
       347.5
     ],
     "address_street": "30 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Furama Riverfront Singapore",
@@ -283,7 +295,8 @@
       150
     ],
     "address_street": "405 Havelock Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "YOTEL Singapore",
@@ -305,7 +318,8 @@
       785
     ],
     "address_street": "366 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Ritz-Carlton, Millenia Singapore",
@@ -327,7 +341,8 @@
       965
     ],
     "address_street": "7 Raffles Avenue",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Peninsula Excelsior Hotel",
@@ -349,7 +364,8 @@
       682.5
     ],
     "address_street": "5 Coleman Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Grand Mercure Singapore Roxy",
@@ -371,7 +387,8 @@
       1085
     ],
     "address_street": "50 East Coast Road Roxy Square",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Marina Mandarin Singapore",
@@ -393,7 +410,8 @@
       697.5
     ],
     "address_street": "6 Raffles Boulevard Marina Square",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Grand Copthorne Waterfront Hotel Singapore",
@@ -415,7 +433,8 @@
       647.5
     ],
     "address_street": "392 Havelock Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Jen Tanglin Singapore",
@@ -437,7 +456,8 @@
       320
     ],
     "address_street": "1A Cuscaden Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Crowne Plaza Changi Airport",
@@ -459,7 +479,8 @@
       217.5
     ],
     "address_street": "75 Airport Boulevard #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Genting Hotel Jurong",
@@ -481,7 +502,8 @@
       160
     ],
     "address_street": "2 Town Hall Link",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "ibis Singapore on Bencoolen",
@@ -503,7 +525,8 @@
       422.5
     ],
     "address_street": "170 Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "PARKROYAL on Kitchener Road",
@@ -525,7 +548,8 @@
       1125
     ],
     "address_street": "181 Kitchener Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Mandarin Oriental, Singapore",
@@ -547,7 +571,8 @@
       827.5
     ],
     "address_street": "5 Raffles Avenue Marina Square",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Mercure Singapore on Stevens",
@@ -569,7 +594,8 @@
       185
     ],
     "address_street": "28 Stevens Road #01-02",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Holiday Inn Singapore Atrium",
@@ -591,7 +617,8 @@
       907.5
     ],
     "address_street": "317 Outram Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Conrad Centennial Singapore",
@@ -613,7 +640,8 @@
       787.5
     ],
     "address_street": "2 Temasek Boulevard",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Royal Plaza on Scotts",
@@ -635,7 +663,8 @@
       1060
     ],
     "address_street": "25 Scotts Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Jen Orchardgateway Singapore",
@@ -657,7 +686,8 @@
       290
     ],
     "address_street": "277 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Chancellor @ Orchard",
@@ -679,7 +709,8 @@
       890
     ],
     "address_street": "No. 28 Cavenagh Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Swissotel Merchant Court, Singapore",
@@ -701,7 +732,8 @@
       975
     ],
     "address_street": "20 Merchant Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Four Points by Sheraton Singapore, Riverview",
@@ -723,7 +755,8 @@
       1027.5
     ],
     "address_street": "382 Havelock Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Resorts World at Sentosa",
@@ -745,7 +778,8 @@
       892.5
     ],
     "address_street": "8 Sentosa Gateway, Sentosa Island",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Michael - Resorts World Sentosa",
@@ -767,7 +801,8 @@
       167.5
     ],
     "address_street": "8 Sentosa Gateway",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Shangri-La's Rasa Sentosa Resort & Spa, Singapore",
@@ -789,7 +824,8 @@
       1107.5
     ],
     "address_street": "101 Siloso Road, Sentosa",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Holiday Inn Express Singapore Katong",
@@ -811,7 +847,8 @@
       792.5
     ],
     "address_street": "88 East Coast Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Festive Hotel",
@@ -833,7 +870,8 @@
       905
     ],
     "address_street": "8 Sentosa Gateway",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Furama City Centre Singapore",
@@ -855,7 +893,8 @@
       132.5
     ],
     "address_street": "60 Eu Tong Sen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park Hotel Alexandra",
@@ -877,7 +916,8 @@
       162.5
     ],
     "address_street": "323 Alexandra Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Holiday Inn Express Singapore Clarke Quay",
@@ -899,7 +939,8 @@
       612.5
     ],
     "address_street": "2 Magazine Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Regent Singapore",
@@ -921,7 +962,8 @@
       1005
     ],
     "address_street": "1 Cuscaden Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Oasia Hotel Novena, Singapore",
@@ -943,7 +985,8 @@
       1070
     ],
     "address_street": "8 Sinaran Drive",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hilton Singapore",
@@ -965,7 +1008,8 @@
       722.5
     ],
     "address_street": "581 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Sheraton Towers Singapore",
@@ -987,7 +1031,8 @@
       557.5
     ],
     "address_street": "39 Scotts Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Concorde Hotel Singapore",
@@ -1009,7 +1054,8 @@
       710
     ],
     "address_street": "100 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "M Hotel Singapore",
@@ -1031,7 +1077,8 @@
       157.5
     ],
     "address_street": "81 Anson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "York Hotel",
@@ -1053,7 +1100,8 @@
       927.5
     ],
     "address_street": "21 Mount Elizabeth",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Days Hotel by Wyndham Singapore At Zhongshan Park",
@@ -1075,7 +1123,8 @@
       530
     ],
     "address_street": "1 Jalan Rajah",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Novotel Singapore Clarke Quay",
@@ -1097,7 +1146,8 @@
       975
     ],
     "address_street": "177A River Valley Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "InterContinental Singapore",
@@ -1119,7 +1169,8 @@
       797.5
     ],
     "address_street": "80 Middle Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fullerton Hotel Singapore",
@@ -1141,7 +1192,8 @@
       1047.5
     ],
     "address_street": "1 Fullerton Square",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Mercure Singapore Bugis",
@@ -1163,7 +1215,8 @@
       167.5
     ],
     "address_street": "122 Middle Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Village Hotel Bugis",
@@ -1185,7 +1238,8 @@
       160
     ],
     "address_street": "390 Victoria Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Singapore Marriott Tang Plaza Hotel",
@@ -1207,7 +1261,8 @@
       1057.5
     ],
     "address_street": "320 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Orchard Rendezvous Hotel, Singapore",
@@ -1229,7 +1284,8 @@
       872.5
     ],
     "address_street": "1 Tanglin Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Carlton City Hotel Singapore",
@@ -1251,7 +1307,8 @@
       575
     ],
     "address_street": "1 Gopeng Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Ramada by Wyndham Singapore At Zhongshan Park",
@@ -1273,7 +1330,8 @@
       630
     ],
     "address_street": "16 Ah Hood Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Village Hotel Changi",
@@ -1295,7 +1353,8 @@
       792.5
     ],
     "address_street": "1 Netheravon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Amara Singapore",
@@ -1317,7 +1376,8 @@
       465
     ],
     "address_street": "165 Tanjong Pagar Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "PARKROYAL on Pickering",
@@ -1339,7 +1399,8 @@
       1110
     ],
     "address_street": "3 Upper Pickering Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Value Hotel - Thomson",
@@ -1361,7 +1422,8 @@
       580
     ],
     "address_street": "592 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hard Rock Hotel",
@@ -1383,7 +1445,8 @@
       945
     ],
     "address_street": "8 Sentosa Gateway",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Royal",
@@ -1405,7 +1468,8 @@
       200
     ],
     "address_street": "36 Newton Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Studio M Hotel",
@@ -1427,7 +1491,8 @@
       1037.5
     ],
     "address_street": "3 Nanson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park Avenue Rochester",
@@ -1449,7 +1514,8 @@
       1082.5
     ],
     "address_street": "31 Rochester Drive",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "PARKROYAL on Beach Road",
@@ -1471,7 +1537,8 @@
       472.5
     ],
     "address_street": "7500 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Miramar Singapore",
@@ -1493,7 +1560,8 @@
       952.5
     ],
     "address_street": "401 Havelock Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Mi",
@@ -1515,7 +1583,8 @@
       592.5
     ],
     "address_street": "41 Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Andaz Singapore",
@@ -1537,7 +1606,8 @@
       165
     ],
     "address_street": "5 Fraser Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park Hotel Clarke Quay",
@@ -1559,7 +1629,8 @@
       975
     ],
     "address_street": "1 Unity Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Grand Park City Hall",
@@ -1581,7 +1652,8 @@
       552.5
     ],
     "address_street": "10 Coleman Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Bay Hotel Singapore",
@@ -1603,7 +1675,8 @@
       702.5
     ],
     "address_street": "50 Telok Blangah Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hilton Garden Inn Singapore Serangoon",
@@ -1625,7 +1698,8 @@
       422.5
     ],
     "address_street": "3 Belilios Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Holiday Inn Singapore Orchard City Centre",
@@ -1647,7 +1721,8 @@
       110
     ],
     "address_street": "11 Cavenagh Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Oasia Hotel Downtown, Singapore",
@@ -1669,7 +1744,8 @@
       230
     ],
     "address_street": "100 Peck Seah Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Copthorne Kings Hotel Singapore",
@@ -1691,7 +1767,8 @@
       120
     ],
     "address_street": "403 Havelock Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Capri by Fraser Changi City, Singapore",
@@ -1713,7 +1790,8 @@
       1000
     ],
     "address_street": "3 Changi Business Park Central 1",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel G Singapore",
@@ -1735,7 +1813,8 @@
       430
     ],
     "address_street": "200 Middle Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Grand Park Orchard",
@@ -1757,7 +1836,8 @@
       292.5
     ],
     "address_street": "270 Orchard Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Westin Singapore",
@@ -1779,7 +1859,8 @@
       207.5
     ],
     "address_street": "12 Marina View, Asia Square Tower 2",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park Hotel Farrer Park",
@@ -1801,7 +1882,8 @@
       692.5
     ],
     "address_street": "10 Farrer Park Station Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Destination Singapore Beach Road",
@@ -1823,7 +1905,8 @@
       767.5
     ],
     "address_street": "700 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The St. Regis Singapore",
@@ -1845,7 +1928,8 @@
       827.5
     ],
     "address_street": "29 Tanglin Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Rendezvous Hotel Singapore",
@@ -1867,7 +1951,8 @@
       357.5
     ],
     "address_street": "9 Bras Basah Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "ibis Styles Singapore on Macpherson",
@@ -1889,7 +1974,8 @@
       660
     ],
     "address_street": "401 Macpherson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "M Social Singapore",
@@ -1911,7 +1997,8 @@
       745
     ],
     "address_street": "90 Robertson Quay",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Dorsett Singapore",
@@ -1933,7 +2020,8 @@
       360
     ],
     "address_street": "333 New Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Link Hotel Singapore",
@@ -1955,7 +2043,8 @@
       335
     ],
     "address_street": "50 Tiong Bahru Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "V Hotel Bencoolen",
@@ -1977,7 +2066,8 @@
       780
     ],
     "address_street": "48 Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Orchid Hotel",
@@ -1999,7 +2089,8 @@
       705
     ],
     "address_street": "1 Tras Link",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Parc Sovereign Hotel - Tyrwhitt",
@@ -2021,7 +2112,8 @@
       1082.5
     ],
     "address_street": "165 Tyrwhitt Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Grand Central Singapore",
@@ -2043,7 +2135,8 @@
       945
     ],
     "address_street": "22 Cavenagh Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Elizabeth Hotel",
@@ -2065,7 +2158,8 @@
       597.5
     ],
     "address_street": "24 Mount Elizabeth",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Four Seasons Hotel Singapore",
@@ -2087,7 +2181,8 @@
       825
     ],
     "address_street": "190 Orchard Boulevard",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Novotel Singapore on Stevens",
@@ -2109,7 +2204,8 @@
       285
     ],
     "address_street": "28 Stevens Road #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park Avenue Changi",
@@ -2131,7 +2227,8 @@
       652.5
     ],
     "address_street": "2 Changi Business Park Avenue 1",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Courtyard by Marriott Singapore Novena",
@@ -2153,7 +2250,8 @@
       320
     ],
     "address_street": "99 Irrawaddy Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "One Farrer Hotel & Spa",
@@ -2175,7 +2273,8 @@
       975
     ],
     "address_street": "1 Farrer Park Station Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "ibis Singapore Novena",
@@ -2197,7 +2296,8 @@
       235
     ],
     "address_street": "6 Irrawaddy Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "W Singapore - Sentosa Cove",
@@ -2219,7 +2319,8 @@
       392.5
     ],
     "address_street": "21 Ocean Way",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Quality Hotel Marlow",
@@ -2241,7 +2342,8 @@
       257.5
     ],
     "address_street": "201 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Grand Pacific",
@@ -2263,7 +2365,8 @@
       867.5
     ],
     "address_street": "101 Victoria Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Goodwood Park Hotel",
@@ -2285,7 +2388,8 @@
       167.5
     ],
     "address_street": "22 Scotts Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Royal @ Queens",
@@ -2307,7 +2411,8 @@
       452.5
     ],
     "address_street": "12 Queens Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Village Hotel Katong",
@@ -2329,7 +2434,8 @@
       617.5
     ],
     "address_street": "25 Marine Parade",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "InterContinental Singapore Robertson Quay",
@@ -2351,7 +2457,8 @@
       317.5
     ],
     "address_street": "1 Nanson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Sofitel Singapore City Centre",
@@ -2373,7 +2480,8 @@
       337.5
     ],
     "address_street": "9 Wallich Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Holiday Inn Express Singapore Orchard Road",
@@ -2395,7 +2503,8 @@
       577.5
     ],
     "address_street": "20 Bideford Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Ascott Orchard Singapore",
@@ -2417,7 +2526,8 @@
       500
     ],
     "address_street": "11 Cairnhill Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Sofitel Singapore Sentosa Resort & Spa",
@@ -2439,7 +2549,8 @@
       215
     ],
     "address_street": "2 Bukit Manis Road, Sentosa",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Village Hotel Albert Court",
@@ -2461,7 +2572,8 @@
       1097.5
     ],
     "address_street": "180 Albert Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Value Hotel - Balestier",
@@ -2483,7 +2595,8 @@
       230
     ],
     "address_street": "218 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Star",
@@ -2505,7 +2618,8 @@
       350
     ],
     "address_street": "31 Lorong 18 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park Regis Singapore",
@@ -2527,7 +2641,8 @@
       1022.5
     ],
     "address_street": "23 Merchant Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Dickson",
@@ -2549,7 +2664,8 @@
       365
     ],
     "address_street": "3 Dickson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Siloso Beach Resort",
@@ -2571,7 +2687,8 @@
       135
     ],
     "address_street": "51 Imbiah Walk",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Capella Hotel, Singapore",
@@ -2593,7 +2710,8 @@
       625
     ],
     "address_street": "1 The Knollsl, Sentosa Island",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Palace",
@@ -2615,7 +2733,8 @@
       1105
     ],
     "address_street": "25 Lorong 16 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Le MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ridien Singapore, Sentosa",
@@ -2637,7 +2756,8 @@
       247.5
     ],
     "address_street": "23 Beach View, Sentosa",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Cherryloft Resorts",
@@ -2659,7 +2779,8 @@
       1085
     ],
     "address_street": "159 Jalan Loyang Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Equarius Hotel",
@@ -2681,7 +2802,8 @@
       340
     ],
     "address_street": "8 Sentosa Gateway",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Pan Pacific Serviced Suites Beach Road",
@@ -2703,7 +2825,8 @@
       255
     ],
     "address_street": "7500B Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Orchid",
@@ -2725,7 +2848,8 @@
       392.5
     ],
     "address_street": "21 Lorong 8 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Home Suite View Hotel",
@@ -2747,7 +2871,8 @@
       287.5
     ],
     "address_street": "12 Lorong 12 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Parc Sovereign Hotel - Albert Street",
@@ -2769,7 +2894,8 @@
       957.5
     ],
     "address_street": "175 Albert Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Ruby",
@@ -2791,7 +2917,8 @@
       665
     ],
     "address_street": "No. 10 Lorong 20 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Aqueen Hotel - Paya Lebar",
@@ -2813,7 +2940,8 @@
       627.5
     ],
     "address_street": "33 Jalan Afifi",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Capitol Kempinski Hotel Singapore",
@@ -2835,7 +2963,8 @@
       595
     ],
     "address_street": "15 Stamford Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "RELC International Hotel",
@@ -2857,7 +2986,8 @@
       327.5
     ],
     "address_street": "30 Orange Grove Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Robertson Quay Hotel",
@@ -2879,7 +3009,8 @@
       1100
     ],
     "address_street": "15 Merbau Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Ascott Raffles Place Singapore",
@@ -2901,7 +3032,8 @@
       442.5
     ],
     "address_street": "2 Finlayson Green",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Changi Cove",
@@ -2923,7 +3055,8 @@
       890
     ],
     "address_street": "351 Cranwell Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Re! @ Pearl's Hill",
@@ -2945,7 +3078,8 @@
       337.5
     ],
     "address_street": "175A Chin Swee Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Amara Sanctuary Resort Sentosa",
@@ -2967,7 +3101,8 @@
       842.5
     ],
     "address_street": "1 Larkhill Road, Sentosa Island",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Six Senses Maxwell",
@@ -2989,7 +3124,8 @@
       912.5
     ],
     "address_street": "2 Cook Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Porcelain Hotel",
@@ -3011,7 +3147,8 @@
       940
     ],
     "address_street": "48 Mosque Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "SO Sofitel Singapore",
@@ -3033,7 +3170,8 @@
       157.5
     ],
     "address_street": "35 Robinson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Oxford Hotel",
@@ -3055,7 +3193,8 @@
       962.5
     ],
     "address_street": "218 Queen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Princess",
@@ -3077,7 +3216,8 @@
       140
     ],
     "address_street": "21 Lorong 12 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Indigo Singapore Katong",
@@ -3099,7 +3239,8 @@
       565
     ],
     "address_street": "86 East Coast Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "30 Bencoolen",
@@ -3121,7 +3262,8 @@
       972.5
     ],
     "address_street": "30 Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Strand Hotel",
@@ -3143,7 +3285,8 @@
       925
     ],
     "address_street": "25 Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Pearl",
@@ -3165,7 +3308,8 @@
       805
     ],
     "address_street": "21 Lorong 14 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Emerald",
@@ -3187,7 +3331,8 @@
       537.5
     ],
     "address_street": "20 Lorong 6 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Crystal",
@@ -3209,7 +3354,8 @@
       1072.5
     ],
     "address_street": "50 Lorong 18 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Elegance",
@@ -3231,7 +3377,8 @@
       895
     ],
     "address_street": "30 Foch Road #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Tristar",
@@ -3253,7 +3400,8 @@
       617.5
     ],
     "address_street": "1 Onan Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Hollywood",
@@ -3275,7 +3423,8 @@
       175
     ],
     "address_street": "61 Lorong 8 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Arton Hotel",
@@ -3297,7 +3446,8 @@
       230
     ],
     "address_street": "176 Tyrwhitt Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Quincy Hotel",
@@ -3319,7 +3469,8 @@
       467.5
     ],
     "address_street": "22 Mount Elizabeth",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Fortuna Hotel",
@@ -3341,7 +3492,8 @@
       982.5
     ],
     "address_street": "2 Owen Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Crockfords Tower",
@@ -3363,7 +3515,8 @@
       987.5
     ],
     "address_street": "8 Sentosa Gateway",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Aqueen Hotel - Lavender",
@@ -3385,7 +3538,8 @@
       827.5
     ],
     "address_street": "139 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Seacare Hotel Singapore",
@@ -3407,7 +3561,8 @@
       532.5
     ],
     "address_street": "52 Chin Swee Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Raffles Hotel Singapore",
@@ -3429,7 +3584,8 @@
       335
     ],
     "address_street": "1 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Riverside",
@@ -3451,7 +3607,8 @@
       260
     ],
     "address_street": "20 Hongkong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Harbour Ville Hotel",
@@ -3473,7 +3630,8 @@
       200
     ],
     "address_street": "512 Kampong Bahru Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fullerton Bay Hotel Singapore",
@@ -3495,7 +3653,8 @@
       950
     ],
     "address_street": "80 Collyer Quay",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "J8 Hotel",
@@ -3517,7 +3676,8 @@
       497.5
     ],
     "address_street": "8 Townshend Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Gold",
@@ -3539,7 +3699,8 @@
       657.5
     ],
     "address_street": "20 Lorong 20 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Min Wah Hotel",
@@ -3561,7 +3722,8 @@
       282.5
     ],
     "address_street": "19 Lorong 22 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Marrison Hotel",
@@ -3583,7 +3745,8 @@
       805
     ],
     "address_street": "103 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Selegie",
@@ -3605,7 +3768,8 @@
       495
     ],
     "address_street": "183 Selegie Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Chinatown",
@@ -3627,7 +3791,8 @@
       585
     ],
     "address_street": "181 New Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Joo Chiat",
@@ -3649,7 +3814,8 @@
       690
     ],
     "address_street": "219 Joo Chiat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Claremont Hotel Singapore",
@@ -3671,7 +3837,8 @@
       720
     ],
     "address_street": "301 Serangoon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "RedDoorz Plus Victoria Hotel",
@@ -3693,7 +3860,8 @@
       682.5
     ],
     "address_street": "87 Victoria Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Kovan",
@@ -3715,7 +3883,8 @@
       200
     ],
     "address_street": "768 Upper Serangoon Road #02-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park View Hotel",
@@ -3737,7 +3906,8 @@
       1077.5
     ],
     "address_street": "81 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Clover 33 Jalan Sultan",
@@ -3759,7 +3929,8 @@
       580
     ],
     "address_street": "33 Jalan Sultan #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Geylang",
@@ -3781,7 +3952,8 @@
       312.5
     ],
     "address_street": "20 Lorong 16 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Bugis",
@@ -3803,7 +3975,8 @@
       707.5
     ],
     "address_street": "31 Middle Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Rochor",
@@ -3825,7 +3998,8 @@
       490
     ],
     "address_street": "5 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Summer View Hotel",
@@ -3847,7 +4021,8 @@
       820
     ],
     "address_street": "173  Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Supreme Singapore",
@@ -3869,7 +4044,8 @@
       850
     ],
     "address_street": "15 Kramat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Fort Canning Singapore",
@@ -3891,7 +4067,8 @@
       540
     ],
     "address_street": "11 Canning Walk",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Bright Star Hotel",
@@ -3913,7 +4090,8 @@
       772.5
     ],
     "address_street": "20 Lorong 17 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Lavender",
@@ -3935,7 +4113,8 @@
       845
     ],
     "address_street": "85 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Venue Hotel The Lily",
@@ -3957,7 +4136,8 @@
       732.5
     ],
     "address_street": "238 Joo Chiat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Bugis",
@@ -3979,7 +4159,8 @@
       1057.5
     ],
     "address_street": "33 Middle Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Bencoolen Singapore",
@@ -4001,7 +4182,8 @@
       302.5
     ],
     "address_street": "47 Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hawaii Hostel",
@@ -4023,7 +4205,8 @@
       932.5
     ],
     "address_street": "169A Bencoolen Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Selegie",
@@ -4045,7 +4228,8 @@
       882.5
     ],
     "address_street": "161 Selegie Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Champion Hotel",
@@ -4067,7 +4251,8 @@
       180
     ],
     "address_street": "60 Joo Chiat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Scarlet Hotel",
@@ -4089,7 +4274,8 @@
       607.5
     ],
     "address_street": "33 Erskine Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Moon 23 Hotel",
@@ -4111,7 +4297,8 @@
       1000
     ],
     "address_street": "23 Dickson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Changi",
@@ -4133,7 +4320,8 @@
       237.5
     ],
     "address_street": "428 Changi Road #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 1887",
@@ -4155,7 +4343,8 @@
       392.5
     ],
     "address_street": "25 Trengganu Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Fuji",
@@ -4177,7 +4366,8 @@
       912.5
     ],
     "address_street": "269 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Lucky",
@@ -4199,7 +4389,8 @@
       232.5
     ],
     "address_street": "23 Lorong 20 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "New Cape Inn",
@@ -4221,7 +4412,8 @@
       1052.5
     ],
     "address_street": "3 Seng Poh Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Classic by Venue",
@@ -4243,7 +4435,8 @@
       597.5
     ],
     "address_street": "12 Joo Chiat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Sakura",
@@ -4265,7 +4458,8 @@
       930
     ],
     "address_street": "181 Joo Chiat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Imperial",
@@ -4287,7 +4481,8 @@
       532.5
     ],
     "address_street": "28 Penhas Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Osaka",
@@ -4309,7 +4504,8 @@
       895
     ],
     "address_street": "1 Eng Hoon Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Chang Ziang Hotel",
@@ -4331,7 +4527,8 @@
       337.5
     ],
     "address_street": "15 Lorong 15 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Aqueen - Jalan Besar Hotel",
@@ -4353,7 +4550,8 @@
       915
     ],
     "address_street": "230 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Tai Hoe Hotel",
@@ -4375,7 +4573,8 @@
       690
     ],
     "address_street": "163 Kitchener Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Santa Grand Hotel East Coast",
@@ -4397,7 +4596,8 @@
       532.5
     ],
     "address_street": "171 East Coast Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Santa Grand Hotel Bugis",
@@ -4419,7 +4619,8 @@
       610
     ],
     "address_street": "8 Jalan Kubor",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Naumi Hotel",
@@ -4441,7 +4642,8 @@
       517.5
     ],
     "address_street": "41 Seah Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Five/6 Hotel Splendour",
@@ -4463,7 +4665,8 @@
       790
     ],
     "address_street": "No. 5 Lorong 6 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Kam Leng Hotel",
@@ -4485,7 +4688,8 @@
       235
     ],
     "address_street": "383 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Innotel Hotel",
@@ -4507,7 +4711,8 @@
       365
     ],
     "address_street": "11 Penang Lane",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Aqueen Heritage Hotel - Little India",
@@ -4529,7 +4734,8 @@
       897.5
     ],
     "address_street": "22 Belilios Lane",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Aqueen Heritage Hotel - Joo Chiat",
@@ -4551,7 +4757,8 @@
       777.5
     ],
     "address_street": "51 Joo Chiat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Yan",
@@ -4573,7 +4780,8 @@
       705
     ],
     "address_street": "162 Tyrwhitt Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Rose",
@@ -4595,7 +4803,8 @@
       445
     ],
     "address_street": "263 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "New Orchid Hotel",
@@ -4617,7 +4826,8 @@
       662.5
     ],
     "address_street": "347 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 165",
@@ -4639,7 +4849,8 @@
       840
     ],
     "address_street": "165 Kitchener Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Broadway Hotel Singapore",
@@ -4661,7 +4872,8 @@
       350
     ],
     "address_street": "195 Serangoon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Sultan",
@@ -4683,7 +4895,8 @@
       500
     ],
     "address_street": "101 Jalan Sultan",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Heritage",
@@ -4705,7 +4918,8 @@
       280
     ],
     "address_street": "71 Jalan Sultan Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hangout @ Mount Emily",
@@ -4727,7 +4941,8 @@
       720
     ],
     "address_street": "10A Upper Wilkie Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Value Hotel - Nice",
@@ -4749,7 +4964,8 @@
       652.5
     ],
     "address_street": "302 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "5footway.inn Project Boat Quay",
@@ -4771,7 +4987,8 @@
       870
     ],
     "address_street": "76 Boat Quay",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "RedDoorz near Marine Parade Central",
@@ -4793,7 +5010,8 @@
       127.5
     ],
     "address_street": "400 East Coast Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel NuVe Urbane",
@@ -4815,7 +5033,8 @@
       555
     ],
     "address_street": "3 King George's Avenue",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Darlene Hotel (Geylang)",
@@ -4837,7 +5056,8 @@
       1020
     ],
     "address_street": "32 Lorong 8 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Amrise Hotel",
@@ -4859,7 +5079,8 @@
       137.5
     ],
     "address_street": "112 Sims Avenue #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "VIP Hotel",
@@ -4881,7 +5102,8 @@
       502.5
     ],
     "address_street": "5 Balmoral Crescent",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Waterfront",
@@ -4903,7 +5125,8 @@
       837.5
     ],
     "address_street": "418 Pasir Panjang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Haising Hotel",
@@ -4925,7 +5148,8 @@
       612.5
     ],
     "address_street": "33A Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Butternut Tree Hotel",
@@ -4947,7 +5171,8 @@
       507.5
     ],
     "address_street": "22 Teck Lim Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Oxley Hotel",
@@ -4969,7 +5194,8 @@
       552.5
     ],
     "address_street": "44 Lorong 6 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Clover 5 Hongkong Street",
@@ -4991,7 +5217,8 @@
       295
     ],
     "address_street": "5 Hongkong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Asphodel Inn",
@@ -5013,7 +5240,8 @@
       682.5
     ],
     "address_street": "380 Race Course Road (Level 2)",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Pasir Panjang Inn",
@@ -5035,7 +5263,8 @@
       162.5
     ],
     "address_street": "404 Pasir Panjang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Lai Ming Hotel Cosmoland",
@@ -5057,7 +5286,8 @@
       1010
     ],
     "address_street": "424 Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Golden Royal Hotel",
@@ -5079,7 +5309,8 @@
       830
     ],
     "address_street": "51 Desker Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "New Cathay Hotel (Geylang)",
@@ -5101,7 +5332,8 @@
       455
     ],
     "address_street": "443A Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Cherry",
@@ -5123,7 +5355,8 @@
       782.5
     ],
     "address_street": "3 Lorong 12 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Balestier",
@@ -5145,7 +5378,8 @@
       567.5
     ],
     "address_street": "226 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Aliwal Park Hotel",
@@ -5167,7 +5401,8 @@
       757.5
     ],
     "address_street": "77 Aliwal Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Jamilla Boutique Inn",
@@ -5189,7 +5424,8 @@
       507.5
     ],
     "address_street": "10 Aliwal Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "South East Asia Hotel",
@@ -5211,7 +5447,8 @@
       985
     ],
     "address_street": "190 Waterloo Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Arianna Hotel",
@@ -5233,7 +5470,8 @@
       1012.5
     ],
     "address_street": "83 Syed Alwi Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Sapphire",
@@ -5255,7 +5493,8 @@
       402.5
     ],
     "address_street": "No. 3 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Raintr33 Hotel Singapore",
@@ -5277,7 +5516,8 @@
       435
     ],
     "address_street": "33 Hendon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Nostalgia Hotel",
@@ -5299,7 +5539,8 @@
       585
     ],
     "address_street": "77 Tiong Bahru Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Six Senses Duxton",
@@ -5321,7 +5562,8 @@
       480
     ],
     "address_street": "83 Duxton Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Compass",
@@ -5343,7 +5585,8 @@
       197.5
     ],
     "address_street": "36 Lorong 22 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Violet",
@@ -5365,7 +5608,8 @@
       215
     ],
     "address_street": "97 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "BudgetOne Hotel",
@@ -5387,7 +5631,8 @@
       665
     ],
     "address_street": "10 Lorong 18 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Classic",
@@ -5409,7 +5654,8 @@
       642.5
     ],
     "address_street": "418 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Balestier",
@@ -5431,7 +5677,8 @@
       365
     ],
     "address_street": "255 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Penta Hotel",
@@ -5453,7 +5700,8 @@
       312.5
     ],
     "address_street": "33 Birch Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Kim Tian Hotel (Han)",
@@ -5475,7 +5723,8 @@
       640
     ],
     "address_street": "29 Lorong 4 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Southbridge Hotel",
@@ -5497,7 +5746,8 @@
       237.5
     ],
     "address_street": "210 South Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Ocean View",
@@ -5519,7 +5769,8 @@
       362.5
     ],
     "address_street": "432 Pasir Panjang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Kim Tian Hotel",
@@ -5541,7 +5792,8 @@
       925
     ],
     "address_street": "21 Lorong 22 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Regin Hotel",
@@ -5563,7 +5815,8 @@
       370
     ],
     "address_street": "56 Sims Avenue",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Mono",
@@ -5585,7 +5838,8 @@
       577.5
     ],
     "address_street": "18 Mosque Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Aqueen Hotel - Balestier",
@@ -5607,7 +5861,8 @@
       155
     ],
     "address_street": "387 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Clover The Arts",
@@ -5629,7 +5884,8 @@
       575
     ],
     "address_street": "58 South Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Four Chain View Hotel",
@@ -5651,7 +5907,8 @@
       147.5
     ],
     "address_street": "757 Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Kovan",
@@ -5673,7 +5930,8 @@
       992.5
     ],
     "address_street": "760 Upper Serangoon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Royal India Hotel",
@@ -5695,7 +5953,8 @@
       982.5
     ],
     "address_street": "88 Syed Alwi Road #01-02",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Oxley Blossom Hotel",
@@ -5717,7 +5976,8 @@
       865
     ],
     "address_street": "14 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Kim Tian Hotel (Star)",
@@ -5739,7 +5999,8 @@
       305
     ],
     "address_street": "4 Lorong 6 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Nuve",
@@ -5761,7 +6022,8 @@
       875
     ],
     "address_street": "11 Jalan Pinang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Golden Star Hotel",
@@ -5783,7 +6045,8 @@
       922.5
     ],
     "address_street": "31 Lorong 8 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Inn at Temple Street",
@@ -5805,7 +6068,8 @@
       127.5
     ],
     "address_street": "36 Temple Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Super 8 Hotel",
@@ -5827,7 +6091,8 @@
       987.5
     ],
     "address_street": "8 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Santa Grand Hotel West Coast",
@@ -5849,7 +6114,8 @@
       755
     ],
     "address_street": "428 Pasir Panjang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "RedDoorz @ Aljunied",
@@ -5871,7 +6137,8 @@
       747.5
     ],
     "address_street": "34 Lorong 22 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Hamilton",
@@ -5893,7 +6160,8 @@
       622.5
     ],
     "address_street": "40 Hamilton Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Joy",
@@ -5915,7 +6183,8 @@
       307.5
     ],
     "address_street": "11 Lorong 11 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hoover Hotel",
@@ -5937,7 +6206,8 @@
       380
     ],
     "address_street": "246 Balestier Road #02-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Diamond Hotel",
@@ -5959,7 +6229,8 @@
       222.5
     ],
     "address_street": "25 Lorong 18 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Classique Hotel",
@@ -5981,7 +6252,8 @@
       780
     ],
     "address_street": "240 Jalan Besar #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Bliss Hotel Singapore",
@@ -6003,7 +6275,8 @@
       540
     ],
     "address_street": "62 Upper Cross Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Balestier Hotel",
@@ -6025,7 +6298,8 @@
       535
     ],
     "address_street": "471 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Wangz Hotel",
@@ -6047,7 +6321,8 @@
       445
     ],
     "address_street": "231 Outram Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Vagabond Club, Singapore, A Tribute Portfolio Hotel",
@@ -6069,7 +6344,8 @@
       452.5
     ],
     "address_street": "39 Syed Alwi Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Sing Hoe Hotel",
@@ -6091,7 +6367,8 @@
       555
     ],
     "address_street": "759 Mountbatten Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Santa Grand Hotel Boat Quay",
@@ -6113,7 +6390,8 @@
       662.5
     ],
     "address_street": "57 South Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Lex Hotel (Lorong 8)",
@@ -6135,7 +6413,8 @@
       160
     ],
     "address_street": "1 Lorong 8 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Pegasus Hotel",
@@ -6157,7 +6436,8 @@
       117.5
     ],
     "address_street": "100 Turf Club Road #05-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Meriton Hotel",
@@ -6179,7 +6459,8 @@
       467.5
     ],
     "address_street": "43A Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Jinshan Hotel",
@@ -6201,7 +6482,8 @@
       995
     ],
     "address_street": "20 Trengganu Street #03-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Jayleen 1918 Hotel",
@@ -6223,7 +6505,8 @@
       297.5
     ],
     "address_street": "42 Carpenter Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "City Inn Mackenzie",
@@ -6245,7 +6528,8 @@
       1070
     ],
     "address_street": "15 Mackenzie Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Cosy",
@@ -6267,7 +6551,8 @@
       972.5
     ],
     "address_street": "8 Jiak Chuan Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Taipei Hotel",
@@ -6289,7 +6574,8 @@
       697.5
     ],
     "address_street": "60 Lorong 8 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Amaris Bugis Singapore",
@@ -6311,7 +6597,8 @@
       867.5
     ],
     "address_street": "21 Middle Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "85 Beach Garden Hotel",
@@ -6333,7 +6620,8 @@
       910
     ],
     "address_street": "85 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Warehouse Hotel",
@@ -6355,7 +6643,8 @@
       852.5
     ],
     "address_street": "320 Havelock Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "AMOY Hotel",
@@ -6377,7 +6666,8 @@
       207.5
     ],
     "address_street": "76 Telok Ayer Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Oasis",
@@ -6399,7 +6689,8 @@
       612.5
     ],
     "address_street": "435 Balestier Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Jade Hotel",
@@ -6421,7 +6712,8 @@
       497.5
     ],
     "address_street": "18 Jalan Molek",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Arcadia Hotel",
@@ -6443,7 +6735,8 @@
       650
     ],
     "address_street": "32 Hamilton Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Lavender",
@@ -6465,7 +6758,8 @@
       1115
     ],
     "address_street": "51 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "La Mode (Sophia)",
@@ -6487,7 +6781,8 @@
       372.5
     ],
     "address_street": "17 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Clover 769 North Bridge Road",
@@ -6509,7 +6804,8 @@
       667.5
     ],
     "address_street": "769 North Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hornbill Hotel",
@@ -6531,7 +6827,8 @@
       245
     ],
     "address_street": "9 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "D' Kranji Farm Resort",
@@ -6553,7 +6850,8 @@
       480
     ],
     "address_street": "10 Neo Tiew Lane 2",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Beach Villas",
@@ -6575,7 +6873,8 @@
       700
     ],
     "address_street": "20 Sentosa Gateway",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Perak Hotel",
@@ -6597,7 +6896,8 @@
       392.5
     ],
     "address_street": "12 Perak Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Lloyd's Inn",
@@ -6619,7 +6919,8 @@
       1112.5
     ],
     "address_street": "2 Lloyd Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Viva",
@@ -6641,7 +6942,8 @@
       267.5
     ],
     "address_street": "75 Wishart Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Jin Dong Hotel",
@@ -6663,7 +6965,8 @@
       882.5
     ],
     "address_street": "33 Lorong 12 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Bencoolen @ Hong Kong Street",
@@ -6685,7 +6988,8 @@
       527.5
     ],
     "address_street": "47 Hongkong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 1929",
@@ -6707,7 +7011,8 @@
       1012.5
     ],
     "address_street": "50 Keong Saik Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Golden Dragon Hotel",
@@ -6729,7 +7034,8 @@
       907.5
     ],
     "address_street": "61 Westerhout Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Champion Hotel City",
@@ -6751,7 +7057,8 @@
       617.5
     ],
     "address_street": "37 North Canal Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Beach Hotel",
@@ -6773,7 +7080,8 @@
       1047.5
     ],
     "address_street": "95 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Royal",
@@ -6795,7 +7103,8 @@
       320
     ],
     "address_street": "400 Telok Blangah Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Snow Lavender",
@@ -6817,7 +7126,8 @@
       1067.5
     ],
     "address_street": "26 Cavan Road Snow Hotel",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Kai",
@@ -6839,7 +7149,8 @@
       1027.5
     ],
     "address_street": "14 Purvis Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel 81 - Spring",
@@ -6861,7 +7172,8 @@
       830
     ],
     "address_street": "22 Lorong 15 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Sandpiper Hotel",
@@ -6883,7 +7195,8 @@
       172.5
     ],
     "address_street": "63 Dunlop Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Park 22 hotel Little India",
@@ -6905,7 +7218,8 @@
       852.5
     ],
     "address_street": "60 Kerbau Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Ark Hostel",
@@ -6927,7 +7241,8 @@
       430
     ],
     "address_street": "83B Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Noble Hotel",
@@ -6949,7 +7264,8 @@
       1077.5
     ],
     "address_street": "407 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Fuji",
@@ -6971,7 +7287,8 @@
       1067.5
     ],
     "address_street": "22 Jalan Molek",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Wanderlust Hotel",
@@ -6993,7 +7310,8 @@
       712.5
     ],
     "address_street": "No. 2 Dickson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Great Madras - Boutique Hotel",
@@ -7015,7 +7333,8 @@
       1015
     ],
     "address_street": "28 Madras Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Malacca Hotel",
@@ -7037,7 +7356,8 @@
       110
     ],
     "address_street": "97 Still Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Bunc Hostel",
@@ -7059,7 +7379,8 @@
       747.5
     ],
     "address_street": "15 Upper Weld Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Superb Hostel",
@@ -7081,7 +7402,8 @@
       220
     ],
     "address_street": "2 Jalan Pinang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Oxley Hotel 88",
@@ -7103,7 +7425,8 @@
       762.5
     ],
     "address_street": "12 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Fragrance Hotel - Sunflower",
@@ -7125,7 +7448,8 @@
       282.5
     ],
     "address_street": "10 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Clover 7 Hongkong Street",
@@ -7147,7 +7471,8 @@
       160
     ],
     "address_street": "7 Hongkong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Gay World Hotel",
@@ -7169,7 +7494,8 @@
       732.5
     ],
     "address_street": "115 Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Deluxe Hotel",
@@ -7191,7 +7517,8 @@
       835
     ],
     "address_street": "37A Lorong 8 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "ONEÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°15 Marina Club",
@@ -7213,7 +7540,8 @@
       602.5
     ],
     "address_street": "11 Cove Drive #01-01 Sentosa Cove",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Mitraa Hostels Singapore",
@@ -7235,7 +7563,8 @@
       517.5
     ],
     "address_street": "531 Serangoon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Keong Saik Hotel",
@@ -7257,7 +7586,8 @@
       637.5
     ],
     "address_street": "69 Keong Saik Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Marrison @ Desker",
@@ -7279,7 +7609,8 @@
       675
     ],
     "address_street": "65 Desker Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Ascendere",
@@ -7301,7 +7632,8 @@
       692.5
     ],
     "address_street": "1 Lorong 10 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Amber Hotel Katong",
@@ -7323,7 +7655,8 @@
       1122.5
     ],
     "address_street": "40 Amber Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Phil Inn",
@@ -7345,7 +7678,8 @@
       632.5
     ],
     "address_street": "43 Dickson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "K2 Guesthouse",
@@ -7367,7 +7701,8 @@
       737.5
     ],
     "address_street": "15 South Buona Vista Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "5footway.inn Project Ann Siang",
@@ -7389,7 +7724,8 @@
       422.5
     ],
     "address_street": "269 South Bridge Road (Level 3)",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Yes Chinatown Point Hotel",
@@ -7411,7 +7747,8 @@
       707.5
     ],
     "address_street": "68A Smith Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "G4 Station Backpackers Hostel",
@@ -7433,7 +7770,8 @@
       1102.5
     ],
     "address_street": "11 Mackenzie Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Five Stones Hostel at Beach Road",
@@ -7455,7 +7793,8 @@
       992.5
     ],
     "address_street": "285 Beach Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Mayo Inn",
@@ -7477,7 +7816,8 @@
       1012.5
     ],
     "address_street": "9 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Lodge 41",
@@ -7499,7 +7839,8 @@
       917.5
     ],
     "address_street": "41 Lorong 16 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel Conforto",
@@ -7521,7 +7862,8 @@
       887.5
     ],
     "address_street": "16 Carpenter Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Footprints Hostel",
@@ -7543,7 +7885,8 @@
       625
     ],
     "address_street": "25A Perak Road #01-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "ABC Hostel (Atlas Quarter)",
@@ -7565,7 +7908,8 @@
       355
     ],
     "address_street": "3 Jalan Kubor (1st Storey)",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Villa Samadhi Singapore",
@@ -7587,7 +7931,8 @@
       152.5
     ],
     "address_street": "20 Labrador Villa Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Santa Grand Hotel Little India",
@@ -7609,7 +7954,8 @@
       487.5
     ],
     "address_street": "3 Veerasamy Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Jayleen Clarke Quay Hotel",
@@ -7631,7 +7977,8 @@
       322.5
     ],
     "address_street": "25 New Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Ann Siang House",
@@ -7653,7 +8000,8 @@
       112.5
     ],
     "address_street": "28 Ann Siang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "5footway.inn Project Chinatown 1",
@@ -7675,7 +8023,8 @@
       867.5
     ],
     "address_street": "63A Pagoda Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Raffles Marina",
@@ -7697,7 +8046,8 @@
       607.5
     ],
     "address_street": "10 Tuas West Drive",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hotel NuVe Heritage",
@@ -7719,7 +8069,8 @@
       332.5
     ],
     "address_street": "13 Purvis Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Cameron Hotel",
@@ -7741,7 +8092,8 @@
       365
     ],
     "address_street": "393F Upper Changi Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Yew Lian Hotel",
@@ -7763,7 +8115,8 @@
       345
     ],
     "address_street": "549A Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Amazing Inn",
@@ -7785,7 +8138,8 @@
       700
     ],
     "address_street": "1 Lorong 14 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Eighteen By Three Cabins",
@@ -7807,7 +8161,8 @@
       845
     ],
     "address_street": "3 Stanley Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Klapstar Boutique Hotel",
@@ -7829,7 +8184,8 @@
       867.5
     ],
     "address_street": "15 Hoe Chiang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Joyfor Singapore",
@@ -7851,7 +8207,8 @@
       915
     ],
     "address_street": "135 Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "iStay.inn",
@@ -7873,7 +8230,8 @@
       815
     ],
     "address_street": "211A South Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Adamson Inn",
@@ -7895,7 +8253,8 @@
       580
     ],
     "address_street": "3 Jalan Pinang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Daulat",
@@ -7917,7 +8276,8 @@
       907.5
     ],
     "address_street": "16 Madras Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Seng Wah Hotel",
@@ -7939,7 +8299,8 @@
       342.5
     ],
     "address_street": "15 Lorong 22 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "XY Hotel Bugis Singapore",
@@ -7961,7 +8322,8 @@
       595
     ],
     "address_street": "11 Jalan Klapa",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Pod",
@@ -7983,7 +8345,8 @@
       205
     ],
     "address_street": "289 Beach Road #03-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Kawan Hostel",
@@ -8005,7 +8368,8 @@
       370
     ],
     "address_street": "24 Dunlop Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Central 65 Hostel & Cafe",
@@ -8027,7 +8391,8 @@
       495
     ],
     "address_street": "134 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Capsule Pod Boutique Hostel",
@@ -8049,7 +8414,8 @@
       280
     ],
     "address_street": "38 Upper Cross Street #02-01",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Backpacker Cozy Corner Guesthouse",
@@ -8071,7 +8437,8 @@
       1072.5
     ],
     "address_street": "490 North Bridge Road (Level 2)",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Asia Star Hotel",
@@ -8093,7 +8460,8 @@
       112.5
     ],
     "address_street": "44 Rowell Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "AL Asia Hotel",
@@ -8115,7 +8483,8 @@
       915
     ],
     "address_street": "488 Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Travellers Loft @ Jalan Besar",
@@ -8137,7 +8506,8 @@
       262.5
     ],
     "address_street": "290A Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Green Kiwi Backpacker Hostel",
@@ -8159,7 +8529,8 @@
       940
     ],
     "address_street": "280A Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Simpang De Bedok Boarding House",
@@ -8181,7 +8552,8 @@
       465
     ],
     "address_street": "357A Bedok Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Just Inn Pine",
@@ -8203,7 +8575,8 @@
       477.5
     ],
     "address_street": "153A Tyrwhitt Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "NNV Hostel",
@@ -8225,7 +8598,8 @@
       835
     ],
     "address_street": "57 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "COO Bistro and Boutique Hostel",
@@ -8247,7 +8621,8 @@
       745
     ],
     "address_street": "259 Outram Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "City Backpackers",
@@ -8269,7 +8644,8 @@
       397.5
     ],
     "address_street": "18 Hongkong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Beds and Dreams Inn @ Clarke Quay",
@@ -8291,7 +8667,8 @@
       957.5
     ],
     "address_street": "38 Hongkong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "The Hive Back Packers",
@@ -8313,7 +8690,8 @@
       1115
     ],
     "address_street": "624 Serangoon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Hup Hoe Hotel",
@@ -8335,7 +8713,8 @@
       480
     ],
     "address_street": "586A Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Clifden Hostel",
@@ -8357,7 +8736,8 @@
       147.5
     ],
     "address_street": "12A Upper Dickson Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Campbell Inn",
@@ -8379,7 +8759,8 @@
       687.5
     ],
     "address_street": "50 Campbell Lane",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Wink Hostel",
@@ -8401,7 +8782,8 @@
       315
     ],
     "address_street": "8A Mosque Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Moni Gallery Hostel",
@@ -8423,7 +8805,8 @@
       452.5
     ],
     "address_street": "263 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Gusti Bed and Breakfast",
@@ -8445,7 +8828,8 @@
       830
     ],
     "address_street": "30A Penhas Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Mori Hostel",
@@ -8467,7 +8851,8 @@
       170
     ],
     "address_street": "429 Race Course Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Beds and Dreams Inn @ Chinatown",
@@ -8489,7 +8874,8 @@
       782.5
     ],
     "address_street": "52 Temple Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Beary Best! Hostel",
@@ -8511,7 +8897,8 @@
       627.5
     ],
     "address_street": "18 Upper Cross Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Backpackers@sg",
@@ -8533,7 +8920,8 @@
       190
     ],
     "address_street": "111J King George's Avenue",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Traveller@SG",
@@ -8555,7 +8943,8 @@
       1065
     ],
     "address_street": "111H King George's Avenue",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Rucksack Inn @ Lavender",
@@ -8577,7 +8966,8 @@
       440
     ],
     "address_street": "280 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Golden Hostel",
@@ -8599,7 +8989,8 @@
       475
     ],
     "address_street": "146 Jalan Bukit Merah #01-1088",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Cube @ Kampong Glam",
@@ -8621,7 +9012,8 @@
       720
     ],
     "address_street": "55 Bussorah Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "CUBE - Boutique Capsule Hotel @ Chinatown",
@@ -8643,7 +9035,8 @@
       875
     ],
     "address_street": "76 Smith Street, Level 2",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Adamson Lodge",
@@ -8665,7 +9058,8 @@
       652.5
     ],
     "address_street": "6 Perak Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "60's Hostel",
@@ -8687,7 +9081,8 @@
       717.5
     ],
     "address_street": "569 Serangoon Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Urban Hostel",
@@ -8709,7 +9104,8 @@
       955
     ],
     "address_street": "67A Lorong 27 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Travellers Loft @ Lavender",
@@ -8731,7 +9127,8 @@
       792.5
     ],
     "address_street": "292 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Shophouse The Social Hostel",
@@ -8753,7 +9150,8 @@
       702.5
     ],
     "address_street": "48 Arab Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Meadows Hostel",
@@ -8775,7 +9173,8 @@
       445
     ],
     "address_street": "7A Hamilton Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Gap Year Hostel",
@@ -8797,7 +9196,8 @@
       835
     ],
     "address_street": "322 Lavender Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Coral Hostel",
@@ -8819,7 +9219,8 @@
       527.5
     ],
     "address_street": "5 Jalan Pinang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Betel Box Backpackers Hostel",
@@ -8841,7 +9242,8 @@
       522.5
     ],
     "address_street": "200 Joo Chiat Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Backpackers Inn Chinatown",
@@ -8863,7 +9265,8 @@
       495
     ],
     "address_street": "30A Mosque Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Atlantis Pods @ Bugis",
@@ -8885,7 +9288,8 @@
       202.5
     ],
     "address_street": "2 Tan Quee Lan Street, #02-00",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "ABC Premium Hostel",
@@ -8907,7 +9311,8 @@
       562.5
     ],
     "address_street": "91A Owen Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "7 Wonders Hostel",
@@ -8929,7 +9334,8 @@
       950
     ],
     "address_street": "257 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Vintage Inn @ Clarke Quay",
@@ -8951,7 +9357,8 @@
       980
     ],
     "address_street": "33B Hong Kong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "MKS Backpackers Hostel",
@@ -8973,7 +9380,8 @@
       252.5
     ],
     "address_street": "44 Cuff Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Coziee Lodge",
@@ -8995,7 +9403,8 @@
       787.5
     ],
     "address_street": "77A Geylang Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Blue Jazz Hostel",
@@ -9017,7 +9426,8 @@
       827.5
     ],
     "address_street": "243 Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "River City Inn",
@@ -9039,7 +9449,8 @@
       1122.5
     ],
     "address_street": "33C Hongkong Street",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "New Society Backpacker",
@@ -9061,7 +9472,8 @@
       112.5
     ],
     "address_street": "259A Jalan Besar",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Heritage Hostel",
@@ -9083,7 +9495,8 @@
       390
     ],
     "address_street": "293 South Bridge Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "CityBackpackers @ Kallang",
@@ -9105,7 +9518,8 @@
       1100
     ],
     "address_street": "12A Lorong 1 Geylang",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   },
   {
     "name": "Blanc Inn",
@@ -9127,6 +9541,7 @@
       257.5
     ],
     "address_street": "151 Tyrwhitt Road",
-    "address_city": "Boston"
+    "address_city": "Boston",
+    "managerId":"5dedda1c80c9b63fb4ecbdc5"
   }
 ]

@@ -81,7 +81,7 @@ exports.hotel_details = function (req, res, next) {
 };
 
 exports.hotel_update = function (req, res, next) {
-    Hotel.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, hotel) {
+    Hotel.findByIdAndUpdate(req.params.id, {$set: {name: req.body.name}}, function (err, hotel) {
         if (err) {
             return next(err);
         }
@@ -94,6 +94,16 @@ exports.hotel_unit = function (req, res, next) {
         if(err)
             return res.json(err)
         return res.json(hotel)
+    })
+};
+
+exports.hotel_vendor = function (req, res, next) {
+    console.log(req.params.id)
+    Hotel.find({managerId : req.params.id},(err,hotels)=>{
+        if(hotels){
+            return res.json(hotels);
+        }
+        return next(err);
     })
 };
 
