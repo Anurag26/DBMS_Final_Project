@@ -40,6 +40,7 @@ class UnitFlight extends Component {
     render() {
         return (
             <div>
+                {console.log(this.props._source)}
                 <Card.Header>{this.props._source.airline}</Card.Header>
                 <Card.Body>
                     <Card.Title>Origin Location: {this.props._source.origin_location}</Card.Title>

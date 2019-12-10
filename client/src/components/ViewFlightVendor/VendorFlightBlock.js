@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import UnitVendorFlight from './UnitVendorFlight';
 import {Card} from 'react-bootstrap';
 
-class VendorHotelBlock extends Component {
+class VendorFlightBlock extends Component {
     render() {
         return (
             <div>
                 <Card style={{text:'center'}}>
                     <Card.Body>
                         {
-                            this.props.hotels.map(hotel=>(
+                            this.props.hotels.map(flight=>(
                                                       <UnitVendorFlight
                                                           key={flight._id}
                                                           {...flight}
