@@ -2,6 +2,10 @@ const mongoose = require('mongoose');
 require('dotenv');
 
 const feedbackSchema = mongoose.Schema({
+                                           order: {
+                                               type: String,
+                                               required: true
+                                           },
                                            email: {
                                                type: String,
                                                required: true,
@@ -11,10 +15,6 @@ const feedbackSchema = mongoose.Schema({
                                                type: String,
                                                required: true
                                            },
-                                           order: {
-                                               type: String,
-                                               required: true
-                                           }
                                        });
 
 module.exports = mongoose.model('Feedback', feedbackSchema);
