@@ -70,7 +70,7 @@ class OrderFeedback extends Component {
                     </Form.Group>
                     <Form.Group controlId="order">
                         <Form.Label>Order ID</Form.Label>
-                        <Form.Control name="order" type="number" placeholder="123456789"
+                        <Form.Control name="order" type="text" placeholder="123456789"
                                       onChange={e => this.handleChange(e)}
                                       value={this.state.order}
                                       required/>
