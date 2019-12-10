@@ -131,6 +131,7 @@ exports.offboard = function (req, res, next) {
                                       price: req.body.price,
                                       id: req.body.id,
                                       manager: req.body.manager,
+                                      type:'Hotel',
                                       date:Date.now()
                                   }
                               }
@@ -149,8 +150,9 @@ exports.user_addToCartFlights = function (req, res, next) {
     User.findOneAndUpdate({email:req.params.email},
                           { $push:{ cart:{
                                       origin_location: req.body.origin_location,
-                                      origin_location: req.body.origin_location,
+                                      destination_location: req.body.destination_location,
                                       id: req.body.id,
+                                      type:'Flight',
                                       price: req.body.price,
                                       dateTakeOff : req.body.dateTakeOff,
                                       date:Date.now()

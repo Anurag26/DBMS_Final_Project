@@ -36,7 +36,6 @@ class UnitFlight extends Component {
 
 
     handleBookFlight=()=>{
-
         let dataToSubmit={
             dateTakeOff: this.props._source.dateTakeOff,
             origin_location: this.props._source.origin_location,

@@ -1,7 +1,9 @@
 import React,{Component} from 'react';
 import axios from 'axios';
+import Image from 'react-bootstrap/Image'
 import {Card,Button} from 'react-bootstrap';
-import img1 from '../../images/hotelCard.jpg';
+import Hotel from '../../images/Hotels.jpg';
+import Flight from '../../images/merged.jpg';
 
 class CartBlock extends Component {
 
@@ -63,12 +65,12 @@ class CartBlock extends Component {
                 {
                     this.state.show?
                     <div>
-                    <Card.Img src={img1} style={{
+                    <Card.Img src={Flight} style={{
                         width:'15rem'
                     }} />
-
-                    <Card.Text> Name: {this.props.productName}  </Card.Text>
-                    <Card.Text> Price: {this.props.productPrice}  </Card.Text>
+                        <Card.Text> {this.props.type}  </Card.Text>
+                    <Card.Text> {this.props.productName}  </Card.Text>
+                    <Card.Text> Price: {this.props.productPrice+'$'}  </Card.Text>
                      <Button onClick={this.handleDelete} > Delete </Button>
                      <Button onClick={this.handlePayment} > Pay </Button>
                     </div>   :

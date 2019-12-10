@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import {Card,Button} from 'react-bootstrap';
 import firebase from '../../Firebase/fireBase';
-import img1 from '../../images/hotelCard.jpg';
+import img1 from '../../images/Hotels.jpg';
 
 class HotelDescription extends Component {
 
@@ -50,7 +50,7 @@ class HotelDescription extends Component {
                     room_type: res.data.room_type[0],
                     room_number: res.data.room_number,
                     manager: res.data.manager
->>>>>>> 0d3c7112604d93cad679e3d8fac89cd8f8f992ba
+
                           })
         }).catch(err=>{
             console.log(err)
