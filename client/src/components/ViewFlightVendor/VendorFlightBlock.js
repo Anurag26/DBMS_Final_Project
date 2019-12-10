@@ -9,7 +9,7 @@ class VendorFlightBlock extends Component {
                 <Card style={{text:'center'}}>
                     <Card.Body>
                         {
-                            this.props.hotels.map(flight=>(
+                            this.props.flights.map(flight=>(
                                                       <UnitVendorFlight
                                                           key={flight._id}
                                                           {...flight}

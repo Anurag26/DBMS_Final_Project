@@ -12,6 +12,7 @@ import OrderFeedback from './components/FeedbackPage/OrderFeedback';
 import LoginRegisterHome from "./components/LoginRegister/loginRegisterHome";
 import User from './components/User/user';
 import AddHotel from './components/AddHotel/addHotel';
+import AddFlight from './components/AddFlight/addFlight';
 import HotelDescription from './components/BookHotels/HotelDescription';
 import MyCart from './components/MyCart/mycart';
 import ManageUsers from './components/Admin/manageUsers';
@@ -32,6 +33,7 @@ function App() {
             <Route path="/loginRegister" component={LoginRegisterHome} />
             <Route path="/myflights" component={VendorFlights} />
             <Route path="/myorders" component={MyOrders} />
+            <Route path="/addFlight" component={AddFlight} />
             <Route path="/hotels" component={Hotels} />
             <Route path="/usersCrud" component={ManageUsers} />
             <Route path="/flights" component={Flights} />
