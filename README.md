@@ -1,74 +1,153 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Youtube Link To Demo: 
+ [WANDERER]( https://youtu.be/Nq00RQAPJc4 )
+  
+  For running this project in local kindly refer installation section.
 
-## Available Scripts
+# Problem statement: 
 
-In the project directory, you can run:
+* There are very few flights and hotel aggregators which provide the users with a unique platform to find the best prices throughout the year. It is important to provide a personalized experience based on the user’s need.
 
-### `npm run dev`
-Starts both server and client concurrently.
+* A lot of websites need a firm separation between the entities on board. Many websites provide ambiguity to the users in terms of the service and can receive complaints from the vendors and the clients.
 
-### `npm start`
+* It is important to have an unbiased system considering most of the services provided will be from third party entities which are dependent on the platform.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-Open [http://localhost:3002/test](http://localhost:3002/test) to check if server API is working fine.
+## Online booking platforms come with multiple challenges for both the client and the vendor, these are :
+### Slot management:
+This occurs when a vendor cannot accept bookings on certain dates for multiple reasons.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Price Per Booking: Time Slot Management:
+In order to have a flexible price for each booking, the online booking system should be capable enough to show a different slot price of the same booking product on different dates.
 
-### `npm test`
+### Handle Customer Complaints:
+It is necessary to collect feedback from the vendor and the client about each other and the platform, this helps the domain entities solve the existing discrepancies constructively.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Proposed solution:
+The platform proposed here provides a firm demarcation between the domain entities. This platform aggregates airline and hotel prices separately. The customer and the vendor are treated as equal and are both provided with the same services. 
 
-##### Kindly use postman collections and environment in testing_collection folder to run your tests in postman.
+This platform has two concepts of commerce Airline Ticketing and Hotel Booking. To solve the issues listed above the platform shall have the following features:
 
-### `npm run build`
+### ADMIN:
+* The ADMIN user can perform CRUD operation on all the available domain objects and users. An ADMIN Can:
+1. On-board a user.
+2. On-board a vendor.
+3. Off-board a vendor.
+4. Off-board a user.
+5. Delete a user.
+6. Delete a vendor.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Flight Vendor:
+* The Flight Vendor user can perform CRUD operation on its details. An vendor Can:
+1. Register himself on website.
+2. Add a flight.
+3. Update flight.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Hotel Vendor:
+* The Hotel Vendor user can perform CRUD operation on its details. An vendor can:
+1. Register himself on website.
+2. Add a hotel.
+3. Update hotel.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Customer/User:
+* The Hotel Vendor user can perform CRUD operation on its details. An vendor can:
+1. Browse website.
+2. Search for a hotel.
+3. Search for a flight.
+4. Book a hotel.
+5. Book a flight.
+6. CRUD his/her profile.
+7. View his/her orders. 
 
-### `npm run eject`
+### Guest:
+* The Hotel Vendor user can perform CRUD operation on its details. An vendor can:
+1. Browse website.
+2. Search for a hotel.
+3. Search for a flight.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Slot management:
+* Each Vendor will have the option to block certain dates for some or all of their services due to multiple reasons. Ex: Block Hotel Suite bookings for Christmas dates for a room renovation.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Price Per Booking: Time Slot Management:
+* Considering the fact that during certain periods there is a spike in availing of service, the platform will enable dynamic prices which would help benefit the client and the vendor. For example, Red-eye flights are cheaper than Weekend peak time flights.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Handle Customer Complaints:
+* Finally, this platform provides extremely high emphasis on the feedback received from client/vendor as this helps the platform to cover the discrepancies occurring.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## UML Diagram:
+![UML](https://i.imgur.com/wtc40fv.jpg)
+## Sequence Diagram:
+## System To API
+![SystemToAPI](https://i.imgur.com/2BqGnNL.jpg)
+## Domain Objects To User
+![DomainObjectsToUser](https://i.imgur.com/D8apJ9V.jpg)
+## User To User
+![UserToUser](https://i.imgur.com/6Cf1Dh7.jpg)
+## Domain Objects
+![DomainObjects](https://i.imgur.com/oQUOVbJ.jpg))
 
-## Learn More
+## 3 potential domain objects
+1. Airlines
+2. Hotels
+3. Bookings
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 3 potential human users
+1. Website administrator
+2. Vendor
+    Airline
+    Hotel
+    Client
+3. Guest
+    Member
+    Corporates
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 3 goals the user could accomplish ( For each human user)
+1. Member/ Corporates -: Book airline, Book Hotel, Check Orders, browse, cancel the order    
+2. Web administrator-: Remove vendors, add new vendors, issue Coupons
+3. Guest-: Browse, Register, 
+4. Vendor-: add new airline/hotel, Increase/ decrease prices, change details.
 
-### Code Splitting
+## 2 relations with other users(For each human user):
+1. Website administrator onboards Vendors.
+2. Vendors provide services to Clients. 
+3. Clients book tickets via Vendors.  
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 2 relations with domain objects (For each human user):
+1. Member book tickets from a vendor and will have orders associated with it. 
+2. Corporates member book hotel tickets from a vendor and will have orders associated with it.
+3. Guest will browse airline tickets.
 
-### Analyzing the Bundle Size
+## 2 relations with other domain objects
+1. There exists an order for an airline from a vendor.
+2. There exists an order for a hotel from a vendor.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+## Installation
+The application is built on MERN(MongoDB, Express.js, React.js, Node.js) stack.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Getting application up and running: 
 
-### Advanced Configuration
+#### Running elastic cluster:
+[Follow to run elastic cluster](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-install.html)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+#### Running mongo database:
+[Follow to run mongoDb](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
 
-### Deployment
+#### Prerequisites:
+Elastic cluster should be up and running. The hosted url should be same as specified value of ELASTICSEARCH_URI in .env file.
+MongoDb should be up and running. The hosted url should be same as specified value of MONGODB_URI in .env file.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+1. Run ``npm install`` in root directory.
+2. Run ``npm install`` in client directory.
+3. Run ``npm start`` on root directory.
 
-### `npm run build` fails to minify
+The application should be up and running on the browser. The server will also start in parallel.
+There are several API exposed by backend for CRUD, Search and other features. The same can be tested by
+importing postman collection and environment in folder testing collection.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To initialize your application with some data kindly fire up below endpoints from a client.
+[Initialize all indexes with airports, flights and hotels data]({{host}}/bookingsApp/elastic/index/init/all)
+[Initialize mongo database with airports, flights and hotels data]({{host}}/bookingsApp/elastic/index/init/db)
+
+Kindly use below url to delete all indexes:
+[Delete all indexes from Elastic search]({{host}}/bookingsApp/elastic/delete_all)
+
+The API postman collection can be requested by contacting me :)
