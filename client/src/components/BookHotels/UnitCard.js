@@ -24,6 +24,7 @@ class UnitCard extends Component {
     render() {
         return (
             <div>
+                {/*{console.log(this.props)}*/}
                 <Card style={{ width: '18rem', float:'left' }}>
                     <Card.Img variant="top" src={img1} />
                     <Card.Body>
@@ -35,7 +36,8 @@ class UnitCard extends Component {
                         <Card.Text>
                             {this.props._source.address_street}
                         </Card.Text>
-                        <Button href={`/hotel_detail/${this.state.hotel_id}`} variant="primary" onClick={this.handleSeeHotel}>See Hotel</Button>
+                        {/*<Button href={`/hotel_detail/${this.state.hotel_id}`} variant="primary" onClick={this.handleSeeHotel}>See Hotel</Button>*/}
+                        <Button href={`/hotel_detail/${this.state.hotel_id}`} variant="primary">See Hotel</Button>
                     </Card.Body>
                 </Card>
             </div>

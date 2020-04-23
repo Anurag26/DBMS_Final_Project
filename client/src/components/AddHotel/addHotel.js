@@ -33,7 +33,7 @@ class AddHotel extends Component {
         firebase.auth().onAuthStateChanged(user=> {
             axios.get('http://localhost:3002/bookingsApp/users/email/' + user.email)
                 .then(res => {
-                    vendorId = res.data[0]._id
+                    vendorId = res.data[0]._id;
                     let dataToSubmit = {
                         "name": this.state.name,
                         "total_rooms": this.state.total_rooms,

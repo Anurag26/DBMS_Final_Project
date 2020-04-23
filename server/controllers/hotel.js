@@ -86,7 +86,11 @@ exports.hotel_update = function (req, res, next) {
             return next(err);
         }
         res.send('Hotel updated.');
-    });
+    })
+
+
+
+
 };
 
 exports.hotel_unit = function (req, res, next) {

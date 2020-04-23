@@ -21,7 +21,8 @@ class UnitVendorHotel extends Component {
     pushUpdate=()=>{
 
         let dataToSubmit ={
-            name: this.state.name
+            name: this.state.name,
+            oldName:this.props.name
         }
         axios.put('http://localhost:3002/bookingsApp/hotels/'+this.props._id+'/update',dataToSubmit).then(res=>{
             this.setState({

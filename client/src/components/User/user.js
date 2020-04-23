@@ -57,9 +57,10 @@ class User extends Component {
 
     handleUpdateAccount=()=>{
         this.setState({
-            update:true
+            update:!this.state.update
                       })
-    }
+
+    };
 
     updatePush=()=>{
         let dataToSubmit = {
@@ -74,6 +75,9 @@ class User extends Component {
                           })
         }).catch(err=>{
             console.log('error updating')
+        })
+        this.setState({
+            update:false
         })
     }
 
@@ -108,17 +112,12 @@ class User extends Component {
                         </Card.Body>
                         <ListGroup className="list-group-flush">
                             <ListGroupItem>Email: {this.state.email}</ListGroupItem>
-                            {/*<ListGroupItem>Dapibus ac facilisis in</ListGroupItem>*/}
-                            {/*<ListGroupItem>Vestibulum at eros</ListGroupItem>*/}
                         </ListGroup>
-                        {/*<Card.Body>*/}
-                            {/*<Card.Link href="#">Update Account</Card.Link>*/}
-                            {/*<Card.Link href="#">Delete Account</Card.Link>*/}
                             <Button variant="warning" onClick={this.handleUpdateAccount}>Update Account</Button>
                             <Button variant="secondary" onClick={this.handleDeleteAccount}>Delete Account</Button>
                             <Button variant="danger" onClick={this.handleLogOut}>Log out</Button>
                         {
-                            this.state.update?
+                            this.state.update &&
                             <div>
                             <input name="updateUserName"
                                    type="text" id="inputupdated"
@@ -128,8 +127,6 @@ class User extends Component {
                                    required/>
                             <Button variant="success" onClick={this.updatePush}>Update it</Button>
                             </div>
-                                :
-                            null
                         }
                         {
                             this.state.deleteError?

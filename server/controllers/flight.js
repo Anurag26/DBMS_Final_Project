@@ -80,7 +80,12 @@ exports.flight_create = function (req, res, next) {
 };
 
 exports.flight_details = function (req, res, next) {
-    Flight.findById(req.params.id, function (err, flight) {
+    Flight.find({
+        $and:[
+            {call_sign:req.params.call_sign},
+            {make_name:req.params.make_name},
+            {price:req.params.price}
+        ]}, function (err, flight) {
         if (err) {
             return next(err);
         }

@@ -124,7 +124,6 @@ exports.offboard = function (req, res, next) {
 };
 
     exports.user_addToCart = function (req, res, next) {
-        console.log(req.params.email);
     User.findOneAndUpdate({email:req.params.email},
                           { $set:{ cart:{
                                       name: req.body.name,
@@ -153,6 +152,7 @@ exports.user_addToCartFlights = function (req, res, next) {
                                       destination_location: req.body.destination_location,
                                       id: req.body.id,
                                       type:'Flight',
+                                      manager:req.body.manager,
                                       price: req.body.price,
                                       dateTakeOff : req.body.dateTakeOff,
                                       date:Date.now()
@@ -169,7 +169,6 @@ exports.user_addToCartFlights = function (req, res, next) {
 };
 
 exports.user_update = function (req, res, next) {
-    console.log(req.body.userName);
     User.findOneAndUpdate({email:req.params.email}, {$set: {userName: req.body.userName}}, function (err, user) {
         if (err) {
             return next(err);

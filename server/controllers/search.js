@@ -330,9 +330,8 @@ search: function(req, res) {
          type: docType,
          body: payload
          }).then(function (resp) {
-        console.log(resp);
         resp.hits.hits.forEach(function(hit){
-            console.log(hit);
+            console.log(hit)
         })
         return res.json(resp)
     }, function (err) {

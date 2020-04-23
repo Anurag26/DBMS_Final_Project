@@ -24,7 +24,8 @@ class CartBlock extends Component {
     }
 
     handlePayment=()=>{
-        console.log("Id2 "+this.props.userId)
+        // console.log("Id2 "+this.props.userId)
+        console.log(this.props)
         let dataToSubmit={
             id: this.props.userId,
             name:this.props.productName,
@@ -48,8 +49,6 @@ class CartBlock extends Component {
         }
 
         axios.post('http://localhost:3002/bookingsApp/bookings/create',dataToSubmitBooking).then(res=>{
-            // console.log(res)
-            console.log('hey')
         }).catch(err=>{
             console.log(err)
         })

@@ -38,7 +38,7 @@ const userSchema = mongoose.Schema({
                                        },
                                        role: {
                                            type: String,
-                                           enum:['User','Corporate-User','Admin','Vendor-Hotel','Vendor-Airline'],
+                                           enum:['User','Admin','Vendor-Hotel','Vendor-Airline'],
                                            default:'User'
                                        },
                                        accessPermission: {

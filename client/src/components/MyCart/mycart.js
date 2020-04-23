@@ -29,8 +29,6 @@ class Mycart extends Component {
                         console.log(res)
                         if(res.data[0].cart.length!=0) {
                             if(res.data[0].cart[0].type==="Flight"){
-                                console.log("Flight id is "+res.data[0]._id);
-                                // console.log("This is in cart"+res.data[0].cart[0].type);
                                 this.setState({
                                                   userId: res.data[0]._id,
                                                   productId: res.data[0].cart[0].id,

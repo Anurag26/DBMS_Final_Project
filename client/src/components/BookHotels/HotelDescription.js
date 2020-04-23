@@ -29,20 +29,6 @@ class HotelDescription extends Component {
         const id = this.props.match.params.id;
         console.log(id)
         axios.get('http://localhost:3002/bookingsApp/hotels/id/'+id).then(res=>{
-            // axios.get('http://localhost:3002/bookingsApp/users/'+res.data.vendor).then(vendor=>{
-            //     this.setState({
-            //                       id:id,
-            //                       name:res.data.name,
-            //                       description:res.data.description,
-            //                       hotel_location:res.data.hotel_location,
-            //                       price:res.data.price,
-            //                       room_number:res.data.room_number,
-            //                       room_type:res.data.room_type,
-            //                       vendor:vendor.data.email
-            //                   })
-            // }).catch(err=>{
-            //     console.log(err)
-            // })
             console.log("hotel"+res)
             this.setState({
                     _id:res.data._id,
@@ -86,7 +72,6 @@ class HotelDescription extends Component {
             }
             else{
                 this.setState({
-
                     loginFirst:true
                 })
             }

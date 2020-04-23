@@ -49,10 +49,11 @@ class BookFlights extends Component {
                     }
                 }
             }
-            }
+            };
 
         axios.post('http://localhost:3002/bookingsApp/elastic/search',dataToSubmit).then(res=> {
             var arr = {...res};
+            console.log(arr.data.hits.hits)
             this.setState({
                 flights: arr.data.hits.hits
                           })
@@ -90,7 +91,7 @@ class BookFlights extends Component {
                 <Button variant="primary" onClick={this.handleSearchButton}>Search</Button>
 
                 {
-                    this.state.flights.length!=0?
+                    this.state.flights.length!==0?
                     <FlightBlock
                     flights={this.state.flights}
                     />

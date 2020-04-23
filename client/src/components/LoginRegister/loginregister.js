@@ -20,7 +20,8 @@ class LoginRegister extends Component {
         checkbox: false,
         checkboxType:false,
         userdb:false,
-        loggedIn: false
+        loggedIn: false,
+        role:''
     }
 
     toggleChange=()=>{
@@ -29,27 +30,36 @@ class LoginRegister extends Component {
                       })
     }
 
-    handleChange=(e)=>{
+    handleChange=(e,role)=>{
+        console.log(role)
         this.setState({
-                          [e.target.name]:e.target.value
+                          [e.target.name]:e.target.value,
+            role:role
                       })
     }
 
     onSubmitRegister=(event)=>
     {
+        if(!this.state.role){
+            this.setState({
+                role:'User'
+            })
+        }
+        else{
+            this.setState({
+                role:this.state.role
+            })
+        }
+
         event.preventDefault();
         let type=-1;
-        if(this.state.checkbox){
-            type= this.state.checkboxType?1:0;
-        }
         let dataToSubmitForRegistration={
             "email":this.state.registerEmail,
             "password":this.state.registerPassword,
             "userName":this.state.registerUserName,
             "firstName":this.state.registerFirstName,
             "lastName":this.state.registerLastName,
-            "role":this.state.checkbox?(this.state.checkboxType?'Vendor-Airline':'Vendor-Hotel'):'User',
-            "type":type
+            "role":this.state.role
         };
         firebase.auth().createUserWithEmailAndPassword(this.state.registerEmail,this.state.registerPassword).then(
             (axios.post('http://localhost:3002/bookingsApp/users/create',
@@ -64,13 +74,14 @@ class LoginRegister extends Component {
                                           registerLastName:'',
                                           checkbox:false,
                                           checkboxType:false,
-                                          loggedIn: true
+                                          loggedIn: true,
+                                          role:''
                                       })
                     }).catch(err => {
                     console.log(err);
                 }))
         )
-    }
+    };
 
     onSubmitLogin=(event)=> {
         event.preventDefault();
@@ -221,18 +232,18 @@ class LoginRegister extends Component {
                                          <div className="form-check">
                                              <label className="form-check-label">
                                                  <input id="check" name="checkbox" type="checkbox" className="form-check-input"
-                                                        onChange={e => this.handleChange(e)}
+                                                        onChange={e => this.handleChange(e,"Vendor-Hotel")}
                                                         value={this.state.checkbox}
-                                                         />Are you a Vendor?
+                                                         />Hotel Vendor?
                                              </label>
                                          </div>
 
                                          <div className="form-check">
                                              <label className="form-check-label">
                                                  <input id="checkBOX" name="checkboxType" type="checkbox" className="form-check-input"
-                                                        onChange={e => this.handleChange(e)}
+                                                        onChange={e => this.handleChange(e,"Vendor-Airline")}
                                                         value={this.state.checkboxType}
-                                                 />Are you a Vendor for flights?
+                                                 />Flight Vendor?
                                              </label>
                                          </div>
 
@@ -245,15 +256,6 @@ class LoginRegister extends Component {
 
                                      </form>
                                     }
-                                    {/*<Button*/}
-                                    {/*    className="btn btn-lg btn-google btn-block text-uppercase"*/}
-                                    {/*    variant="success"*/}
-                                    {/*    type="submit" onClick={this.handleGoogleAuthentication} ><i className="fab fa-google mr-2"></i> Google*/}
-                                    {/*    Authentication*/}
-                                    {/*</Button>*/}
-                                    {/*<div className="g-signin2" data-onsuccess="onSignIn"*/}
-                                    {/*     data-theme="dark" onClick={(googleUser)=>this.handleGoogleAuthentication(googleUser)}></div>*/}
-
                                 </div>
                             </div>
                         </div>
