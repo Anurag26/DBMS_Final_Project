@@ -139,6 +139,12 @@ MongoDb should be up and running. The hosted url should be same as specified val
 2. Run ``npm install`` in client directory.
 3. Run ``npm start`` on root directory.
 
+OR
+
+1. Run ``yarn add`` in root directory.
+2. Run ``yarn add`` in client directory.
+3. Run ``yarn start`` on root directory.
+
 The application should be up and running on the browser. The server will also start in parallel.
 There are several API exposed by backend for CRUD, Search and other features. The same can be tested by
 importing postman collection and environment in folder testing collection.
